@@ -4,6 +4,8 @@ draft = true
 title = "О подкасте"
 +++
 
-# Подкаст о языке Go
+# Подкаст о языке программирования Go и смежных темах
 
-TODO :)
+Онлайн трансляция: http://golangshow.com/stream
+
+Мы в сети Tor: http://7w4jyymeqfakjg4w.onion
