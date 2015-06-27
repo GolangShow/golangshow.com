@@ -1,3 +1,4 @@
 baseurl = "https://golangshow.com/"
 languageCode = "ru-ru"
 title = "GolangShow"
+theme = "tinyce"
