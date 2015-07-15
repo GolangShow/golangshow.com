@@ -5,6 +5,4 @@ title = "Подкаст о языке программирования Go и с�
 +++
 
 
-Онлайн трансляция: http://golangshow.com/stream
-
-Мы в сети Tor: http://7w4jyymeqfakjg4w.onion
+Онлайн трансляция: http://golangshow.com/stream.html

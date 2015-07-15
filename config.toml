@@ -1,13 +1,13 @@
 baseUrl = "http://golangshow.com/"
 languageCode = "ru-RU"
-title = "GolangShow"
+title = "Подкаст GolangShow"
 theme = "golangshow"
 paginate = 5
 disqusShortname = "golangshow"
 copyright = "All rights reserved - 2015"
 
 [params]
-  description = "Сайт первого русского подкаста о Go"
+  description = "Сайт русскоязычного подкаста о Go"
   # cover = "images/cover.png"
   logo = "images/logo.png"
   # googleAnalyticsUserID = "UA-79101-12"
@@ -29,3 +29,9 @@ copyright = "All rights reserved - 2015"
   weight = -110
   identifier = "about"
   url = "/about"
+
+[[menu.main]]
+  name = "Онлайн вещание"
+  weight = -100
+  identifier = "online"
+  url = "/online"
