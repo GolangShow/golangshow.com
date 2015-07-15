@@ -8,3 +8,6 @@ watch:
 init:
 	brew update
 	brew install hugo
+
+upload: build
+	gsutil -m cp -r public/* gs://golangshow.com
