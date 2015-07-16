@@ -11,4 +11,4 @@ init:
 	gsutil config
 
 upload: build
-	gsutil -m cp -r public/* gs://golangshow.com
+	gsutil -m -h "Cache-Control:public, max-age=600" cp -a public-read -r public/* gs://golangshow.com
