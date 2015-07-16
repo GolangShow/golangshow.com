@@ -10,10 +10,10 @@
 {{end}}
 
   {{ if .Site.Params.logo }}
-      <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Home" /></a>
+      <a class="blog-logo" href="{{.Site.BaseURL}}"><img src="{{.Site.BaseURL}}{{ .Site.Params.logo }}" alt="Главная" /></a>
   {{end}}
   {{ if .Site.Menus.main }}
-      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Menu</span></a>
+      <a class="menu-button" href="#"><span class="burger">&#9776;</span><span class="word">Меню</span></a>
   {{else}}
       <a class="menu-button icon-feed" href="{{ .Site.BaseURL }}index.xml">&nbsp;&nbsp;Subscribe</a>
   {{end}}
@@ -29,11 +29,9 @@
     <header class="post-header">
         <h1 class="post-title">{{.Title}}</h1>
         <section class="post-meta">
-        {{ if eq .Section "post"}}
           <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">
             {{ .Date.Format "Jan 2, 2006" }}
           </time>
-        {{end}}
          {{ range .Params.tags }}
           <span class="post-tag small"><a href="{{ $baseurl }}tags/{{ . | urlize }}/">#{{ . }}</a></span>
          {{ end }}
@@ -41,20 +39,17 @@
     </header>
   
     <section class="post-content">
-      {{ .Content }}
+      {{ .Content }}     
+      {{ partial "listen.html" . }} 
     </section>
 
 
   <footer class="post-footer">
-
-
     {{if .Site.Params.logo}}
     <figure class="author-image">
         <a class="img" href="{{.Site.BaseURL}}" style="background-image: url({{ $baseurl }}{{.Site.Params.logo}})"><span class="hidden">{{.Site.Params.author}}'s Picture</span></a>
     </figure>
     {{end}}
-
-    {{ partial "author.html" . }}
 
     {{ if ne .Params.share false}}
     <section class="share">
@@ -75,18 +70,18 @@
     {{end}}
 
     {{ if ne .Params.comments false}}
-    {{ with .Site.DisqusShortname }}
-    <div id="disqus_thread"></div>
-    <script type="text/javascript">
-      var disqus_shortname = '{{ . }}';
-      (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    {{ end }}
+	    {{ with .Site.DisqusShortname }}
+	    <div id="disqus_thread"></div>
+	    <script type="text/javascript">
+	      var disqus_shortname = '{{ . }}';
+	      (function() {
+	        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+	        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	      })();
+	    </script>
+	    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+	    {{ end }}
     {{ end }}
 
   </footer>
