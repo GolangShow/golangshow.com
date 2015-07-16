@@ -24,11 +24,11 @@ copyright = "All rights reserved - 2015"
   identifier = "main"
   url = "/"
 
-[[menu.main]]
-  name = "О подкасте"
-  weight = -110
-  identifier = "about"
-  url = "/about"
+#[[menu.main]]
+#  name = "О подкасте"
+#  weight = -110
+#  identifier = "about"
+#  url = "/about"
 
 [[menu.main]]
   name = "Онлайн вещание"
