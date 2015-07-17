@@ -2,7 +2,7 @@ baseUrl = "http://golangshow.com/"
 languageCode = "ru-RU"
 title = "Подкаст GolangShow"
 theme = "golangshow"
-paginate = 5
+paginate = 20
 disqusShortname = "golangshow"
 copyright = "All rights reserved - 2015"
 
@@ -10,9 +10,9 @@ copyright = "All rights reserved - 2015"
   description = "Сайт русскоязычного подкаста о Go"
   # cover = "images/cover.png"
   logo = "images/logo.png"
-  # googleAnalyticsUserID = "UA-79101-12"
+  googleAnalyticsUserID = "UA-65258742-1"
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  # RSSLink = "http://feeds.feedburner.com/..." 
+  # RSSLink = "http://feeds.feedburner.com/..."
   # githubName = "GolangShow"
   # twitterName = "vjeantet"
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
