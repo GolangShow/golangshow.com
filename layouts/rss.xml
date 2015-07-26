@@ -3,45 +3,33 @@
     <title>GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
     <language>{{ .Site.LanguageCode }}</language>
-    <copyright>&#x2117; &amp; &#xA9; 2014 John Doe &amp; Family</copyright>
-    <itunes:subtitle>A show about everything</itunes:subtitle>
-    <itunes:author>Артем Андреенко, Алексей Палажченко, Слава Бахмутов. Иван Данилюк</itunes:author>
-    <itunes:summary>All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store</itunes:summary>
-    <description>All About Everything is a show about everything. Each week we dive into any subject known to man and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store</description>
-    <itunes:owner>
-      <itunes:name>Артём Андреенко</itunes:name>
-      <itunes:email>mio@volmy.com</itunes:email>
-    </itunes:owner>
-    <itunes:owner>
-      <itunes:name>Алексей Палажченко</itunes:name>
-      <itunes:email>alexey.palazhchenko@gmail.com</itunes:email>
-    </itunes:owner>
-    <itunes:owner>
-      <itunes:name>Алексей Палажченко</itunes:name>
-      <itunes:email>alexey.palazhchenko@gmail.com</itunes:email>
-    </itunes:owner>
-    <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
+    <copyright>&#x2117; &amp; &#xA9; 2015, Команда GolangShow</copyright>
+    <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
+    <itunes:author>Артем Андреенко, Алексей Палажченко, Вычеслав Бахмутов, Григорий Лапкин и Иван Данилюк</itunes:author>
+    <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
+    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</description>
     <itunes:category text="Technology">
-      <itunes:category text="Gadgets"/>
-    </itunes:category>
-    <itunes:category text="TV &amp; Film"/>
+   	
 
     {{ range .Data.Pages }}
-    <item>
-      <title>{{ .Title }}</title>
-      <itunes:author>John Doe</itunes:author>
-      <itunes:subtitle>A short primer on table spices</itunes:subtitle>
-      <itunes:summary><![CDATA[This week we talk about <a href="https://itunes/apple.com/us/book/antique-trader-salt-pepper/id429691295?mt=11">salt and pepper shakers</a>, comparing and contrasting pour rates, construction materials, and overall aesthetics. Come and join the party!]]</itunes:summary>
+      {{ if eq .Type "episode" }}
+      <item>
+        <title>{{ .Title }}</title>
+        <itunes:author>Артем Андреенко, Алексей Палажченко, Вячеслав Бахмутов, Григорий Лапкин и Иван Данилюк</itunes:author>
+              <itunes:subtitle><![CDATA[{{ .Content}}]]</itunes:subtitle>
+      <itunes:summary><![CDATA[{{ .Content }}]]</itunes:summary>
       <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
-      <enclosure url="{{ .Params.link }}" length="8727310" type="audio/mpeg" />
-      <itunes:duration>7:04</itunes:duration>
+      <enclosure url="{{ .Params.link }}" length="{{ .Data.Size }}" type="audio/mpeg" />
+      <itunes:duration>{{ .Data.Duration }}</itunes:duration>
 
       <link></link>
       <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}</description>
-    </item>
+
+       </item>
+      {{ end }}
     {{ end }}
   </channel>
 </rss>
