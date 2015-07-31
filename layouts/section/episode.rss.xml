@@ -15,10 +15,10 @@
 
     {{ range .Data.Pages }}
       <item>
-        <title>{{ .Title }}</title>
+        <title>{{ .Title | html }}</title>
         <itunes:author>Артем Андреенко, Алексей Палажченко, Вячеслав Бахмутов, Григорий Лапкин и Иван Данилюк</itunes:author>
-        <itunes:subtitle>{{ .Content }}</itunes:subtitle>
-        <itunes:summary>{{ .Content }}</itunes:summary>
+        <itunes:subtitle>{{ .Content | html }}</itunes:subtitle>
+        <itunes:summary>{{ .Content | html }}</itunes:summary>
         <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
         <enclosure url="{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
         <itunes:duration>{{ .Params.length }}</itunes:duration>
@@ -27,7 +27,7 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
-        <description>{{ .Content }}</description>
+        <description>{{ .Content | html }}</description>
       </item>
     {{ end }}
   </channel>
