@@ -1,6 +1,6 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>GolangShow</title>
+    <title>Подкаст GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
     <language>{{ .Site.LanguageCode }}</language>
     <copyright>&#x2117; &amp; &#xA9; 2015, Команда GolangShow</copyright>
