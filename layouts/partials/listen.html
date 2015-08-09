@@ -1,6 +1,6 @@
 <p>
 	Длительность: {{ .Params.length }} <br/>
-	Размер: {{ .Params.size }}
+	Размер: {{ div .Params.size 1048576 }} МБ
 </p>
 <p>HTML5 аудио плеер:
 
