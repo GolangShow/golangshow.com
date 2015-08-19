@@ -1,35 +1,35 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
-    <title>GolangShow</title>
+    <title>Подкаст GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
     <language>{{ .Site.LanguageCode }}</language>
     <copyright>&#x2117; &amp; &#xA9; 2015, Команда GolangShow</copyright>
     <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
-    <itunes:author>Артем Андреенко, Алексей Палажченко, Вычеслав Бахмутов, Григорий Лапкин и Иван Данилюк</itunes:author>
+    <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
-    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</description>
+    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
+    <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
     <itunes:category text="Technology">
-   	
+        <itunes:category text="Software How-To" />
+    </itunes:category>
 
     {{ range .Data.Pages }}
-      {{ if eq .Type "episode" }}
       <item>
-        <title>{{ .Title }}</title>
-        <itunes:author>Артем Андреенко, Алексей Палажченко, Вячеслав Бахмутов, Григорий Лапкин и Иван Данилюк</itunes:author>
-              <itunes:subtitle><![CDATA[{{ .Content}}]]</itunes:subtitle>
-                                  <itunes:summary>{{ "<![CDATA" | safeHTML }}[{{ .Content }}]]</itunes:summary>
-                                  <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
-                                  <enclosure url="{{ .Params.link }}" length="{{ .Data.Size }}" type="audio/mpeg" />
-                                  <itunes:duration>{{ .Data.Duration }}</itunes:duration>
+        <title>{{ .Title | html }}</title>
+        <itunes:subtitle>{{ .Title | html }}</itunes:subtitle>
+        <itunes:summary>{{ .Content | html }}</itunes:summary>
 
-                                  <link></link>
-                                  <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-                                  {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-                                  <guid>{{ .Permalink }}</guid>
-                                  <description>{{ .Content | html }}</description>
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
+        <enclosure url="{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
+        <itunes:duration>{{ .Params.length }}</itunes:duration>
 
+        <link>{{ .Permalink }}</link>
+        <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+        {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
+        <guid>{{ .Permalink }}</guid>
+        <description>{{ .Content | html }}</description>
       </item>
-      {{ end }}
     {{ end }}
   </channel>
 </rss>
