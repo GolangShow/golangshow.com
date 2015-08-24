@@ -2,27 +2,13 @@
 <div class="content container">
   <div class="post">
     <h1>{{ .Title }}</h1>
-    <span class="post-date">{{ .Date.Format "Jan 2, 2006" }} <!-- &middot; {{ .ReadingTime }} minute read{{ if .Site.DisqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }} -->
+    <span class="post-date">{{ .Date.Format "Jan 2, 2006" }} &middot; {{ .ReadingTime }} minute read{{ if .Site.DisqusShortname }} &middot; <a href="{{ .Permalink }}#disqus_thread">Comments</a>{{ end }}
     {{ if isset .Params "categories" }}
     <br/>
     {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
     {{ end }}</span>
     {{ .Content }}
-    {{ partial "listen.html" . }}
   </div>
-    {{ if ne .Params.share false}}
-    <section class="share">
-      <span>Рассказать друзьям:</span>
-      <a href="https://twitter.com/share?text={{ .Title | safeHTML}}&amp;url={{ .Permalink }}"
-          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
-
-      <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink }}"
-          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
-      <a href="https://plus.google.com/share?url={{ .Permalink }}"
-         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
-    </section>
-    {{end}}
-
   {{ if .Site.DisqusShortname }}<div id="disqus_thread"></div>{{ end }}
 </div>
 

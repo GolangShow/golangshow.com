@@ -1,144 +1,159 @@
-# CASPER theme for hugo
-    
+Hyde-X
+======
 
-Casper is a single-column theme for [Hugo](http://gohugo.io/).
-Ported from [Casper theme for Ghost ](https://github.com/TryGhost/Casper)
+Enhanced port of the Jekyll "[Hyde](https://github.com/poole/hyde)" theme to the [Hugo](http://gohugo.io) site generator. Check below for a list of enhancements.
 
-blog demo : http://vjeantet.fr
-blog source : https://github.com/vjeantet/vjeantet.fr
+You can find a live site using this theme [here](http://andreimihu.com) and the corresponding source code [here](https://github.com/zyro/andreimihu.com).
 
-## Features
+* [Installation](#installation)
+* [Usage](#usage)
+* [Configuration](#configuration)
+* [Built-in colour themes](#built-in-colour-themes)
+* [Tips](#tips)
+* [Changes and enhancements from the original theme](#changes-and-enhancements-from-the-original-theme)
+* [Attribution](#attribution)
+* [Questions, ideas, bugs, pull requests?](#questions-ideas-bugs-pull-requests)
+* [License](#license)
 
-* Google Analytics (optional)
-* Disqus ( can disable comments by content)
-* Share buttons on Facebook, Twitter, Google (can disable share by content)
-* Big cover image (optional)
-* Custom cover by content (optional)
-* Tagging
-* Pagination
-* Menu
+### Installation
 
-# Theme usage and asumptions
-* All blog posts are in the ```post``` folder (```content/post```)
-* The homepage displays a paginated list of contents from the post Section (other contents may be added to main menu, see bellow)
+```
+$ cd your_site_repo/
+$ mkdir themes
+$ cd themes
+$ git clone https://github.com/zyro/hyde-x
+```
 
-# Installation
+See the [official Hugo themes documentation](http://gohugo.io/themes/installing) for more info.
 
-## Installing this theme
+### Usage
 
-    mkdir themes
-    cd themes
-    git clone https://github.com/vjeantet/hugo-theme-casper casper
+This theme expects a relatively standard Hugo blog/personal site layout:
+```
+.
+└── content
+    ├── post
+    |   ├── post1.md
+    |   └── post2.md
+    ├── license.md        // this is used in the sidebar footer link
+    └── other_page.md
+```
 
-## Build your website with this theme
+Just run `hugo --theme=hyde-x` to generate your site!
 
-    hugo server -t casper
+### Configuration
 
-# Configuration
-
-**config.toml**
+An example of what your site's `config.toml` could look like. All theme-specific parameters are under `[params]` and standard Hugo parameters are used where possible.
 
 ``` toml
-BaseUrl= "http://example.com"
-LanguageCode= "fr-FR"
-Title= "My blog is awesome"
-paginate = 5
-DisqusShortname = "YOUR_SHORT_NAME_HERE"
-Copyright = "All rights reserved - 2015"
-canonifyurls = true
+baseurl = "http://example.com/"
+title = "Your site title"
+languageCode = "en-us"
+disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
+MetaDataFormat = "toml"
+theme = "hyde-x"
+paginate = 10
 
+[author]
+    name = "Your Name"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/:year/:month/:day/:title/"
+
+[taxonomies]
+    # Optional. Use if you want tags and lists.
+    category = "categories"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
 [params]
-  description = "this is my description"
-  cover = "images/cover.jpg"
-  author = "Valère JEANTET"
-  authorlocation = "Paris, France"
-  authorwebsite = "http://vjeantet.fr"
-  bio= "my bio"
-  logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-79101-12"
-  # Optional RSS-Link, if not provided it defaults to the standard index.xml
-  RSSLink = "http://feeds.feedburner.com/..." 
-  githubName = "vjeantet"
-  twitterName = "vjeantet"
-  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
-  hideHUGOSupport = false
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
 
+    # Used when a given page doesn't set its own.
+    defaultDescription = "Your default page description"
+    defaultKeywords = "your,default,page,keywords"
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-08"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "sunburst"
+
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    tagline = "Your favourite quote or soundbite."
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Blog".
+    home = "Blog"
+
+    # Metadata used to drive integrations.
+    googleAuthorship = "Your Google+ profile ID"
+    googleAnalytics = "Your Google Analytics tracking code"
+    gravatarHash = "MD5 hash of your Gravatar email address"
+
+    # Sidebar social links, these must be full URLs.
+    github = ""
+    bitbucket = ""
+    linkedin = ""
+    googleplus = ""
+    facebook = ""
+    twitter = ""
+    youtube = ""
+
+    # Other social-like sidebar links
+    rss = false  # switch to true to enable RSS icon link
+    flattr = ""  # populate with your flattr uid
 ```
 
-Example : [config.toml](https://github.com/vjeantet/vjeantet.fr/blob/master/config.toml)
+### Built-in colour themes
 
-## Multiple authors configuration
+Hyde-X provides 8 built-in colour themes by default, with the option to define more in your own custom CSS.
 
-In addition to providing data for a single author as shown in the example above, multiple authors
-can be configured via data/authors/\*.(yml, toml, json) entries. If the key provided in
-.Site.Params.author matched a data/authors/\* entry, it will be used as the default. Overrides
-per page can be done by a simple author = other_author_key entry in the front matter. For those
-pages where you want to omit the author block completely, a .Params.noauthor entry is also
-available.
+![Hyde-X theme classes](https://github.com/zyro/hyde-x/blob/master/images/theme-colours.png)
 
-Example author definition file:
+### Tips
 
-``` yml
-name: John Doe
-bio: The most uninteresting man in the world.
-location: Normal, IL
-website: http://example.com
+* If you've added `theme = "hyde-x"` to your `config.toml`, you don't need to keep using the `--theme=hyde-x` flag!
+* Pages where you specify `menu = "main"` in the front matter will be linked in the sidebar just below the `Blog` link.
+* Use the exact permalink format above to maintain old links if migrating from Jekyll/Octopress.
+* Although all of the syntax highlight CSS files under the theme's `static/css/highlight` are bundled with the site, only the one you choose will be included in the page and delivered to the browser.
+* Change the favicon by providing your own as `static/favicon.png` in your site directory.
+* Hugo makes it easy to override theme layout and behaviour, read about it [here](http://gohugo.io/themes/customizing).
+* Pagination is set to 10 items by default, change it by updating `paginate = 10` in your `config.toml`.
+* Set `truncate = false` in the `[params]` section of your `config.toml` to display full blog post contents in the index page, like the [base Hyde theme](https://github.com/poole/hyde) did.
 
-```
+### Changes and enhancements from the original theme
 
-## Menu configuration
+* Category labels and lists.
+* Client-side syntax highlighting through [highlight.js](https://highlightjs.org/), sane fallback if disabled or no JS - infinitely more flexible than the standard Hugo highlighting.
+* Disqus integration: comment counts listed under blog entry names in post list, comments displayed at the bottom of each post.
+* Gravatar image in sidebar.
+* Google Analytics integration.
+* Google Authorship metadata.
+* Sidebar link layout and footer format changes.
+* Blog post list now contains only the post description, not the full contents.
+* Paginated blog listing.
+* [FontAwesome](http://fortawesome.github.io/Font-Awesome) social links.
+* ...many other small layout tweaks!
 
-On top right of the screen, a "Subscribe" button is displayed with a link to the RSS feed.
+### Attribution
 
-When you define a menu in the main config file, Then a menu button is displayed instead of the subscribe button
-When the use clicks the menu button, a sidebar appears and shows the subscribe button and all items defined in the main config file
+Obviously largely a port of the awesome [Hyde](https://github.com/poole/hyde) theme.
 
-> :information_source: If your added a metadata like ```menu="main"``` in a content file metadata, it will also be displayed in the main menu
+### Questions, ideas, bugs, pull requests?
 
-Example of a menu definition in main config file.
+All feedback is welcome! Head over to the [issue tracker](https://github.com/zyro/hyde-x/issues).
 
+### License
 
-``` toml
-[[menu.main]]
-  name = "My Blog"
-  weight = -120
-  identifier = "blog"
-  url = "/"
-
-[[menu.main]]
-  name = "About me"
-  weight = -110
-  identifier = "about"
-  url = "/about"
-  
-```
-
-## Metadata on each content file, example
-
-``` toml
-+++
-date = "2014-07-11T10:54:24+02:00"
-draft = false
-title = "dotScale 2014 as a sketch"
-slug = "dotscale-2014-as-a-sketch"
-tags = ["event","dotScale","sketchnote"]
-image = "images/2014/Jul/titledotscale.png"
-comments = true     # set false to hide Disqus comments
-share = true        # set false to share buttons
-menu = ""           # set "main" to add this content to the main menu
-+++
-
-Contents here
-```
-
-## Create new content based with default metadata from this theme
-You can easyly create a new content with all metadatas used by this theme, using this command 
-```
-hugo new -t casper post/my-post.md
-```
-
-# Contact me
-
-:beetle: open an issue in github
-
-:bird: [https://twitter.com/vjeantet](https://twitter.com/vjeantet)
+Open sourced under the [MIT license](https://github.com/zyro/hyde-x/blob/master/LICENSE).
