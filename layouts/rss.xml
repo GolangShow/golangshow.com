@@ -13,8 +13,7 @@
         <itunes:category text="Software How-To" />
     </itunes:category>
 
-    {{ range .Data.Pages }}
-    {{ if .Params.link }}
+    {{ range where .Data.Pages "Type" "episode" }}
       <item>
         <title>{{ .Title | html }}</title>
         <itunes:subtitle>{{ .Title | html }}</itunes:subtitle>
@@ -31,7 +30,6 @@
         <guid>{{ .Permalink }}</guid>
         <description>{{ .Content | html }}</description>
       </item>
-    {{ end }}
     {{ end }}
   </channel>
 </rss>
