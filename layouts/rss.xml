@@ -14,6 +14,7 @@
     </itunes:category>
 
     {{ range .Data.Pages }}
+    {{ if .Params.link }}
       <item>
         <title>{{ .Title | html }}</title>
         <itunes:subtitle>{{ .Title | html }}</itunes:subtitle>
@@ -30,6 +31,7 @@
         <guid>{{ .Permalink }}</guid>
         <description>{{ .Content | html }}</description>
       </item>
+    {{ end }}
     {{ end }}
   </channel>
 </rss>

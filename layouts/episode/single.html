@@ -8,7 +8,9 @@
     {{ range .Params.categories }}<a class="label" href="{{ "/categories/" | absURL }}{{ . | urlize }}">{{ . }}</a>{{ end }}
     {{ end }}</span>
     {{ .Content }}
-    {{ partial "listen.html" . }}
+    {{ if .Params.listen }}
+      {{ partial "listen.html" . }}
+    {{ end }}
   </div>
     {{ if ne .Params.share false}}
     <section class="share">
