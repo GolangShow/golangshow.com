@@ -1,9 +1,6 @@
 build:
 	hugo --theme=golangshow
 
-build-old:
-	hugo --theme=golangshow-old --destination=public-old
-
 watch:
 	open http://127.0.0.1:1313
 	hugo server --buildDrafts --watch --theme=golangshow
