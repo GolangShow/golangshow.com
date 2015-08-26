@@ -13,7 +13,7 @@
         <itunes:category text="Software How-To" />
     </itunes:category>
 
-    {{ range where .Data.Pages "Type" "episode" }}
+    {{ range .Data.Pages }}
       <item>
         <title>{{ .Title | html }}</title>
         <itunes:subtitle>{{ .Title | html }}</itunes:subtitle>
