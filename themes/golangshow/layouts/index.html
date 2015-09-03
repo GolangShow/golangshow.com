@@ -21,7 +21,7 @@
         {{ .Summary }}
         {{ if .Truncated }}<a href="{{ .Permalink }}">Read On &rarr;</a>{{ end }}
       {{ end }}
-      <a href="{{ .Permalink }}">комментарии</a>
+      {{ if .Site.DisqusShortname }} <a href="{{ .Permalink }}#disqus_thread">комментарии</a>{{ end }}
     </div>
     {{ end }}
     {{ template "_internal/pagination.html" . }}
