@@ -10,5 +10,8 @@ init:
 	brew install hugo
 	gsutil config
 
+upload_gc: build
+	gsutil -m rsync -d -r public/ gs://golangshow.com
+
 upload: build
-	gsutil -m -h "Cache-Control:public, max-age=600" cp -a public-read -r public/* gs://golangshow.com
+	rsync -avz -e ssh public/ root@golangshow.com:golangshow-data/www
