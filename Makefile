@@ -8,10 +8,6 @@ watch:
 init:
 	brew update
 	brew install hugo
-	gsutil config
-
-upload_gc: build
-	gsutil -m rsync -d -r public/ gs://golangshow.com
 
 upload: build
 	rsync -avz -e ssh public/ root@golangshow.com:golangshow-data/www
