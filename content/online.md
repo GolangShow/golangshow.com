@@ -11,7 +11,7 @@ comments = false
 
 <blockquote>
 	<audio controls width="400px" height="150px">
-		<source src="http://broadcast.golangshow.com/" type="audio/mpeg">
+		<source src="https://golangshow.com/stream/" type="audio/mpeg">
 		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
 	</audio>
 </blockquote>
@@ -20,6 +20,6 @@ comments = false
 
 <p>Прямая ссылка на MP3 аудио поток:
 <blockquote>
-	<a href="http://broadcast.golangshow.com/" target="_blank">http://broadcast.golangshow.com/</a>
+	<a href="https://golangshow.com/stream/" target="_blank">https://golangshow.com/stream/</a>
 </blockquote>
 </p>
