@@ -1,4 +1,4 @@
-baseUrl = "http://golangshow.com/"
+baseUrl = "https://golangshow.com/"
 languageCode = "ru-RU"
 title = "Подкаст GolangShow"
 theme = "golangshow"
@@ -15,8 +15,8 @@ copyright = "All rights reserved - 2015"
 
   tagline = "Русскоязычный подкаст о Go"
   defaultKeywords = "Go,golang,подкаст"
-  # cover = "images/cover.png"
-  logo = "images/logo.png"
+  # cover = "/images/cover.png"
+  logo = "/images/logo.png"
   theme = "theme-base-0d"
 
   home = "Главная"
