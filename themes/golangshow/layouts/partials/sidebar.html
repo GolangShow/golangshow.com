@@ -15,18 +15,19 @@
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item">
-      {{ with .Site.Params.github }}<a href="{{ . }}"><i class="fa fa-github-square fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.bitbucket }}<a href="{{ . }}"><i class="fa fa-bitbucket-square fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.linkedin }}<a href="{{ . }}"><i class="fa fa-linkedin-square fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.googleplus }}<a href="{{ . }}"><i class="fa fa-google-plus-square fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.facebook }}<a href="{{ . }}"><i class="fa fa-facebook-square fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.twitter }}<a href="{{ . }}"><i class="fa fa-twitter-square fa-3x"></i></a>{{ end }}
-      {{ with .Site.Params.youtube }}<a href="{{ . }}"><i class="fa fa-youtube-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.github }}<a href="{{ . }}" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.bitbucket }}<a href="{{ . }}" target="_blank"><i class="fa fa-bitbucket-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.linkedin }}<a href="{{ . }}" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.googleplus }}<a href="{{ . }}" target="_blank"><i class="fa fa-google-plus-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.youtube }}<a href="{{ . }}" target="_blank"><i class="fa fa-youtube-square fa-3x"></i></a>{{ end }}
       {{ if .Site.Params.RSSLink}}
-      <a href="{{ .RSSlink }}" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss-square fa-3x"></i></a>
       {{else}}
-      <a href="{{if .IsNode}}{{.RSSLink}}{{else}}{{ .Site.BaseURL }}episode/index.xml{{end}}" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      <a href="{{if .IsNode}}{{.RSSLink}}{{else}}{{ .Site.BaseURL }}episode/index.xml{{end}}"  target="_blank" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
       {{end}}
+      {{ with .Site.Params.vk }}<a href="{{ . }}" target="_blank"><i class="fa fa-vk fa-3x"></i></a>{{ end }}
 
       </li>
     </ul>
