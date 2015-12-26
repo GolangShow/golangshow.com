@@ -1,5 +1,7 @@
 {{ partial "head.html" . }}
 <div class="content container">
+  {{ partial "adsense.html" . }}
+  <br/>
   <div class="posts">
     {{ $paginator := .Paginate (where .Data.Pages "Type" "in" "episode, post" ) }}
     {{ range $paginator.Pages }}
@@ -22,7 +24,11 @@
         {{ if .Truncated }}<a href="{{ .Permalink }}">Read On &rarr;</a>{{ end }}
       {{ end }}
       {{ if .Site.DisqusShortname }} <a href="{{ .Permalink }}#disqus_thread">комментарии</a>{{ end }}
+      <br/><br/>
+       {{ partial "adsense.html" . }}
     </div>
+    
+    
     {{ end }}
     {{ template "_internal/pagination.html" . }}
   </div>
