@@ -1,6 +1,5 @@
 {{ partial "head.html" . }}
 <div class="content container">
-  {{ partial "adsense.html" . }}
   <br/>
   <div class="post">
     <h1>{{ .Title }}</h1>
@@ -15,7 +14,6 @@
     {{ if .Params.link }}
       {{ partial "listen.html" . }}
     {{ end }}
-      {{ partial "adsense.html" . }}
   </div>
     {{ if ne .Params.share false}}
     
