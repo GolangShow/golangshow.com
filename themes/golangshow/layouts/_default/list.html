@@ -2,7 +2,6 @@
 <div class="content container">
   <br/>
   <ul class="posts">
-  	<li>{{ partial "adsense.html" . }}</li>
   {{ range .Data.Pages }}
     <li><a href="{{ .Permalink }}">{{ .Title }}</a>
     {{ if isset .Params "categories" }}
@@ -11,7 +10,6 @@
     {{ end }}</span>
     &middot; <time>{{ .Date.Format "Jan 2, 2006" }}</time></li>
   {{ end }}
-  	<li>{{ partial "adsense.html" . }}</li>
   </ul>
   <br/>
 </div>
