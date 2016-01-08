@@ -7,10 +7,11 @@ comments = false
 
 Онлайн вещание доступно во время записи новых эпизодов. Записи происходят каждый четверг в 21:00 МСК.
 
-<p>HTML5 аудио плеер:
+<p>Плеер:
+<br/>(ожидайте загрузки)
 
 <blockquote>
-	<audio controls width="400px" height="150px">
+	<audio controls width="400px" height="150px" preload="none">
 		<source src="https://golangshow.com/stream/" type="audio/mpeg">
 		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
 	</audio>
