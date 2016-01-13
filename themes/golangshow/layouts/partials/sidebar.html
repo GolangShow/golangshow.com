@@ -30,7 +30,7 @@
     <h3>Наши друзья</h3>
     <ul class="sidebar-nav">
       {{ range .Site.Menus.friends }}
-      <li class="sidebar-nav-item"><a href="{{ .URL | absURL }}" target="_blank">{{ .Name }}</a><i class="fa fa-external-link fa-1"></i></li></li>
+      <li class="sidebar-nav-item"><a href="{{ .URL | absURL }}" target="_blank">{{ .Name }}</a> <i class="fa fa-external-link fa-1"></i></li></li>
       {{end}}
     </ul>
 

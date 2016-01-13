@@ -50,3 +50,8 @@ copyright = "All rights reserved - 2015"
   name = "4gophers.ru"
   identifier = "4gophers"
   url = "http://4gophers.ru"
+
+[[menu.friends]]
+  name = "DigitalOcean"
+  ideantifier = "digitalocean"
+  url = "https://www.digitalocean.com/?utm_campaign=golangshow&utm_medium=podcast&refcode=63eedb038a3e"
