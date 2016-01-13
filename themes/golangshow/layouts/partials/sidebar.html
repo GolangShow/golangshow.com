@@ -3,13 +3,34 @@
     <div class="sidebar-about">
       {{ with .Site.Params.logo }}<a href="{{ "/" | absURL }}"><img src="{{ . | absURL }}"></a>{{ end }}
       <h1>{{ .Site.Author.name }}</h1>
-      {{ with .Site.Params.tagline }}<p class="lead">{{ . | markdownify }}</p>{{ end }}
+      {{ with .Site.Params.tagline }}<h1 class="lead">{{ . | markdownify }}</h1>{{ end }}
     </div>
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item"><a href="{{ "/" | absURL }}">{{ if isset .Site.Params "home"}}{{ .Site.Params.home }}{{ else }}Blog{{ end }}</a></li>
       {{ range .Site.Menus.main }}
       <li class="sidebar-nav-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      {{end}}
+    </ul>
+    
+    <style>
+    	.sidebar h1 {
+    		font-size: 1.6rem;
+    		font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+    	}
+    	.sidebar h3, .sidebar h1 {
+    		color: white;
+    	}
+    	.sidebar .fa-external-link {
+    		font-size: 14px;
+    		color: white;
+    	}
+    </style>
+   
+    <h3>Наши друзья</h3>
+    <ul class="sidebar-nav">
+      {{ range .Site.Menus.friends }}
+      <li class="sidebar-nav-item"><a href="{{ .URL | absURL }}" target="_blank">{{ .Name }}</a><i class="fa fa-external-link fa-1"></i></li></li>
       {{end}}
     </ul>
 
