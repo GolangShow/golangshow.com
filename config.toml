@@ -16,7 +16,7 @@ copyright = "All rights reserved - 2015"
   tagline = "Русскоязычный подкаст о Go"
   defaultKeywords = "Go,golang,подкаст"
   # cover = "/images/cover.png"
-  logo = "/images/logo.png"
+  logo = "/images/logo2.png"
   theme = "theme-base-0d"
 
   home = "Главная"
