@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /cdn/
+Crawl-delay: 0.5
