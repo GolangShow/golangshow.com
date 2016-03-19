@@ -9,3 +9,12 @@
 	font-size: 14px;
 	color: white;
 }
+.sidebar .fa-stack {
+    vertical-align: top;
+    margin-right: 12px;
+}
+.sidebar .fa-stack-2x {
+    left: 3px;
+    color: #6A9FB5;
+    top: 8px;
+}
