@@ -29,13 +29,12 @@
       {{ with .Site.Params.facebook }}<a href="{{ . }}" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.twitter }}<a href="{{ . }}" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>{{ end }}
       {{ with .Site.Params.youtube }}<a href="{{ . }}" target="_blank"><i class="fa fa-youtube-square fa-3x"></i></a>{{ end }}
+      {{ with .Site.Params.vk }}<a href="{{ . }}" target="_blank"><span class="fa-stack"><i class="fa fa-square fa-3x"></i><i class="fa fa-stack-2x fa-vk"></i></span></a>{{ end }}
       {{ if .Site.Params.RSSLink}}
       <a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss-square fa-3x"></i></a>
       {{else}}
       <a href="{{if .IsNode}}{{.RSSLink}}{{else}}{{ .Site.BaseURL }}episode/index.xml{{end}}"  target="_blank" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
       {{end}}
-      {{ with .Site.Params.vk }}<a href="{{ . }}" target="_blank"><i class="fa fa-vk fa-3x"></i></a>{{ end }}
-
       </li>
     </ul>
 
