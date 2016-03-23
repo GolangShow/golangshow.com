@@ -21,7 +21,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover.png" />
-        <enclosure url="{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
+        <enclosure url="http://{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
         <itunes:duration>{{ .Params.length }}</itunes:duration>
 
         <link>{{ .Permalink }}</link>

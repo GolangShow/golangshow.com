@@ -1,7 +1,7 @@
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      {{ with .Site.Params.logo }}<a href="{{ "/" | absURL }}"><img src="{{ . | absURL }}"></a>{{ end }}
+      {{ with .Site.Params.logo }}<a href="/"><img src="{{ . }}"></a>{{ end }}
       <h1>{{ .Site.Author.name }}</h1>
       {{ with .Site.Params.tagline }}<h1 class="lead">{{ . | markdownify }}</h1>{{ end }}
     </div>

@@ -1,4 +1,4 @@
-baseUrl = "https://golangshow.com/"
+baseUrl = "http://golangshow.com/"
 languageCode = "ru-RU"
 title = "Подкаст GolangShow"
 theme = "golangshow"

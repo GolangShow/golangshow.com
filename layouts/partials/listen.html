@@ -8,7 +8,7 @@
 
 <blockquote>
 	<audio controls width="400px" height="150px">
-		<source src="{{ .Params.link }}" type="audio/mpeg">
+		<source src="https://{{ .Params.link }}" type="audio/mpeg">
 		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
 	</audio>
 </blockquote>
@@ -17,6 +17,6 @@
 
 <p>Прямая ссылка на MP3 аудио поток:
 <blockquote>
-	<a href="{{ .Params.link }}" target="_blank">{{ .Params.link }}</a>
+	<a href="https://{{ .Params.link }}" target="_blank">https://{{ .Params.link }}</a>
 </blockquote>
 </p>
