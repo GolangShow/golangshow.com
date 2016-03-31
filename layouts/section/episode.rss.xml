@@ -1,5 +1,5 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This feed is submitted to iTunes as http://golangshow.com/episode/index.xml -->
+  {{ "<!-- This feed is submitted to iTunes as http://golangshow.com/episode/index.xml -->" | safeHTML }}
   <channel>
     <title>Подкаст GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
