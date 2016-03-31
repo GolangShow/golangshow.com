@@ -4,7 +4,7 @@ title = "Подкаст GolangShow"
 theme = "golangshow"
 paginate = 20
 disqusShortname = "golangshow"
-copyright = "All rights reserved - 2015"
+copyright = "All rights reserved - 2015-2016"
 
 [taxonomies]
     # Optional. Use if you want tags and lists.

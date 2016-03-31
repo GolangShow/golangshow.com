@@ -1,9 +1,10 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <!-- This feed is submitted to iTunes as http://golangshow.com/episode/index.xml -->
   <channel>
     <title>Подкаст GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
     <language>{{ .Site.LanguageCode }}</language>
-    <copyright>&#x2117; &amp; &#xA9; 2015, Команда GolangShow</copyright>
+    <copyright>&#x2117; &amp; &#xA9; 2015-2016, Команда GolangShow</copyright>
     <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
