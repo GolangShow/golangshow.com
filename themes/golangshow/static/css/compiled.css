@@ -1091,7 +1091,7 @@ a.label:focus {
   font-family: 'PT Sans';
   font-style: normal;
   font-weight: 400;
-  src: local('PT Sans'), local('PTSans-Regular'), url(/fonts/FUDHvzEKSJww3kCxuiAo2A.ttf) format('truetype');
+  src: local('PT Sans'), local('PTSans-Regular'), url(https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic-ext) format('truetype');
 }
 @font-face {
   font-family: 'PT Sans';
