@@ -28,7 +28,6 @@ copyright = "All rights reserved - 2015-2016"
   facebook = "https://www.facebook.com/golangshow"
   rss = true
 
-
 [[menu.main]]
   name = "Онлайн вещание"
   weight = -100
