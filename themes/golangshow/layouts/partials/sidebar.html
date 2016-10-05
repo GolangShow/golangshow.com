@@ -1,15 +1,35 @@
+<!-- Begin MailChip Subscribe Form Code -->
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"825dd78d184fbe74999cf9271","lid":"66e2863596"}) });
+    //document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+};
+</script>
+<style>
+a#mailinglink {
+	color: 'red';
+}
+</style>
+<!-- End -->
+
 <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
-      {{ with .Site.Params.logo }}<a href="{{ "/" | absURL }}"><img src="{{ . | absURL }}"></a>{{ end }}
-      <h1>{{ .Site.Author.name }}</h1>
+      {{ with .Site.Params.logo }}<a href="/"><img src="{{ . }}"></a>{{ end }}
+        <h1>{{ .Site.Author.name }}</h1>
       {{ with .Site.Params.tagline }}<h1 class="lead">{{ . | markdownify }}</h1>{{ end }}
     </div>
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item"><a href="{{ "/" | absURL }}">{{ if isset .Site.Params "home"}}{{ .Site.Params.home }}{{ else }}Blog{{ end }}</a></li>
+      <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
       {{ range .Site.Menus.main }}
-      <li class="sidebar-nav-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      	{{ if hasPrefix .URL "javascript"}}
+      	  <li class="sidebar-nav-item"><a href="{{ .URL | safeURL }}">{{ .Name }}</a></li>
+      	{{ else }}
+      	  <li class="sidebar-nav-item"><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+      	{{ end }}
       {{end}}
     </ul>
     

@@ -1,10 +1,10 @@
-baseUrl = "https://golangshow.com/"
+baseUrl = "http://golangshow.com/"
 languageCode = "ru-RU"
 title = "Подкаст GolangShow"
 theme = "golangshow"
 paginate = 20
 disqusShortname = "golangshow"
-copyright = "All rights reserved - 2015"
+copyright = "All rights reserved - 2015-2016"
 
 [taxonomies]
     # Optional. Use if you want tags and lists.
@@ -28,7 +28,6 @@ copyright = "All rights reserved - 2015"
   facebook = "https://www.facebook.com/golangshow"
   rss = true
 
-
 [[menu.main]]
   name = "Онлайн вещание"
   weight = -100
@@ -46,6 +45,10 @@ copyright = "All rights reserved - 2015"
   weight = 10
   identifier = "itunes"
   url = "https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?l=en&mt=2"
+[[menu.main]]
+  name = "Поддержать подкаст"
+  identifier = "patreon"
+  url = "https://www.patreon.com/golangshow"
 
 [[menu.friends]]
   name = "4gophers.ru"

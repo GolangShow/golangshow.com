@@ -1,18 +1,20 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  {{ "<!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->" | safeHTML }}
   <channel>
     <title>Подкаст GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
     <language>{{ .Site.LanguageCode }}</language>
-    <copyright>&#x2117; &amp; &#xA9; 2015, Команда GolangShow</copyright>
+    <copyright>&#x2117; &amp; &#xA9; 2015-2016, Команда GolangShow</copyright>
     <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
+    <generator>Hugo {{ .Hugo.Version }}</generator>
     <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
-
+    <itunes:explicit>no</itunes:explicit>
     {{ range .Data.Pages }}
       <item>
         <title>{{ .Title | html }}</title>
@@ -21,7 +23,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
-        <enclosure url="{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
+        <enclosure url="https://{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
         <itunes:duration>{{ .Params.length }}</itunes:duration>
 
         <link>{{ .Permalink }}</link>
