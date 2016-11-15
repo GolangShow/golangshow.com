@@ -45,6 +45,7 @@ copyright = "All rights reserved - 2015-2016"
   weight = 10
   identifier = "itunes"
   url = "https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?l=en&mt=2"
+
 [[menu.main]]
   name = "Поддержать подкаст"
   identifier = "patreon"
