@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->
+  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
   <channel>
     <title>Подкаст GolangShow</title>
     <link>http://golangshow.com/</link>
@@ -33,7 +33,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://" length="" type="audio/mpeg" />
+        <enclosure url="http://" length="" type="audio/mpeg" />
         <itunes:duration></itunes:duration>
 
         <link>http://golangshow.com/post/2016/01-22-gophergala/</link>
@@ -62,7 +62,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://" length="" type="audio/mpeg" />
+        <enclosure url="http://" length="" type="audio/mpeg" />
         <itunes:duration></itunes:duration>
 
         <link>http://golangshow.com/post/2015/09-03-before-015/</link>
@@ -84,7 +84,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://" length="" type="audio/mpeg" />
+        <enclosure url="http://" length="" type="audio/mpeg" />
         <itunes:duration></itunes:duration>
 
         <link>http://golangshow.com/post/2015/08-26-before-014/</link>

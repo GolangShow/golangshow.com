@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->
+  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
   <channel>
     <title>Подкаст GolangShow</title>
     <link>http://golangshow.com/</link>
@@ -25,7 +25,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/interview_rob.mp3" length="2729301" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/interview_rob.mp3" length="2729301" type="audio/mpeg" />
         <itunes:duration>00:06:37</itunes:duration>
 
         <link>http://golangshow.com/episode/2015/11-21-030/</link>
@@ -44,7 +44,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/interview_bred.mp3" length="3809850" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/interview_bred.mp3" length="3809850" type="audio/mpeg" />
         <itunes:duration>00:10:14</itunes:duration>
 
         <link>http://golangshow.com/episode/2015/11-20-029/</link>

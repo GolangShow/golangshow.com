@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->
+  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
   <channel>
     <title>Подкаст GolangShow</title>
     <link>http://golangshow.com/</link>
@@ -73,7 +73,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/091.mp3" length="44520517" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/091.mp3" length="44520517" type="audio/mpeg" />
         <itunes:duration>01:48:42</itunes:duration>
 
         <link>http://golangshow.com/episode/2017/01-25-091/</link>
@@ -182,7 +182,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/088.mp3" length="28221972" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/088.mp3" length="28221972" type="audio/mpeg" />
         <itunes:duration>01:13:42</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/12-17-088/</link>
@@ -310,7 +310,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/087.mp3" length="41711368" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/087.mp3" length="41711368" type="audio/mpeg" />
         <itunes:duration>01:40:15</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/12-11-087/</link>
@@ -442,7 +442,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/086.mp3" length="24361132" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/086.mp3" length="24361132" type="audio/mpeg" />
         <itunes:duration>01:00:30</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/12-03-086/</link>
@@ -607,7 +607,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/085.mp3" length="113654947" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/085.mp3" length="113654947" type="audio/mpeg" />
         <itunes:duration>00:59:12</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/11-25-085/</link>
@@ -788,7 +788,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/084.mp3" length="58062561" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/084.mp3" length="58062561" type="audio/mpeg" />
         <itunes:duration>02:25:16</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/11-23-084/</link>
@@ -917,7 +917,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/083.mp3" length="25218394" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/083.mp3" length="25218394" type="audio/mpeg" />
         <itunes:duration>01:03:10</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/11-16-083/</link>
@@ -1035,7 +1035,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/082.mp3" length="26452581" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/082.mp3" length="26452581" type="audio/mpeg" />
         <itunes:duration>01:05:18</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/11-09-082/</link>
@@ -1175,7 +1175,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/081.mp3" length="36319569" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/081.mp3" length="36319569" type="audio/mpeg" />
         <itunes:duration>01:29:30</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/11-02-081/</link>
@@ -1320,7 +1320,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/080.mp3" length="24753591" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/080.mp3" length="24753591" type="audio/mpeg" />
         <itunes:duration>01:00:36</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/10-26-080/</link>
@@ -1456,7 +1456,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/079.mp3" length="27585618" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/079.mp3" length="27585618" type="audio/mpeg" />
         <itunes:duration>01:07:09</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/10-21-079/</link>
@@ -1597,7 +1597,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/077.mp3" length="36700668" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/077.mp3" length="36700668" type="audio/mpeg" />
         <itunes:duration>01:31:24</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/10-14-077/</link>
@@ -1733,7 +1733,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/076.mp3" length="22174371" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/076.mp3" length="22174371" type="audio/mpeg" />
         <itunes:duration>00:53:56</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/09-30-076/</link>
@@ -1867,7 +1867,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/075.mp3" length="27551467" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/075.mp3" length="27551467" type="audio/mpeg" />
         <itunes:duration>01:10:27</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/09-22-075/</link>
@@ -1991,7 +1991,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/074.mp3" length="35618204" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/074.mp3" length="35618204" type="audio/mpeg" />
         <itunes:duration>01:34:08</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/09-14-074/</link>
@@ -2112,7 +2112,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/073.mp3" length="21686633" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/073.mp3" length="21686633" type="audio/mpeg" />
         <itunes:duration>00:54:18</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/09-08-073/</link>
@@ -2273,7 +2273,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/072.mp3" length="24417310" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/072.mp3" length="24417310" type="audio/mpeg" />
         <itunes:duration>01:00:42</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/09-01-072/</link>
@@ -2436,7 +2436,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/071.mp3" length="37748173" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/071.mp3" length="37748173" type="audio/mpeg" />
         <itunes:duration>01:28:29</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/08-26-071/</link>
@@ -2572,7 +2572,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/070.mp3" length="14933136" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/070.mp3" length="14933136" type="audio/mpeg" />
         <itunes:duration>00:36:52</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/08-23-070/</link>
@@ -2695,7 +2695,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/069.mp3" length="21343023" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/069.mp3" length="21343023" type="audio/mpeg" />
         <itunes:duration>00:51:25</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/08-12-069/</link>
@@ -2818,7 +2818,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/068.mp3" length="31130984" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/068.mp3" length="31130984" type="audio/mpeg" />
         <itunes:duration>01:18:36</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/08-04-068/</link>
@@ -2946,7 +2946,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/067.mp3" length="30408387" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/067.mp3" length="30408387" type="audio/mpeg" />
         <itunes:duration>01:12:33</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/07-29-067/</link>
@@ -3068,7 +3068,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/066.mp3" length="35083543" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/066.mp3" length="35083543" type="audio/mpeg" />
         <itunes:duration>01:28:09</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/07-21-066/</link>
@@ -3212,7 +3212,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/065.mp3" length="31560039" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/065.mp3" length="31560039" type="audio/mpeg" />
         <itunes:duration>01:16:48</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/07-16-065/</link>
@@ -3342,7 +3342,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/064.mp3" length="31004567" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/064.mp3" length="31004567" type="audio/mpeg" />
         <itunes:duration>01:15:55</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/07-07-064/</link>
@@ -3450,7 +3450,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/063.mp3" length="46361513" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/063.mp3" length="46361513" type="audio/mpeg" />
         <itunes:duration>01:50:09</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/06-30-063/</link>
@@ -3563,7 +3563,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/062.mp3" length="15396281" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/062.mp3" length="15396281" type="audio/mpeg" />
         <itunes:duration>00:44:29</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/06-23-062/</link>
@@ -3681,7 +3681,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/061.mp3" length="41413776" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/061.mp3" length="41413776" type="audio/mpeg" />
         <itunes:duration>02:00:00</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/06-16-061/</link>
@@ -3798,7 +3798,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/060.mp3" length="23625040" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/060.mp3" length="23625040" type="audio/mpeg" />
         <itunes:duration>01:11:34</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/06-09-060/</link>
@@ -3911,7 +3911,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/059.mp3" length="24098412" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/059.mp3" length="24098412" type="audio/mpeg" />
         <itunes:duration>01:12:32</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/06-02-059/</link>
@@ -4058,7 +4058,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/058.mp3" length="34550646" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/058.mp3" length="34550646" type="audio/mpeg" />
         <itunes:duration>01:39:52</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/05-26-058/</link>
@@ -4215,7 +4215,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/057.mp3" length="34499606" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/057.mp3" length="34499606" type="audio/mpeg" />
         <itunes:duration>01:43:13</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/05-19-057/</link>
@@ -4350,7 +4350,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/056.mp3" length="16427918" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/056.mp3" length="16427918" type="audio/mpeg" />
         <itunes:duration>00:48:40</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/05-12-056/</link>
@@ -4500,7 +4500,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/055_xyz.mp3" length="45085866" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/055_xyz.mp3" length="45085866" type="audio/mpeg" />
         <itunes:duration>02:06:50</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/05-05-055/</link>
@@ -4655,7 +4655,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/054.mp3" length="33280928" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/054.mp3" length="33280928" type="audio/mpeg" />
         <itunes:duration>01:36:46</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/04-28-054/</link>
@@ -4811,7 +4811,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/053.mp3" length="44271455" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/053.mp3" length="44271455" type="audio/mpeg" />
         <itunes:duration>02:11:03</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/04-21-053/</link>
@@ -5015,7 +5015,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/052.mp3" length="26004156" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/052.mp3" length="26004156" type="audio/mpeg" />
         <itunes:duration>01:06:20</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/04-14-052/</link>
@@ -5236,7 +5236,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/051.mp3" length="50724367" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/051.mp3" length="50724367" type="audio/mpeg" />
         <itunes:duration>01:39:00</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/04-07-051/</link>
@@ -5406,7 +5406,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/050.mp3" length="30794272" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/050.mp3" length="30794272" type="audio/mpeg" />
         <itunes:duration>01:00:17</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/03-31-050/</link>
@@ -5532,7 +5532,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/049.mp3" length="44259208" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/049.mp3" length="44259208" type="audio/mpeg" />
         <itunes:duration>01:28:32</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/03-24-049/</link>
@@ -5652,7 +5652,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/048.mp3" length="39786943" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/048.mp3" length="39786943" type="audio/mpeg" />
         <itunes:duration>01:17:15</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/03-18-048/</link>
@@ -5771,7 +5771,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/047.mp3" length="30633757" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/047.mp3" length="30633757" type="audio/mpeg" />
         <itunes:duration>00:54:17</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/03-10-047/</link>
@@ -5876,7 +5876,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/046.mp3" length="40211571" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/046.mp3" length="40211571" type="audio/mpeg" />
         <itunes:duration>01:07:18</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/03-05-046/</link>
@@ -5972,7 +5972,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/045.mp3" length="30210028" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/045.mp3" length="30210028" type="audio/mpeg" />
         <itunes:duration>00:55:20</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/02-25-045/</link>
@@ -6069,7 +6069,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/044.mp3" length="39807176" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/044.mp3" length="39807176" type="audio/mpeg" />
         <itunes:duration>01:12:59</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/02-18-044/</link>
@@ -6162,7 +6162,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/043.mp3" length="51438667" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/043.mp3" length="51438667" type="audio/mpeg" />
         <itunes:duration>01:33:37</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/02-12-043/</link>
@@ -6256,7 +6256,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/042.mp3" length="23905433" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/042.mp3" length="23905433" type="audio/mpeg" />
         <itunes:duration>00:44:30</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/02-05-042/</link>
@@ -6383,7 +6383,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/040.mp3" length="38340603" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/040.mp3" length="38340603" type="audio/mpeg" />
         <itunes:duration>01:18:22</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/01-28-040/</link>
@@ -6501,7 +6501,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/039.mp3" length="30048407" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/039.mp3" length="30048407" type="audio/mpeg" />
         <itunes:duration>01:03:19</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/01-21-039/</link>
@@ -6586,7 +6586,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/038b.mp3" length="51987005" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/038b.mp3" length="51987005" type="audio/mpeg" />
         <itunes:duration>01:39:46</itunes:duration>
 
         <link>http://golangshow.com/episode/2016/01-14-038/</link>

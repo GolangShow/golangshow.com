@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->
+  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
   <channel>
     <title>Подкаст GolangShow</title>
     <link>http://golangshow.com/</link>
@@ -56,7 +56,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="https://golangshow.com/cdn/episodes/036.mp3" length="43382536" type="audio/mpeg" />
+        <enclosure url="http://golangshow.com/cdn/episodes/036.mp3" length="43382536" type="audio/mpeg" />
         <itunes:duration>00:57:56</itunes:duration>
 
         <link>http://golangshow.com/episode/2015/12-29-036/</link>
