@@ -1,4 +1,5 @@
 build:
+	rm -fr public
 	hugo --theme=golangshow
 
 watch:
