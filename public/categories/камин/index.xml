@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->
+  <channel>
+    <title>Подкаст GolangShow</title>
+    <link>http://golangshow.com/</link>
+    <language>ru-RU</language>
+    <copyright>&#x2117; &amp; &#xA9; 2015-2016, Команда GolangShow</copyright>
+    <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
+    <itunes:author>Подкаст GolangShow</itunes:author>
+    <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
+    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
+    <generator>Hugo 0.18.1</generator>
+    <itunes:image href="http://golangshow.com/images/cover_big.png" />
+    <itunes:category text="Technology">
+        <itunes:category text="Software How-To" />
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>Выпуск 036. Новогодние посиделки у камина</title>
+        <itunes:subtitle>Выпуск 036. Новогодние посиделки у камина</itunes:subtitle>
+        <itunes:summary>
+
+&lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/go_fireplace.png&#34; alt=&#34;logo&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Подводим итоги года&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangshow.com/categories/гости/&#34;&gt;Вспоминаем гостей подкаста&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/274057/&#34;&gt;Go в 2015 году&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrastorage.org/files/d46/a17/ee7/d46a17ee745640cc804aa1a01f5a66d4.png&#34;&gt;Области применения Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/269355/&#34;&gt;С чего начать новичку в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Каким мы видим будущее Go в следующем году&lt;/li&gt;
+&lt;li&gt;Конкурс для слушателей&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/divan/psh&#34;&gt;https://github.com/divan/psh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/progrium/go-basher&#34;&gt;https://github.com/progrium/go-basher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Митап во Львове, 23 января&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ведущие-этого-выпуска&#34;&gt;Ведущие этого выпуска:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="https://golangshow.com/cdn/episodes/036.mp3" length="43382536" type="audio/mpeg" />
+        <itunes:duration>00:57:56</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/12-29-036/</link>
+        <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
+        <description>
+
+&lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/go_fireplace.png&#34; alt=&#34;logo&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Подводим итоги года&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangshow.com/categories/гости/&#34;&gt;Вспоминаем гостей подкаста&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/274057/&#34;&gt;Go в 2015 году&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrastorage.org/files/d46/a17/ee7/d46a17ee745640cc804aa1a01f5a66d4.png&#34;&gt;Области применения Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/269355/&#34;&gt;С чего начать новичку в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Каким мы видим будущее Go в следующем году&lt;/li&gt;
+&lt;li&gt;Конкурс для слушателей&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/divan/psh&#34;&gt;https://github.com/divan/psh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/progrium/go-basher&#34;&gt;https://github.com/progrium/go-basher&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Митап во Львове, 23 января&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ведущие-этого-выпуска&#34;&gt;Ведущие этого выпуска:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

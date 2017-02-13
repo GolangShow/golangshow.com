@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.18.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность &middot; </title>
+
+  
+  <link rel="stylesheet" href="/css/compiled.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="Go,golang,подкаст">
+  
+  <meta property="og:title" content="Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://golangshow.com/episode/2016/04-28-054/ " />
+  <meta property="og:image" content="/images/cover.png" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Подкаст GolangShow" />
+  <meta name="google-site-verification" content="FKPuAxWwWn5i3RgR1jAZsWs2EYpSXMdOEpaVCGhx_Cc" />
+  <meta name='yandex-verification' content='5cae7ee3128b7c52' />
+
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+</head>
+<body class="theme-base-0d">
+
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"825dd78d184fbe74999cf9271","lid":"66e2863596"}) });
+    
+};
+</script>
+<style>
+a#mailinglink {
+	color: 'red';
+}
+</style>
+
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="/"><img src="/images/logo2.png"></a>
+        <h1></h1>
+      <h1 class="lead">Русскоязычный подкаст о Go</h1>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://golangshow.com/">Главная</a></li>
+      <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/online">Онлайн вещание</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://www.patreon.com/golangshow">Поддержать подкаст</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?l=en&amp;mt=2">iTunes</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">Гости</a></li>
+      	
+      
+    </ul>
+
+    <h3>Наши друзья</h3>
+    <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item"><a href="http://4gophers.ru" target="_blank">4gophers.ru</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+      <li class="sidebar-nav-item"><a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e" target="_blank">DigitalOcean</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/GolangShow/golangshow.com" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      <a href="https://www.facebook.com/golangshow" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="https://twitter.com/golangshow" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="https://vk.com/golangshow" target="_blank"><span class="fa-stack"><i class="fa fa-square fa-3x"></i><i class="fa fa-stack-2x fa-vk"></i></span></a>
+      
+      <a href="http://golangshow.com/episode/index.xml"  target="_blank" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      
+      </li>
+    </ul>
+
+    
+
+    <p>
+  Подкаст GolangShow All rights reserved - 2017</p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <br/>
+  <div class="post">
+    <h1>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</h1>
+    <span class="post-date">Apr 28, 2016 
+    
+    <br/>
+    <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a><a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
+    </span>
+
+
+    
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://www.linkedin.com/in/antontyurin">Антон Тюрин</a> из Яндекса. Поговорили про разработку в Яндексе вообще и  <a href="https://tech.yandex.ru/cocaine/">Cocaine</a> в частности, путь в Go-разработчики и многое другое. На сайте мероприятий Яндекса можно посмотреть <a href="https://events.yandex.ru/lib/people/45527/">доклады Антона про Go и не только</a>.</p>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Традиционный еженедельный <a href="https://github.com/LK4D4/report/blob/master/reports/golang-04-27.md">обзор от Александра</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/ab52ad894f453a02153fb2bc106d08c47ba643b6">encoding/json: add Encoder.DisableHTMLEscaping</a></li>
+<li><a href="https://github.com/golang/go/commit/f7d19672f273ecb600d0b0db32990d1a6462a898">api: update next.txt</a></li>
+<li><a href="https://github.com/golang/go/commit/6b02a1924725688b4d264065454ac5287fbed535">strings: use SSE4.2 in strings.Index on AMD64</a><br /></li>
+<li><a href="https://github.com/golang/go/commit/e607abbfd6e0550c13f4fa7b666d033eb9b14759">unicode: improve SimpleFold performance for ascii</a></li>
+<li><a href="https://github.com/golang/go/commit/7538b1db8ec0d82a623847fe5987f1988fe16448">cmd/compile: switch to compact export format by default</a></li>
+</ul></li>
+<li><a href="http://www.williamspublishing.com/Books/978-5-8459-2051-5.html">Вышел перевод книги &ldquo;Язык программирования Go&rdquo; Донована и Кернигана</a>. Кстати, самую приятную цену на книгу <a href="http://www.combook.ru/product/11265994/">предлагает Комбук</a>.</li>
+<li><a href="https://blog.cloudflare.com/building-the-simplest-go-static-analysis-tool/">Building the simplest Go static analysis tool</a></li>
+<li><a href="https://sourcegraph.com/github.com/golang/go@a1ef950a15517bca223d079a6cf65948c3db9694/-/blob/src/internal/syscall/unix/getrandom_linux.go#L52">Поддержка syscall на разных ядрах</a></li>
+<li>Доклад &ldquo;How to optimize Go for really high performance&rdquo;:  <a href="https://youtu.be/ZuQcbqYK0BY">видео</a> и <a href="https://docs.google.com/presentation/d/1Zu0BdbhMRar7ycEwDi8jepGokTXTDXlKFf7C13tusuI/edit?pref=2&amp;pli=1#slide=id.p">слайды</a></li>
+<li><a href="http://www.infoq.com/articles/build-a-container-golang">Build Your Own Container Using Less than 100 Lines of Go</a> + <a href="http://lk4d4.darth.io/categories/containers/">про контейнеры от Александра</a><br /></li>
+<li><a href="https://github.com/golang/proposal/blob/master/design/2775-binary-only-packages.md">Proposal: Binary-Only Packages</a></li>
+</ul>
+
+<h2 id="библиотеки-примеры-кода-и-другие-открытые-исходники">Библиотеки, примеры кода и другие открытые исходники</h2>
+
+<ul>
+<li><a href="https://github.com/dinever/dingo">Blog engine written in Go (Looking for contributors)</a></li>
+<li><a href="https://github.com/tdewolff/minify">Fast minifiers for web formats</a></li>
+<li><a href="https://github.com/fortytw2/leaktest">Goroutine Leak Detector</a></li>
+<li><a href="https://github.com/mattes/migrate">Database migration handling</a></li>
+<li><a href="https://github.com/mgutz/dat">Go Postgres Data Access Toolkit</a></li>
+<li><a href="https://github.com/spf13/cobra">A Commander for modern Go CLI interactions</a></li>
+<li><a href="https://github.com/apex/log">Structured logging package for Go</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="http://www.dotgo.eu">dotGo 2016</a> — Париж, 10 октября, промокод GOLANGSHOW для скидки в 20%</li>
+<li><a href="http://golanguk.com">The Golang UK</a> — Лондон, 17–19 августа, промокод GOLANGSHOW2016 для скидки в £25</li>
+<li><a href="http://www.meetup.com/Golang-Moscow/events/230289501/">Митап в Москве</a> — 14 мая</li>
+<li><a href="http://www.meetup.com/Kharkiv-Go-DevOps-Meetup/events/230286553/">Митап в Харькове</a> — 14 мая</li>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/230225272/">Митап во Львове</a> — 21 мая</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<h2 id="поддержка-подкаста">Поддержка подкаста</h2>
+
+<ul>
+<li><a href="https://www.patreon.com/golangshow">Слушатели могут стать патронами и помочь подкасту</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
+
+    
+      <hr/>
+
+<p>
+	Длительность: 01:36:46 <br/>
+	Размер: 31 МБ
+</p>
+<p>HTML5 аудио плеер:
+
+<blockquote>
+	<audio controls width="400px" height="150px">
+		<source src="https://golangshow.com/cdn/episodes/054.mp3" type="audio/mpeg">
+		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
+	</audio>
+</blockquote>
+
+</p>
+
+<p>Прямая ссылка на MP3 аудио поток:
+<blockquote>
+	<a href="https://golangshow.com/cdn/episodes/054.mp3" target="_blank">https://golangshow.com/cdn/episodes/054.mp3</a>
+</blockquote>
+</p>
+
+    
+  </div>
+    
+
+    <section class="share">
+
+      <span>Рассказать друзьям:</span>
+      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20054.%20%d0%92%20%d0%b3%d0%be%d1%81%d1%82%d1%8f%d1%85%20%d0%90%d0%bd%d1%82%d0%be%d0%bd%20%d0%a2%d1%8e%d1%80%d0%b8%d0%bd%20%d0%b8%d0%b7%20%d0%af%d0%bd%d0%b4%d0%b5%d0%ba%d1%81%d0%b0.%20%d0%9f%d0%b5%d1%80%d0%b5%d0%b2%d0%be%d0%b4%20%d0%ba%d0%bd%d0%b8%d0%b3%d0%b8%20%d0%94%d0%be%d0%bd%d0%be%d0%b2%d0%b0%d0%bd%d0%b0%20%d0%b8%20%d0%9a%d0%b5%d1%80%d0%bd%d0%b8%d0%b3%d0%b0%d0%bd%d0%b0.%20%d0%9e%d0%bf%d1%82%d0%b8%d0%bc%d0%b8%d0%b7%d0%b0%d1%86%d0%b8%d1%8f%20%d0%ba%d0%be%d0%b4%d0%b0%20%d0%b8%20%d0%bf%d1%80%d0%be%d0%b8%d0%b7%d0%b2%d0%be%d0%b4%d0%b8%d1%82%d0%b5%d0%bb%d1%8c%d0%bd%d0%be%d1%81%d1%82%d1%8c&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f04-28-054%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f04-28-054%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
+      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f04-28-054%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
+    </section>
+    
+
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "golangshow";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "golangshow";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script>
+  var _gaq=[['_setAccount','UA-65258742-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+

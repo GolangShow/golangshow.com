@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->
+  <channel>
+    <title>Подкаст GolangShow</title>
+    <link>http://golangshow.com/</link>
+    <language>ru-RU</language>
+    <copyright>&#x2117; &amp; &#xA9; 2015-2016, Команда GolangShow</copyright>
+    <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
+    <itunes:author>Подкаст GolangShow</itunes:author>
+    <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
+    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
+    <generator>Hugo 0.18.1</generator>
+    <itunes:image href="http://golangshow.com/images/cover_big.png" />
+    <itunes:category text="Technology">
+        <itunes:category text="Software How-To" />
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>Выпуск 030. Интервью с Робом Пайком.</title>
+        <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Интервью с Робом Пайком на dotGo 2015.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="https://golangshow.com/cdn/episodes/interview_rob.mp3" length="2729301" type="audio/mpeg" />
+        <itunes:duration>00:06:37</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/11-21-030/</link>
+        <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
+        <description>&lt;p&gt;Интервью с Робом Пайком на dotGo 2015.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
+        <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Интервью с Бредом Фитцпатриком на dotGo 2015.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="https://golangshow.com/cdn/episodes/interview_bred.mp3" length="3809850" type="audio/mpeg" />
+        <itunes:duration>00:10:14</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/11-20-029/</link>
+        <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
+        <description>&lt;p&gt;Интервью с Бредом Фитцпатриком на dotGo 2015.&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>
