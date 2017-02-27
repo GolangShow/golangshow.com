@@ -10,7 +10,7 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.18.1</generator>
+    <generator>Hugo 0.19</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
@@ -6630,6 +6630,1173 @@
 &lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
 &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, а также гости
 &lt;a href=&#34;https://github.com/zolotov&#34;&gt;Александр Золотов&lt;/a&gt; и &lt;a href=&#34;https://github.com/ignatov&#34;&gt;Сергей Игнатов&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 037. Больше Go, Rust&#39;а и LLVM</title>
+        <itunes:subtitle>Выпуск 037. Больше Go, Rust&#39;а и LLVM</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wintr.us/blog/three-reasons-go&#34;&gt;Three reasons we’ll be writing more Go in 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.sgmansfield.com/2015/12/goroutine-ids/&#34;&gt;Goroutine IDs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/&#34;&gt;An Analysis of the Top 1000 Go Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@paulcolomiets/async-io-in-rust-part-iii-cbfd10f17203&#34;&gt;Async IO in Rust (сравнение с Go)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.toptal.com/go/interview-questions&#34;&gt;10 Essential Go Interview Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-nuts/pzpNcarQcvo&#34;&gt;Debugging Go with LLDB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://skarlso.github.io/2016/01/05/improving-performance-with-byte-slice-and-int-map/&#34;&gt;Improving performance with byte slice and int map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/faq#nil_error&#34;&gt;Ответ на загадку про error&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/eandre/discover&#34;&gt;github.com/eandre/discover&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiam/go-playground&#34;&gt;github.com/xiam/go-playground&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/frou/pg2go&#34;&gt;github.com/frou/pg2go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mc2soft/pq-types&#34;&gt;github.com/mc2soft/pq-types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rakyll/gom&#34;&gt;github.com/rakyll/gom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/visualfc/goqt&#34;&gt;github.com/visualfc/goqt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2016&lt;/a&gt; - July 11–13, 2016, Denver, USA&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Lviv Golang Meetup #1&lt;/a&gt; - January 23, 2016, Lviv, Ukraine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gophergala.com&#34;&gt;Gopher Gala 2016&lt;/a&gt; - January 22-24, 2016, Anywhere, World&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;спонсоры&#34;&gt;Спонсоры&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Промо-код GOLANGSHOW для &lt;a href=&#34;https://www.digitalocean.com/?utm_campaign=golangshow&amp;amp;utm_medium=podcast&amp;amp;refcode=63eedb038a3e&#34;&gt;облачного хостинга DigitalOcean&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/037.mp3" length="39319619" type="audio/mpeg" />
+        <itunes:duration>01:21:12</itunes:duration>
+
+        <link>http://golangshow.com/episode/2016/01-07-037/</link>
+        <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2016/01-07-037/</guid>
+        <description>
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wintr.us/blog/three-reasons-go&#34;&gt;Three reasons we’ll be writing more Go in 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.sgmansfield.com/2015/12/goroutine-ids/&#34;&gt;Goroutine IDs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/&#34;&gt;An Analysis of the Top 1000 Go Repositories&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@paulcolomiets/async-io-in-rust-part-iii-cbfd10f17203&#34;&gt;Async IO in Rust (сравнение с Go)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.toptal.com/go/interview-questions&#34;&gt;10 Essential Go Interview Questions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-nuts/pzpNcarQcvo&#34;&gt;Debugging Go with LLDB&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://skarlso.github.io/2016/01/05/improving-performance-with-byte-slice-and-int-map/&#34;&gt;Improving performance with byte slice and int map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/faq#nil_error&#34;&gt;Ответ на загадку про error&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/eandre/discover&#34;&gt;github.com/eandre/discover&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiam/go-playground&#34;&gt;github.com/xiam/go-playground&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/frou/pg2go&#34;&gt;github.com/frou/pg2go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mc2soft/pq-types&#34;&gt;github.com/mc2soft/pq-types&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rakyll/gom&#34;&gt;github.com/rakyll/gom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/visualfc/goqt&#34;&gt;github.com/visualfc/goqt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2016&lt;/a&gt; - July 11–13, 2016, Denver, USA&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Lviv Golang Meetup #1&lt;/a&gt; - January 23, 2016, Lviv, Ukraine&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gophergala.com&#34;&gt;Gopher Gala 2016&lt;/a&gt; - January 22-24, 2016, Anywhere, World&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;спонсоры&#34;&gt;Спонсоры&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Промо-код GOLANGSHOW для &lt;a href=&#34;https://www.digitalocean.com/?utm_campaign=golangshow&amp;amp;utm_medium=podcast&amp;amp;refcode=63eedb038a3e&#34;&gt;облачного хостинга DigitalOcean&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 035. Go Generate, вендоринг и внутренности net/http</title>
+        <itunes:subtitle>Выпуск 035. Go Generate, вендоринг и внутренности net/http</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/&#34;&gt;Reducing boilerplate with go generate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/gopy/&#34;&gt;gopy: extending CPython with Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/automi-stream-processing-over-go-channels/&#34;&gt;Automi: Stream Processing Over Go Channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/&#34;&gt;Moving a team from Scala to Golang&lt;/a&gt; (+ &lt;a href=&#34;http://habrahabr.ru/post/273535/&#34;&gt;перевод на хабре&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.filippo.io/most-go-tools-now-work-with-go15vendorexperiment/&#34;&gt;Most go tools now work with go15vendorexperiment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@onuryilmaz/comparison-of-go-vendoring-tools-acf019ea476f&#34;&gt;Comparison of Go Vendoring Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/glide/&#34;&gt;Manage Dependencies Like Other Languages With Glide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/whats-inside-net-http-socket-late-binding-in-the-go-standard-library/&#34;&gt;What&amp;rsquo;s inside net/http? Late binding in the Go standard library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mvdan/interfacer&#34;&gt;https://github.com/mvdan/interfacer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tealeg/xlsx&#34;&gt;https://github.com/tealeg/xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Митап во Львове, 23 января&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Давайте уже встретимся в Москве, заходите в &lt;a href=&#34;http://4gophers.ru/slack&#34;&gt;наш Slack&lt;/a&gt;
+в &lt;a href=&#34;https://golang-ru.slack.com/messages/meetup-moscow/&#34;&gt;#meetup-moscow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;объявления&#34;&gt;Объявления&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;31 декабря не выходим в эфир, но подвести итоги года хотим.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ведущие-этого-выпуска&#34;&gt;Ведущие этого выпуска:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/035.mp3" length="26512743" type="audio/mpeg" />
+        <itunes:duration>01:04:32</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/12-24-035/</link>
+        <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/12-24-035/</guid>
+        <description>
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/&#34;&gt;Reducing boilerplate with go generate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/gopy/&#34;&gt;gopy: extending CPython with Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/automi-stream-processing-over-go-channels/&#34;&gt;Automi: Stream Processing Over Go Channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/&#34;&gt;Moving a team from Scala to Golang&lt;/a&gt; (+ &lt;a href=&#34;http://habrahabr.ru/post/273535/&#34;&gt;перевод на хабре&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.filippo.io/most-go-tools-now-work-with-go15vendorexperiment/&#34;&gt;Most go tools now work with go15vendorexperiment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@onuryilmaz/comparison-of-go-vendoring-tools-acf019ea476f&#34;&gt;Comparison of Go Vendoring Tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/glide/&#34;&gt;Manage Dependencies Like Other Languages With Glide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/whats-inside-net-http-socket-late-binding-in-the-go-standard-library/&#34;&gt;What&amp;rsquo;s inside net/http? Late binding in the Go standard library&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mvdan/interfacer&#34;&gt;https://github.com/mvdan/interfacer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tealeg/xlsx&#34;&gt;https://github.com/tealeg/xlsx&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Митап во Львове, 23 января&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Давайте уже встретимся в Москве, заходите в &lt;a href=&#34;http://4gophers.ru/slack&#34;&gt;наш Slack&lt;/a&gt;
+в &lt;a href=&#34;https://golang-ru.slack.com/messages/meetup-moscow/&#34;&gt;#meetup-moscow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;объявления&#34;&gt;Объявления&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;31 декабря не выходим в эфир, но подвести итоги года хотим.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ведущие-этого-выпуска&#34;&gt;Ведущие этого выпуска:&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</title>
+        <itunes:subtitle>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;гость&#34;&gt;Гость&lt;/h2&gt;
+
+&lt;p&gt;В гостях Максим Чечель, автор &lt;a href=&#34;https://www.youtube.com/watch?v=xO77uboNBGc&#34;&gt;доклада про Go в автобусе&lt;/a&gt;
+на митапе &lt;a href=&#34;http://www.meetup.com/Golang-Peter/&#34;&gt;Golang Питер&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@divan/how-to-complain-about-go-349013e06d24&#34;&gt;How to complain about Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/company/mailru/blog/273341/&#34;&gt;Как выбрать язык программирования?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9MKY4KypBzg&#34;&gt;Gil Tene - Understanding Latency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://engineering.skybettingandgaming.com/2015/09/14/monitoring-virtual-sports/&#34;&gt;Using Go, ffmpeg and Tesseract OCR to monitor a live video stream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Упомянули библиотеку &lt;a href=&#34;https://github.com/disintegration/imaging&#34;&gt;imaging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://i.imgur.com/dcsm6kI.png&#34;&gt;Картинка про GC в 1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/announcing-gophercon-2016/&#34;&gt;Анонс GopherCon 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/git-appraise&#34;&gt;Distributed code review system for Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kulshekhar/fungen&#34;&gt;Генератор функций Map/Reduce/etc для go generate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/test2doc-generate-your-api-docs&#34;&gt;test2doc: Generate Your API Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Митап во Львове, 23 января&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Давайте уже встретимся в Москве, заходите в &lt;a href=&#34;http://4gophers.ru/slack&#34;&gt;наш Slack&lt;/a&gt;
+в &lt;a href=&#34;https://golang-ru.slack.com/messages/meetup-moscow/&#34;&gt;#meetup-moscow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/034.mp3" length="33557571" type="audio/mpeg" />
+        <itunes:duration>01:17:04</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/12-17-034/</link>
+        <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/12-17-034/</guid>
+        <description>
+
+&lt;h2 id=&#34;гость&#34;&gt;Гость&lt;/h2&gt;
+
+&lt;p&gt;В гостях Максим Чечель, автор &lt;a href=&#34;https://www.youtube.com/watch?v=xO77uboNBGc&#34;&gt;доклада про Go в автобусе&lt;/a&gt;
+на митапе &lt;a href=&#34;http://www.meetup.com/Golang-Peter/&#34;&gt;Golang Питер&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@divan/how-to-complain-about-go-349013e06d24&#34;&gt;How to complain about Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/company/mailru/blog/273341/&#34;&gt;Как выбрать язык программирования?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=9MKY4KypBzg&#34;&gt;Gil Tene - Understanding Latency&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://engineering.skybettingandgaming.com/2015/09/14/monitoring-virtual-sports/&#34;&gt;Using Go, ffmpeg and Tesseract OCR to monitor a live video stream&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Упомянули библиотеку &lt;a href=&#34;https://github.com/disintegration/imaging&#34;&gt;imaging&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://i.imgur.com/dcsm6kI.png&#34;&gt;Картинка про GC в 1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/announcing-gophercon-2016/&#34;&gt;Анонс GopherCon 2016&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/git-appraise&#34;&gt;Distributed code review system for Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kulshekhar/fungen&#34;&gt;Генератор функций Map/Reduce/etc для go generate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/test2doc-generate-your-api-docs&#34;&gt;test2doc: Generate Your API Docs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/Lviv-Golang-Group/events/227453083/&#34;&gt;Митап во Львове, 23 января&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Давайте уже встретимся в Москве, заходите в &lt;a href=&#34;http://4gophers.ru/slack&#34;&gt;наш Slack&lt;/a&gt;
+в &lt;a href=&#34;https://golang-ru.slack.com/messages/meetup-moscow/&#34;&gt;#meetup-moscow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</title>
+        <itunes:subtitle>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues?q=milestone%3AGo1.5.2&#34;&gt;Go 1.5.2 Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/&#34;&gt;Go Proverbs Illustrated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/&#34;&gt;Go Advent 2015 - Dec 4 - afero: A Universal Filesystem Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.devever.net/~hl/nexuses&#34;&gt;On Nexuses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/go-in-a-monorepo/&#34;&gt;Go Advent 2015 - Dec 8 - Go in a Monorepo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Монорепозиторий&amp;rdquo; vs &amp;ldquo;Много репозиториев&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cockroachlabs.com/blog/the-cost-and-complexity-of-cgo/&#34;&gt;The Cost and Complexity of Cgo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/motemen/gompatible&#34;&gt;gompatible&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/12/07/are-go-maps-sensitive-to-data-races&#34;&gt;Are Go maps sensitive to data races?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yager.io/programming/go.html&#34;&gt;Why Go Is Not Good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ksimka/go-is-not-good&#34;&gt;Список статей с минусами Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/&#34;&gt;Go Advent 2015 - Dec 7 - Goa: Untangling Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;,  &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/033.mp3" length="44651315" type="audio/mpeg" />
+        <itunes:duration>01:40:18</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/12-10-033/</link>
+        <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/12-10-033/</guid>
+        <description>
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues?q=milestone%3AGo1.5.2&#34;&gt;Go 1.5.2 Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/&#34;&gt;Go Proverbs Illustrated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/&#34;&gt;Go Advent 2015 - Dec 4 - afero: A Universal Filesystem Library&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.devever.net/~hl/nexuses&#34;&gt;On Nexuses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/go-in-a-monorepo/&#34;&gt;Go Advent 2015 - Dec 8 - Go in a Monorepo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Монорепозиторий&amp;rdquo; vs &amp;ldquo;Много репозиториев&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cockroachlabs.com/blog/the-cost-and-complexity-of-cgo/&#34;&gt;The Cost and Complexity of Cgo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/motemen/gompatible&#34;&gt;gompatible&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/12/07/are-go-maps-sensitive-to-data-races&#34;&gt;Are Go maps sensitive to data races?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yager.io/programming/go.html&#34;&gt;Why Go Is Not Good&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ksimka/go-is-not-good&#34;&gt;Список статей с минусами Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/&#34;&gt;Go Advent 2015 - Dec 7 - Goa: Untangling Microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;,  &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</title>
+        <itunes:subtitle>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;гость&#34;&gt;Гость&lt;/h2&gt;
+
+&lt;p&gt;В гостях &lt;a href=&#34;https://github.com/valyala&#34;&gt;Александр Валялкин&lt;/a&gt;, автор пакета &lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasthttp&lt;/a&gt; - круто ускоренной альтернативы net/http.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Рассказ гостя о себе и знакомстве с Go&lt;/li&gt;
+&lt;li&gt;Обсуждаем пакеты написанные Александром - &lt;a href=&#34;https://github.com/valyala/ybc/tree/master/bindings/go/ybc&#34;&gt;ybc&lt;/a&gt;, &lt;a href=&#34;https://github.com/valyala/gorpc&#34;&gt;gorpc&lt;/a&gt;, &lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasttemplate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Рассказ про причины и цели появления &lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasthttp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Вопросы слушателей&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables&#34;&gt;Статья &amp;ldquo;Переменные окружения в Go&amp;rdquo;&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/maruel/panicparse&#34;&gt;Красивый парсер трейсбеков&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@felixge/why-you-should-use-go-build-a-or-gb-c469157d5c1b#.s5ebxl2y7&#34;&gt;Запоздалый наезд на go build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JOx9enktnUM&#34;&gt;Видео - Go в Dropbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rFejpH_tAHM&#34;&gt;Видео с dotGo - Rob Pike - Simplicity is Complicated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;Видео - Rob Pike - Go proverbs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-dev/y-mlM-XYysk&#34;&gt;Портирование Go на архитектуру IBM Z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.gopheracademy.com/advent-2015/introduction/&#34;&gt;Анонс декабрьской серии статей о Go - Go Advent 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/semver/&#34;&gt;Go Advent 2 Dec - Парсинг semver версий на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/debugging-with-delve/&#34;&gt;Go Advent 3 Dec - Отладка в Go с Delve&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;вакансии&#34;&gt;Вакансии&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://moikrug.ru/vacancies/1000022374&#34;&gt;Вакансия Go-разработчика в Рязани&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go разработчик в Киеве, в стартап-команду (почта - aklymchuk@gmail.com, skype - andriy.klymchuk)&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/032.mp3" length="44706472" type="audio/mpeg" />
+        <itunes:duration>01:38:15</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/12-03-032/</link>
+        <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/12-03-032/</guid>
+        <description>
+
+&lt;h2 id=&#34;гость&#34;&gt;Гость&lt;/h2&gt;
+
+&lt;p&gt;В гостях &lt;a href=&#34;https://github.com/valyala&#34;&gt;Александр Валялкин&lt;/a&gt;, автор пакета &lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasthttp&lt;/a&gt; - круто ускоренной альтернативы net/http.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Рассказ гостя о себе и знакомстве с Go&lt;/li&gt;
+&lt;li&gt;Обсуждаем пакеты написанные Александром - &lt;a href=&#34;https://github.com/valyala/ybc/tree/master/bindings/go/ybc&#34;&gt;ybc&lt;/a&gt;, &lt;a href=&#34;https://github.com/valyala/gorpc&#34;&gt;gorpc&lt;/a&gt;, &lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasttemplate&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Рассказ про причины и цели появления &lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasthttp&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Вопросы слушателей&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;новости&#34;&gt;Новости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables&#34;&gt;Статья &amp;ldquo;Переменные окружения в Go&amp;rdquo;&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/maruel/panicparse&#34;&gt;Красивый парсер трейсбеков&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@felixge/why-you-should-use-go-build-a-or-gb-c469157d5c1b#.s5ebxl2y7&#34;&gt;Запоздалый наезд на go build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=JOx9enktnUM&#34;&gt;Видео - Go в Dropbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=rFejpH_tAHM&#34;&gt;Видео с dotGo - Rob Pike - Simplicity is Complicated&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=PAAkCSZUG1c&#34;&gt;Видео - Rob Pike - Go proverbs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-dev/y-mlM-XYysk&#34;&gt;Портирование Go на архитектуру IBM Z&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.gopheracademy.com/advent-2015/introduction/&#34;&gt;Анонс декабрьской серии статей о Go - Go Advent 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/semver/&#34;&gt;Go Advent 2 Dec - Парсинг semver версий на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.gopheracademy.com/advent-2015/debugging-with-delve/&#34;&gt;Go Advent 3 Dec - Отладка в Go с Delve&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;вакансии&#34;&gt;Вакансии&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://moikrug.ru/vacancies/1000022374&#34;&gt;Вакансия Go-разработчика в Рязани&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go разработчик в Киеве, в стартап-команду (почта - aklymchuk@gmail.com, skype - andriy.klymchuk)&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</title>
+        <itunes:subtitle>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h3 id=&#34;веб-фреймворки&#34;&gt;Веб-фреймворки&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://revel.github.io&#34;&gt;Revel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://beego.me&#34;&gt;Beego&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gin-gonic.github.io/gin/&#34;&gt;Gin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/labstack/echo&#34;&gt;Echo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-martini/martini/commit/15a47622d6a9b3e6a1eaca2681e4850f612471ea&#34;&gt;Martini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/emicklei/go-restful&#34;&gt;go-restful&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasthttp – Fast HTTP package for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/&#34;&gt;How to Optimize Garbage Collection in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-proverbs.github.io&#34;&gt;Постулаты Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/271789/&#34;&gt;Танцы с мьютексами в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://engineeredweb.com/blog/2015/go-packages-need-release-versions/&#34;&gt;Why It&amp;rsquo;s Time For Go Packages To Start Versioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gonuts.io&#34;&gt;gonuts.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fatih/vim-go/pull/607&#34;&gt;vim-go 1.3 + neovim integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Microsoft/vscode/tree/master/extensions/go&#34;&gt;Go-плагин для Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/271303/&#34;&gt;Интервью Brian Kernigan &amp;amp; Alan Donovan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiam/vanity&#34;&gt;vanity – pretty names for packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/michaelmacinnis/oh&#34;&gt;oh – UNIX shell written in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://goshow.fm&#34;&gt;Ещё один Go Show&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Предварительный анонс воркшопа по Go от Hackraft, 19 декабря в Киеве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.dev.by/pervaya-belorusskaya-vstrecha-golang-razrabotchikov-belarus-golang-user-group&#34;&gt;Конференция в Беларуси 8 декабря&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;
+и гость &lt;a href=&#34;https://www.linkedin.com/in/yegor-lukash-3a7a3645&#34;&gt;Егор&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/031.mp3" length="32672108" type="audio/mpeg" />
+        <itunes:duration>01:10:50</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/11-26-031/</link>
+        <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/11-26-031/</guid>
+        <description>
+
+&lt;h3 id=&#34;веб-фреймворки&#34;&gt;Веб-фреймворки&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://revel.github.io&#34;&gt;Revel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://beego.me&#34;&gt;Beego&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gin-gonic.github.io/gin/&#34;&gt;Gin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/labstack/echo&#34;&gt;Echo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-martini/martini/commit/15a47622d6a9b3e6a1eaca2681e4850f612471ea&#34;&gt;Martini&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/emicklei/go-restful&#34;&gt;go-restful&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/valyala/fasthttp&#34;&gt;fasthttp – Fast HTTP package for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/&#34;&gt;How to Optimize Garbage Collection in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-proverbs.github.io&#34;&gt;Постулаты Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/271789/&#34;&gt;Танцы с мьютексами в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://engineeredweb.com/blog/2015/go-packages-need-release-versions/&#34;&gt;Why It&amp;rsquo;s Time For Go Packages To Start Versioning&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gonuts.io&#34;&gt;gonuts.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fatih/vim-go/pull/607&#34;&gt;vim-go 1.3 + neovim integration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Microsoft/vscode/tree/master/extensions/go&#34;&gt;Go-плагин для Visual Studio Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/271303/&#34;&gt;Интервью Brian Kernigan &amp;amp; Alan Donovan&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/xiam/vanity&#34;&gt;vanity – pretty names for packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/michaelmacinnis/oh&#34;&gt;oh – UNIX shell written in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://goshow.fm&#34;&gt;Ещё один Go Show&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;митапы-и-конференции&#34;&gt;Митапы и конференции&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Предварительный анонс воркшопа по Go от Hackraft, 19 декабря в Киеве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.dev.by/pervaya-belorusskaya-vstrecha-golang-razrabotchikov-belarus-golang-user-group&#34;&gt;Конференция в Беларуси 8 декабря&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;
+и гость &lt;a href=&#34;https://www.linkedin.com/in/yegor-lukash-3a7a3645&#34;&gt;Егор&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 028. Интервью с Пайком и интеграционные тесты</title>
+        <itunes:subtitle>Выпуск 028. Интервью с Пайком и интеграционные тесты</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Интервью &lt;a href=&#34;http://golangshow.com/episode/2015/11-21-030/&#34;&gt;с Робом Пайком&lt;/a&gt; и &lt;a href=&#34;http://golangshow.com/episode/2015/11-20-029/&#34;&gt;Бредом Фицпатриком&lt;/a&gt; на &lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://peter.bourgon.org/a-case-for-microservices/&#34;&gt;Статья по мотивам доклада dotGo - A case for microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Статья &lt;a href=&#34;http://jmoiron.net/blog/for-better-or-for-worse/&#34;&gt;“For Better or For Worse”&lt;/a&gt; + перевод &lt;a href=&#34;http://habrahabr.ru/post/270981/&#34;&gt;на хабре&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://whipperstacker.com/2015/10/14/idiomatic-doc-comments-document-your-function-not-your-function-signature/&#34;&gt;Статья &amp;ldquo;Документируйте ваши функции, а не их сигнатуры&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/GoArm&#34;&gt;Go на платформе ARM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/271239/&#34;&gt;Статья про интеграционное тестирование веб-сервиса на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/reflect/#Select&#34;&gt;Узнаем про reflect.Select&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/11/18/wednesday-pop-quiz-spot-the-race&#34;&gt;Найди состояние гонки в коде - задачка&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-nuts/3RYCqPwTLIY&#34;&gt;Go team ищут разработчиков, работающих с Big Data™&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Обсуждаем &lt;a href=&#34;http://www.goin5minutes.com/&#34;&gt;скринкасты&lt;/a&gt; &lt;a href=&#34;http://courses.knowthen.com/courses/learn-how-to-develop-realtime-web-apps&#34;&gt;по Go&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oden-lang.github.io/&#34;&gt;Oden - Lisp-подобный язык, компилирующийся в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.acquia.com/blog/open-sourcing-statsgod-a-statsd-implementation-in-go/16/11/2015/8171&#34;&gt;Statsgod - реализация StatsD на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Пакеты для консольного &lt;a href=&#34;https://github.com/gosuri/uiprogress&#34;&gt;мульти-прогрессбара&lt;/a&gt; и &lt;a href=&#34;https://github.com/briandowns/spinner&#34;&gt;спиннера&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;вакансии-в-slack-чате-http-4gophers-com-slack-в-канале-job&#34;&gt;Вакансии в &lt;a href=&#34;http://4gophers.com/slack&#34;&gt;slack чате&lt;/a&gt; в канале #job:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;В компанию mc² software в московский офис требуется &lt;a href=&#34;https://moikrug.ru/vacancies/403751128&#34;&gt;тьма разработчиков на Go&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/028.mp3" length="66755134" type="audio/mpeg" />
+        <itunes:duration>02:02:43</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/11-19-028/</link>
+        <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/11-19-028/</guid>
+        <description>
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Интервью &lt;a href=&#34;http://golangshow.com/episode/2015/11-21-030/&#34;&gt;с Робом Пайком&lt;/a&gt; и &lt;a href=&#34;http://golangshow.com/episode/2015/11-20-029/&#34;&gt;Бредом Фицпатриком&lt;/a&gt; на &lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://peter.bourgon.org/a-case-for-microservices/&#34;&gt;Статья по мотивам доклада dotGo - A case for microservices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Статья &lt;a href=&#34;http://jmoiron.net/blog/for-better-or-for-worse/&#34;&gt;“For Better or For Worse”&lt;/a&gt; + перевод &lt;a href=&#34;http://habrahabr.ru/post/270981/&#34;&gt;на хабре&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://whipperstacker.com/2015/10/14/idiomatic-doc-comments-document-your-function-not-your-function-signature/&#34;&gt;Статья &amp;ldquo;Документируйте ваши функции, а не их сигнатуры&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/GoArm&#34;&gt;Go на платформе ARM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/271239/&#34;&gt;Статья про интеграционное тестирование веб-сервиса на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/pkg/reflect/#Select&#34;&gt;Узнаем про reflect.Select&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/11/18/wednesday-pop-quiz-spot-the-race&#34;&gt;Найди состояние гонки в коде - задачка&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-nuts/3RYCqPwTLIY&#34;&gt;Go team ищут разработчиков, работающих с Big Data™&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Обсуждаем &lt;a href=&#34;http://www.goin5minutes.com/&#34;&gt;скринкасты&lt;/a&gt; &lt;a href=&#34;http://courses.knowthen.com/courses/learn-how-to-develop-realtime-web-apps&#34;&gt;по Go&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://oden-lang.github.io/&#34;&gt;Oden - Lisp-подобный язык, компилирующийся в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.acquia.com/blog/open-sourcing-statsgod-a-statsd-implementation-in-go/16/11/2015/8171&#34;&gt;Statsgod - реализация StatsD на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Пакеты для консольного &lt;a href=&#34;https://github.com/gosuri/uiprogress&#34;&gt;мульти-прогрессбара&lt;/a&gt; и &lt;a href=&#34;https://github.com/briandowns/spinner&#34;&gt;спиннера&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;вакансии-в-slack-чате-http-4gophers-com-slack-в-канале-job&#34;&gt;Вакансии в &lt;a href=&#34;http://4gophers.com/slack&#34;&gt;slack чате&lt;/a&gt; в канале #job:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;В компанию mc² software в московский офис требуется &lt;a href=&#34;https://moikrug.ru/vacancies/403751128&#34;&gt;тьма разработчиков на Go&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/idanyliuk&#34;&gt;Иван&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 027. DotGo. В гостях Елена Граховац</title>
+        <itunes:subtitle>Выпуск 027. DotGo. В гостях Елена Граховац</itunes:subtitle>
+        <itunes:summary>
+
+&lt;p&gt;В гостях в этом выпуске &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена Граховац&lt;/a&gt;, начинающий разработчик на Go =) Лена рассказывает про себя, как дошла до такой жизни, чем занимается и причём тут Go.&lt;/p&gt;
+
+&lt;h3 id=&#34;dotgo-http-www-dotgo-eu&#34;&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;DotGo&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Делимся &lt;a href=&#34;https://www.flickr.com/photos/97226415@N08/sets/72157661133005275/&#34;&gt;впечатлениями&lt;/a&gt;, обсуждаем доклады.&lt;/p&gt;
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/6years&#34;&gt;Go - шесть лет&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/rust/comments/3s6mxr/which_language_has_the_brightest_future_in/&#34;&gt;Александреску отвечает про будущее Go, Rust и D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/proposal/blob/master/design/13073-code-of-conduct.md&#34;&gt;Предложение по Code of Conduct для Go сообщества&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://honza.ca/2015/11/language-choice&#34;&gt;Language Choice (Haskell vs Go)&lt;/a&gt; + &lt;a href=&#34;http://habrahabr.ru/post/270707/&#34;&gt;перевод на Хабре&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_2d3KfRt4XU&amp;amp;feature=youtu.be&#34;&gt;Legacy of Go by Dave Cheney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;вакансии-в-slack-чате-http-4gophers-com-slack-в-канале-job&#34;&gt;Вакансии в &lt;a href=&#34;http://4gophers.com/slack&#34;&gt;slack чате&lt;/a&gt; в канале #job:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/AterCattus&#34;&gt;Алексей Акулович&lt;/a&gt; пишет в чате “К нам в ВК в Питер ищем ребят для задач, связанных с видео, фото, аудио и прочим backend. С разработкой на Go, C, и тем-кого-нельзя-называть-php. Объем проектов на Go растет, нужны еще пишущие на нем”.&lt;/li&gt;
+&lt;li&gt;В компанию mc² software в московский офис требуется &lt;a href=&#34;https://www.facebook.com/alexey.palazhchenko/posts/985051201562043&#34;&gt;тьма разработчиков на Go&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: Артём, Иван, Слава.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/027.mp3" length="66755134" type="audio/mpeg" />
+        <itunes:duration>02:02:43</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/11-13-027/</link>
+        <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/11-13-027/</guid>
+        <description>
+
+&lt;p&gt;В гостях в этом выпуске &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена Граховац&lt;/a&gt;, начинающий разработчик на Go =) Лена рассказывает про себя, как дошла до такой жизни, чем занимается и причём тут Go.&lt;/p&gt;
+
+&lt;h3 id=&#34;dotgo-http-www-dotgo-eu&#34;&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;DotGo&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Делимся &lt;a href=&#34;https://www.flickr.com/photos/97226415@N08/sets/72157661133005275/&#34;&gt;впечатлениями&lt;/a&gt;, обсуждаем доклады.&lt;/p&gt;
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/6years&#34;&gt;Go - шесть лет&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/rust/comments/3s6mxr/which_language_has_the_brightest_future_in/&#34;&gt;Александреску отвечает про будущее Go, Rust и D&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/proposal/blob/master/design/13073-code-of-conduct.md&#34;&gt;Предложение по Code of Conduct для Go сообщества&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://honza.ca/2015/11/language-choice&#34;&gt;Language Choice (Haskell vs Go)&lt;/a&gt; + &lt;a href=&#34;http://habrahabr.ru/post/270707/&#34;&gt;перевод на Хабре&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_2d3KfRt4XU&amp;amp;feature=youtu.be&#34;&gt;Legacy of Go by Dave Cheney&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;вакансии-в-slack-чате-http-4gophers-com-slack-в-канале-job&#34;&gt;Вакансии в &lt;a href=&#34;http://4gophers.com/slack&#34;&gt;slack чате&lt;/a&gt; в канале #job:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/AterCattus&#34;&gt;Алексей Акулович&lt;/a&gt; пишет в чате “К нам в ВК в Питер ищем ребят для задач, связанных с видео, фото, аудио и прочим backend. С разработкой на Go, C, и тем-кого-нельзя-называть-php. Объем проектов на Go растет, нужны еще пишущие на нем”.&lt;/li&gt;
+&lt;li&gt;В компанию mc² software в московский офис требуется &lt;a href=&#34;https://www.facebook.com/alexey.palazhchenko/posts/985051201562043&#34;&gt;тьма разработчиков на Go&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска: Артём, Иван, Слава.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 026. В гостях Нодир Туракулов из Google</title>
+        <itunes:subtitle>Выпуск 026. В гостях Нодир Туракулов из Google</itunes:subtitle>
+        <itunes:summary>
+
+&lt;p&gt;В гостях &lt;a href=&#34;http://nodir.io/&#34;&gt;Нодир Туракулов&lt;/a&gt; из Google. Работает над инструментами для разработчиков в Google. А так же контрибьютит в стандартную библиотеку Go. (&lt;a href=&#34;https://github.com/nodirt&#34;&gt;Gihub&lt;/a&gt; / &lt;a href=&#34;https://twitter.com/nodirtz&#34;&gt;Twitter&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Надыр рассказывает про себя, как дошёл до такой жизни, чем занимается.
+
+&lt;ul&gt;
+&lt;li&gt;Пост в блоге про &lt;a href=&#34;http://nodir.io/post/79121611709/google&#34;&gt;работу в гугле за 6 месяцев&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;В твиттере был &lt;a href=&#34;https://twitter.com/M0sth8/status/661309409318989824&#34;&gt;мессадж&lt;/a&gt; про то что не больше 100 строк на Python.&lt;/li&gt;
+&lt;li&gt;Пост в блоге про &lt;a href=&#34;http://nodir.io/post/132007505696/on-mindfulness&#34;&gt;концентрацию&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=8XPDCGlP630&#34;&gt;Видео&lt;/a&gt; + &lt;a href=&#34;https://books.google.com/books/about/Search_Inside_Yourself.html?id=TeU90XUYAUAC&amp;amp;printsec=frontcover&amp;amp;source=kp_read_button&amp;amp;hl=en&amp;amp;output=reader&amp;amp;pg=GBS.PT2.w.0.0.0.3&#34;&gt;Книжка&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Обсуждение проблем и плюсов Go, затронутых в &lt;a href=&#34;http://www.radio-t.com/p/2015/10/31/podcast-468/&#34;&gt;radio-t&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Обсуждаем логгер в Go по &lt;a href=&#34;http://nodir.io/post/132312948446/logger&#34;&gt;статье гостя&lt;/a&gt; и &lt;a href=&#34;http://dave.cheney.net/2015/11/05/lets-talk-about-logging&#34;&gt;посту&lt;/a&gt; Дейва Чейни о логировании&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Почему ошибки это значения&amp;rdquo; на &lt;a href=&#34;http://habrahabr.ru/post/270027/&#34;&gt;Хабре&lt;/a&gt; и на &lt;a href=&#34;https://medium.com/@divan/explaining-go-error-handling-44099bcd2b1f#.lha11fon8&#34;&gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/creative-foot-shooting-with-go-rwmutex/&#34;&gt;Creative foot-shooting with Go RWMutex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/269943/&#34;&gt;Как писать Go код, который легко пор&lt;/a&gt;т&lt;a href=&#34;http://habrahabr.ru/post/269943/&#34;&gt;ируется&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;вакансии-в-slack-чате-http-4gophers-com-slack-в-канале-job&#34;&gt;Вакансии в &lt;a href=&#34;http://4gophers.com/slack&#34;&gt;slack чате&lt;/a&gt; в канале #job:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&#34;https://golang-ru.slack.com/team/ctrlok&#34;&gt;Vsevolod Polyakov&lt;/a&gt; - Ищем в Киеве Platform Engineer писать всякие тулзы на го и развивать платформу &lt;a href=&#34;https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355&#34;&gt;https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; Zaur Abasmirzoev - Набираем разработчиков в Новые облачные технологии (МойОфис – на хабре можно почитать) &lt;a href=&#34;http://hh.ru/vacancy/15067695&#34;&gt;http://hh.ru/vacancy/15067695&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Возможно следующий выпуск будет вне расписания прямиком с конференции &lt;a href=&#34;http://dotgo.eu&#34;&gt;dotGo&lt;/a&gt; =)&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/026.mp3" length="51210558" type="audio/mpeg" />
+        <itunes:duration>01:30:25</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/11-05-026/</link>
+        <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/11-05-026/</guid>
+        <description>
+
+&lt;p&gt;В гостях &lt;a href=&#34;http://nodir.io/&#34;&gt;Нодир Туракулов&lt;/a&gt; из Google. Работает над инструментами для разработчиков в Google. А так же контрибьютит в стандартную библиотеку Go. (&lt;a href=&#34;https://github.com/nodirt&#34;&gt;Gihub&lt;/a&gt; / &lt;a href=&#34;https://twitter.com/nodirtz&#34;&gt;Twitter&lt;/a&gt;)&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Надыр рассказывает про себя, как дошёл до такой жизни, чем занимается.
+
+&lt;ul&gt;
+&lt;li&gt;Пост в блоге про &lt;a href=&#34;http://nodir.io/post/79121611709/google&#34;&gt;работу в гугле за 6 месяцев&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;В твиттере был &lt;a href=&#34;https://twitter.com/M0sth8/status/661309409318989824&#34;&gt;мессадж&lt;/a&gt; про то что не больше 100 строк на Python.&lt;/li&gt;
+&lt;li&gt;Пост в блоге про &lt;a href=&#34;http://nodir.io/post/132007505696/on-mindfulness&#34;&gt;концентрацию&lt;/a&gt; (&lt;a href=&#34;https://www.youtube.com/watch?v=8XPDCGlP630&#34;&gt;Видео&lt;/a&gt; + &lt;a href=&#34;https://books.google.com/books/about/Search_Inside_Yourself.html?id=TeU90XUYAUAC&amp;amp;printsec=frontcover&amp;amp;source=kp_read_button&amp;amp;hl=en&amp;amp;output=reader&amp;amp;pg=GBS.PT2.w.0.0.0.3&#34;&gt;Книжка&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;новости&#34;&gt;Новости&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Обсуждение проблем и плюсов Go, затронутых в &lt;a href=&#34;http://www.radio-t.com/p/2015/10/31/podcast-468/&#34;&gt;radio-t&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Обсуждаем логгер в Go по &lt;a href=&#34;http://nodir.io/post/132312948446/logger&#34;&gt;статье гостя&lt;/a&gt; и &lt;a href=&#34;http://dave.cheney.net/2015/11/05/lets-talk-about-logging&#34;&gt;посту&lt;/a&gt; Дейва Чейни о логировании&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Почему ошибки это значения&amp;rdquo; на &lt;a href=&#34;http://habrahabr.ru/post/270027/&#34;&gt;Хабре&lt;/a&gt; и на &lt;a href=&#34;https://medium.com/@divan/explaining-go-error-handling-44099bcd2b1f#.lha11fon8&#34;&gt;Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.cloudflare.com/creative-foot-shooting-with-go-rwmutex/&#34;&gt;Creative foot-shooting with Go RWMutex&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/269943/&#34;&gt;Как писать Go код, который легко пор&lt;/a&gt;т&lt;a href=&#34;http://habrahabr.ru/post/269943/&#34;&gt;ируется&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&#34;вакансии-в-slack-чате-http-4gophers-com-slack-в-канале-job&#34;&gt;Вакансии в &lt;a href=&#34;http://4gophers.com/slack&#34;&gt;slack чате&lt;/a&gt; в канале #job:&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt; &lt;a href=&#34;https://golang-ru.slack.com/team/ctrlok&#34;&gt;Vsevolod Polyakov&lt;/a&gt; - Ищем в Киеве Platform Engineer писать всякие тулзы на го и развивать платформу &lt;a href=&#34;https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355&#34;&gt;https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; Zaur Abasmirzoev - Набираем разработчиков в Новые облачные технологии (МойОфис – на хабре можно почитать) &lt;a href=&#34;http://hh.ru/vacancy/15067695&#34;&gt;http://hh.ru/vacancy/15067695&lt;/a&gt; &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Возможно следующий выпуск будет вне расписания прямиком с конференции &lt;a href=&#34;http://dotgo.eu&#34;&gt;dotGo&lt;/a&gt; =)&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 025. Medium и RTB</title>
+        <itunes:subtitle>Выпуск 025. Medium и RTB</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/concord/concord-go&#34;&gt;Иван рассказывает о хакатоне Concord.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.klauspost.com/fast-stream-deduplication-in-go/&#34;&gt;Быстрая дедупликация потоков на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.klauspost.com/an-async-read-ahead-package-for-go/&#34;&gt;Async Readahead package for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/dgryski/status/659508727242993664&#34;&gt;Решились лицензионные проблемы с кодом, ускоряющим crypto в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cyclopsci/apollo&#34;&gt;Цепочки middleware с поддержкой net/context&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/medium-eng/the-stack-that-helped-medium-drive-2-6-millennia-of-reading-time-e56801f7c492&#34;&gt;Стек технологий в компании Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://engineering.dailymotion.com/our-way-to-go/&#34;&gt;Рассказ CEO Dailymotion о их опыте с Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aychedee.com/2015/09/18/writing-a-real-time-bidder-with-go/&#34;&gt;Разработка RTB на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-challenge.com/go-challenge8/&#34;&gt;Анонс 8-го Golang Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/3qi3qa/ann_google_cloud_debugger_for_go_beta_release/&#34;&gt;Google Cloud Debugger for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/mig&#34;&gt;InvestiGator - отличный проект от Mozilla на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Анонсы книг по Go - &lt;a href=&#34;https://twitter.com/_rsc/status/659435405041905664&#34;&gt;Кернигана&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/goinaction/status/659544071145435136&#34;&gt;Go in Action&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/MTQLdiZdWc&#34;&gt;Не путайте TrimLeft и TrimPrefix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/025.mp3" length="40546504" type="audio/mpeg" />
+        <itunes:duration>01:19:16</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/10-29-025/</link>
+        <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/10-29-025/</guid>
+        <description>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/concord/concord-go&#34;&gt;Иван рассказывает о хакатоне Concord.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.klauspost.com/fast-stream-deduplication-in-go/&#34;&gt;Быстрая дедупликация потоков на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.klauspost.com/an-async-read-ahead-package-for-go/&#34;&gt;Async Readahead package for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/dgryski/status/659508727242993664&#34;&gt;Решились лицензионные проблемы с кодом, ускоряющим crypto в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cyclopsci/apollo&#34;&gt;Цепочки middleware с поддержкой net/context&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/medium-eng/the-stack-that-helped-medium-drive-2-6-millennia-of-reading-time-e56801f7c492&#34;&gt;Стек технологий в компании Medium&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://engineering.dailymotion.com/our-way-to-go/&#34;&gt;Рассказ CEO Dailymotion о их опыте с Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.aychedee.com/2015/09/18/writing-a-real-time-bidder-with-go/&#34;&gt;Разработка RTB на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-challenge.com/go-challenge8/&#34;&gt;Анонс 8-го Golang Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/3qi3qa/ann_google_cloud_debugger_for_go_beta_release/&#34;&gt;Google Cloud Debugger for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mozilla/mig&#34;&gt;InvestiGator - отличный проект от Mozilla на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Анонсы книг по Go - &lt;a href=&#34;https://twitter.com/_rsc/status/659435405041905664&#34;&gt;Кернигана&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/goinaction/status/659544071145435136&#34;&gt;Go in Action&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/MTQLdiZdWc&#34;&gt;Не путайте TrimLeft и TrimPrefix&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 024. SpaceX и net/context</title>
+        <itunes:subtitle>Выпуск 024. SpaceX и net/context</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://devzen.ru/episode-0063/&#34;&gt;Выступление Славы в Devzen-подкасте&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gopl.io/ch1.pdf&#34;&gt;Доступна первая глава книги Кернигана по Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.not-a-kernel-guy.com/2015/10/16/1738&#34;&gt;Телеметрия в SpaceX написана на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/bradfitz/status/654437821382455296&#34;&gt;HTTP2 включен по умолчанию в Golang tip&lt;/a&gt; + &lt;a href=&#34;http://http2.loadimpact.com/entry/&#34;&gt;оценка эффекта от http2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dev.tulu.la/post/go-newbies/&#34;&gt;С чего начать новичку в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1LO_WI3N-3p2Wp9PDWyv5B6EGFZ8XTOTNJ7Hd40WOUHo/mobilepresent?pli=1&amp;amp;slide=id.g70b0035b2_1_168&#34;&gt;Наброс про Go от Mozilla: Back From Python to Go and return&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indico.cern.ch/event/449425/session/1/contribution/6/attachments/1168560/1685802/DAS_python_vs_go.pdf&#34;&gt;Сравнение Go vs Python в реальном проекте для CERN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/269299/&#34;&gt;Статья &amp;ldquo;Изучаем net/context в Go&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangshow.com/episode/2015/10-08-022/&#34;&gt;Обсуждаем зоопарк http-фреймворков в Go по запросу слушателя&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://letsencrypt.org/2015/10/19/lets-encrypt-is-trusted.html&#34;&gt;Let&amp;rsquo;s Encrypt теперь trusted&lt;/a&gt; и &lt;a href=&#34;https://github.com/xenolf/lego&#34;&gt;есть клиент на Go&lt;/a&gt; + &lt;a href=&#34;https://caddyserver.com/blog/lets-encrypt-progress-report&#34;&gt;в Caddy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://elithrar.github.io/article/using-buffer-pools-with-go/&#34;&gt;Использование пулов буферов&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azure.microsoft.com/en-us/blog/running-go-applications-on-azure-app-service/&#34;&gt;Azure теперь тоже поддерживает Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/10/09/padding-is-hard&#34;&gt;Паддинг - это тяжело&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/divan/gobenchui&#34;&gt;GoBenchUI - визуализация прогресса бенчмарков&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/024.mp3" length="46908447" type="audio/mpeg" />
+        <itunes:duration>01:29:50</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/10-22-024/</link>
+        <pubDate>Thu, 22 Oct 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/10-22-024/</guid>
+        <description>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://devzen.ru/episode-0063/&#34;&gt;Выступление Славы в Devzen-подкасте&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gopl.io/ch1.pdf&#34;&gt;Доступна первая глава книги Кернигана по Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.not-a-kernel-guy.com/2015/10/16/1738&#34;&gt;Телеметрия в SpaceX написана на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/bradfitz/status/654437821382455296&#34;&gt;HTTP2 включен по умолчанию в Golang tip&lt;/a&gt; + &lt;a href=&#34;http://http2.loadimpact.com/entry/&#34;&gt;оценка эффекта от http2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dev.tulu.la/post/go-newbies/&#34;&gt;С чего начать новичку в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/presentation/d/1LO_WI3N-3p2Wp9PDWyv5B6EGFZ8XTOTNJ7Hd40WOUHo/mobilepresent?pli=1&amp;amp;slide=id.g70b0035b2_1_168&#34;&gt;Наброс про Go от Mozilla: Back From Python to Go and return&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://indico.cern.ch/event/449425/session/1/contribution/6/attachments/1168560/1685802/DAS_python_vs_go.pdf&#34;&gt;Сравнение Go vs Python в реальном проекте для CERN&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/269299/&#34;&gt;Статья &amp;ldquo;Изучаем net/context в Go&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangshow.com/episode/2015/10-08-022/&#34;&gt;Обсуждаем зоопарк http-фреймворков в Go по запросу слушателя&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://letsencrypt.org/2015/10/19/lets-encrypt-is-trusted.html&#34;&gt;Let&amp;rsquo;s Encrypt теперь trusted&lt;/a&gt; и &lt;a href=&#34;https://github.com/xenolf/lego&#34;&gt;есть клиент на Go&lt;/a&gt; + &lt;a href=&#34;https://caddyserver.com/blog/lets-encrypt-progress-report&#34;&gt;в Caddy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://elithrar.github.io/article/using-buffer-pools-with-go/&#34;&gt;Использование пулов буферов&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://azure.microsoft.com/en-us/blog/running-go-applications-on-azure-app-service/&#34;&gt;Azure теперь тоже поддерживает Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://dave.cheney.net/2015/10/09/padding-is-hard&#34;&gt;Паддинг - это тяжело&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/divan/gobenchui&#34;&gt;GoBenchUI - визуализация прогресса бенчмарков&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 022. Бэтмен, ласточка, кит и робот</title>
+        <itunes:subtitle>Выпуск 022. Бэтмен, ласточка, кит и робот</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;Впечатления от GothamGo 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/268411/&#34;&gt;Один год с Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://antjanus.com/blog/web-development-tutorials/when-i-tried-out-go/&#34;&gt;Программист на node.js пробует Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@rakyll/calling-go-from-swift-be88709942c3&#34;&gt;Calling Go from Swift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://varunksaini.com/posts/kiling-processes-in-go/&#34;&gt;Killing process with child and grandchild processes in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/dqLnEbQFgn&#34;&gt;Бред Фицпатрик про обработку ненужных ошибок через Finalizer&amp;rsquo;ы&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/es/DigitalOcean_Community/events/225612112/&#34;&gt;Митап HashiCorp и Digital Ocean: опять про Otto и Nomad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@mandrigin/learning-go-golang-47127a796323&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fatih/vim-go/releases/tag/v1.2&#34;&gt;Релиз go-vim 1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/go/&#34;&gt;Google Cloud Starter Projects for Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vividcortex.com/resources/webinars/siesta-go-framework/&#34;&gt;Бесплатный вебинар 16 октября от VividCortex по REST-фреймворку Siesta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/022.mp3" length="51399424" type="audio/mpeg" />
+        <itunes:duration>01:22:26</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/10-08-022/</link>
+        <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/10-08-022/</guid>
+        <description>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;Впечатления от GothamGo 2015&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://habrahabr.ru/post/268411/&#34;&gt;Один год с Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://antjanus.com/blog/web-development-tutorials/when-i-tried-out-go/&#34;&gt;Программист на node.js пробует Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@rakyll/calling-go-from-swift-be88709942c3&#34;&gt;Calling Go from Swift&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://varunksaini.com/posts/kiling-processes-in-go/&#34;&gt;Killing process with child and grandchild processes in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://play.golang.org/p/dqLnEbQFgn&#34;&gt;Бред Фицпатрик про обработку ненужных ошибок через Finalizer&amp;rsquo;ы&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/es/DigitalOcean_Community/events/225612112/&#34;&gt;Митап HashiCorp и Digital Ocean: опять про Otto и Nomad&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@mandrigin/learning-go-golang-47127a796323&#34;&gt;Learning Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/fatih/vim-go/releases/tag/v1.2&#34;&gt;Релиз go-vim 1.2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloud.google.com/go/&#34;&gt;Google Cloud Starter Projects for Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.vividcortex.com/resources/webinars/siesta-go-framework/&#34;&gt;Бесплатный вебинар 16 октября от VividCortex по REST-фреймворку Siesta&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 021. Танзания и новинки от Hashicorp</title>
+        <itunes:subtitle>Выпуск 021. Танзания и новинки от Hashicorp</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ufocoder.com/ru/blog/2015/golang-party-2-novosibirsk&#34;&gt;Обзор Go митапа в Новосибирске&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://m0sth8.github.io/runtime-1/&#34;&gt;Доклад Славы Бахмутова (Dropbox) - Взгляд на Go изнутри&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/12734#issuecomment-142859447&#34;&gt;Проблема в 1.5.1 - deadlock detection может отключаться&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lk4d4.darth.io/posts/bench/&#34;&gt;Статья о benchmark-инге в Go от Александра Морозова&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@GolangBridge/announcing-the-go-forum-746d446d3730&#34;&gt;Анонс&lt;/a&gt; нового &lt;a href=&#34;https://forum.golangbridge.org/top/all&#34;&gt;форума по Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://demo.getqor.com/admin&#34;&gt;Крутой демо-сайт (админка) на CMS QOR (на Go)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gopherjs.org/blog/2015/09/28/surprises-in-gopherjs-performance/&#34;&gt;Сюрпризы производительности GopherJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gernest/utron&#34;&gt;Трогательная история программиста из Танзании&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@ConnorPeet/go-maps-are-not-o-1-91c1e61110bf&#34;&gt;Maps в Go внезапно не O(1) - скандалы, интриги, расследования&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/proposal/blob/master/design/12800-sweep-free-alloc.md&#34;&gt;Предложение (proposal) ускорения GC в 1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://intogooglego.blogspot.co.at/2015/09/day-20-go-http2-server-example.html&#34;&gt;Пример HTTP/2 сервера на Go&lt;/a&gt; и пакет &lt;a href=&#34;http://intogooglego.blogspot.co.at/2015/09/day-20-go-http2-server-example.html&#34;&gt;Yamux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Мега-релизы от Hashicorp - &lt;a href=&#34;https://www.hashicorp.com/blog/otto.html&#34;&gt;Otto (преемник Vagrant-а)&lt;/a&gt; и &lt;a href=&#34;https://www.hashicorp.com/blog/nomad.html&#34;&gt;Nomad (шедулер контейнеров/приложений)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-challenge.com/go-challenge7/&#34;&gt;Новый интересный Go Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;В Нью-Йорке 2 октября - GotahmGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вакансия в Новосибирске:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.zarplata.ru/vacancy/p?id=80054723&#34;&gt;NGS ищут Go разработчика&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/021.mp3" length="49271387" type="audio/mpeg" />
+        <itunes:duration>01:18:21</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/10-01-021/</link>
+        <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/10-01-021/</guid>
+        <description>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ufocoder.com/ru/blog/2015/golang-party-2-novosibirsk&#34;&gt;Обзор Go митапа в Новосибирске&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://m0sth8.github.io/runtime-1/&#34;&gt;Доклад Славы Бахмутова (Dropbox) - Взгляд на Go изнутри&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/12734#issuecomment-142859447&#34;&gt;Проблема в 1.5.1 - deadlock detection может отключаться&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://lk4d4.darth.io/posts/bench/&#34;&gt;Статья о benchmark-инге в Go от Александра Морозова&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@GolangBridge/announcing-the-go-forum-746d446d3730&#34;&gt;Анонс&lt;/a&gt; нового &lt;a href=&#34;https://forum.golangbridge.org/top/all&#34;&gt;форума по Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://demo.getqor.com/admin&#34;&gt;Крутой демо-сайт (админка) на CMS QOR (на Go)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.gopherjs.org/blog/2015/09/28/surprises-in-gopherjs-performance/&#34;&gt;Сюрпризы производительности GopherJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gernest/utron&#34;&gt;Трогательная история программиста из Танзании&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@ConnorPeet/go-maps-are-not-o-1-91c1e61110bf&#34;&gt;Maps в Go внезапно не O(1) - скандалы, интриги, расследования&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/proposal/blob/master/design/12800-sweep-free-alloc.md&#34;&gt;Предложение (proposal) ускорения GC в 1.6&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://intogooglego.blogspot.co.at/2015/09/day-20-go-http2-server-example.html&#34;&gt;Пример HTTP/2 сервера на Go&lt;/a&gt; и пакет &lt;a href=&#34;http://intogooglego.blogspot.co.at/2015/09/day-20-go-http2-server-example.html&#34;&gt;Yamux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Мега-релизы от Hashicorp - &lt;a href=&#34;https://www.hashicorp.com/blog/otto.html&#34;&gt;Otto (преемник Vagrant-а)&lt;/a&gt; и &lt;a href=&#34;https://www.hashicorp.com/blog/nomad.html&#34;&gt;Nomad (шедулер контейнеров/приложений)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-challenge.com/go-challenge7/&#34;&gt;Новый интересный Go Challenge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;В Нью-Йорке 2 октября - GotahmGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вакансия в Новосибирске:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.zarplata.ru/vacancy/p?id=80054723&#34;&gt;NGS ищут Go разработчика&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 020. Go 1.4.3 и HTTP/2</title>
+        <itunes:subtitle>Выпуск 020. Go 1.4.3 и HTTP/2</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/m/#!topic/golang-announce/iSIyW4lM4hY&#34;&gt;Релиз Go 1.4.3 - security fix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godoc.org/golang.org/x/net/http2&#34;&gt;HTTP/2 сервер в официальном репозитории&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/go-dominate-next-decade-ian-eyberg&#34;&gt;Статья-наброс о доминации Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/es/nycgolang/events/225454500/&#34;&gt;Рассказ о митапе с Francisc Campoy &amp;ldquo;Go, Polymer and Appengine&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.signalfx.com/a-pattern-for-optimizing-go&#34;&gt;Pattern for Optimizing Go Programs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html&#34;&gt;On Go, Portability, and System Interfaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://spf13.com/presentation/7-common-mistakes-in-go-2015/&#34;&gt;Доклад spf13 &amp;ldquo;7 частых ошибок в Go&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Новые интересные пакеты:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pingcap/tidb&#34;&gt;TIDB - совместимая с MySQL база данных&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik&#34;&gt;Traefik - современный reverse-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chzyer/readline&#34;&gt;Readline на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/svent/sift&#34;&gt;Sift - более быстрая замена grep&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang-spb.timepad.ru/event/243705/&#34;&gt;В Питере 1 октября&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;В Нью-Йорке 2 октября - GotahmGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/020.mp3" length="41625708" type="audio/mpeg" />
+        <itunes:duration>01:11:20</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/09-24-020/</link>
+        <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/09-24-020/</guid>
+        <description>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/m/#!topic/golang-announce/iSIyW4lM4hY&#34;&gt;Релиз Go 1.4.3 - security fix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godoc.org/golang.org/x/net/http2&#34;&gt;HTTP/2 сервер в официальном репозитории&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/pulse/go-dominate-next-decade-ian-eyberg&#34;&gt;Статья-наброс о доминации Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.meetup.com/es/nycgolang/events/225454500/&#34;&gt;Рассказ о митапе с Francisc Campoy &amp;ldquo;Go, Polymer and Appengine&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.signalfx.com/a-pattern-for-optimizing-go&#34;&gt;Pattern for Optimizing Go Programs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://garrett.damore.org/2015/09/on-go-portability-and-system-interfaces.html&#34;&gt;On Go, Portability, and System Interfaces&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://spf13.com/presentation/7-common-mistakes-in-go-2015/&#34;&gt;Доклад spf13 &amp;ldquo;7 частых ошибок в Go&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Новые интересные пакеты:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/pingcap/tidb&#34;&gt;TIDB - совместимая с MySQL база данных&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/EmileVauge/traefik&#34;&gt;Traefik - современный reverse-proxy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/chzyer/readline&#34;&gt;Readline на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/svent/sift&#34;&gt;Sift - более быстрая замена grep&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang-spb.timepad.ru/event/243705/&#34;&gt;В Питере 1 октября&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;В Нью-Йорке 2 октября - GotahmGo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Выпуск 019. Банк на Go и очередные success stories</title>
+        <itunes:subtitle>Выпуск 019. Банк на Go и очередные success stories</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jeremymikkola.com/posts/2015_08_28_warming_up_to_go.html&#34;&gt;Warming up to Go&lt;/a&gt; и &lt;a href=&#34;http://habrahabr.ru/post/266851/&#34;&gt;вольный перевод на Хабре&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/&#34;&gt;Google is 2B lines of code, single repo&lt;/a&gt; и &lt;a href=&#34;https://www.youtube.com/watch?v=W71BTkUbdqE&#34;&gt;видео&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codelympics.io/projects/2&#34;&gt;Go Jam - делаем игру за выходные&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ralch.com/tutorial/golang-tools-comprehension&#34;&gt;Golang code comprehension tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/proposal/blob/master/design/12166-subtests.md&#34;&gt;Proposal: Enhanced Table-Driven Test Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLDWZ5uzn69ezRJYeWxYNRMYebvf8DerHd&#34;&gt;GolangUK Conference videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cFJkLfujOts&#34;&gt;Создаем банк на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.couchbase.com/2015/september/go-sdk-1.0-ga&#34;&gt;Couchbase SDK 1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.opsdash.com/blog/slack-bot-in-golang.html&#34;&gt;Создание Slack-бота на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scriptrock.com/blog/our-experience-with-golang&#34;&gt;Scriptrock: our experience with Golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.philipotoole.com/400-days-of-go/&#34;&gt;400 дней с Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/afero&#34;&gt;afero - пакет для абстракции файловой системы&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-nsk.party/&#34;&gt;В Новосибирске 24 сентября&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang-spb.timepad.ru/event/243705/&#34;&gt;В Питере 1 октября&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;В Нью-Йорке 2 октября&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/019.mp3" length="30675757" type="audio/mpeg" />
+        <itunes:duration>00:52:11</itunes:duration>
+
+        <link>http://golangshow.com/episode/2015/09-17-019/</link>
+        <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2015/09-17-019/</guid>
+        <description>&lt;p&gt;Новости:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://jeremymikkola.com/posts/2015_08_28_warming_up_to_go.html&#34;&gt;Warming up to Go&lt;/a&gt; и &lt;a href=&#34;http://habrahabr.ru/post/266851/&#34;&gt;вольный перевод на Хабре&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.wired.com/2015/09/google-2-billion-lines-codeand-one-place/&#34;&gt;Google is 2B lines of code, single repo&lt;/a&gt; и &lt;a href=&#34;https://www.youtube.com/watch?v=W71BTkUbdqE&#34;&gt;видео&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://codelympics.io/projects/2&#34;&gt;Go Jam - делаем игру за выходные&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.ralch.com/tutorial/golang-tools-comprehension&#34;&gt;Golang code comprehension tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/proposal/blob/master/design/12166-subtests.md&#34;&gt;Proposal: Enhanced Table-Driven Test Support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLDWZ5uzn69ezRJYeWxYNRMYebvf8DerHd&#34;&gt;GolangUK Conference videos&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=cFJkLfujOts&#34;&gt;Создаем банк на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.couchbase.com/2015/september/go-sdk-1.0-ga&#34;&gt;Couchbase SDK 1.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.opsdash.com/blog/slack-bot-in-golang.html&#34;&gt;Создание Slack-бота на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.scriptrock.com/blog/our-experience-with-golang&#34;&gt;Scriptrock: our experience with Golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.philipotoole.com/400-days-of-go/&#34;&gt;400 дней с Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/afero&#34;&gt;afero - пакет для абстракции файловой системы&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Митапы и конференции:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dotgo2015.eventbrite.com/?discount=GORUSSIA&#34;&gt;В Париже 9 ноября - dotGo (Промокод для 20% скидки: GORUSSIA)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang-nsk.party/&#34;&gt;В Новосибирске 24 сентября&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang-spb.timepad.ru/event/243705/&#34;&gt;В Питере 1 октября&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gothamgo.com&#34;&gt;В Нью-Йорке 2 октября&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
       </item>
     
