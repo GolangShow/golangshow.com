@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.19" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Выпуск 051. Гость Алексей Хлюпин из The New York Times. &middot; </title>
+
+  
+  <link rel="stylesheet" href="/css/compiled.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="Go,golang,подкаст">
+  
+  <meta property="og:title" content="Выпуск 051. Гость Алексей Хлюпин из The New York Times." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://golangshow.com/episode/2016/04-07-051/ " />
+  <meta property="og:image" content="/images/cover.png" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Подкаст GolangShow" />
+  <meta name="google-site-verification" content="FKPuAxWwWn5i3RgR1jAZsWs2EYpSXMdOEpaVCGhx_Cc" />
+  <meta name='yandex-verification' content='5cae7ee3128b7c52' />
+
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+</head>
+<body class="theme-base-0d">
+
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"825dd78d184fbe74999cf9271","lid":"66e2863596"}) });
+    
+};
+</script>
+<style>
+a#mailinglink {
+	color: 'red';
+}
+</style>
+
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="/"><img src="/images/logo2.png"></a>
+        <h1></h1>
+      <h1 class="lead">Русскоязычный подкаст о Go</h1>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://golangshow.com/">Главная</a></li>
+      <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/online">Онлайн вещание</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?mt=2">iTunes</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">Гости</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://www.patreon.com/golangshow">Поддержать подкаст</a></li>
+      	
+      
+    </ul>
+
+    <h3>Наши друзья</h3>
+    <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item"><a href="http://4gophers.ru" target="_blank">4gophers.ru</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+      <li class="sidebar-nav-item"><a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e" target="_blank">DigitalOcean</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/GolangShow/golangshow.com" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      <a href="https://www.facebook.com/golangshow" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="https://twitter.com/golangshow" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="https://vk.com/golangshow" target="_blank"><span class="fa-stack"><i class="fa fa-square fa-3x"></i><i class="fa fa-stack-2x fa-vk"></i></span></a>
+      
+      <a href="http://golangshow.com/episode/index.xml"  target="_blank" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      
+      </li>
+    </ul>
+
+    
+
+    <p>
+  Подкаст GolangShow All rights reserved - 2017</p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <br/>
+  <div class="post">
+    <h1>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</h1>
+    <span class="post-date">Apr 7, 2016 
+    
+    <br/>
+    <a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a><a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+    </span>
+
+
+    
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://github.com/gaplyk">Алексей Хлюпин</a> из <a href="http://www.nytimes.com">The New York Times</a>.
+Алексей рассказал о себе, о работе в The New York Times, о том, где там go и микросервисы и о фреймворке Gizmo, который пишут в NYT.</p>
+
+<p>Ссылки от гостя:
+- <a href="http://www.infoq.com/news/2016/01/gizmo-microservices-toolkit">Статья о Gizmo на infoq.com</a>
+- <a href="http://open.blogs.nytimes.com/2015/12/17/introducing-gizmo/">Статья Introducing Gizmo в техническом блоге NYT</a>
+- <a href="https://github.com/NYTimes/gizmo">Исходники Gizmo</a>
+- <a href="https://github.com/NYTimes/encoding-wrapper">Collection of Go wrappers for Video encoding providers</a></p>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Что нового появилось в репозитории за неделю:
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/d636d7907c46b728b07b58669ec1fa1158105579">bytes: add ContainsAny</a></li>
+<li><a href="https://github.com/golang/go/commit/7f39f21c7be83b9ff59089b29fa9e723c13cafa9">io: add ReadAtSizer interface</a></li>
+<li><a href="https://github.com/golang/go/commit/475d113b53024fe7a35cea0f620b30f97cd0810f">runtime: don’t burn CPU unnecessarily</a></li>
+<li><a href="https://github.com/golang/go/commit/ffbd31e9f79ad8b6aaeceac1397678e237581064">encoding/json: allow non-string type keys for (un-)marshal</a></li>
+<li><a href="https://github.com/golang/go/commit/acefcb732cae4daa59a621cb102793860b564a12">io: define SeekStart, SeekCurrent, SeekEnd constants for use with Seeker</a></li>
+<li><a href="https://github.com/golang/go/commit/c1c7547f6ad7264c1d6eea3fc1645b2eab104694">net/http: add Request.Context and Request.WithContext</a></li>
+<li><a href="https://github.com/golang/go/commit/9db7ef561462606085759a2f8a93b7224fdfd2fc">context: add the context package from golang.org/x/net/context</a></li>
+<li><a href="https://github.com/golang/go/commit/63ab7426a906b72dcf6f1d54je87f4ae926dc4e1">reflect: implement StructOf</a></li>
+<li><a href="https://github.com/golang/go/commit/c27efce66bce7534dbb357ac1779bbc08395b267">compress/flate: make Reader.Read return io.EOF eagerly</a></li>
+<li><a href="https://github.com/golang/go/commit/7da42d75975044df37aa3aa2499623e2084a12df">Реализация атомик функций для IBM S390 платформы</a></li>
+<li><a href="https://github.com/golang/go/commit/95a895df0c64b0cd1283c4cf7794d491427d765c">go/types: make Identical(nil, T) == Identical(T, nil)</a></li>
+<li><a href="https://github.com/golang/go/commit/c6e11fe03765e3fe1fc68bd794625ca0ecd833be">cmd: add new common architecture representation</a></li>
+<li><a href="https://github.com/golang/go/commit/04945edd40fff4d66321a4f98c1bb070b6356008">cmd/compile: replaces ANDQ with MOV?ZX</a></li>
+<li><a href="https://github.com/golang/go/commit/cdc0ebbebe64d8fa601914945112db306c85c426">encoding/json: respect json.Marshaler when encoding byte kind slices</a></li>
+<li><a href="https://github.com/golang/go/issues/15068">runtime: efficiency of collection 1.5.3 vs 1.6</a></li>
+</ul></li>
+<li><a href="https://divan.github.io/posts/leftpad_and_go/">LeftPad and Go: can tooling help?</a></li>
+<li><a href="https://medium.com/@theflapjack103/the-way-of-the-gopher-6693db15ae1f">The Way of the Gopher</a></li>
+<li><a href="http://dave.cheney.net/2016/04/02/go-1-7-toolchain-improvements">Go 1.7 toolchain improvements</a></li>
+<li><a href="http://arxiv.org/abs/1603.05636">An Implementation and Analysis of a Kernel Network Stack in Go with the CSP Style</a></li>
+<li><a href="https://www.minio.io">Minio – хранилище, совместимое с S3</a></li>
+<li><a href="http://dave.cheney.net/2016/04/07/constant-errors">Constant errors</a></li>
+<li><a href="http://dave.cheney.net/2014/12/24/inspecting-errors">Inspecting errors</a></li>
+<li><a href="http://grafana.org/blog/2016/03/31/grafana-3-0-beta-released.html">Grafana 3.0 Beta Released</a></li>
+</ul>
+
+<h2 id="библиотеки-примеры-кода-и-другие-открытые-исходники">Библиотеки, примеры кода и другие открытые исходники</h2>
+
+<ul>
+<li><a href="https://github.com/mvdan/interfacer">https://github.com/mvdan/interfacer</a></li>
+<li><a href="https://github.com/dominikh/go-staticcheck">https://github.com/dominikh/go-staticcheck</a></li>
+<li><a href="https://github.com/dimiro1/banner">https://github.com/dimiro1/banner</a></li>
+<li><a href="https://github.com/google/pprof">https://github.com/google/pprof</a></li>
+<li><a href="https://github.com/chzyer/readline">https://github.com/chzyer/readline</a></li>
+<li><a href="https://github.com/labstack/echo">https://github.com/labstack/echo</a> и <a href="http://gopkg.in/labstack/echo.v1">http://gopkg.in/labstack/echo.v1</a></li>
+<li><a href="https://github.com/labstack/echo/commit/d6af11ec08fa66ae397bdb7578fab4ff28403228#commitcomment-17000942">Как ломают Echo</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li>Ребята из <a href="https://getmondo.co.uk">Mondo</a> ищут <a href="https://mondo.workable.com/jobs/186089">Backend Engineer (Go)</a></li>
+<li>Вакансия от <a href="http://golangshow.com/episode/2016/02-18-044/">Даниила Подольского</a>:
+
+<ul>
+<li>компания: <a href="http://www.setup.ru">Setup.Ru</a> (Москва, Россия)</li>
+<li>должность: backend разработчик</li>
+<li>занятость: полная, удаленная работа</li>
+<li>потолок ЗП: 150,000 р/мес</li>
+<li>необходимые навыки: Perl (mod_perl, Mojo), SQL (MySQL, PostgreSQL), Go</li>
+<li>желательные навыки: NoSQL (Cassandra), JS (Web GUI)</li>
+<li>что делать: поддерживать perl-код на плаву, переписывать его на go.</li>
+<li>обязательные требования: проактивность (на данный момент на проекте нет никого, кто мог бы поставить конкретную задачу в терминах системного анализа)</li>
+<li>куда слать CV: onokonem@gmail.com</li>
+<li>примечание: обязательно приложить ссылку на GitHub со своим кодом, на Perl и/или Go</li>
+</ul></li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-ru/MDgdAq8Ho1s">Вакансия от Techops.ru в Москве</a></li>
+<li>Больше вакансий всегда можно найти в канале <a href="https://golang-ru.slack.com/archives/job">#job</a> slack-чата русскоязычного Go-сообщества. Инвайт в чат можно <a href="http://4gophers.ru/slack">получить на 4gophers.ru</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="http://www.dotgo.eu">dotGo 2016</a> — Париж, 10 октября, промокод GOLANGSHOW для скидки в 20%</li>
+<li><a href="http://golanguk.com">The Golang UK</a> — Лондон, 17–19 августа, промокод GOLANGSHOW2016 для скидки в £25</li>
+<li><a href="http://www.meetup.com/GolangBelgrade/events/230165524/">Митап в Белграде</a>, 23 апреля</li>
+<li>Следите за <a href="https://golang-ru.slack.com/archives/meetup-moscow">#meetup-moscow</a>, чтобы узнать о ближайшем митапе в Москве</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
+
+    
+      <hr/>
+
+<p>
+	Длительность: 01:39:00 <br/>
+	Размер: 48 МБ
+</p>
+<p>HTML5 аудио плеер:
+
+<blockquote>
+	<audio controls width="400px" height="150px">
+		<source src="https://golangshow.com/cdn/episodes/051.mp3" type="audio/mpeg">
+		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
+	</audio>
+</blockquote>
+
+</p>
+
+<p>Прямая ссылка на MP3 аудио поток:
+<blockquote>
+	<a href="https://golangshow.com/cdn/episodes/051.mp3" target="_blank">https://golangshow.com/cdn/episodes/051.mp3</a>
+</blockquote>
+</p>
+
+    
+  </div>
+    
+
+    <section class="share">
+
+      <span>Рассказать друзьям:</span>
+      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20051.%20%d0%93%d0%be%d1%81%d1%82%d1%8c%20%d0%90%d0%bb%d0%b5%d0%ba%d1%81%d0%b5%d0%b9%20%d0%a5%d0%bb%d1%8e%d0%bf%d0%b8%d0%bd%20%d0%b8%d0%b7%20The%20New%20York%20Times.&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f04-07-051%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f04-07-051%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
+      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f04-07-051%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
+    </section>
+    
+
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "golangshow";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "golangshow";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script>
+  var _gaq=[['_setAccount','UA-65258742-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+

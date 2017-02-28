@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.19" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Подкаст GolangShow &middot; </title>
+
+  
+  <link rel="stylesheet" href="/css/compiled.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
+
+  
+  
+  
+  <link href="http://golangshow.com/index.xml" rel="alternate" type="application/rss+xml" title="Подкаст GolangShow &middot; " />
+
+  <meta name="description" content="">
+  <meta name="keywords" content="Go,golang,подкаст">
+  
+  <meta property="og:title" content="Подкаст GolangShow" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://golangshow.com/ " />
+  <meta property="og:image" content="/images/cover.png" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Подкаст GolangShow" />
+  <meta name="google-site-verification" content="FKPuAxWwWn5i3RgR1jAZsWs2EYpSXMdOEpaVCGhx_Cc" />
+  <meta name='yandex-verification' content='5cae7ee3128b7c52' />
+
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+</head>
+<body class="theme-base-0d">
+
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"825dd78d184fbe74999cf9271","lid":"66e2863596"}) });
+    
+};
+</script>
+<style>
+a#mailinglink {
+	color: 'red';
+}
+</style>
+
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="/"><img src="/images/logo2.png"></a>
+        <h1></h1>
+      <h1 class="lead">Русскоязычный подкаст о Go</h1>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://golangshow.com/">Главная</a></li>
+      <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/online">Онлайн вещание</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?mt=2">iTunes</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">Гости</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://www.patreon.com/golangshow">Поддержать подкаст</a></li>
+      	
+      
+    </ul>
+
+    <h3>Наши друзья</h3>
+    <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item"><a href="http://4gophers.ru" target="_blank">4gophers.ru</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+      <li class="sidebar-nav-item"><a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e" target="_blank">DigitalOcean</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/GolangShow/golangshow.com" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      <a href="https://www.facebook.com/golangshow" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="https://twitter.com/golangshow" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="https://vk.com/golangshow" target="_blank"><span class="fa-stack"><i class="fa fa-square fa-3x"></i><i class="fa fa-stack-2x fa-vk"></i></span></a>
+      
+      <a href="http://golangshow.com/index.xml"  target="_blank" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      
+      </li>
+    </ul>
+
+    
+
+    <p>
+  Подкаст GolangShow All rights reserved - 2017</p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <br/>
+  <div class="posts">
+    
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/03-31-050/">Выпуск 050. ½-юбилей</a>
+      </h1>
+      <span class="post-date">Mar 31, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Что нового появилось в репозитории за неделю
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/6b0688f7421aeef904d40a374bae75c37ba0b8b4">runtime: speed up growslice by avoiding divisions 2</a></li>
+<li><a href="https://github.com/golang/go/commit/42ad1dc01ef1677131b7a823772faaf40f6109a4">compress/flate: add pure huffman deflater</a></li>
+<li><a href="https://github.com/golang/go/commit/8eec2bbfbc4f209950f677906c6ce67e01d32930">cmd/compile: added some intrinsics to SSA back end</a></li>
+<li><a href="https://github.com/golang/go/commit/aa482f971508d1bfdedf293a85968d80fd80fae2">cmd/go: remove code specific to Google Code</a></li>
+<li><a href="https://github.com/golang/go/commit/ea0386f85f19601ed7befb44299eb8e576a482fd">runtime: improve randomized stealing logic</a></li>
+<li><a href="https://github.com/golang/go/commit/098b62644f9388a8afba90d3e74ea7d7497def4c">encoding/json: add (*Encoder).Indent</a></li>
+<li>всё <a href="https://github.com/golang/go/issues/15013">сломали и починили</a></li>
+</ul></li>
+<li><a href="http://dave.cheney.net/2016/03/25/go-project-contributors-by-the-numbers">Go project contributors by the numbers</a></li>
+<li>Слава рассказывает про <a href="http://2016.codefest.ru">CodeFest</a>, опыт с <a href="https://github.com/fatih/vim-go">vim-go</a>
+и поиск <a href="https://github.com/tucnak/telebot">библиотеки для Telegram&rsquo;а</a></li>
+<li><a href="https://godoc.org/golang.org/x/net/context/ctxhttp">net/context + http</a></li>
+<li><a href="http://allegro.tech/2016/03/writing-fast-cache-service-in-go.html">Writing a very fast cache service with millions of entries in Go</a>
+
+<ul>
+<li><a href="https://github.com/allegro/bigcache">github.com/allegro/bigcache</a></li>
+<li><a href="https://github.com/pquerna/ffjson">github.com/pquerna/ffjson</a></li>
+</ul></li>
+<li><a href="https://raygun.com/blog/2016/03/golang-auto-scaling/">Auto-scaling и самообороняющиеся сервисы на Golang</a></li>
+<li><a href="https://habrahabr.ru/company/itoolabs/blog/280276/">Кейс разработки на Golang: платформа Виртуальной АТС ITooLabs</a></li>
+</ul>
+
+<h2 id="библиотеки-примеры-кода-и-другие-открытые-исходники">Библиотеки, примеры кода и другие открытые исходники</h2>
+
+<ul>
+<li><a href="https://github.com/mailru/easyjson">github.com/mailru/easyjson</a></li>
+<li><a href="https://github.com/dominikh/go-unused">github.com/dominikh/go-unused</a></li>
+<li><a href="http://redbeardlab.github.io/2016/03/05/effe.html">effe</a></li>
+<li><a href="https://github.com/hit9/htree">github.com/hit9/htree</a></li>
+<li><a href="https://github.com/dominikh/go-structlayout">github.com/dominikh/go-structlayout</a></li>
+<li><a href="https://github.com/sridharv/gojava">github.com/sridharv/gojava</a></li>
+<li><a href="https://github.com/go-music-theory/music-theory">github.com/go-music-theory/music-theory</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="http://piter-united.ru/itgm7/itgm.html">IT Global Meetup #7</a> — Санкт-Петербург, 2 апреля</li>
+<li><a href="http://www.dotgo.eu">dotGo 2016</a> — Париж, 10 октября, промокод GOLANGSHOW для скидки в 20%.</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Заходите в <a href="http://4gophers.ru/slack">наш чат</a> и оставляйте комментарии <a href="https://golangshow.com/episode/2016/03-31-050/">на сайте</a>.</p>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/03-31-050/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/03-24-049/">Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</a>
+      </h1>
+      <span class="post-date">Mar 24, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a><a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://www.outcoldman.com/about/">Денис Гладких</a> из <a href="https://splunk.com">Splunk</a>. Поговорили про большие данные, про Go и другие языки программирования, про энтерпрайз и стартапы.
+Ссылки от гостя:
+- <a href="http://conf.splunk.com/speakers/thecube.html">Про Splunk</a>
+- <a href="http://sns.to/The%20Go%20Future.txt">То самое письмо</a></p>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Что нового появилось в репозитории за неделю
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/4c9a470d468b6b6fa0520f32e034a1762dba3f9d">SSA ARM port</a></li>
+<li><a href="https://github.com/golang/go/commit/53efe1e121e68feadcce00d1f7b1978dbbd1d1c7]">compress/flate: rework matching algorithm</a></li>
+<li><a href="https://github.com/golang/go/commit/23a756d856dabd86e3f83480f31c291cbcd6464a">testing: expose subtest and subbenchmark functionality</a></li>
+<li><a href="https://github.com/golang/go/commit/e41f527f4d56a94b33ab73efaae3575760916194">cmd/compile: allow inlining of functions with switch statements</a></li>
+<li><a href="https://github.com/golang/go/issues/14904">fault in runtime.mapiternext</a></li>
+</ul></li>
+<li><a href="http://blog.greta.io/a-webrtc-signaling-system-that-scales-very-effectively/">A signaling system for 10M+ concurrent connections</a></li>
+<li>Про пакетные менеджеры, вендоринг зависимостей и всякое такое:
+
+<ul>
+<li><a href="https://github.com/keltia/leftpad">leftpad</a></li>
+<li><a href="https://github.com/whyrusleeping/gx">gx</a> и <a href="https://github.com/whyrusleeping/gx-go">gx-go</a></li>
+<li><a href="https://github.com/mattfarina/golang-broken-vendor">Как сломать vendor</a></li>
+</ul></li>
+<li><a href="http://dave.cheney.net/2016/03/19/should-methods-be-declared-on-t-or-t">Should methods be declared on T or *T</a> и <a href="http://play.golang.org/p/DvXppHLY4Z">контрпример от Алексея</a></li>
+<li><a href="https://docs.google.com/document/d/1vdAEAjYdzjnPA9WDOQ1e4e05cYVMpqSxJYZT33Cqw2g/edit#heading=h.ywknbkyeha6d">Bounds Checking Elimination</a></li>
+<li><a href="https://blog.micro.mu/2016/03/20/micro.html">Micro — a microservices toolkit</a></li>
+<li>Трёхлетие Docker’а и <a href="https://beta.docker.com">beta для Mac и Windows</a></li>
+<li><a href="https://github.com/joefitzgerald/go-plus/releases/tag/v4.0.0">Пакет go-plus для IDE Atom - релиз 4.0.0</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li>CodeFest — Новосибирск, 26-27 марта, где ожидаются <a href="http://2016.codefest.ru/lecture/1068">доклад</a> и <a href="http://2016.codefest.ru/lecture/1121">квартирник</a> по Go</li>
+<li><a href="http://piter-united.ru/itgm7/itgm.html">IT global meetup #7</a> — Санкт-Петербург, 2 апреля</li>
+<li><a href="http://www.dotgo.eu">dotGo 2016</a> — Париж, 10 октября, промокод GOLANGSHOW для скидки в 20%</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/03-24-049/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/03-18-048/">Выпуск 048. Молодость Java и Go, митап в SF, как писать тесты</a>
+      </h1>
+      <span class="post-date">Mar 18, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Что нового появилось <a href="https://github.com/golang/go">в репозитории</a> за неделю.</li>
+<li><a href="https://medium.freecodecamp.com/comparing-early-days-of-go-and-java-db8163bc6798">Comparing early days of Go and Java</a>. А также:
+
+<ul>
+<li><a href="http://research.swtch.com/generic">The Generic Dilemma</a></li>
+<li><a href="https://docs.google.com/document/d/1vrAy9gMpMoS3uaVphB32uVXX4pi-HnNjkMEgyAHX4N4/edit?pli=1">Summary of Go Generics Discussions</a></li>
+<li><a href="https://github.com/miolini/easysort">Микробиблиотека EasySort</a> от Артёма</li>
+<li>упомянули <a href="http://razbor-poletov.com/2016/03/episode-105.html">выпуск 105</a> подкаста &ldquo;Разбор полетов&rdquo;</li>
+</ul></li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-dev/m1r8kSle30Y">SSA performance numbers</a></li>
+<li><a href="http://blog.fmpwizard.com/blog/go_making_a_program_70_faster_by_avoiding_common_mistakes">Making a program 70% faster, by avoiding common mistakes</a></li>
+<li><a href="https://blog.felixangell.com/an-introduction-to-llvm-in-go/">An introduction to LLVM in Go</a></li>
+<li><a href="http://engineeredweb.com/blog/2016/go-exposed-remote-import-paths/">Go Exposed: How Remote Import Paths Work</a></li>
+<li><a href="http://www.meetup.com/golangsf/events/226090314/">Самый недавний митап в Сан-Франциско</a>:
+
+<ul>
+<li>Видео <a href="https://youtu.be/FARQMJndUn0">Brad Fitzpatrick, Talk about HTTP/2 and http2 support in Go 1.6</a></li>
+<li><a href="https://twitter.com/Cassandraoid/status/710319032428199937">Найди двоих ведущих подкаста на фото</a></li>
+</ul></li>
+<li><a href="http://engineroom.teamwork.com/go-learn/">Teamwork: Some rookie Go mistakes we made building Teamwork Desk, and what we learned from them</a></li>
+<li>Отличная презентация <a href="https://speakerdeck.com/mitchellh/advanced-testing-with-go">Advanced Testing with Go от Mitchell Hashimoto</a></li>
+</ul>
+
+<h2 id="библиотеки-примеры-кода-и-другие-открытые-исходники">Библиотеки, примеры кода и другие открытые исходники</h2>
+
+<ul>
+<li><a href="https://github.com/marcusolsson/goddd">GoDDD, an attempt to port the DDD Sample App to idiomatic Go</a></li>
+<li><a href="https://github.com/uber-common/cpustat">High Frequency Performance Measurement for Linux</a></li>
+<li><a href="http://www.alexedwards.net/blog/working-with-redis">Пример кода для работы с Redis</a></li>
+<li><a href="https://github.com/audreylim/go-presenter">Presenter with notes for the Go present tool</a></li>
+<li><a href="https://github.com/zachlatta/sshtron">A Multiplayer Tron Game over SSH</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li>CodeFest — Новосибирск, 26-27 марта, где Слава выступит с  <a href="http://2016.codefest.ru/lecture/1068">докладом</a>, а также ожидается  <a href="http://2016.codefest.ru/lecture/1121">квартирник</a> от новосибирского Go-коммьюнити.</li>
+<li><a href="http://www.dotgo.eu">dotGoEu 2016</a>, наш подкаст стал коммьюнити-партнером конференции. По промокоду GOLANGSHOW можно получить скидку 20%.</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/03-18-048/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/03-10-047/">Выпуск 047. Каналы, логгеры, ORM</a>
+      </h1>
+      <span class="post-date">Mar 10, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="http://www.jtolds.com/writing/2016/03/go-channels-are-bad-and-you-should-feel-bad/">Go channels are bad and you should feel bad</a>. И еще немного:
+
+<ul>
+<li><a href="https://news.ycombinator.com/item?id=11210578">Hacker News: Go channels are bad</a></li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-nuts/LM648yrPpck">Обсуждение в golang-nuts</a></li>
+<li><a href="https://github.com/golang/go/issues/14601">Proposal: improve channels for M:N producer/consumer scenarios</a></li>
+<li><a href="https://habrahabr.ru/post/278349/">Перевод: “интересные” способы использования Go каналов</a>, или “как не надо делать”</li>
+</ul></li>
+<li><a href="https://0value.com/about-Go-logging">About Go logging for reusable packages</a></li>
+<li><a href="https://www.percona.com/blog/2015/02/02/faster-fingerprints-and-go-packages-for-mysql/">В Percona начали писать инструменты на Go</a></li>
+<li><a href="http://www.quii.co.uk/Property-based%20testing%20in%20Go">Property-based testing in Go</a></li>
+<li><a href="https://github.com/golang/go/issues/14660">Proposal: add context to the standard library</a></li>
+<li><a href="https://mattjibson.com/blog/2016/02/29/moggio-multi-source-music-player/">Implementing Moggio: A Cross-Platform Music Player in Go</a></li>
+<li><a href="https://caddyserver.com/docs/mailout">CaddyServer now supports sending of emails, optionally PGP encrypted</a></li>
+<li><a href="http://labs.unacast.com/2016/03/10/monitoring-microservices-synthetic-transactions-in-go/">Monitoring microservices with Synthetic Transactions in Go</a></li>
+</ul>
+
+<h2 id="библиотеки">Библиотеки</h2>
+
+<ul>
+<li><a href="https://github.com/sideshow/apns2">HTTP/2 Apple Push Notification Service push provider for Go</a></li>
+<li><a href="https://github.com/agrison/harpoon">GitHub WebHook server written in Go</a></li>
+<li><a href="https://jinzhu.github.io/gorm">Released GORM version 1.0</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li>Быстрорастущий стартап в Сингапуре ищет Team Lead / Senior Golang разработчиков. Данная возможность - отличный шанс построить сервисы, которыми будут пользоваться сотни миллионов человек по всей Азии. Требуется опыт профессиональной разработки от 5 лет, английский, много любви к Go и желание продвигать его в массы. Опыт использования Go в продакшн бесценен. Участие в популярном опенсорс проекте на Go существенно увеличит ваши шансы. Компенсация за релокацию. <a href="mailto:job@golangshow.com">job@golangshow.com</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li>CodeFest — Новосибирск, 26-27 марта, где ожидаются <a href="http://2016.codefest.ru/lecture/1068">доклад</a> и <a href="http://2016.codefest.ru/lecture/1121">квартирник</a> по Go.</li>
+<li>На IT Global Meetup <a href="http://4gophers.ru/news/ishchet-dokladchikov-na-it-global-meetup-7">ищут докладчиков</a>  — Санкт-Петербург, 2 апреля.</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/03-10-047/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/03-05-046/">Выпуск 046. Менеджеры пакетов, анонс конференций, тысячный участник в golang-ru</a>
+      </h1>
+      <span class="post-date">Mar 4, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="http://oden-lang.org">The Oden Programming Language</a>.</li>
+<li><a href="https://medium.com/@sdboyer/so-you-want-to-write-a-package-manager-4ae9c17d9527">So you want to write a package manager</a>.</li>
+<li><a href="http://blog.carlsensei.com/post/140120672177">Share memory by communicating</a>.</li>
+<li><a href="https://www.youtube.com/watch?v=2yiKUIDFc2I">Comparing Erlang and Go Concurrency</a>.</li>
+<li><a href="http://nicholasjackson.github.io/microservices/go/building-and-testing-microservices-part1/">0 to Microservice in 5 minutes with Go, go-microservice-template and Minke</a> + был упомянут <a href="https://github.com/hailocab/H2">H2 от Hailo</a>.</li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-dev/B-mS3yEKXRU">A friendly heads-up: Deletion of Go1.4-dependent code in x/tools repo</a>.</li>
+<li><a href="https://github.com/golang/go/issues/14631">Unexpected fault address 0xb01dfacedebac1e</a>.</li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-dev/49VaiLCDbeQ">Merging dev.ssa into tip</a> - <a href="https://docs.google.com/document/u/1/d/1szwabPJJc4J-igUZU4ZKprOrNRNJug2JPD8OYi3i1K0/mobilebasic?pli=1">New SSA Backend for the Go Compiler</a>.</li>
+<li><a href="https://golang-ru.slack.com/archives/general/p1457083802005533">Тысячный участник в русскоязычном сообществе - Василий Быков</a>. Регистрация в сообществе <a href="http://4gophers.ru/slack">тут</a>.</li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li>Продуктовая компания <a href="https://retargetapp.workable.com/jobs/207770">ищет ‪‎Golang‬ разработчика</a> на полный рабочий день в Киеве. Работа над интересным веб-приложением, которое интегрирует e-commerce платформы и Facebook/Instagram Ads.</li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://codefest.ru">CodeFest</a> — Новосибирск, 26-27 марта, где ожидаются <a href="http://2016.codefest.ru/lecture/1068">доклад</a> и <a href="http://2016.codefest.ru/lecture/1121">квартирник</a> по Go и другие приятные и полезные выступления.</li>
+<li><a href="http://golanguk.com">The Golang UK</a> — Лондон, 17–19 августа, открыт приём докладов.</li>
+<li><a href="https://gophercon.com">Gophercon</a> — Денвер, 11–13 июля, на сайте появился список докладчиков.</li>
+<li><a href="http://www.meetup.com/golangsf/">GolangSF</a> — Сан-Франциско, 16 марта.</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/03-05-046/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/02-25-045/">Выпуск 045. Производительность Go со всех сторон</a>
+      </h1>
+      <span class="post-date">Feb 25, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/issues?q=is%3Aissue+milestone%3AGo1.6.1">Go 1.6.1 Oops Release</a></li>
+<li><a href="http://www.slideshare.net/kafroozeh/stream-processing-in-go">Stream Processing In Go</a></li>
+<li><a href="https://eng.uber.com/go-geofence/">How We Built Uber Engineering’s Highest Query per Second Service Using Go</a></li>
+<li><a href="http://bravenewgeek.com/so-you-wanna-go-fast/">So You Wanna Go Fast? Tips and techniques for High Performance Go</a></li>
+<li><a href="http://zhen.org/blog/go-vs-java-decoding-billions-of-integers-per-second/">Go vs Java: Decoding Billions of Integers Per Second</a></li>
+<li><a href="http://static.googleusercontent.com/media/research.google.com/en//people/jeff/WSDM09-keynote.pdf">Challenges in Building Large-Scale Information Retrieval Systems, Jeff Dean, Google Fellow</a></li>
+<li><a href="https://docs.google.com/presentation/d/1JsCKdK_AvDdn8EkummMNvpo7ntqteWQfynq9hFTCkhQ/view">Introducing Go 1.6: asymptotically approaching boring (GopherconIndia keynote)</a></li>
+</ul>
+
+<h2 id="библиотеки">Библиотеки</h2>
+
+<ul>
+<li><a href="https://github.com/fogleman/gg">Go Graphics (gg) - 2D Graphics in Pure Go</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li>Амстердам - ищут Go гуру, <a href="mailto:anna.arteeva@housinganywhere.com">anna.arteeva@housinganywhere.com</a></li>
+<li><a href="https://jobs.lever.co/ostrovok.ru/b9d7f1c4-a5e6-441a-b8b5-ce4c9d92e1fb">Островок</a></li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://codefest.ru">CodeFest</a> — Новосибирск, 26-27 марта — где ожидается не только <a href="http://2016.codefest.ru/lecture/1068">доклад по Go</a>, но и целый квартирник</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>,
+<a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/02-25-045/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/02-18-044/">Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</a>
+      </h1>
+      <span class="post-date">Feb 18, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a><a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
+      </span>
+      
+        
+
+<h2 id="гости">Гости</h2>
+
+<p>В гостях <a href="http://www.slideshare.net/DanielPodolsky">Даниил Подольский</a>.
+Поговорили про десять миллионов горутин, снятие метрик с тяжелого кода,
+разные СУБД, тесты на выявление хороших программистов и многое другое.</p>
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="https://blog.golang.org/go1.6">Go 1.6 released!</a> + <a href="https://golang.org/doc/go1.6">release notes</a></li>
+<li><a href="https://www.reddit.com/r/golang/comments/46bd5h/ama_we_are_the_go_contributors_ask_us_anything/">We are the Go contributors: ask us anything!</a></li>
+<li><a href="https://medium.com/@nate510/don-t-use-go-s-default-http-client-4804cb19f779#.okqzoqlam">Don’t use Go’s default HTTP client</a></li>
+<li><a href="http://thenextweb.com/apps/2016/02/16/ibm-has-just-open-sourced-44000-lines-of-blockchain-code-on-github/">IBM has just open-sourced 44,000 lines of blockchain code on GitHub</a> - <a href="https://github.com/openblockchain">github.com/openblockchain</a></li>
+</ul>
+
+<h2 id="библиотеки">Библиотеки</h2>
+
+<ul>
+<li><a href="https://github.com/src-d/go-git">go-git</a> — низкоуровневая библиотека для работы с git</li>
+<li><a href="https://github.com/lmas/labassistant">labassistant</a> — библиотека для рефакторинга кода</li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://codefest.ru">CodeFest</a> — Новосибирск, 26-27 марта — где ведущий
+подкаста Слава выступит с <a href="http://2016.codefest.ru/lecture/1068">докладом</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>,
+<a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/02-18-044/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/02-12-043/">Выпуск 043. Meshbird, паттерны и интерфейсы</a>
+      </h1>
+      <span class="post-date">Feb 12, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="http://gophergala.com/blog/gopher/gala/2016/02/05/winners-2016/">GopherGala 2016 Winners</a> - Артем взял один из призов с проектом <a href="http://meshbird.com">Meshbird</a>.</li>
+<li>Принятие <a href="https://golang.org/conduct">Code of Conduct</a> для русскоязычного сообщества</li>
+<li><a href="https://habrahabr.ru/post/276981/">Краш-курс по интерфейсам в Go</a></li>
+<li><a href="http://www.mustafaak.in/2016/02/08/writing-my-own-init-with-go.html">Writing my own init with Go - Part 1</a> и <a href="http://www.mustafaak.in/2016/02/09/forking-process-in-myinit-go.html">Part 2</a></li>
+<li><a href="http://www.infoq.com/presentations/go-iron-production">Beyond the Hype: 4 years in production - IronIO</a></li>
+<li><a href="http://blog.golang.org/matchlang">Go Blog - Language and Locale matching in Go</a></li>
+<li>Репозиторий <a href="https://godoc.org/golang.org/x/text">golang.org/x/text</a></li>
+<li><a href="http://dave.cheney.net/2016/02/06/unhelpful-abstractions">Unhelpful abstractions</a></li>
+<li><a href="http://blog.ralch.com/tutorial/design-patterns/golang-design-patterns/">Design Patterns in Golang: The Good, the Bad and the Ugly</a></li>
+<li><a href="https://github.com/monochromegane/go_design_pattern">Репо с паттернами и комментариями на интуитивно понятном китайском языке</a></li>
+<li><a href="http://ecs.victoria.ac.nz/foswiki/pub/Main/TechnicalReportSeries/ECSTR11-01.pdf">Evaluating the GO Programming Language with Design Patterns (pdf)</a></li>
+<li><a href="https://habrahabr.ru/post/277137/">Вольный пересказ документации sync.Pool на Хабре</a></li>
+<li><a href="https://docs.google.com/document/d/1UErU12vR7jTedYvKHVNRzGPmXqdMASZ6PfE7B-p6sIg/edit#">Oracle renamed to Guru</a></li>
+<li><a href="https://rootpd.com/2016/02/04/setting-up-intellij-idea-for-your-first-golang-project/">Setting up Intellij IDEA for your Golang project</a></li>
+<li><a href="https://www.behance.net/gallery/33348733/For-Golang-Community">Gophers + Star Wars artwork</a></li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://golang-nsk.party">Третий новосибирский митап</a> состоялся 6-го февраля, и даже уже есть <a href="https://www.youtube.com/channel/UCadCL6kVFNt-A_CpisIpijg">видео докладов</a></li>
+<li>Go 1.6 Release Party — 17 февраля. В <a href="https://github.com/golang/go/wiki/Go-1.6-release-party">списке</a> 37 городов, среди которых <a href="https://events.dev.by/belarus-golang-user-group-meetup-2">Минск</a>, <a href="http://www.meetup.com/uagolang/events/228343484/">Киев</a> и <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львов</a> </li>
+<li><a href="http://2016.codefest.ru">CodeFest</a> - 26-27 марта. Будет проходить в Новосибирске (платный).</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/02-12-043/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/02-05-042/">Выпуск 042. Go 1.6RC2, планы на Go 1.7 и ассемблер</a>
+      </h1>
+      <span class="post-date">Feb 5, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li> <a href="https://groups.google.com/forum/#!topic/golang-nuts/9CQ9GRuL1GI">Go 1.6  RC 2 released</a></li>
+<li> <a href="https://groups.google.com/forum/#!topic/golang-dev/TerfinvPffw">Go 1.7 planning</a></li>
+<li> <a href="https://www.percona.com/blog/2016/01/14/prometheus-as-an-engine-for-mysql-monitoring/">Prometheus as an Engine for MySQL Monitoring</a></li>
+<li> <a href="https://talks.golang.org/2016/state-of-go.slide">State of Go 2016 - FOSDEM Talk</a></li>
+<li> <a href="http://www.meetup.com/golangsf/events/226090306/">Go 1.6 Release Party SF</a></li>
+<li> <a href="https://goroutines.com/asm">Intro into Golang Assembly</a></li>
+<li> <a href="http://morsmachine.dk/causalprof">Causal Profiling for Go</a></li>
+<li> <a href="https://aoeus.com/gotls/">Comparison of SSL Labs TLS scores with different Go versions</a></li>
+<li> <a href="https://blog.klauspost.com/rebalancing-deflate-compression-levels/">Rebalancing Deflate Compression Levels</a></li>
+<li> <a href="https://twitter.com/peterbourgon/status/694992100056788992">Many GopherGala submissions aren’t gofmt’d </a></li>
+<li> Наши проекты GopherGala прошли голосование участников</li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://golang-nsk.party">Новосибирск, 6 февраля</a></li>
+<li><a href="https://github.com/golang/go/wiki/Go-1.6-release-party">Go 1.6 Release Party</a> во <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львове</a> и <a href="http://www.meetup.com/uagolang/events/228343484/">Киеве</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://ostrovok.ru/about/jobs/175/">Ostrovok.ru ищет гофера в хорошую команду</a></li>
+<li><a href="http://hh.ru/vacancy/15740817">EMC Russia ищет гофера для работы над экзабайтным хранилищем данных</a></li>
+<li><a href="https://t.co/DtTKEblRCS">Yahoo ищет paranoid security гофера</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/02-05-042/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/02-04-041/">Выпуск 041. В гостях Андрей Смирнов из EMC</a>
+      </h1>
+      <span class="post-date">Feb 4, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
+      </span>
+      
+        
+
+<p>Сегодня у нас в гостях <a href="https://twitter.com/smira">Андрей Смирнов</a> из компании EMC, автор Aptly и докладов на Highload. Поговорили с Андреем про Go, его проекты, devops, CAP-теорему и всякое разное.</p>
+
+<h2 id="ссылки">Ссылки</h2>
+
+<ul>
+<li><a href="http://www.aptly.info">Aptly</a></li>
+<li><a href="http://smira-webinar.highload.ru">Вебинар &ldquo;Разработка надежных высоконагруженных систем&rdquo;</a></li>
+<li><a href="http://smira.ru">Персональный сайт</a></li>
+<li><a href="http://smira.ru/posts/golang-meetup-july-2014.html">Доклад &ldquo;Консольные приложения на Go&rdquo;</a></li>
+<li><a href="https://voltdb.com/blog/clarifications-cap-theorem-and-data-related-errors">Clarifications on the CAP Theorem and Data-Related Errors</a></li>
+<li><a href="https://github.com/smira/pydeproxy">pydeproxy - Python framework for testing HTTP proxies</a></li>
+<li><a href="http://www.rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf">Why most unit testing is waste</a></li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://golang-nsk.party">Новосибирск, 6 февраля</a></li>
+<li><a href="https://github.com/golang/go/wiki/Go-1.6-release-party">Go 1.6 Release Party</a> во <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львове</a> и <a href="http://www.meetup.com/uagolang/events/228343484/">Киеве</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://ostrovok.ru/about/jobs/175/">Ostrovok.ru ищет гофера в хорошую команду</a></li>
+<li><a href="http://hh.ru/vacancy/15740817">EMC Russia ищет гофера для работы над экзабайтным хранилищем данных</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/02-04-041/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/01-28-040/">Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</a>
+      </h1>
+      <span class="post-date">Jan 28, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a><a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><p><strong>Конкурс с плюшевыми гоферами</strong>:</p>
+
+<ul>
+<li><a href="https://github.com/akavel/embd-go/pull/1">akavel/embd-go#1</a> -  Alexey Maslov</li>
+<li><a href="https://github.com/yandex/pandora/pull/21">yandex/pandora#21</a> - Alexey Lavrenuke</li>
+<li><a href="https://github.com/miolini/mapstore/pull/3">miolini/mapstore#3</a>  - MrViper</li>
+</ul></li>
+
+<li><p><a href="http://gophergala.com">GopherGala</a></p>
+
+<ul>
+<li><a href="https://obscure-savannah-52814.herokuapp.com">Голосование</a>, <a href="https://www.reddit.com/r/gophergala2016/">Reddit</a></li>
+<li><a href="https://github.com/gophergala2016/gophers">Gophers</a></li>
+<li><a href="https://github.com/gophergala2016/meshbird">Распределенные приватные сети Meshbird</a></li>
+<li><a href="https://github.com/gophergala2016/gobench">goben.ch</a></li>
+<li><a href="https://github.com/gophergala2016/goad">goad</a></li>
+<li><a href="https://github.com/gophergala2016/thunderbird">Thunderbird</a></li>
+<li><a href="https://github.com/gophergala2016/gocompatible">gocompatible</a></li>
+<li><a href="https://github.com/gophergala2016/gophernotes">gophernotes</a></li>
+<li><a href="https://github.com/gophergala2016/chopher">Chopher</a></li>
+<li><a href="https://github.com/gophergala2016/gophette">gophette</a></li>
+</ul></li>
+
+<li><p><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Отчет о митапе во Львове</a></p></li>
+
+<li><p><a href="https://divan.github.io/posts/go_concurrency_visualize/">Visualizing Concurrency in Go</a></p></li>
+
+<li><p><a href="https://groups.google.com/forum/#!topic/golang-nuts/4iqU__h7skQ">Релиз Go 1.6 RC 1</a></p></li>
+
+<li><p><a href="https://twitter.com/brianhatfield/status/692778741567721473">Твит с графиком пауз GC Go 1.6</a></p></li>
+
+<li><p><a href="https://habrahabr.ru/company/intel/blog/275709/">С-вызовы в Go: принцип работы и производительность</a></p></li>
+
+<li><p><a href="https://medium.com/where-do-we-go-now/wolfengo-a-wolfenstein-3d-clone-in-go-6872af12469d">WolfenGo: a Wolfenstein 3D clone in Go</a></p></li>
+
+<li><p><a href="https://mholt.github.io/curl-to-go/">Curl-to-Go</a></p></li>
+
+<li><p><a href="https://github.com/miolini/bankgo">BankGo - учебный проект для новичков</a></p></li>
+
+<li><p><a href="http://www.highload.ru/2015/abstracts/1661.html">Доклад гостя Андрея Минкина на HighLoad 2015. &ldquo;Как строить архитектуру для отказоустойчивой службы такси&rdquo;</a></p></li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://www.meetup.com/Golang-Peter/events/228238347/">Санкт-Петербург, 4 февраля</a></li>
+<li><a href="http://golang-nsk.party">Новосибирск, 6 февраля</a></li>
+<li><a href="https://github.com/golang/go/wiki/Go-1.6-release-party">Go 1.6 Release Party</a> во <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львове</a> и <a href="http://www.meetup.com/uagolang/events/228343484/">Киеве</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://ostrovok.ru/about/jobs/175/">Ostrovok.ru ищет гофера в хорошую команду</a></li>
+<li><a href="http://hh.ru/vacancy/15740817">EMC Russia ищет гофера для работы над экзабайтным хранилищем данных</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>,
+ <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/01-28-040/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/post/2016/01-22-gophergala/">Хакатон GopherGala</a>
+      </h1>
+      <span class="post-date">Jan 22, 2016 
+      </span>
+      
+        <p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
+
+<p>Хакатон официально начинает свою работу с субботы 23го января 04:00 UTC+03. Длительность 48 часов.</p>
+
+<p>Войти и выйти можно будет во всё время хакатона – возьмите паспорт.</p>
+
+<p>Пожалуйста, <a href="http://www.meetup.com/Golang-Moscow/events/227824052/">RSVP тут</a>, только если вы хотите активно поучаствовать в хакатоне в месте встречи. Удалённое участие не требует RSVP, но не отменяет регистрацию на <a href="http://gophergala.com">GopherGala</a>. Желание прийти &ldquo;просто потусоваться&rdquo; не очень приветствуется.</p>
+
+<p><img src="/images/tceh.jpg" alt="Tceh" /> Место встречи <a href="http://tceh.com">коворкинг Tceh</a>.</p>
+
+      
+       <a href="http://golangshow.com/post/2016/01-22-gophergala/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/01-21-039/">Выпуск 039. Gopher Gala и другие митапы</a>
+      </h1>
+      <span class="post-date">Jan 21, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="http://www.meetup.com/golangsf/events/226090288/">Про митап, прошедший в Сан-Франциско</a></li>
+<li><a href="http://engineeredweb.com/blog/2016/monorepo-dangers/">Dangers of Monorepo Projects</a></li>
+<li><a href="https://www.youtube.com/watch?v=5yDO-tmIoXY">Vitess</a></li>
+<li><a href="https://github.com/fatih/vim-go/releases/tag/v1.4">vim-go v1.4 released</a></li>
+<li>Бонус: <a href="https://github.com/LK4D4/dotfiles/blob/master/vimrc.local">конфиг для vim от Александра</a></li>
+<li><a href="http://beego.me/docs/intro/releases.md#beego-1.6.0">beego 1.6.0 released</a></li>
+<li><a href="http://dave.cheney.net/2016/01/18/cgo-is-not-go">CGO is not GO</a></li>
+<li><a href="https://github.com/gobwas/glob">Glob for go. Works much faster than regexp on equivalent patterns</a></li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li>Gopher Gala, 22-24 января <a href="http://www.meetup.com/Golang-Moscow/events/227824052/">в Москве</a> и <a href="http://gophergala.com/">по всему миру</a></li>
+<li><a href="http://www.meetup.com/Golang-Peter/events/228238347/">Санкт-Петербург, 4 февраля</a></li>
+<li><a href="http://golang-nsk.party">Новосибирск, 6 февраля</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>,
+ <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/01-21-039/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/01-14-038/">Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</a>
+      </h1>
+      <span class="post-date">Jan 14, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a><a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
+      </span>
+      
+        
+
+<h2 id="гости">Гости</h2>
+
+<p>В гостях <a href="https://github.com/zolotov">Александр Золотов</a> и <a href="https://github.com/ignatov">Сергей Игнатов</a>
+из компании JetBrains, разработчики IDEA и <a href="https://github.com/go-lang-plugin-org/go-lang-idea-plugin">плагина для Go</a>.</p>
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="https://groups.google.com/forum/#!topic/golang-announce/MEATuOi_ei4">Go 1.5.3</a> с исправлением безопасности</li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-nuts/DUwMjOWLA6s">Go 1.6 Beta 2</a></li>
+<li><a href="http://devs.cloudimmunity.com/gotchas-and-common-mistakes-in-go-golang/">50 Shades of Go: Traps, Gotchas, and Common Mistakes for New Golang Devs</a></li>
+<li><a href="https://www.youtube.com/watch?v=3IHJ6gJHITw">Exploring HTTP/2 with Go</a></li>
+<li><a href="http://daniel.haxx.se/http2/">Книжка про HTTP/2</a></li>
+<li><a href="https://www.specto.io/replacing-redis-with-boltdb-a-pure-go-keyvalue-store/">Replacing Redis with BoltDB - a pure Go keyvalue store</a></li>
+<li><a href="http://blog.sgmansfield.com/2016/01/the-hidden-dangers-of-default-rand/">The hidden dangers of Default Rand</a></li>
+<li><a href="http://jacopodaeli.com/writing-aws-lambda-functions-in-go/">Writing AWS Lambda Functions in Go</a></li>
+</ul>
+
+<h2 id="митапы">Митапы</h2>
+
+<ul>
+<li><a href="http://gophergala.com/">Грядет Gopher Gala!</a></li>
+<li><a href="http://www.meetup.com/Golang-Moscow/events/227824052/">Gopher Gala в Москве</a></li>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Митап во Львове</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/m0sth8">Слава</a>, а также гости
+<a href="https://github.com/zolotov">Александр Золотов</a> и <a href="https://github.com/ignatov">Сергей Игнатов</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/01-14-038/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/01-07-037/">Выпуск 037. Больше Go, Rust&#39;а и LLVM</a>
+      </h1>
+      <span class="post-date">Jan 7, 2016 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="http://www.wintr.us/blog/three-reasons-go">Three reasons we’ll be writing more Go in 2016</a></li>
+<li><a href="http://blog.sgmansfield.com/2015/12/goroutine-ids/">Goroutine IDs</a></li>
+<li><a href="http://blog.sgmansfield.com/2016/01/an-analysis-of-the-top-1000-go-repositories/">An Analysis of the Top 1000 Go Repositories</a></li>
+<li><a href="https://medium.com/@paulcolomiets/async-io-in-rust-part-iii-cbfd10f17203">Async IO in Rust (сравнение с Go)</a></li>
+<li><a href="http://www.toptal.com/go/interview-questions">10 Essential Go Interview Questions</a></li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-nuts/pzpNcarQcvo">Debugging Go with LLDB</a></li>
+<li><a href="https://skarlso.github.io/2016/01/05/improving-performance-with-byte-slice-and-int-map/">Improving performance with byte slice and int map</a></li>
+<li><a href="https://golang.org/doc/faq#nil_error">Ответ на загадку про error</a></li>
+</ul>
+
+<h2 id="пакеты">Пакеты</h2>
+
+<ul>
+<li><a href="https://github.com/eandre/discover">github.com/eandre/discover</a></li>
+<li><a href="https://github.com/xiam/go-playground">github.com/xiam/go-playground</a></li>
+<li><a href="https://github.com/frou/pg2go">github.com/frou/pg2go</a></li>
+<li><a href="https://github.com/mc2soft/pq-types">github.com/mc2soft/pq-types</a></li>
+<li><a href="https://github.com/rakyll/gom">github.com/rakyll/gom</a></li>
+<li><a href="https://github.com/visualfc/goqt">github.com/visualfc/goqt</a></li>
+</ul>
+
+<h2 id="митапы-и-конференции">Митапы и конференции</h2>
+
+<ul>
+<li><a href="https://www.gophercon.com">GopherCon 2016</a> - July 11–13, 2016, Denver, USA</li>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Lviv Golang Meetup #1</a> - January 23, 2016, Lviv, Ukraine</li>
+<li><a href="http://gophergala.com">Gopher Gala 2016</a> - January 22-24, 2016, Anywhere, World</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/m0sth8">Слава</a> и <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2016/01-07-037/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2015/12-29-036/">Выпуск 036. Новогодние посиделки у камина</a>
+      </h1>
+      <span class="post-date">Dec 29, 2015 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8">итоги</a><a class="label" href="http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD">камин</a>
+      </span>
+      
+        
+
+<p><img src="/images/go_fireplace.png" alt="logo" /></p>
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li>Подводим итоги года</li>
+<li><a href="https://golangshow.com/categories/гости/">Вспоминаем гостей подкаста</a></li>
+<li><a href="http://habrahabr.ru/post/274057/">Go в 2015 году</a></li>
+<li><a href="https://habrastorage.org/files/d46/a17/ee7/d46a17ee745640cc804aa1a01f5a66d4.png">Области применения Go</a></li>
+<li><a href="http://habrahabr.ru/post/269355/">С чего начать новичку в Go</a></li>
+<li>Каким мы видим будущее Go в следующем году</li>
+<li>Конкурс для слушателей</li>
+</ul>
+
+<h2 id="пакеты">Пакеты</h2>
+
+<ul>
+<li><a href="https://github.com/divan/psh">https://github.com/divan/psh</a></li>
+<li><a href="https://github.com/progrium/go-basher">https://github.com/progrium/go-basher</a></li>
+</ul>
+
+<h2 id="митапы-и-конференции">Митапы и конференции</h2>
+
+<ul>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Митап во Львове, 23 января</a></li>
+</ul>
+
+<h3 id="ведущие-этого-выпуска">Ведущие этого выпуска:</h3>
+
+<p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a></p>
+
+      
+       <a href="http://golangshow.com/episode/2015/12-29-036/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2015/12-24-035/">Выпуск 035. Go Generate, вендоринг и внутренности net/http</a>
+      </h1>
+      <span class="post-date">Dec 24, 2015 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="https://blog.gopheracademy.com/advent-2015/reducing-boilerplate-with-go-generate/">Reducing boilerplate with go generate</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/gopy/">gopy: extending CPython with Go</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/automi-stream-processing-over-go-channels/">Automi: Stream Processing Over Go Channels</a></li>
+<li><a href="http://jimplush.com/talk/2015/12/19/moving-a-team-from-scala-to-golang/">Moving a team from Scala to Golang</a> (+ <a href="http://habrahabr.ru/post/273535/">перевод на хабре</a>)</li>
+<li><a href="https://blog.filippo.io/most-go-tools-now-work-with-go15vendorexperiment/">Most go tools now work with go15vendorexperiment</a></li>
+<li><a href="https://medium.com/@onuryilmaz/comparison-of-go-vendoring-tools-acf019ea476f">Comparison of Go Vendoring Tools</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/glide/">Manage Dependencies Like Other Languages With Glide</a></li>
+<li><a href="https://blog.cloudflare.com/whats-inside-net-http-socket-late-binding-in-the-go-standard-library/">What&rsquo;s inside net/http? Late binding in the Go standard library</a></li>
+</ul>
+
+<h2 id="пакеты">Пакеты</h2>
+
+<ul>
+<li><a href="https://github.com/mvdan/interfacer">https://github.com/mvdan/interfacer</a></li>
+<li><a href="https://github.com/tealeg/xlsx">https://github.com/tealeg/xlsx</a></li>
+</ul>
+
+<h2 id="митапы-и-конференции">Митапы и конференции</h2>
+
+<ul>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Митап во Львове, 23 января</a></li>
+<li>Давайте уже встретимся в Москве, заходите в <a href="http://4gophers.ru/slack">наш Slack</a>
+в <a href="https://golang-ru.slack.com/messages/meetup-moscow/">#meetup-moscow</a></li>
+</ul>
+
+<h2 id="объявления">Объявления</h2>
+
+<ul>
+<li>31 декабря не выходим в эфир, но подвести итоги года хотим.</li>
+</ul>
+
+<h3 id="ведущие-этого-выпуска">Ведущие этого выпуска:</h3>
+
+<p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a></p>
+
+      
+       <a href="http://golangshow.com/episode/2015/12-24-035/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2015/12-17-034/">Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</a>
+      </h1>
+      <span class="post-date">Dec 17, 2015 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a><a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях Максим Чечель, автор <a href="https://www.youtube.com/watch?v=xO77uboNBGc">доклада про Go в автобусе</a>
+на митапе <a href="http://www.meetup.com/Golang-Peter/">Golang Питер</a>.</p>
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="https://medium.com/@divan/how-to-complain-about-go-349013e06d24">How to complain about Go</a></li>
+<li><a href="http://habrahabr.ru/company/mailru/blog/273341/">Как выбрать язык программирования?</a></li>
+<li><a href="https://www.youtube.com/watch?v=9MKY4KypBzg">Gil Tene - Understanding Latency</a></li>
+<li><a href="http://engineering.skybettingandgaming.com/2015/09/14/monitoring-virtual-sports/">Using Go, ffmpeg and Tesseract OCR to monitor a live video stream</a></li>
+<li>Упомянули библиотеку <a href="https://github.com/disintegration/imaging">imaging</a></li>
+<li><a href="http://i.imgur.com/dcsm6kI.png">Картинка про GC в 1.6</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/announcing-gophercon-2016/">Анонс GopherCon 2016</a></li>
+<li><a href="https://github.com/google/git-appraise">Distributed code review system for Git</a></li>
+<li><a href="https://github.com/kulshekhar/fungen">Генератор функций Map/Reduce/etc для go generate</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/test2doc-generate-your-api-docs">test2doc: Generate Your API Docs</a></li>
+</ul>
+
+<h2 id="митапы-и-конференции">Митапы и конференции</h2>
+
+<ul>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Митап во Львове, 23 января</a></li>
+<li>Давайте уже встретимся в Москве, заходите в <a href="http://4gophers.ru/slack">наш Slack</a>
+в <a href="https://golang-ru.slack.com/messages/meetup-moscow/">#meetup-moscow</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/idanyliuk">Иван</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2015/12-17-034/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2015/12-10-033/">Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</a>
+      </h1>
+      <span class="post-date">Dec 10, 2015 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/issues?q=milestone%3AGo1.5.2">Go 1.5.2 Released</a></li>
+<li><a href="http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/">Go Proverbs Illustrated</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/">Go Advent 2015 - Dec 4 - afero: A Universal Filesystem Library</a></li>
+<li><a href="https://www.devever.net/~hl/nexuses">On Nexuses</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/go-in-a-monorepo/">Go Advent 2015 - Dec 8 - Go in a Monorepo</a></li>
+<li>&ldquo;Монорепозиторий&rdquo; vs &ldquo;Много репозиториев&rdquo;</li>
+<li><a href="http://www.cockroachlabs.com/blog/the-cost-and-complexity-of-cgo/">The Cost and Complexity of Cgo</a></li>
+<li><a href="https://github.com/motemen/gompatible">gompatible</a></li>
+<li><a href="http://dave.cheney.net/2015/12/07/are-go-maps-sensitive-to-data-races">Are Go maps sensitive to data races?</a></li>
+<li><a href="http://yager.io/programming/go.html">Why Go Is Not Good</a></li>
+<li><a href="https://github.com/ksimka/go-is-not-good">Список статей с минусами Go</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/">Go Advent 2015 - Dec 7 - Goa: Untangling Microservices</a></li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/miolini">Артём</a>,  <a href="https://twitter.com/webdeva">Елена</a>,
+<a href="https://twitter.com/m0sth8">Слава</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2015/12-10-033/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2015/12-03-032/">Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</a>
+      </h1>
+      <span class="post-date">Dec 3, 2015 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a><a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://github.com/valyala">Александр Валялкин</a>, автор пакета <a href="https://github.com/valyala/fasthttp">fasthttp</a> - круто ускоренной альтернативы net/http.</p>
+
+<ul>
+<li>Рассказ гостя о себе и знакомстве с Go</li>
+<li>Обсуждаем пакеты написанные Александром - <a href="https://github.com/valyala/ybc/tree/master/bindings/go/ybc">ybc</a>, <a href="https://github.com/valyala/gorpc">gorpc</a>, <a href="https://github.com/valyala/fasthttp">fasttemplate</a></li>
+<li>Рассказ про причины и цели появления <a href="https://github.com/valyala/fasthttp">fasthttp</a></li>
+<li>Вопросы слушателей</li>
+</ul>
+
+<h2 id="новости">Новости</h2>
+
+<ul>
+<li><a href="http://dave.cheney.net/2015/11/29/a-whirlwind-tour-of-gos-runtime-environment-variables">Статья &ldquo;Переменные окружения в Go&rdquo;</a>
+
+<ul>
+<li><a href="https://github.com/maruel/panicparse">Красивый парсер трейсбеков</a></li>
+</ul></li>
+<li><a href="https://medium.com/@felixge/why-you-should-use-go-build-a-or-gb-c469157d5c1b#.s5ebxl2y7">Запоздалый наезд на go build</a></li>
+<li><a href="https://www.youtube.com/watch?v=JOx9enktnUM">Видео - Go в Dropbox</a></li>
+<li><a href="https://www.youtube.com/watch?v=rFejpH_tAHM">Видео с dotGo - Rob Pike - Simplicity is Complicated</a></li>
+<li><a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">Видео - Rob Pike - Go proverbs</a></li>
+<li><a href="https://groups.google.com/forum/#!topic/golang-dev/y-mlM-XYysk">Портирование Go на архитектуру IBM Z</a></li>
+<li><a href="http://blog.gopheracademy.com/advent-2015/introduction/">Анонс декабрьской серии статей о Go - Go Advent 2015</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/semver/">Go Advent 2 Dec - Парсинг semver версий на Go</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2015/debugging-with-delve/">Go Advent 3 Dec - Отладка в Go с Delve</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://moikrug.ru/vacancies/1000022374">Вакансия Go-разработчика в Рязани</a></li>
+<li>Go разработчик в Киеве, в стартап-команду (почта - aklymchuk@gmail.com, skype - andriy.klymchuk)&rdquo;</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2015/12-03-032/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+    
+    
+    
+    <ul class="pagination">
+        
+        <li>
+            <a href="/" aria-label="First"><span aria-hidden="true">&laquo;&laquo;</span></a>
+        </li>
+        
+        <li
+        >
+        <a href="/page/2/" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+        </li>
+        
+        <li
+        ><a href="/">1</a></li>
+        
+        <li
+        ><a href="/page/2/">2</a></li>
+        
+        <li
+        class="active"><a href="/page/3/">3</a></li>
+        
+        <li
+        ><a href="/page/4/">4</a></li>
+        
+        <li
+        ><a href="/page/5/">5</a></li>
+        
+        <li
+        >
+        <a href="/page/4/" aria-label="Next"><span aria-hidden="true">&raquo;</span></a>
+        </li>
+        
+        <li>
+            <a href="/page/5/" aria-label="Last"><span aria-hidden="true">&raquo;&raquo;</span></a>
+        </li>
+        
+    </ul>
+    
+  </div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "golangshow";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+
+<script>
+  var _gaq=[['_setAccount','UA-65258742-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.19" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее. &middot; </title>
+
+  
+  <link rel="stylesheet" href="/css/compiled.css">
+  
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+  <link href="/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="">
+  <meta name="keywords" content="Go,golang,подкаст">
+  
+  <meta property="og:title" content="Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://golangshow.com/episode/2016/03-24-049/ " />
+  <meta property="og:image" content="/images/cover.png" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Подкаст GolangShow" />
+  <meta name="google-site-verification" content="FKPuAxWwWn5i3RgR1jAZsWs2EYpSXMdOEpaVCGhx_Cc" />
+  <meta name='yandex-verification' content='5cae7ee3128b7c52' />
+
+  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+</head>
+<body class="theme-base-0d">
+
+
+<script>
+function showMailingPopUp() {
+    require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us13.list-manage.com","uuid":"825dd78d184fbe74999cf9271","lid":"66e2863596"}) });
+    
+};
+</script>
+<style>
+a#mailinglink {
+	color: 'red';
+}
+</style>
+
+
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <a href="/"><img src="/images/logo2.png"></a>
+        <h1></h1>
+      <h1 class="lead">Русскоязычный подкаст о Go</h1>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="http://golangshow.com/">Главная</a></li>
+      <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/online">Онлайн вещание</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?mt=2">iTunes</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">Гости</a></li>
+      	
+      
+      	
+      	  <li class="sidebar-nav-item"><a href="https://www.patreon.com/golangshow">Поддержать подкаст</a></li>
+      	
+      
+    </ul>
+
+    <h3>Наши друзья</h3>
+    <ul class="sidebar-nav">
+      
+      <li class="sidebar-nav-item"><a href="http://4gophers.ru" target="_blank">4gophers.ru</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+      <li class="sidebar-nav-item"><a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e" target="_blank">DigitalOcean</a> <i class="fa fa-external-link fa-1"></i></li></li>
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/GolangShow/golangshow.com" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      <a href="https://www.facebook.com/golangshow" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="https://twitter.com/golangshow" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="https://vk.com/golangshow" target="_blank"><span class="fa-stack"><i class="fa fa-square fa-3x"></i><i class="fa fa-stack-2x fa-vk"></i></span></a>
+      
+      <a href="http://golangshow.com/episode/index.xml"  target="_blank" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      
+      </li>
+    </ul>
+
+    
+
+    <p>
+  Подкаст GolangShow All rights reserved - 2017</p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <br/>
+  <div class="post">
+    <h1>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</h1>
+    <span class="post-date">Mar 24, 2016 
+    
+    <br/>
+    <a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a><a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+    </span>
+
+
+    
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://www.outcoldman.com/about/">Денис Гладких</a> из <a href="https://splunk.com">Splunk</a>. Поговорили про большие данные, про Go и другие языки программирования, про энтерпрайз и стартапы.
+Ссылки от гостя:
+- <a href="http://conf.splunk.com/speakers/thecube.html">Про Splunk</a>
+- <a href="http://sns.to/The%20Go%20Future.txt">То самое письмо</a></p>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Что нового появилось в репозитории за неделю
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/4c9a470d468b6b6fa0520f32e034a1762dba3f9d">SSA ARM port</a></li>
+<li><a href="https://github.com/golang/go/commit/53efe1e121e68feadcce00d1f7b1978dbbd1d1c7]">compress/flate: rework matching algorithm</a></li>
+<li><a href="https://github.com/golang/go/commit/23a756d856dabd86e3f83480f31c291cbcd6464a">testing: expose subtest and subbenchmark functionality</a></li>
+<li><a href="https://github.com/golang/go/commit/e41f527f4d56a94b33ab73efaae3575760916194">cmd/compile: allow inlining of functions with switch statements</a></li>
+<li><a href="https://github.com/golang/go/issues/14904">fault in runtime.mapiternext</a></li>
+</ul></li>
+<li><a href="http://blog.greta.io/a-webrtc-signaling-system-that-scales-very-effectively/">A signaling system for 10M+ concurrent connections</a></li>
+<li>Про пакетные менеджеры, вендоринг зависимостей и всякое такое:
+
+<ul>
+<li><a href="https://github.com/keltia/leftpad">leftpad</a></li>
+<li><a href="https://github.com/whyrusleeping/gx">gx</a> и <a href="https://github.com/whyrusleeping/gx-go">gx-go</a></li>
+<li><a href="https://github.com/mattfarina/golang-broken-vendor">Как сломать vendor</a></li>
+</ul></li>
+<li><a href="http://dave.cheney.net/2016/03/19/should-methods-be-declared-on-t-or-t">Should methods be declared on T or *T</a> и <a href="http://play.golang.org/p/DvXppHLY4Z">контрпример от Алексея</a></li>
+<li><a href="https://docs.google.com/document/d/1vdAEAjYdzjnPA9WDOQ1e4e05cYVMpqSxJYZT33Cqw2g/edit#heading=h.ywknbkyeha6d">Bounds Checking Elimination</a></li>
+<li><a href="https://blog.micro.mu/2016/03/20/micro.html">Micro — a microservices toolkit</a></li>
+<li>Трёхлетие Docker’а и <a href="https://beta.docker.com">beta для Mac и Windows</a></li>
+<li><a href="https://github.com/joefitzgerald/go-plus/releases/tag/v4.0.0">Пакет go-plus для IDE Atom - релиз 4.0.0</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li>CodeFest — Новосибирск, 26-27 марта, где ожидаются <a href="http://2016.codefest.ru/lecture/1068">доклад</a> и <a href="http://2016.codefest.ru/lecture/1121">квартирник</a> по Go</li>
+<li><a href="http://piter-united.ru/itgm7/itgm.html">IT global meetup #7</a> — Санкт-Петербург, 2 апреля</li>
+<li><a href="http://www.dotgo.eu">dotGo 2016</a> — Париж, 10 октября, промокод GOLANGSHOW для скидки в 20%</li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+    
+      <hr/>
+
+<p>
+	Длительность: 01:28:32 <br/>
+	Размер: 42 МБ
+</p>
+<p>HTML5 аудио плеер:
+
+<blockquote>
+	<audio controls width="400px" height="150px">
+		<source src="https://golangshow.com/cdn/episodes/049.mp3" type="audio/mpeg">
+		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
+	</audio>
+</blockquote>
+
+</p>
+
+<p>Прямая ссылка на MP3 аудио поток:
+<blockquote>
+	<a href="https://golangshow.com/cdn/episodes/049.mp3" target="_blank">https://golangshow.com/cdn/episodes/049.mp3</a>
+</blockquote>
+</p>
+
+    
+  </div>
+    
+
+    <section class="share">
+
+      <span>Рассказать друзьям:</span>
+      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20049.%20%d0%93%d0%be%d1%81%d1%82%d1%8c%20%d0%94%d0%b5%d0%bd%d0%b8%d1%81%20%d0%93%d0%bb%d0%b0%d0%b4%d0%ba%d0%b8%d1%85%20%d0%b8%d0%b7%20Splunk.%20%d0%a2%d1%80%d0%b8%20%d0%b3%d0%be%d0%b4%d0%b0%20Docker%2c%20NATS%2c%20%d0%b2%d0%b5%d0%bd%d0%b4%d0%be%d1%80%d0%b8%d0%bd%d0%b3%20%d0%b8%20%d0%bf%d1%80%d0%be%d1%87%d0%b5%d0%b5.&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f03-24-049%2f"
+          onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
+
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f03-24-049%2f"
+          onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
+      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2016%2f03-24-049%2f"
+         onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
+    </section>
+    
+
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "golangshow";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "golangshow";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="//disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+<script>
+  var _gaq=[['_setAccount','UA-65258742-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+</body>
+</html>
+

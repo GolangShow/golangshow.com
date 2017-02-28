@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
+  <channel>
+    <title>Подкаст GolangShow</title>
+    <link>http://golangshow.com/</link>
+    <language>ru-RU</language>
+    <copyright>&#x2117; &amp; &#xA9; 2015-2016, Команда GolangShow</copyright>
+    <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
+    <itunes:author>Подкаст GolangShow</itunes:author>
+    <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
+    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
+    <generator>Hugo 0.19</generator>
+    <itunes:image href="http://golangshow.com/images/cover_big.png" />
+    <itunes:category text="Technology">
+        <itunes:category text="Software How-To" />
+    </itunes:category>
+    <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>Хакатон GopherGala</title>
+        <itunes:subtitle>Хакатон GopherGala</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Для участия обязательна регистрация на &lt;a href=&#34;http://gophergala.com&#34;&gt;GopherGala&lt;/a&gt;. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.&lt;/p&gt;
+
+&lt;p&gt;Хакатон официально начинает свою работу с субботы 23го января 04:00 UTC+03. Длительность 48 часов.&lt;/p&gt;
+
+&lt;p&gt;Войти и выйти можно будет во всё время хакатона – возьмите паспорт.&lt;/p&gt;
+
+&lt;p&gt;Пожалуйста, &lt;a href=&#34;http://www.meetup.com/Golang-Moscow/events/227824052/&#34;&gt;RSVP тут&lt;/a&gt;, только если вы хотите активно поучаствовать в хакатоне в месте встречи. Удалённое участие не требует RSVP, но не отменяет регистрацию на &lt;a href=&#34;http://gophergala.com&#34;&gt;GopherGala&lt;/a&gt;. Желание прийти &amp;ldquo;просто потусоваться&amp;rdquo; не очень приветствуется.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/tceh.jpg&#34; alt=&#34;Tceh&#34; /&gt; Место встречи &lt;a href=&#34;http://tceh.com&#34;&gt;коворкинг Tceh&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://" length="" type="audio/mpeg" />
+        <itunes:duration></itunes:duration>
+
+        <link>http://golangshow.com/post/2016/01-22-gophergala/</link>
+        <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/post/2016/01-22-gophergala/</guid>
+        <description>&lt;p&gt;Для участия обязательна регистрация на &lt;a href=&#34;http://gophergala.com&#34;&gt;GopherGala&lt;/a&gt;. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.&lt;/p&gt;
+
+&lt;p&gt;Хакатон официально начинает свою работу с субботы 23го января 04:00 UTC+03. Длительность 48 часов.&lt;/p&gt;
+
+&lt;p&gt;Войти и выйти можно будет во всё время хакатона – возьмите паспорт.&lt;/p&gt;
+
+&lt;p&gt;Пожалуйста, &lt;a href=&#34;http://www.meetup.com/Golang-Moscow/events/227824052/&#34;&gt;RSVP тут&lt;/a&gt;, только если вы хотите активно поучаствовать в хакатоне в месте встречи. Удалённое участие не требует RSVP, но не отменяет регистрацию на &lt;a href=&#34;http://gophergala.com&#34;&gt;GopherGala&lt;/a&gt;. Желание прийти &amp;ldquo;просто потусоваться&amp;rdquo; не очень приветствуется.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/tceh.jpg&#34; alt=&#34;Tceh&#34; /&gt; Место встречи &lt;a href=&#34;http://tceh.com&#34;&gt;коворкинг Tceh&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</title>
+        <itunes:subtitle>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.&lt;/p&gt;
+
+&lt;p&gt;Как всегда, все ваши вопросы пишите в комментариях! =)&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://" length="" type="audio/mpeg" />
+        <itunes:duration></itunes:duration>
+
+        <link>http://golangshow.com/post/2015/09-03-before-015/</link>
+        <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/post/2015/09-03-before-015/</guid>
+        <description>&lt;p&gt;Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.&lt;/p&gt;
+
+&lt;p&gt;Как всегда, все ваши вопросы пишите в комментариях! =)&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
+        <title>Вопросы к выпуску 014. Гость из Docker.</title>
+        <itunes:subtitle>Вопросы к выпуску 014. Гость из Docker.</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;В четырнадцатом выпуске у нас будет гость из компании Docker.
+Если у вас есть вопросы к &lt;a href=&#34;https://twitter.com/lk4d4math&#34;&gt;Александру&lt;/a&gt;, пишите в комментариях! =)&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://" length="" type="audio/mpeg" />
+        <itunes:duration></itunes:duration>
+
+        <link>http://golangshow.com/post/2015/08-26-before-014/</link>
+        <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/post/2015/08-26-before-014/</guid>
+        <description>&lt;p&gt;В четырнадцатом выпуске у нас будет гость из компании Docker.
+Если у вас есть вопросы к &lt;a href=&#34;https://twitter.com/lk4d4math&#34;&gt;Александру&lt;/a&gt;, пишите в комментариях! =)&lt;/p&gt;
+</description>
+      </item>
+    
+  </channel>
+</rss>

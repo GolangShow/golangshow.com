@@ -1,8 +1,12 @@
+# iTunes Store now supports Let's Encrypt certificates: https://itunespartner.apple.com/en/podcasts/faq
+# TODO Change to https:// when we have time to test/debug it.
 baseUrl = "http://golangshow.com/"
+
 languageCode = "ru-RU"
 title = "Подкаст GolangShow"
 theme = "golangshow"
 paginate = 20
+rssLimit = 500
 disqusShortname = "golangshow"
 copyright = "All rights reserved - 2015-2016"
 
@@ -44,7 +48,7 @@ copyright = "All rights reserved - 2015-2016"
   name = "iTunes"
   weight = 10
   identifier = "itunes"
-  url = "https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?l=en&mt=2"
+  url = "https://itunes.apple.com/ru/podcast/podkast-golangshow/id1031101295?mt=2"
 
 [[menu.main]]
   name = "Поддержать подкаст"

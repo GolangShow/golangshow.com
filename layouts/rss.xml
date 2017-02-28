@@ -1,5 +1,5 @@
 <rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  {{ "<!-- This fees is _not_ for iTunes, see episode.rss.xml for that. -->" | safeHTML }}
+  {{ "<!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->" | safeHTML }}
   <channel>
     <title>Подкаст GolangShow</title>
     <link>{{ .Site.BaseURL }}</link>
@@ -23,7 +23,7 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
-        <enclosure url="https://{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
+        <enclosure url="http://{{ .Params.link }}" length="{{ .Params.size }}" type="audio/mpeg" />
         <itunes:duration>{{ .Params.length }}</itunes:duration>
 
         <link>{{ .Permalink }}</link>
