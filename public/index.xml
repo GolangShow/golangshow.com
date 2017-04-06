@@ -20,7 +20,7 @@
       <item>
         <title>Выпуск 095. С чистого листа</title>
         <itunes:subtitle>Выпуск 095. С чистого листа</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -80,7 +80,7 @@
         <pubDate>Wed, 05 Apr 2017 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2017/04-05-095/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -135,7 +135,7 @@
       <item>
         <title>Выпуск 094. Релиз Go 1.8</title>
         <itunes:subtitle>Выпуск 094. Релиз Go 1.8</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -170,7 +170,7 @@
         <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2017/02-17-094/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -200,7 +200,7 @@
       <item>
         <title>Выпуск 093. Контекст времени</title>
         <itunes:subtitle>Выпуск 093. Контекст времени</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -257,7 +257,7 @@
         <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2017/02-08-093/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -309,7 +309,7 @@
       <item>
         <title>Выпуск 092. Гости из JetBrains. Gogland</title>
         <itunes:subtitle>Выпуск 092. Гости из JetBrains. Gogland</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -363,7 +363,7 @@
         <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2017/02-01-092/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -412,7 +412,7 @@
       <item>
         <title>Выпуск 091. Go 2017</title>
         <itunes:subtitle>Выпуск 091. Go 2017</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -472,7 +472,7 @@
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2017/01-25-091/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -527,7 +527,7 @@
       <item>
         <title>Выпуск 090. В гостях Яна и Миша из Juno</title>
         <itunes:subtitle>Выпуск 090. В гостях Яна и Миша из Juno</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -569,7 +569,7 @@
         <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2017/01-18-090/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -606,7 +606,7 @@
       <item>
         <title>Выпуск 088. Beta 2, Gogland, Go User Survey</title>
         <itunes:subtitle>Выпуск 088. Beta 2, Gogland, Go User Survey</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -660,7 +660,7 @@
         <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/12-17-088/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -709,7 +709,7 @@
       <item>
         <title>Выпуск 087. Плагины, алиасы, базы данных</title>
         <itunes:subtitle>Выпуск 087. Плагины, алиасы, базы данных</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -788,7 +788,7 @@
         <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/12-11-087/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -862,7 +862,7 @@
       <item>
         <title>Выпуск 086. 1.6.4, 1.7.4, 1.8beta1</title>
         <itunes:subtitle>Выпуск 086. 1.6.4, 1.7.4, 1.8beta1</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -920,7 +920,7 @@
         <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/12-03-086/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -973,7 +973,7 @@
       <item>
         <title>Выпуск 085. Как прошел DevFest в Новосибирске. Go в Кыргызстане</title>
         <itunes:subtitle>Выпуск 085. Как прошел DevFest в Новосибирске. Go в Кыргызстане</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -1085,7 +1085,7 @@
         <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/11-25-085/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -1192,7 +1192,7 @@
       <item>
         <title>Выпуск 084. В гостях Максим Филатов. Спецвыпуск про Kubernetes.</title>
         <itunes:subtitle>Выпуск 084. В гостях Максим Филатов. Спецвыпуск про Kubernetes.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p>В гостях Максим Филатов, ops в <a href="http://evl.ms">Evil Martians</a>.</p>
 
@@ -1266,7 +1266,7 @@
         <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/11-23-084/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p>В гостях Максим Филатов, ops в <a href="http://evl.ms">Evil Martians</a>.</p>
 
@@ -1335,7 +1335,7 @@
       <item>
         <title>Выпуск 083. Запоздалый.</title>
         <itunes:subtitle>Выпуск 083. Запоздалый.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1395,7 +1395,7 @@
         <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/11-16-083/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1450,7 +1450,7 @@
       <item>
         <title>Выпуск 082. В гостях Андрей Минкин. 7 лет Go, 10 HighLoad&#39;у</title>
         <itunes:subtitle>Выпуск 082. В гостях Андрей Минкин. 7 лет Go, 10 HighLoad&#39;у</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1513,7 +1513,7 @@
         <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/11-09-082/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1571,7 +1571,7 @@
       <item>
         <title>Выпуск 081. Интриги и расследования</title>
         <itunes:subtitle>Выпуск 081. Интриги и расследования</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1653,7 +1653,7 @@
         <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/11-02-081/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1730,7 +1730,7 @@
       <item>
         <title>Выпуск 080. Go 2.0, performance, data science</title>
         <itunes:subtitle>Выпуск 080. Go 2.0, performance, data science</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1798,7 +1798,7 @@
         <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/10-26-080/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1861,7 +1861,7 @@
       <item>
         <title>Выпуск 079. Go 1.7.3 и некоторые любимые темы</title>
         <itunes:subtitle>Выпуск 079. Go 1.7.3 и некоторые любимые темы</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -1934,7 +1934,7 @@
         <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/10-21-079/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2002,7 +2002,7 @@
       <item>
         <title>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</title>
         <itunes:subtitle>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p>В гостях <a href="https://twitter.com/dadabird">Андрей Погребной</a>.</p>
 
@@ -2075,7 +2075,7 @@
         <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/10-14-077/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p>В гостях <a href="https://twitter.com/dadabird">Андрей Погребной</a>.</p>
 
@@ -2143,7 +2143,7 @@
       <item>
         <title>Выпуск 076. Tooling, profiling, machine learning.</title>
         <itunes:subtitle>Выпуск 076. Tooling, profiling, machine learning.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2211,7 +2211,7 @@
         <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/09-30-076/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2274,7 +2274,7 @@
       <item>
         <title>Выпуск 075. Мины и плагины.</title>
         <itunes:subtitle>Выпуск 075. Мины и плагины.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2345,7 +2345,7 @@
         <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/09-22-075/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2411,7 +2411,7 @@
       <item>
         <title>Выпуск 074. Community, community, community.</title>
         <itunes:subtitle>Выпуск 074. Community, community, community.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h1 id="спецтема-про-коммьюнити">Спецтема про коммьюнити!</h1>
 
@@ -2469,7 +2469,7 @@
         <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/09-14-074/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h1 id="спецтема-про-коммьюнити">Спецтема про коммьюнити!</h1>
 
@@ -2522,7 +2522,7 @@
       <item>
         <title>Выпуск 073. Retina icon и вендоринг.</title>
         <itunes:subtitle>Выпуск 073. Retina icon и вендоринг.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2590,7 +2590,7 @@
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/09-08-073/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2653,7 +2653,7 @@
       <item>
         <title>Выпуск 072. Коммиты и комитеты</title>
         <itunes:subtitle>Выпуск 072. Коммиты и комитеты</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2751,7 +2751,7 @@
         <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/09-01-072/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2844,7 +2844,7 @@
       <item>
         <title>Выпуск 071. It&#39;s a SOLID one.</title>
         <itunes:subtitle>Выпуск 071. It&#39;s a SOLID one.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2914,7 +2914,7 @@
         <pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/08-26-071/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -2979,7 +2979,7 @@
       <item>
         <title>Выпуск 070. Go 1.7 is released!</title>
         <itunes:subtitle>Выпуск 070. Go 1.7 is released!</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3050,7 +3050,7 @@
         <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/08-23-070/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3116,7 +3116,7 @@
       <item>
         <title>Выпуск 069. Go 1.7 RC 6, bytes + strings, как прошел митап в Москве</title>
         <itunes:subtitle>Выпуск 069. Go 1.7 RC 6, bytes + strings, как прошел митап в Москве</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3173,7 +3173,7 @@
         <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/08-12-069/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3225,7 +3225,7 @@
       <item>
         <title>Выпуск 068. В гостях Максим Тищенко. Омск, GopherCon, RC 4-5</title>
         <itunes:subtitle>Выпуск 068. В гостях Максим Тищенко. Омск, GopherCon, RC 4-5</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -3296,7 +3296,7 @@
         <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/08-04-068/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -3362,7 +3362,7 @@
       <item>
         <title>Выпуск 067. Рефлексия и кодогенерация. Docker 1.12. Московский митап</title>
         <itunes:subtitle>Выпуск 067. Рефлексия и кодогенерация. Docker 1.12. Московский митап</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3424,7 +3424,7 @@
         <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/07-29-067/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3481,7 +3481,7 @@
       <item>
         <title>Выпуск 066. Go для всех, микросервисы и другие любимые темы</title>
         <itunes:subtitle>Выпуск 066. Go для всех, микросервисы и другие любимые темы</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3546,7 +3546,7 @@
         <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/07-21-066/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3606,7 +3606,7 @@
       <item>
         <title>Выпуск 065. Go 1.6.3, context, практические советы</title>
         <itunes:subtitle>Выпуск 065. Go 1.6.3, context, практические советы</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3690,7 +3690,7 @@
         <pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/07-16-065/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3769,7 +3769,7 @@
       <item>
         <title>Выпуск 064. 2⁶</title>
         <itunes:subtitle>Выпуск 064. 2⁶</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3820,7 +3820,7 @@
         <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/07-07-064/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -3866,7 +3866,7 @@
       <item>
         <title>Выпуск 063. В гостях Леонид Бугаев. Управление зависимостями, TOC, плохое поведение</title>
         <itunes:subtitle>Выпуск 063. В гостях Леонид Бугаев. Управление зависимостями, TOC, плохое поведение</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -3928,7 +3928,7 @@
         <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/06-30-063/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -3985,7 +3985,7 @@
       <item>
         <title>Выпуск 062. Dockercon, парадигма Rust, веб-фреймворк Iris</title>
         <itunes:subtitle>Выпуск 062. Dockercon, парадигма Rust, веб-фреймворк Iris</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -4041,7 +4041,7 @@
         <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/06-23-062/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -4092,7 +4092,7 @@
       <item>
         <title>Выпуск 061. Гость Николай Сивко из OkMeter</title>
         <itunes:subtitle>Выпуск 061. Гость Николай Сивко из OkMeter</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4159,7 +4159,7 @@
         <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/06-16-061/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4221,7 +4221,7 @@
       <item>
         <title>Выпуск 060. Гости из Meduza Project</title>
         <itunes:subtitle>Выпуск 060. Гости из Meduza Project</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -4276,7 +4276,7 @@
         <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/06-09-060/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -4326,7 +4326,7 @@
       <item>
         <title>Выпуск 059. Гость Александр Клижентас из Gravitational. Go 1.7 beta 1</title>
         <itunes:subtitle>Выпуск 059. Гость Александр Клижентас из Gravitational. Go 1.7 beta 1</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4389,7 +4389,7 @@
         <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/06-02-059/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4447,7 +4447,7 @@
       <item>
         <title>Выпуск 058. В гостях Марко Кевац из Badoo. Ожидание Go 1.7. Профилирование. Базы данных.</title>
         <itunes:subtitle>Выпуск 058. В гостях Марко Кевац из Badoo. Ожидание Go 1.7. Профилирование. Базы данных.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4536,7 +4536,7 @@
         <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/05-26-058/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4620,7 +4620,7 @@
       <item>
         <title>Выпуск 057. SSA, моки, сети, ORM</title>
         <itunes:subtitle>Выпуск 057. SSA, моки, сети, ORM</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -4693,7 +4693,7 @@
         <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/05-19-057/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -4761,7 +4761,7 @@
       <item>
         <title>Выпуск 056. Лучшие практики, лучшие инструменты и лучшие митапы</title>
         <itunes:subtitle>Выпуск 056. Лучшие практики, лучшие инструменты и лучшие митапы</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -4828,7 +4828,7 @@
         <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/05-12-056/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -4890,7 +4890,7 @@
       <item>
         <title>Выпуск 055. Haskell Show. В гостях Денис Шевченко из подкаста «Бананы и линзы». Про Haskell и математику в голове.</title>
         <itunes:subtitle>Выпуск 055. Haskell Show. В гостях Денис Шевченко из подкаста «Бананы и линзы». Про Haskell и математику в голове.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -4978,7 +4978,7 @@
         <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/05-05-055/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5061,7 +5061,7 @@
       <item>
         <title>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</title>
         <itunes:subtitle>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5133,7 +5133,7 @@
         <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/04-28-054/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5200,7 +5200,7 @@
       <item>
         <title>Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</title>
         <itunes:subtitle>Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5289,7 +5289,7 @@
         <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/04-21-053/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5373,7 +5373,7 @@
       <item>
         <title>Выпуск 052. Релиз Go 1.6.1 и 1.5.4. Еще одна заявка на дженерики. Полезные инструменты для написания Go-кода.</title>
         <itunes:subtitle>Выпуск 052. Релиз Go 1.6.1 и 1.5.4. Еще одна заявка на дженерики. Полезные инструменты для написания Go-кода.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -5493,7 +5493,7 @@
         <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/04-14-052/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -5608,7 +5608,7 @@
       <item>
         <title>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</title>
         <itunes:subtitle>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5714,7 +5714,7 @@
         <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/04-07-051/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -5815,7 +5815,7 @@
       <item>
         <title>Выпуск 050. ½-юбилей</title>
         <itunes:subtitle>Выпуск 050. ½-юбилей</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -5884,7 +5884,7 @@
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/03-31-050/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -5948,7 +5948,7 @@
       <item>
         <title>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</title>
         <itunes:subtitle>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -6010,7 +6010,7 @@
         <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/03-24-049/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -6067,7 +6067,7 @@
       <item>
         <title>Выпуск 048. Молодость Java и Go, митап в SF, как писать тесты</title>
         <itunes:subtitle>Выпуск 048. Молодость Java и Go, митап в SF, как писать тесты</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -6130,7 +6130,7 @@
         <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/03-18-048/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -6188,7 +6188,7 @@
       <item>
         <title>Выпуск 047. Каналы, логгеры, ORM</title>
         <itunes:subtitle>Выпуск 047. Каналы, логгеры, ORM</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6249,7 +6249,7 @@
         <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/03-10-047/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6305,7 +6305,7 @@
       <item>
         <title>Выпуск 046. Менеджеры пакетов, анонс конференций, тысячный участник в golang-ru</title>
         <itunes:subtitle>Выпуск 046. Менеджеры пакетов, анонс конференций, тысячный участник в golang-ru</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6354,7 +6354,7 @@
         <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/03-05-046/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6398,7 +6398,7 @@
       <item>
         <title>Выпуск 045. Производительность Go со всех сторон</title>
         <itunes:subtitle>Выпуск 045. Производительность Go со всех сторон</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6450,7 +6450,7 @@
         <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/02-25-045/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6497,7 +6497,7 @@
       <item>
         <title>Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</title>
         <itunes:subtitle>Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -6547,7 +6547,7 @@
         <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/02-18-044/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -6592,7 +6592,7 @@
       <item>
         <title>Выпуск 043. Meshbird, паттерны и интерфейсы</title>
         <itunes:subtitle>Выпуск 043. Meshbird, паттерны и интерфейсы</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -6640,7 +6640,7 @@
         <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/02-12-043/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -6683,7 +6683,7 @@
       <item>
         <title>Выпуск 042. Go 1.6RC2, планы на Go 1.7 и ассемблер</title>
         <itunes:subtitle>Выпуск 042. Go 1.6RC2, планы на Go 1.7 и ассемблер</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -6734,7 +6734,7 @@
         <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/02-05-042/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
 
@@ -6780,7 +6780,7 @@
       <item>
         <title>Выпуск 041. В гостях Андрей Смирнов из EMC</title>
         <itunes:subtitle>Выпуск 041. В гостях Андрей Смирнов из EMC</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p>Сегодня у нас в гостях <a href="https://twitter.com/smira">Андрей Смирнов</a> из компании EMC, автор Aptly и докладов на Highload. Поговорили с Андреем про Go, его проекты, devops, CAP-теорему и всякое разное.</p>
 
@@ -6828,7 +6828,7 @@
         <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/02-04-041/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p>Сегодня у нас в гостях <a href="https://twitter.com/smira">Андрей Смирнов</a> из компании EMC, автор Aptly и докладов на Highload. Поговорили с Андреем про Go, его проекты, devops, CAP-теорему и всякое разное.</p>
 
@@ -6871,7 +6871,7 @@
       <item>
         <title>Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</title>
         <itunes:subtitle>Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -6952,7 +6952,7 @@
         <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/01-28-040/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7028,7 +7028,7 @@
       <item>
         <title>Хакатон GopherGala</title>
         <itunes:subtitle>Хакатон GopherGala</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
+        <itunes:summary><![CDATA[<p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
 
 <p>Хакатон официально начинает свою работу с субботы 23го января 04:00 UTC+03. Длительность 48 часов.</p>
 
@@ -7048,7 +7048,7 @@
         <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/post/2016/01-22-gophergala/</guid>
-        <description>&lt;![CDATA[<p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
+        <description><![CDATA[<p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
 
 <p>Хакатон официально начинает свою работу с субботы 23го января 04:00 UTC+03. Длительность 48 часов.</p>
 
@@ -7063,7 +7063,7 @@
       <item>
         <title>Выпуск 039. Gopher Gala и другие митапы</title>
         <itunes:subtitle>Выпуск 039. Gopher Gala и другие митапы</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7105,7 +7105,7 @@
         <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/01-21-039/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7142,7 +7142,7 @@
       <item>
         <title>Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</title>
         <itunes:subtitle>Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -7190,7 +7190,7 @@
         <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/01-14-038/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гости">Гости</h2>
 
@@ -7233,7 +7233,7 @@
       <item>
         <title>Выпуск 037. Больше Go, Rust&#39;а и LLVM</title>
         <itunes:subtitle>Выпуск 037. Больше Go, Rust&#39;а и LLVM</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7285,7 +7285,7 @@
         <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2016/01-07-037/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7332,7 +7332,7 @@
       <item>
         <title>Выпуск 036. Новогодние посиделки у камина</title>
         <itunes:subtitle>Выпуск 036. Новогодние посиделки у камина</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p><img src="/images/go_fireplace.png" alt="logo" /></p>
 
@@ -7375,7 +7375,7 @@
         <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p><img src="/images/go_fireplace.png" alt="logo" /></p>
 
@@ -7413,7 +7413,7 @@
       <item>
         <title>Выпуск 035. Go Generate, вендоринг и внутренности net/http</title>
         <itunes:subtitle>Выпуск 035. Go Generate, вендоринг и внутренности net/http</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7463,7 +7463,7 @@
         <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/12-24-035/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7508,7 +7508,7 @@
       <item>
         <title>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</title>
         <itunes:subtitle>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -7551,7 +7551,7 @@
         <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/12-17-034/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -7589,7 +7589,7 @@
       <item>
         <title>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</title>
         <itunes:subtitle>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7622,7 +7622,7 @@
         <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/12-10-033/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="новости">Новости</h2>
 
@@ -7650,7 +7650,7 @@
       <item>
         <title>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</title>
         <itunes:subtitle>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -7701,7 +7701,7 @@
         <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/12-03-032/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h2 id="гость">Гость</h2>
 
@@ -7747,7 +7747,7 @@
       <item>
         <title>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</title>
         <itunes:subtitle>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h3 id="веб-фреймворки">Веб-фреймворки</h3>
 
@@ -7798,7 +7798,7 @@
         <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-26-031/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h3 id="веб-фреймворки">Веб-фреймворки</h3>
 
@@ -7844,7 +7844,7 @@
       <item>
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+        <itunes:summary><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -7856,14 +7856,14 @@
         <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
-        <description>&lt;![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+        <description><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
 ]]></description>
       </item>
     
       <item>
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+        <itunes:summary><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -7875,14 +7875,14 @@
         <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
-        <description>&lt;![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+        <description><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
 ]]></description>
       </item>
     
       <item>
         <title>Выпуск 028. Интервью с Пайком и интеграционные тесты</title>
         <itunes:subtitle>Выпуск 028. Интервью с Пайком и интеграционные тесты</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <h3 id="новости">Новости</h3>
 
@@ -7922,7 +7922,7 @@
         <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-19-028/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <h3 id="новости">Новости</h3>
 
@@ -7957,7 +7957,7 @@
       <item>
         <title>Выпуск 027. DotGo. В гостях Елена Граховац</title>
         <itunes:subtitle>Выпуск 027. DotGo. В гостях Елена Граховац</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p>В гостях в этом выпуске <a href="https://twitter.com/webdeva">Елена Граховац</a>, начинающий разработчик на Go =) Лена рассказывает про себя, как дошла до такой жизни, чем занимается и причём тут Go.</p>
 
@@ -7996,7 +7996,7 @@
         <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-13-027/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p>В гостях в этом выпуске <a href="https://twitter.com/webdeva">Елена Граховац</a>, начинающий разработчик на Go =) Лена рассказывает про себя, как дошла до такой жизни, чем занимается и причём тут Go.</p>
 
@@ -8030,7 +8030,7 @@
       <item>
         <title>Выпуск 026. В гостях Нодир Туракулов из Google</title>
         <itunes:subtitle>Выпуск 026. В гостях Нодир Туракулов из Google</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p>В гостях <a href="http://nodir.io/">Нодир Туракулов</a> из Google. Работает над инструментами для разработчиков в Google. А так же контрибьютит в стандартную библиотеку Go. (<a href="https://github.com/nodirt">Gihub</a> / <a href="https://twitter.com/nodirtz">Twitter</a>)</p>
 
@@ -8075,7 +8075,7 @@
         <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-05-026/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p>В гостях <a href="http://nodir.io/">Нодир Туракулов</a> из Google. Работает над инструментами для разработчиков в Google. А так же контрибьютит в стандартную библиотеку Go. (<a href="https://github.com/nodirt">Gihub</a> / <a href="https://twitter.com/nodirtz">Twitter</a>)</p>
 
@@ -8115,7 +8115,7 @@
       <item>
         <title>Выпуск 025. Medium и RTB</title>
         <itunes:subtitle>Выпуск 025. Medium и RTB</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://github.com/concord/concord-go">Иван рассказывает о хакатоне Concord.io</a></li>
@@ -8149,7 +8149,7 @@
         <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/10-29-025/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://github.com/concord/concord-go">Иван рассказывает о хакатоне Concord.io</a></li>
@@ -8178,7 +8178,7 @@
       <item>
         <title>Выпуск 024. SpaceX и net/context</title>
         <itunes:subtitle>Выпуск 024. SpaceX и net/context</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://devzen.ru/episode-0063/">Выступление Славы в Devzen-подкасте</a></li>
@@ -8213,7 +8213,7 @@
         <pubDate>Thu, 22 Oct 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/10-22-024/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://devzen.ru/episode-0063/">Выступление Славы в Devzen-подкасте</a></li>
@@ -8243,7 +8243,7 @@
       <item>
         <title>Выпуск 023. Влад &#39;Компилятор&#39; Краснов из CloudFlare</title>
         <itunes:subtitle>Выпуск 023. Влад &#39;Компилятор&#39; Краснов из CloudFlare</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>У нас в гостях <a href="https://github.com/vkrasnov">Влад Краснов</a> из компании <a href="https://www.cloudflare.com">CloudFlare</a>, автор значительных оптимизаций и ускорений в криптографических пакетах Go.</p>
+        <itunes:summary><![CDATA[<p>У нас в гостях <a href="https://github.com/vkrasnov">Влад Краснов</a> из компании <a href="https://www.cloudflare.com">CloudFlare</a>, автор значительных оптимизаций и ускорений в криптографических пакетах Go.</p>
 
 <ul>
 <li>Влад рассказал о работе в Intel и переходе в CloudFlare</li>
@@ -8281,7 +8281,7 @@
         <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/10-15-023/</guid>
-        <description>&lt;![CDATA[<p>У нас в гостях <a href="https://github.com/vkrasnov">Влад Краснов</a> из компании <a href="https://www.cloudflare.com">CloudFlare</a>, автор значительных оптимизаций и ускорений в криптографических пакетах Go.</p>
+        <description><![CDATA[<p>У нас в гостях <a href="https://github.com/vkrasnov">Влад Краснов</a> из компании <a href="https://www.cloudflare.com">CloudFlare</a>, автор значительных оптимизаций и ускорений в криптографических пакетах Go.</p>
 
 <ul>
 <li>Влад рассказал о работе в Intel и переходе в CloudFlare</li>
@@ -8314,7 +8314,7 @@
       <item>
         <title>Выпуск 022. Бэтмен, ласточка, кит и робот</title>
         <itunes:subtitle>Выпуск 022. Бэтмен, ласточка, кит и робот</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://gothamgo.com">Впечатления от GothamGo 2015</a></li>
@@ -8346,7 +8346,7 @@
         <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/10-08-022/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://gothamgo.com">Впечатления от GothamGo 2015</a></li>
@@ -8373,7 +8373,7 @@
       <item>
         <title>Выпуск 021. Танзания и новинки от Hashicorp</title>
         <itunes:subtitle>Выпуск 021. Танзания и новинки от Hashicorp</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://ufocoder.com/ru/blog/2015/golang-party-2-novosibirsk">Обзор Go митапа в Новосибирске</a></li>
@@ -8414,7 +8414,7 @@
         <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/10-01-021/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://ufocoder.com/ru/blog/2015/golang-party-2-novosibirsk">Обзор Go митапа в Новосибирске</a></li>
@@ -8450,7 +8450,7 @@
       <item>
         <title>Выпуск 020. Go 1.4.3 и HTTP/2</title>
         <itunes:subtitle>Выпуск 020. Go 1.4.3 и HTTP/2</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://groups.google.com/forum/m/#!topic/golang-announce/iSIyW4lM4hY">Релиз Go 1.4.3 - security fix</a></li>
@@ -8489,7 +8489,7 @@
         <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/09-24-020/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://groups.google.com/forum/m/#!topic/golang-announce/iSIyW4lM4hY">Релиз Go 1.4.3 - security fix</a></li>
@@ -8523,7 +8523,7 @@
       <item>
         <title>Выпуск 019. Банк на Go и очередные success stories</title>
         <itunes:subtitle>Выпуск 019. Банк на Go и очередные success stories</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://jeremymikkola.com/posts/2015_08_28_warming_up_to_go.html">Warming up to Go</a> и <a href="http://habrahabr.ru/post/266851/">вольный перевод на Хабре</a></li>
@@ -8559,7 +8559,7 @@
         <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/09-17-019/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://jeremymikkola.com/posts/2015_08_28_warming_up_to_go.html">Warming up to Go</a> и <a href="http://habrahabr.ru/post/266851/">вольный перевод на Хабре</a></li>
@@ -8590,7 +8590,7 @@
       <item>
         <title>Выпуск 018. В гостях Светлана Божко и Антон Архипов. Java vs Go - гости из мира JVM</title>
         <itunes:subtitle>Выпуск 018. В гостях Светлана Божко и Антон Архипов. Java vs Go - гости из мира JVM</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В гостах <a href="https://twitter.com/sbozhko">Светлана Божко</a> из <a href="http://devzen.ru">подкаста DevZen</a> и <a href="https://twitter.com/antonarhipov">Антон Архипов</a> из <a href="http://razbor-poletov.com">подкаста Разбор Полетов</a>.</p>
+        <itunes:summary><![CDATA[<p>В гостах <a href="https://twitter.com/sbozhko">Светлана Божко</a> из <a href="http://devzen.ru">подкаста DevZen</a> и <a href="https://twitter.com/antonarhipov">Антон Архипов</a> из <a href="http://razbor-poletov.com">подкаста Разбор Полетов</a>.</p>
 
 <p>Обсуждаем особенности разработки под JVM и Go. Гости делятся своими впечатлениями от языка Go.</p>
 
@@ -8612,7 +8612,7 @@
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/09-16-018/</guid>
-        <description>&lt;![CDATA[<p>В гостах <a href="https://twitter.com/sbozhko">Светлана Божко</a> из <a href="http://devzen.ru">подкаста DevZen</a> и <a href="https://twitter.com/antonarhipov">Антон Архипов</a> из <a href="http://razbor-poletov.com">подкаста Разбор Полетов</a>.</p>
+        <description><![CDATA[<p>В гостах <a href="https://twitter.com/sbozhko">Светлана Божко</a> из <a href="http://devzen.ru">подкаста DevZen</a> и <a href="https://twitter.com/antonarhipov">Антон Архипов</a> из <a href="http://razbor-poletov.com">подкаста Разбор Полетов</a>.</p>
 
 <p>Обсуждаем особенности разработки под JVM и Go. Гости делятся своими впечатлениями от языка Go.</p>
 
@@ -8629,7 +8629,7 @@
       <item>
         <title>Выпуск 017. В гостях Алексей Акулович из ВКонтакте</title>
         <itunes:subtitle>Выпуск 017. В гостях Алексей Акулович из ВКонтакте</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://habrahabr.ru/post/265731/">ВКонтакте переписал push-сервер с Node.js на Go</a></li>
@@ -8672,7 +8672,7 @@
         <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/09-10-017/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://habrahabr.ru/post/265731/">ВКонтакте переписал push-сервер с Node.js на Go</a></li>
@@ -8710,7 +8710,7 @@
       <item>
         <title>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</title>
         <itunes:subtitle>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.</p>
+        <itunes:summary><![CDATA[<p>Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.</p>
 
 <p>Как всегда, все ваши вопросы пишите в комментариях! =)</p>
 ]]></itunes:summary>
@@ -8724,7 +8724,7 @@
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/post/2015/09-03-before-015/</guid>
-        <description>&lt;![CDATA[<p>Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.</p>
+        <description><![CDATA[<p>Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.</p>
 
 <p>Как всегда, все ваши вопросы пишите в комментариях! =)</p>
 ]]></description>
@@ -8733,7 +8733,7 @@
       <item>
         <title>Выпуск 016. В гостях Дмитрий Вьюков</title>
         <itunes:subtitle>Выпуск 016. В гостях Дмитрий Вьюков</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Это был один из самых гиковских выпусков нашего шоу, и в этом нам помог <a href="https://twitter.com/dvyukov">Дмитрий Вьюков</a>, один из разработчиков языка Go.</p>
+        <itunes:summary><![CDATA[<p>Это был один из самых гиковских выпусков нашего шоу, и в этом нам помог <a href="https://twitter.com/dvyukov">Дмитрий Вьюков</a>, один из разработчиков языка Go.</p>
 
 <ul>
 <li>[00:00:40] Дима рассказывает чем он занимается сейчас в Google</li>
@@ -8766,7 +8766,7 @@
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/09-03-016/</guid>
-        <description>&lt;![CDATA[<p>Это был один из самых гиковских выпусков нашего шоу, и в этом нам помог <a href="https://twitter.com/dvyukov">Дмитрий Вьюков</a>, один из разработчиков языка Go.</p>
+        <description><![CDATA[<p>Это был один из самых гиковских выпусков нашего шоу, и в этом нам помог <a href="https://twitter.com/dvyukov">Дмитрий Вьюков</a>, один из разработчиков языка Go.</p>
 
 <ul>
 <li>[00:00:40] Дима рассказывает чем он занимается сейчас в Google</li>
@@ -8794,7 +8794,7 @@
       <item>
         <title>Выпуск 015. Basecamp, Apple и ускорение AES-GCM в 30 раз</title>
         <itunes:subtitle>Выпуск 015. Basecamp, Apple и ускорение AES-GCM в 30 раз</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В этом выпуске обсуждаем свежую порцию новостей и статей из мира Go.</p>
+        <itunes:summary><![CDATA[<p>В этом выпуске обсуждаем свежую порцию новостей и статей из мира Go.</p>
 
 <ul>
 <li><a href="https://github.com/pavlik/gobyexample">Крауд-перевод ресурса для новичков GoByExample</a></li>
@@ -8834,7 +8834,7 @@
         <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/08-31-015/</guid>
-        <description>&lt;![CDATA[<p>В этом выпуске обсуждаем свежую порцию новостей и статей из мира Go.</p>
+        <description><![CDATA[<p>В этом выпуске обсуждаем свежую порцию новостей и статей из мира Go.</p>
 
 <ul>
 <li><a href="https://github.com/pavlik/gobyexample">Крауд-перевод ресурса для новичков GoByExample</a></li>
@@ -8869,7 +8869,7 @@
       <item>
         <title>Выпуск 014. Александр Морозов из Docker</title>
         <itunes:subtitle>Выпуск 014. Александр Морозов из Docker</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В 14 выпуске к нам пришёл <a href="https://twitter.com/LK4D4math">Александр Морозов</a> из компании Docker. Он занимается разработкой ядра докера и в частности <a href="https://github.com/opencontainers/runc">runC</a></p>
+        <itunes:summary><![CDATA[<p>В 14 выпуске к нам пришёл <a href="https://twitter.com/LK4D4math">Александр Морозов</a> из компании Docker. Он занимается разработкой ядра докера и в частности <a href="https://github.com/opencontainers/runc">runC</a></p>
 
 <p>Что мы обсуждали:</p>
 
@@ -8906,7 +8906,7 @@
         <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/08-27-014/</guid>
-        <description>&lt;![CDATA[<p>В 14 выпуске к нам пришёл <a href="https://twitter.com/LK4D4math">Александр Морозов</a> из компании Docker. Он занимается разработкой ядра докера и в частности <a href="https://github.com/opencontainers/runc">runC</a></p>
+        <description><![CDATA[<p>В 14 выпуске к нам пришёл <a href="https://twitter.com/LK4D4math">Александр Морозов</a> из компании Docker. Он занимается разработкой ядра докера и в частности <a href="https://github.com/opencontainers/runc">runC</a></p>
 
 <p>Что мы обсуждали:</p>
 
@@ -8938,7 +8938,7 @@
       <item>
         <title>Вопросы к выпуску 014. Гость из Docker.</title>
         <itunes:subtitle>Вопросы к выпуску 014. Гость из Docker.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В четырнадцатом выпуске у нас будет гость из компании Docker.
+        <itunes:summary><![CDATA[<p>В четырнадцатом выпуске у нас будет гость из компании Docker.
 Если у вас есть вопросы к <a href="https://twitter.com/lk4d4math">Александру</a>, пишите в комментариях! =)</p>
 ]]></itunes:summary>
 
@@ -8951,7 +8951,7 @@
         <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/post/2015/08-26-before-014/</guid>
-        <description>&lt;![CDATA[<p>В четырнадцатом выпуске у нас будет гость из компании Docker.
+        <description><![CDATA[<p>В четырнадцатом выпуске у нас будет гость из компании Docker.
 Если у вас есть вопросы к <a href="https://twitter.com/lk4d4math">Александру</a>, пишите в комментариях! =)</p>
 ]]></description>
       </item>
@@ -8959,7 +8959,7 @@
       <item>
         <title>Выпуск 013. Релиз Go 1.5</title>
         <itunes:subtitle>Выпуск 013. Релиз Go 1.5</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Обсуждаем релиз Go 1.5.</p>
+        <itunes:summary><![CDATA[<p>Обсуждаем релиз Go 1.5.</p>
 
 <p>Новости:</p>
 
@@ -8996,7 +8996,7 @@
         <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/08-20-013/</guid>
-        <description>&lt;![CDATA[<p>Обсуждаем релиз Go 1.5.</p>
+        <description><![CDATA[<p>Обсуждаем релиз Go 1.5.</p>
 
 <p>Новости:</p>
 
@@ -9028,7 +9028,7 @@
       <item>
         <title>Выпуск 012. DevZen и Бенуа Мандельброт</title>
         <itunes:subtitle>Выпуск 012. DevZen и Бенуа Мандельброт</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://devzen.ru/episode-0053/">DevZen 0053 с Иваном и Алексеем</a></li>
@@ -9051,7 +9051,7 @@
         <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/08-13-012/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://devzen.ru/episode-0053/">DevZen 0053 с Иваном и Алексеем</a></li>
@@ -9069,7 +9069,7 @@
       <item>
         <title>Выпуск 011. BlackHat, шахматы и Pike</title>
         <itunes:subtitle>Выпуск 011. BlackHat, шахматы и Pike</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости по ходу обсуждения:</p>
+        <itunes:summary><![CDATA[<p>Новости по ходу обсуждения:</p>
 
 <ul>
 <li><a href="https://www.blackhat.com">Слава делится впечатлениями о конференции BlackHat USA</a></li>
@@ -9095,7 +9095,7 @@
         <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/08-06-011/</guid>
-        <description>&lt;![CDATA[<p>Новости по ходу обсуждения:</p>
+        <description><![CDATA[<p>Новости по ходу обсуждения:</p>
 
 <ul>
 <li><a href="https://www.blackhat.com">Слава делится впечатлениями о конференции BlackHat USA</a></li>
@@ -9116,7 +9116,7 @@
       <item>
         <title>Выпуск 010. Интервью с Евгением Якубовичем из CoreOS</title>
         <itunes:subtitle>Выпуск 010. Интервью с Евгением Якубовичем из CoreOS</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В гостях Евгений Якубович из CoreOS.</p>
+        <itunes:summary><![CDATA[<p>В гостях Евгений Якубович из CoreOS.</p>
 
 <ul>
 <li><a href="https://github.com/eyakubovich">Gihub Гостя</a></li>
@@ -9145,7 +9145,7 @@
         <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/08-04-010/</guid>
-        <description>&lt;![CDATA[<p>В гостях Евгений Якубович из CoreOS.</p>
+        <description><![CDATA[<p>В гостях Евгений Якубович из CoreOS.</p>
 
 <ul>
 <li><a href="https://github.com/eyakubovich">Gihub Гостя</a></li>
@@ -9169,7 +9169,7 @@
       <item>
         <title>Выпуск 009. Марафон. В гостях Андрей Листочкин</title>
         <itunes:subtitle>Выпуск 009. Марафон. В гостях Андрей Листочкин</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В гостях Андрей Листочкин.</p>
+        <itunes:summary><![CDATA[<p>В гостях Андрей Листочкин.</p>
 
 <p>Новости:</p>
 
@@ -9196,7 +9196,7 @@
         <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/07-30-009/</guid>
-        <description>&lt;![CDATA[<p>В гостях Андрей Листочкин.</p>
+        <description><![CDATA[<p>В гостях Андрей Листочкин.</p>
 
 <p>Новости:</p>
 
@@ -9218,7 +9218,7 @@
       <item>
         <title>Выпуск 008. Бонусный. В гостях Дмитрий Честных из StableLib</title>
         <itunes:subtitle>Выпуск 008. Бонусный. В гостях Дмитрий Честных из StableLib</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>В гостях Дмитрий Честных из StableLib.</p>
+        <itunes:summary><![CDATA[<p>В гостях Дмитрий Честных из StableLib.</p>
 
 <p>Новости:</p>
 
@@ -9241,7 +9241,7 @@
         <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/07-29-008/</guid>
-        <description>&lt;![CDATA[<p>В гостях Дмитрий Честных из StableLib.</p>
+        <description><![CDATA[<p>В гостях Дмитрий Честных из StableLib.</p>
 
 <p>Новости:</p>
 
@@ -9259,7 +9259,7 @@
       <item>
         <title>Выпуск 007. New York, New York</title>
         <itunes:subtitle>Выпуск 007. New York, New York</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://www.meetup.com/nycgolang/events/223791570">NYC Golang Meetup notes</a></li>
@@ -9283,7 +9283,7 @@
         <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/07-23-007/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://www.meetup.com/nycgolang/events/223791570">NYC Golang Meetup notes</a></li>
@@ -9302,7 +9302,7 @@
       <item>
         <title>Выпуск 006. GopherCon 2015, часть 2</title>
         <itunes:subtitle>Выпуск 006. GopherCon 2015, часть 2</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://github.com/robpike/ivy">Ivy: iOS app written in Go</a> и <a href="http://go-talks.appspot.com/github.com/robpike/ivy/talks/ivy.slide">слайды</a></li>
@@ -9327,7 +9327,7 @@
         <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/07-16-006/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://github.com/robpike/ivy">Ivy: iOS app written in Go</a> и <a href="http://go-talks.appspot.com/github.com/robpike/ivy/talks/ivy.slide">слайды</a></li>
@@ -9347,7 +9347,7 @@
       <item>
         <title>Выпуск 005. GopherCon 2015, часть 1</title>
         <itunes:subtitle>Выпуск 005. GopherCon 2015, часть 1</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://www.gophercon.com">GopherCon 2015</a></li>
@@ -9371,7 +9371,7 @@
         <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/07-09-005/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="http://www.gophercon.com">GopherCon 2015</a></li>
@@ -9390,7 +9390,7 @@
       <item>
         <title>Выпуск 004.</title>
         <itunes:subtitle>Выпуск 004.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Новости:</p>
+        <itunes:summary><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://github.com/golang/go/issues/9477">Fixed: Large maps cause significant GC pauses</a></li>
@@ -9410,7 +9410,7 @@
         <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/07-02-004/</guid>
-        <description>&lt;![CDATA[<p>Новости:</p>
+        <description><![CDATA[<p>Новости:</p>
 
 <ul>
 <li><a href="https://github.com/golang/go/issues/9477">Fixed: Large maps cause significant GC pauses</a></li>
@@ -9425,7 +9425,7 @@
       <item>
         <title>Выпуск 003.</title>
         <itunes:subtitle>Выпуск 003.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[]]></itunes:summary>
+        <itunes:summary><![CDATA[]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
@@ -9436,13 +9436,13 @@
         <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/06-25-003/</guid>
-        <description>&lt;![CDATA[]]></description>
+        <description><![CDATA[]]></description>
       </item>
     
       <item>
         <title>Выпуск 002.</title>
         <itunes:subtitle>Выпуск 002.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[]]></itunes:summary>
+        <itunes:summary><![CDATA[]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
@@ -9453,13 +9453,13 @@
         <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/06-18-002/</guid>
-        <description>&lt;![CDATA[]]></description>
+        <description><![CDATA[]]></description>
       </item>
     
       <item>
         <title>Выпуск 001. Пилотный</title>
         <itunes:subtitle>Выпуск 001. Пилотный</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[]]></itunes:summary>
+        <itunes:summary><![CDATA[]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
@@ -9470,13 +9470,13 @@
         <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/06-11-001/</guid>
-        <description>&lt;![CDATA[]]></description>
+        <description><![CDATA[]]></description>
       </item>
     
       <item>
         <title>Онлайн вещание</title>
         <itunes:subtitle>Онлайн вещание</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Онлайн вещание доступно во время записи новых эпизодов. Записи происходят каждый четверг в 20:00 МСК.</p>
+        <itunes:summary><![CDATA[<p>Онлайн вещание доступно во время записи новых эпизодов. Записи происходят каждый четверг в 20:00 МСК.</p>
 
 <p>Плеер:
 <br/>(ожидайте загрузки)
@@ -9506,7 +9506,7 @@
         <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/online/</guid>
-        <description>&lt;![CDATA[<p>Онлайн вещание доступно во время записи новых эпизодов. Записи происходят каждый четверг в 20:00 МСК.</p>
+        <description><![CDATA[<p>Онлайн вещание доступно во время записи новых эпизодов. Записи происходят каждый четверг в 20:00 МСК.</p>
 
 <p>Плеер:
 <br/>(ожидайте загрузки)
@@ -9531,7 +9531,7 @@
       <item>
         <title>Подкаст о языке программирования Go и смежных темах</title>
         <itunes:subtitle>Подкаст о языке программирования Go и смежных темах</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[]]></itunes:summary>
+        <itunes:summary><![CDATA[]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
@@ -9542,13 +9542,13 @@
         <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/about/</guid>
-        <description>&lt;![CDATA[]]></description>
+        <description><![CDATA[]]></description>
       </item>
     
       <item>
         <title></title>
         <itunes:subtitle></itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<!-- Begin MailChimp Signup Form -->
+        <itunes:summary><![CDATA[<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -9594,7 +9594,7 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/subscribe/</guid>
-        <description>&lt;![CDATA[<!-- Begin MailChimp Signup Form -->
+        <description><![CDATA[<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
