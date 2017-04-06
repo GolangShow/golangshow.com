@@ -8,7 +8,7 @@ theme = "golangshow"
 paginate = 20
 rssLimit = 500
 disqusShortname = "golangshow"
-copyright = "All rights reserved - 2015-2016"
+copyright = "All rights reserved - 2015-2017"
 
 [taxonomies]
     # Optional. Use if you want tags and lists.
