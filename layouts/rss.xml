@@ -19,7 +19,7 @@
       <item>
         <title>{{ .Title | html }}</title>
         <itunes:subtitle>{{ .Title | html }}</itunes:subtitle>
-        <itunes:summary><![CDATA[{{ .Content }}]]></itunes:summary>
+        <itunes:summary>{{ `<![CDATA[` | safeHTML }}{{ .Content }}{{ `]]>` | safeHTML }}</itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="{{ .Site.BaseURL }}images/cover_big.png" />
@@ -30,7 +30,7 @@
         <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
         {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
         <guid>{{ .Permalink }}</guid>
-        <description><![CDATA[{{ .Content }}]]></description>
+        <description>{{ `<![CDATA[` | safeHTML }}{{ .Content }}{{ `]]>` | safeHTML }}</description>
       </item>
     {{ end }}
   </channel>

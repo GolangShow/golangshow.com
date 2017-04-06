@@ -20,7 +20,7 @@
       <item>
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+        <itunes:summary><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -32,14 +32,14 @@
         <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
-        <description>&lt;![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+        <description><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
 ]]></description>
       </item>
     
       <item>
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+        <itunes:summary><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -51,7 +51,7 @@
         <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
-        <description>&lt;![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+        <description><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
 ]]></description>
       </item>
     

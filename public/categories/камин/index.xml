@@ -20,7 +20,7 @@
       <item>
         <title>Выпуск 036. Новогодние посиделки у камина</title>
         <itunes:subtitle>Выпуск 036. Новогодние посиделки у камина</itunes:subtitle>
-        <itunes:summary>&lt;![CDATA[
+        <itunes:summary><![CDATA[
 
 <p><img src="/images/go_fireplace.png" alt="logo" /></p>
 
@@ -63,7 +63,7 @@
         <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
         
         <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
-        <description>&lt;![CDATA[
+        <description><![CDATA[
 
 <p><img src="/images/go_fireplace.png" alt="logo" /></p>
 
