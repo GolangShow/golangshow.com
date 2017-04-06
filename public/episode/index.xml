@@ -10,7 +10,7 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.19</generator>
+    <generator>Hugo 0.20-DEV</generator>
     <itunes:image href="http://golangshow.com/images/cover.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
@@ -37,7 +37,22 @@
 &lt;li&gt;&lt;a href=&#34;https://www.meetup.com/golangsf/events/236855978/&#34;&gt;23 марта - Golang meetup SF (с видео)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/WwCWUEO7tqI&#34;&gt;Митап новосибирского Go-сообщества. Были гоферы из VK, Openprovider, Авито и SoundCloud&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.generosity.com/community-fundraising/women-who-go-to-gophercon&#34;&gt;Отправим девушек на Gophercon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lelenanam&#34;&gt;Подписываемся на Лену&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lelenanam&#34;&gt;Подписываемся на Лену Морозову&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-открытые-исходники-примеры-кода&#34;&gt;Библиотеки, открытые исходники, примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cockroachlabs.com/blog/apd-arbitrary-precision-decimal-package/&#34;&gt;apd: An Arbitrary-Precision Decimal Package for Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Docker-Novosibirsk/events/237627540/&#34;&gt;Митап новосибирского Docker-сообщества&lt;/a&gt; - 8 апреля&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/GDGNsk/events/238403529/&#34;&gt;Митап Women Techmakers в Новосибирске&lt;/a&gt; - 9 апреля&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/&#34;&gt;Митап новосибирского Kubernetes-сообщества&lt;/a&gt; - 20 мая&lt;/li&gt;
+&lt;li&gt;DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;конкурс-от-алексея&#34;&gt;Конкурс от Алексея&lt;/h2&gt;
@@ -82,7 +97,22 @@
 &lt;li&gt;&lt;a href=&#34;https://www.meetup.com/golangsf/events/236855978/&#34;&gt;23 марта - Golang meetup SF (с видео)&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://youtu.be/WwCWUEO7tqI&#34;&gt;Митап новосибирского Go-сообщества. Были гоферы из VK, Openprovider, Авито и SoundCloud&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.generosity.com/community-fundraising/women-who-go-to-gophercon&#34;&gt;Отправим девушек на Gophercon&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/lelenanam&#34;&gt;Подписываемся на Лену&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/lelenanam&#34;&gt;Подписываемся на Лену Морозову&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-открытые-исходники-примеры-кода&#34;&gt;Библиотеки, открытые исходники, примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.cockroachlabs.com/blog/apd-arbitrary-precision-decimal-package/&#34;&gt;apd: An Arbitrary-Precision Decimal Package for Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Docker-Novosibirsk/events/237627540/&#34;&gt;Митап новосибирского Docker-сообщества&lt;/a&gt; - 8 апреля&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/GDGNsk/events/238403529/&#34;&gt;Митап Women Techmakers в Новосибирске&lt;/a&gt; - 9 апреля&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/&#34;&gt;Митап новосибирского Kubernetes-сообщества&lt;/a&gt; - 20 мая&lt;/li&gt;
+&lt;li&gt;DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;конкурс-от-алексея&#34;&gt;Конкурс от Алексея&lt;/h2&gt;
