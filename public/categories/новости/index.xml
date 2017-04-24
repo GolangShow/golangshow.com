@@ -18,6 +18,99 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 097. Драконы и киты</title>
+        <itunes:subtitle>Выпуск 097. Драконы и киты</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-04-18.md">Еженедельный отчет</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/bc2931372243043842161c0a60bd2f86ef9696ee">testing: add TB.Helper to better support test helpers</a></li>
+<li><a href="https://github.com/golang/go/commit/af5c95117b26e22d942a12e15bdc8e25607f738c">sync: improve Pool performance</a></li>
+</ul></li>
+<li><a href="https://github.com/golang/go/issues/19991">proposal: Go 2: &ldquo;result&rdquo; type</a></li>
+<li><a href="http://p.umputun.com/2017/04/18/god-s-go-v-riealnoi-rabotie">«Год с Go в реальной работе»</a></li>
+<li><a href="https://periph.io">periph</a></li>
+<li><a href="https://twitter.com/davecheney/status/855049071307792384">Moby пришёл!</a></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/ChrisRx/dungeonfs">A FUSE filesystem and dungeon crawling adventure game engine</a></li>
+<li><a href="Ponzu is a powerful and efficient open-source HTTP server framework and CMS">https://github.com/ponzu-cms/ponzu</a></li>
+<li><a href="https://godoc.org/github.com/cznic/sqlite">SQLite на Go</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/">Митап новосибирского Kubernetes-сообщества</a> - 20 мая</li>
+<li>DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших &ldquo;патронов&rdquo;.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:  <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/miolini">Артём</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/097.mp3" length="30190492" type="audio/mpeg" />
+        <itunes:duration>01:11:58</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/04-21-097/</link>
+        <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/04-21-097/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-04-18.md">Еженедельный отчет</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/bc2931372243043842161c0a60bd2f86ef9696ee">testing: add TB.Helper to better support test helpers</a></li>
+<li><a href="https://github.com/golang/go/commit/af5c95117b26e22d942a12e15bdc8e25607f738c">sync: improve Pool performance</a></li>
+</ul></li>
+<li><a href="https://github.com/golang/go/issues/19991">proposal: Go 2: &ldquo;result&rdquo; type</a></li>
+<li><a href="http://p.umputun.com/2017/04/18/god-s-go-v-riealnoi-rabotie">«Год с Go в реальной работе»</a></li>
+<li><a href="https://periph.io">periph</a></li>
+<li><a href="https://twitter.com/davecheney/status/855049071307792384">Moby пришёл!</a></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/ChrisRx/dungeonfs">A FUSE filesystem and dungeon crawling adventure game engine</a></li>
+<li><a href="Ponzu is a powerful and efficient open-source HTTP server framework and CMS">https://github.com/ponzu-cms/ponzu</a></li>
+<li><a href="https://godoc.org/github.com/cznic/sqlite">SQLite на Go</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/">Митап новосибирского Kubernetes-сообщества</a> - 20 мая</li>
+<li>DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших &ldquo;патронов&rdquo;.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:  <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/miolini">Артём</a>.</p>
+]]></description>
+      </item>
+    
+      <item>
         <title>Выпуск 096. И их осталось двое</title>
         <itunes:subtitle>Выпуск 096. И их осталось двое</itunes:subtitle>
         <itunes:summary><![CDATA[

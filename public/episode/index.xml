@@ -18,6 +18,99 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 097. Драконы и киты</title>
+        <itunes:subtitle>Выпуск 097. Драконы и киты</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-04-18.md&#34;&gt;Еженедельный отчет&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/bc2931372243043842161c0a60bd2f86ef9696ee&#34;&gt;testing: add TB.Helper to better support test helpers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/af5c95117b26e22d942a12e15bdc8e25607f738c&#34;&gt;sync: improve Pool performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19991&#34;&gt;proposal: Go 2: &amp;ldquo;result&amp;rdquo; type&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://p.umputun.com/2017/04/18/god-s-go-v-riealnoi-rabotie&#34;&gt;«Год с Go в реальной работе»&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://periph.io&#34;&gt;periph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/davecheney/status/855049071307792384&#34;&gt;Moby пришёл!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ChrisRx/dungeonfs&#34;&gt;A FUSE filesystem and dungeon crawling adventure game engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Ponzu is a powerful and efficient open-source HTTP server framework and CMS&#34;&gt;https://github.com/ponzu-cms/ponzu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godoc.org/github.com/cznic/sqlite&#34;&gt;SQLite на Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/&#34;&gt;Митап новосибирского Kubernetes-сообщества&lt;/a&gt; - 20 мая&lt;/li&gt;
+&lt;li&gt;DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших &amp;ldquo;патронов&amp;rdquo;.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:  &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/097.mp3" length="30190492" type="audio/mpeg" />
+        <itunes:duration>01:11:58</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/04-21-097/</link>
+        <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/04-21-097/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-04-18.md&#34;&gt;Еженедельный отчет&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/bc2931372243043842161c0a60bd2f86ef9696ee&#34;&gt;testing: add TB.Helper to better support test helpers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/af5c95117b26e22d942a12e15bdc8e25607f738c&#34;&gt;sync: improve Pool performance&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19991&#34;&gt;proposal: Go 2: &amp;ldquo;result&amp;rdquo; type&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://p.umputun.com/2017/04/18/god-s-go-v-riealnoi-rabotie&#34;&gt;«Год с Go в реальной работе»&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://periph.io&#34;&gt;periph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/davecheney/status/855049071307792384&#34;&gt;Moby пришёл!&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ChrisRx/dungeonfs&#34;&gt;A FUSE filesystem and dungeon crawling adventure game engine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Ponzu is a powerful and efficient open-source HTTP server framework and CMS&#34;&gt;https://github.com/ponzu-cms/ponzu&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godoc.org/github.com/cznic/sqlite&#34;&gt;SQLite на Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/&#34;&gt;Митап новосибирского Kubernetes-сообщества&lt;/a&gt; - 20 мая&lt;/li&gt;
+&lt;li&gt;DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших &amp;ldquo;патронов&amp;rdquo;.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:  &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 096. И их осталось двое</title>
         <itunes:subtitle>Выпуск 096. И их осталось двое</itunes:subtitle>
         <itunes:summary>
