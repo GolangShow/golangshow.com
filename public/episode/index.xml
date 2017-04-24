@@ -18,6 +18,103 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 096. И их осталось двое</title>
+        <itunes:subtitle>Выпуск 096. И их осталось двое</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-04-11.md&#34;&gt;Отчет от Александра&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues?q=milestone%3AGo1.8.1&#34;&gt;Вышел Go 1.8.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/developer-experience&#34;&gt;Go Developer Experience Working Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://appliedgo.net/tui/&#34;&gt;Applied Go: Text-based user interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-review.googlesource.com/c/40693/&#34;&gt;cmd/compile: add initial backend concurrency support&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-review.googlesource.com/c/40693/#message-bf6d5c43b068c4730b545983c9b3b73e11bfb55d&#34;&gt;ARM64 компиляция в два раза быстрее&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/LSzR0VEraWw&#34;&gt;justforfunc #9: The Context Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdajMXS1pbgU04hcLThJeJnkcv0ZzvADhiiTaIjITo5VxCITg/viewform&#34;&gt;Подать заявку на участие в diversity-гранте от Women Who Go на поездку на Gophercon 2017 можно до 17-го апреля здесь&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://making.pusher.com/go-tool-trace/&#34;&gt;See What Your Program Is Really Doing With &amp;lsquo;go tool trace&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-открытые-исходники-примеры-кода&#34;&gt;Библиотеки, открытые исходники, примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bepsays.com/en/2017/04/10/hugo-20/&#34;&gt;Hugo 0.20 Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gravitational.com/blog/teleport_2.0_released/&#34;&gt;Gravitational Teleport 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/&#34;&gt;Митап новосибирского Kubernetes-сообщества&lt;/a&gt; - 20 мая&lt;/li&gt;
+&lt;li&gt;DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко, Виталия Филинкова, Джалиля Акбашева, Леонида Бугаева и всех остальных наших &amp;ldquo;патронов&amp;rdquo;. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска:  &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/096.mp3" length="63348758" type="audio/mpeg" />
+        <itunes:duration>00:44:03</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/04-14-096/</link>
+        <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/04-14-096/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-04-11.md&#34;&gt;Отчет от Александра&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues?q=milestone%3AGo1.8.1&#34;&gt;Вышел Go 1.8.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/developer-experience&#34;&gt;Go Developer Experience Working Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://appliedgo.net/tui/&#34;&gt;Applied Go: Text-based user interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-review.googlesource.com/c/40693/&#34;&gt;cmd/compile: add initial backend concurrency support&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-review.googlesource.com/c/40693/#message-bf6d5c43b068c4730b545983c9b3b73e11bfb55d&#34;&gt;ARM64 компиляция в два раза быстрее&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/LSzR0VEraWw&#34;&gt;justforfunc #9: The Context Package&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSdajMXS1pbgU04hcLThJeJnkcv0ZzvADhiiTaIjITo5VxCITg/viewform&#34;&gt;Подать заявку на участие в diversity-гранте от Women Who Go на поездку на Gophercon 2017 можно до 17-го апреля здесь&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://making.pusher.com/go-tool-trace/&#34;&gt;See What Your Program Is Really Doing With &amp;lsquo;go tool trace&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-открытые-исходники-примеры-кода&#34;&gt;Библиотеки, открытые исходники, примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://bepsays.com/en/2017/04/10/hugo-20/&#34;&gt;Hugo 0.20 Released&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://gravitational.com/blog/teleport_2.0_released/&#34;&gt;Gravitational Teleport 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/&#34;&gt;Митап новосибирского Kubernetes-сообщества&lt;/a&gt; - 20 мая&lt;/li&gt;
+&lt;li&gt;DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко, Виталия Филинкова, Джалиля Акбашева, Леонида Бугаева и всех остальных наших &amp;ldquo;патронов&amp;rdquo;. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска:  &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 095. С чистого листа</title>
         <itunes:subtitle>Выпуск 095. С чистого листа</itunes:subtitle>
         <itunes:summary>
