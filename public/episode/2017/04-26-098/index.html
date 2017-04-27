@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Выпуск 097. Драконы и киты &middot; </title>
+  <title>Выпуск 098. Контекст эксперимента &middot; </title>
 
   
   <link rel="stylesheet" href="/css/compiled.css">
@@ -26,9 +26,9 @@
   <meta name="description" content="">
   <meta name="keywords" content="Go,golang,подкаст">
   
-  <meta property="og:title" content="Выпуск 097. Драконы и киты" />
+  <meta property="og:title" content="Выпуск 098. Контекст эксперимента" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://golangshow.com/episode/2017/04-21-097/ " />
+  <meta property="og:url" content="http://golangshow.com/episode/2017/04-26-098/ " />
   <meta property="og:image" content="/images/cover.png" />
   <meta property="og:locale" content="ru_RU" />
   <meta property="og:site_name" content="Подкаст GolangShow" />
@@ -118,8 +118,8 @@ a#mailinglink {
 <div class="content container">
   <br/>
   <div class="post">
-    <h1>Выпуск 097. Драконы и киты</h1>
-    <span class="post-date">Apr 21, 2017 
+    <h1>Выпуск 098. Контекст эксперимента</h1>
+    <span class="post-date">Apr 26, 2017 
     
     <br/>
     <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
@@ -131,31 +131,69 @@ a#mailinglink {
 <h2 id="темы">Темы</h2>
 
 <ul>
-<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-04-18.md">Еженедельный отчет</a>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-04-25.md">Еженедельный отчёт от Саши</a>
 
 <ul>
-<li><a href="https://github.com/golang/go/commit/bc2931372243043842161c0a60bd2f86ef9696ee">testing: add TB.Helper to better support test helpers</a></li>
-<li><a href="https://github.com/golang/go/commit/af5c95117b26e22d942a12e15bdc8e25607f738c">sync: improve Pool performance</a></li>
+<li><a href="https://github.com/golang/go/commit/94e44a9c8edb64f514b6f3b7f7001db0cfeb2d70">runtime: preallocate some overflow buckets</a></li>
+<li><a href="https://github.com/golang/go/commit/8aa31d5dae9644b3e8f6950af58c0cb83e8fc062">sync: align poolLocal to CPU cache line size</a></li>
+<li><a href="https://github.com/golang/go/commit/11c7b4491bd2cd1deb7b50433f431be9ced330db">os: fix race between file I/O and Close</a></li>
 </ul></li>
-<li><a href="https://github.com/golang/go/issues/19991">proposal: Go 2: &ldquo;result&rdquo; type</a></li>
-<li><a href="http://p.umputun.com/2017/04/18/god-s-go-v-riealnoi-rabotie">«Год с Go в реальной работе»</a></li>
-<li><a href="https://periph.io">periph</a></li>
-<li><a href="https://twitter.com/davecheney/status/855049071307792384">Moby пришёл!</a></li>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/chapsuk/frissgo">https://github.com/chapsuk/frissgo</a></li>
+<li><a href="https://github.com/golang/go/issues/14481">race: not working with Alpine based image (#14481)</a></li>
+<li><a href="https://github.com/golang/go/issues/20038">cmd/go: reject use of PIE with -race (#20038)</a></li>
+<li><a href="https://github.com/golang/go/issues/15756">cmd/compile: parallelize compilation (#15756)</a></li>
+<li><a href="https://github.com/golang/go/issues/18437">net/http: WriteTimeout not reset in http2 (#18437)</a></li>
+<li><a href="https://github.com/golang/go/issues/18616">math/bits: an integer bit twiddling library (#18616)</a></li>
+<li><a href="https://github.com/golang/go/issues/18342">proposal: cmd/godoc: add support for sections (#18342)</a></li>
+<li><a href="https://github.com/golang/go/issues/20131">x/tools/cmd/godoc: link to types that fit a &ldquo;sum type&rdquo; interface within its package (#20131)</a></li>
+<li><a href="https://github.com/golang/go/issues/19586">runtime: os.File 1.2x slower, no longer parallel, in tip compared to go18 (regression) (#19586)</a></li>
+<li><a href="https://github.com/golang/go/issues/19954">cmd/compile, cmd/link: drop support for IntSize != PtrSize (#19954)</a></li>
+<li><a href="https://github.com/golang/go/issues/20053">net/http: Transport doesn&rsquo;t support NTLM challenge authentication (#20053)</a></li>
+<li><a href="https://github.com/golang/go/issues/20056">x/net/trace: use std context package (#20056)</a></li>
+<li><a href="https://github.com/golang/go/issues/20089">cmd/compile: SIGILL on ARMv7 after a C++ throw (#20089)</a></li>
+</ul></li>
+<li><a href="https://blog.sgmansfield.com/2017/04/a-foray-into-go-assembly-programming/">A Foray Into Go Assembly Programming</a></li>
+<li><a href="https://blog.sourced.tech/post/kallax/">Kallax: Why we built yet another ORM for Go</a>
+
+<ul>
+<li><a href="https://www.reddit.com/r/golang/comments/66a9gj/kallax_why_we_built_yet_another_orm_for_go/">Обсуждение на Reddit</a></li>
+</ul></li>
+<li><a href="https://www.opsdash.com/blog/postgresql-triggers-golang.html">Writing PostgreSQL Triggers In Go</a></li>
+<li><a href="https://cloudplatform.googleblog.com/2017/04/distributed-tracing-for-Go.html">Distributed tracing for Go</a></li>
+<li><a href="https://dave.cheney.net/2017/04/26/understand-go-pointers-in-less-than-800-words-or-your-money-back">Understand Go pointers in less than 800 words or your money back</a></li>
+<li><a href="https://github.com/rooby-lang/rooby">rooby programming language</a>
+
+<ul>
+<li><a href="https://interpreterbook.com/">Writing An Interpreter In Go</a></li>
+</ul></li>
+<li><a href="http://www.jerf.org/iri/post/2930">Suture - Supervisor Trees for Go</a></li>
+<li><a href="https://github.com/Checkmarx/Go-SCP">Go Language - Web Application Secure Coding Practices</a></li>
+<li><a href="https://bridge.grumpy-troll.org/2017/04/golang-ssh-security/">Golang SSH Security</a></li>
+<li><a href="https://bridge.grumpy-troll.org/2017/04/golang-ssh-redux/">Golang SSH Redux</a></li>
+<li><a href="https://habrahabr.ru/post/327220/">Nalivator-9000: робот-бармен на Raspberry Pi и Go</a></li>
+<li><a href="https://carlosbecker.com/posts/golang-cli-apps/">Writing CLI applications with Golang</a></li>
+<li><a href="https://github.com/averagesecurityguy/30DaysOfGo">30 Days of Go</a></li>
+<li><a href="http://gopherdata.io">GopherData</a></li>
 </ul>
 
 <h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
 
 <ul>
-<li><a href="https://github.com/ChrisRx/dungeonfs">A FUSE filesystem and dungeon crawling adventure game engine</a></li>
-<li><a href="Ponzu is a powerful and efficient open-source HTTP server framework and CMS">https://github.com/ponzu-cms/ponzu</a></li>
-<li><a href="https://godoc.org/github.com/cznic/sqlite">SQLite на Go</a></li>
+<li><a href="https://github.com/elliotchance/c2go">c2go - A tool for converting C to Go</a></li>
+<li><a href="https://github.com/adtac/commento">commento - An open source, lightweight, and tracking-free comment engine</a></li>
+<li><a href="https://github.com/tigrawap/slit">slit - Modern $PAGER for noisy logs</a></li>
+<li><a href="https://github.com/faiface/pixel">pixel - A hand-crafted 2D game library in Go</a></li>
+<li><a href="https://github.com/yehohanan7/flux">flux - A simple CQRS Framework for Go</a></li>
 </ul>
 
 <h2 id="конференции-и-митапы">Конференции и митапы</h2>
 
 <ul>
-<li><a href="https://www.meetup.com/Kubernetes-Novosibirsk/events/238732751/">Митап новосибирского Kubernetes-сообщества</a> - 20 мая</li>
-<li>DevFest Siberia 2017, Новосибирск, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
+<li><a href="http://techno.2gis.ru/event/kubernetes">Митап новосибирского Kubernetes-сообщества</a> - 20 мая</li>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a>, Новосибирск, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
 </ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
@@ -163,20 +201,20 @@ a#mailinglink {
 <p>Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших &ldquo;патронов&rdquo;.
 Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
 
-<p>Ведущие этого выпуска:  <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/miolini">Артём</a>.</p>
+<p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 
     
       <hr/>
 
 <p>
-	Длительность: 01:11:58 <br/>
-	Размер: 28 МБ
+	Длительность: 01:28:26 <br/>
+	Размер: 34 МБ
 </p>
 <p>HTML5 аудио плеер:
 
 <blockquote>
 	<audio controls width="400px" height="150px">
-		<source src="https://golangshow.com/cdn/episodes/097.mp3" type="audio/mpeg">
+		<source src="https://golangshow.com/cdn/episodes/098.mp3" type="audio/mpeg">
 		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
 	</audio>
 </blockquote>
@@ -185,7 +223,7 @@ a#mailinglink {
 
 <p>Прямая ссылка на MP3 аудио поток:
 <blockquote>
-	<a href="https://golangshow.com/cdn/episodes/097.mp3" target="_blank">https://golangshow.com/cdn/episodes/097.mp3</a>
+	<a href="https://golangshow.com/cdn/episodes/098.mp3" target="_blank">https://golangshow.com/cdn/episodes/098.mp3</a>
 </blockquote>
 </p>
 
@@ -196,12 +234,12 @@ a#mailinglink {
     <section class="share">
 
       <span>Рассказать друзьям:</span>
-      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20097.%20%d0%94%d1%80%d0%b0%d0%ba%d0%be%d0%bd%d1%8b%20%d0%b8%20%d0%ba%d0%b8%d1%82%d1%8b&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f04-21-097%2f"
+      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20098.%20%d0%9a%d0%be%d0%bd%d1%82%d0%b5%d0%ba%d1%81%d1%82%20%d1%8d%d0%ba%d1%81%d0%bf%d0%b5%d1%80%d0%b8%d0%bc%d0%b5%d0%bd%d1%82%d0%b0&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f04-26-098%2f"
           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f04-21-097%2f"
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f04-26-098%2f"
           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
-      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f04-21-097%2f"
+      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f04-26-098%2f"
          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
     </section>
     
