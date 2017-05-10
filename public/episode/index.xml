@@ -10,12 +10,237 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.20.6</generator>
+    <generator>Hugo 0.20.7</generator>
     <itunes:image href="http://golangshow.com/images/cover.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>Выпуск 099. По ссылке или нет?</title>
+        <itunes:subtitle>Выпуск 099. По ссылке или нет?</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-03.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/259d60995d735523fc25939c35847538eb0d067&#34;&gt;runtime: align mcentral by cache line size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/6e2c4bc012f8cc262db25d3fee414c5231fea03a&#34;&gt;context: define behavior for Err before Done is closed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/ba8ff87dbeb87813a4604e36adb609b1e8fcb7be&#34;&gt;testing: add argument to list tests, benchmarks, and examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/959025c0ac97ec3533ef9f3f70d64453352a7b56&#34;&gt;sync: import Map from x/sync/syncmap&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/33b92cd6ce46c61a4d00a86b88971534773dd4a8&#34;&gt;reflect: use sync.Map instead of RWMutex for type caches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/c120e449fbc618f9510387d718de0cef5f73af3a&#34;&gt;encoding/gob: replace RWMutex usage with sync.Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/eb6adc27d56687970dd8a49794ca85acc4cf9097&#34;&gt;encoding/xml: replace tinfoMap RWMutex with sync.Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/d6ce7e4feca75d2833f0790260ea46e194c55170&#34;&gt;encoding/json: replace encoderCache RWMutex with a sync.Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/e8d7e5d1fa7d8477b91cb4dffeac57c7c20cb5c5&#34;&gt;mime: use sync.Map instead of RWMutex for type lookups&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/756b9ce3a5a518555114b0e023eb1674084b38e1&#34;&gt;cmd/compile: add initial backend concurrency support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Еженедельный отчёт от Лёши&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20135&#34;&gt;runtime: maps do not shrink after elements removal (delete)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20138&#34;&gt;cmd/compile: recognize map-clearing range idiom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20139&#34;&gt;runtime/race: MemoryRangeSet is slow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20165&#34;&gt;Proposal: Remove struct tags from Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20188&#34;&gt;proposal: removal of interface{} type in Go 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20176&#34;&gt;proposal: len keyword inside slice/index brackets for string/array/slice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/18660&#34;&gt;cmd/go: go get fails on non-ASCII github packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20209&#34;&gt;proposal: spec: disallow LTR/RTL characters in string literals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20115&#34;&gt;proposal: cmd/vet: detect homograph attacks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20210&#34;&gt;proposal: spec: disallow unicode import paths to avoid punycode attacks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go&#34;&gt;There is no pass by reference in Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it&#34;&gt;If a map isn&amp;rsquo;t a reference variable, what is it?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.tamizhvendan.in/blog/2017/05/01/using-golang-in-production-my-experiences/&#34;&gt;Using Go in production, my experiences&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://orangetux.nl/post/writing-spi-driver-for-mcp3008-in-go/&#34;&gt;Writing a SPI driver for the MCP3008 in Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a&#34;&gt;Multi-Stage Docker Builds for Creating Tiny Go Images&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://appliedgo.net/big-o/&#34;&gt;Big Oh!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://lanreadelowo.com/blog/2017/05/02/type-safety-or-convenience/&#34;&gt;Type safety or convenience&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.sgmansfield.com/2017/04/nanolog-super-fast-logging-for-go/&#34;&gt;Nanolog: Super Fast Logging for Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-aah/aah&#34;&gt;A scalable, performant, rapid development Web framework for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gaocegege/maintainer&#34;&gt;Generate AUTHORS, CONTRIBUTING, and CHANGELOG for your GitHub repository.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;вакансии&#34;&gt;Вакансии&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Badoo (от @mkevac):&lt;/p&gt;
+
+&lt;p&gt;Привет.&lt;/p&gt;
+
+&lt;p&gt;Мы в Badoo ищем к себе в команду нового человека. Нам нужен
+универсальный специалист, который будет писать и на Си и на Go и на PHP. Этот
+человек будет связующим звеном между отделом сишников (Си + Go)
+и отделом платформы (инфраструктура, PHP). Ищется проактивный
+специалист широкого уровня, который сможет создавать и поддерживать
+инфраструктуру Badoo. Человек, который будет обозревать проблему
+с высоты птичьего полета, предложит и внедрит своими и не только
+руками архитектуры, затрагивающие наши два backend отдела.&lt;/p&gt;
+
+&lt;p&gt;Данной вакансии на обычном сайте пока нет, но все преимущества
+и плюшки у нас в Badoo одинаковы.&lt;/p&gt;
+
+&lt;p&gt;Их можно посмотреть тут &lt;a href=&#34;https://team.badoo.com/jobs/&#34;&gt;https://team.badoo.com/jobs/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;ЗП по верхней планке рынка.&lt;/p&gt;
+
+&lt;p&gt;Москва.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://techno.2gis.ru/event/kubernetes&#34;&gt;Воркшоп по kubernetes&lt;/a&gt;, 20 мая 2ГИС, Сан Сити, Новосибирск&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;DevFest Siberia 2017&lt;/a&gt;, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Aleksey Akulovich, Maxim Tishchenko, Jaleel Akbashev, Leonid Bugaev,
+Eugene Medentsii, Sergey Serebryakov, Sergey Shushpanov, Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin,
+Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
+
+&lt;p&gt;Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/099.mp3" length="61980378" type="audio/mpeg" />
+        <itunes:duration>01:04:43</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/05-03-099/</link>
+        <pubDate>Tue, 09 May 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/05-03-099/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-03.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/259d60995d735523fc25939c35847538eb0d067&#34;&gt;runtime: align mcentral by cache line size&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/6e2c4bc012f8cc262db25d3fee414c5231fea03a&#34;&gt;context: define behavior for Err before Done is closed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/ba8ff87dbeb87813a4604e36adb609b1e8fcb7be&#34;&gt;testing: add argument to list tests, benchmarks, and examples&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/959025c0ac97ec3533ef9f3f70d64453352a7b56&#34;&gt;sync: import Map from x/sync/syncmap&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/33b92cd6ce46c61a4d00a86b88971534773dd4a8&#34;&gt;reflect: use sync.Map instead of RWMutex for type caches&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/c120e449fbc618f9510387d718de0cef5f73af3a&#34;&gt;encoding/gob: replace RWMutex usage with sync.Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/eb6adc27d56687970dd8a49794ca85acc4cf9097&#34;&gt;encoding/xml: replace tinfoMap RWMutex with sync.Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/d6ce7e4feca75d2833f0790260ea46e194c55170&#34;&gt;encoding/json: replace encoderCache RWMutex with a sync.Map&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/e8d7e5d1fa7d8477b91cb4dffeac57c7c20cb5c5&#34;&gt;mime: use sync.Map instead of RWMutex for type lookups&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/756b9ce3a5a518555114b0e023eb1674084b38e1&#34;&gt;cmd/compile: add initial backend concurrency support&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Еженедельный отчёт от Лёши&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20135&#34;&gt;runtime: maps do not shrink after elements removal (delete)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20138&#34;&gt;cmd/compile: recognize map-clearing range idiom&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20139&#34;&gt;runtime/race: MemoryRangeSet is slow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20165&#34;&gt;Proposal: Remove struct tags from Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20188&#34;&gt;proposal: removal of interface{} type in Go 2.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20176&#34;&gt;proposal: len keyword inside slice/index brackets for string/array/slice&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/18660&#34;&gt;cmd/go: go get fails on non-ASCII github packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20209&#34;&gt;proposal: spec: disallow LTR/RTL characters in string literals&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20115&#34;&gt;proposal: cmd/vet: detect homograph attacks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20210&#34;&gt;proposal: spec: disallow unicode import paths to avoid punycode attacks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go&#34;&gt;There is no pass by reference in Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it&#34;&gt;If a map isn&amp;rsquo;t a reference variable, what is it?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.tamizhvendan.in/blog/2017/05/01/using-golang-in-production-my-experiences/&#34;&gt;Using Go in production, my experiences&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://orangetux.nl/post/writing-spi-driver-for-mcp3008-in-go/&#34;&gt;Writing a SPI driver for the MCP3008 in Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a&#34;&gt;Multi-Stage Docker Builds for Creating Tiny Go Images&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://appliedgo.net/big-o/&#34;&gt;Big Oh!&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://lanreadelowo.com/blog/2017/05/02/type-safety-or-convenience/&#34;&gt;Type safety or convenience&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://blog.sgmansfield.com/2017/04/nanolog-super-fast-logging-for-go/&#34;&gt;Nanolog: Super Fast Logging for Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-aah/aah&#34;&gt;A scalable, performant, rapid development Web framework for Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gaocegege/maintainer&#34;&gt;Generate AUTHORS, CONTRIBUTING, and CHANGELOG for your GitHub repository.&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;вакансии&#34;&gt;Вакансии&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Badoo (от @mkevac):&lt;/p&gt;
+
+&lt;p&gt;Привет.&lt;/p&gt;
+
+&lt;p&gt;Мы в Badoo ищем к себе в команду нового человека. Нам нужен
+универсальный специалист, который будет писать и на Си и на Go и на PHP. Этот
+человек будет связующим звеном между отделом сишников (Си + Go)
+и отделом платформы (инфраструктура, PHP). Ищется проактивный
+специалист широкого уровня, который сможет создавать и поддерживать
+инфраструктуру Badoo. Человек, который будет обозревать проблему
+с высоты птичьего полета, предложит и внедрит своими и не только
+руками архитектуры, затрагивающие наши два backend отдела.&lt;/p&gt;
+
+&lt;p&gt;Данной вакансии на обычном сайте пока нет, но все преимущества
+и плюшки у нас в Badoo одинаковы.&lt;/p&gt;
+
+&lt;p&gt;Их можно посмотреть тут &lt;a href=&#34;https://team.badoo.com/jobs/&#34;&gt;https://team.badoo.com/jobs/&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;ЗП по верхней планке рынка.&lt;/p&gt;
+
+&lt;p&gt;Москва.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://techno.2gis.ru/event/kubernetes&#34;&gt;Воркшоп по kubernetes&lt;/a&gt;, 20 мая 2ГИС, Сан Сити, Новосибирск&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;DevFest Siberia 2017&lt;/a&gt;, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Aleksey Akulovich, Maxim Tishchenko, Jaleel Akbashev, Leonid Bugaev,
+Eugene Medentsii, Sergey Serebryakov, Sergey Shushpanov, Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin,
+Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
+
+&lt;p&gt;Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
     
       <item>
         <title>Выпуск 098. Контекст эксперимента</title>

@@ -3,7 +3,7 @@
 <head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="generator" content="Hugo 0.20.6" />
+  <meta name="generator" content="Hugo 0.20.7" />
 
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -119,6 +119,128 @@ a#mailinglink {
   <br/>
   <div class="posts">
     
+    
+    <div class="post">
+      <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2017/05-03-099/">Выпуск 099. По ссылке или нет?</a>
+      </h1>
+      <span class="post-date">May 9, 2017 
+      
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+      </span>
+      
+        
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><p><a href="https://github.com/LK4D4/report/blob/master/reports/golang-05-03.md">Еженедельный отчёт от Саши</a></p>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/259d60995d735523fc25939c35847538eb0d067">runtime: align mcentral by cache line size</a></li>
+<li><a href="https://github.com/golang/go/commit/6e2c4bc012f8cc262db25d3fee414c5231fea03a">context: define behavior for Err before Done is closed</a></li>
+<li><a href="https://github.com/golang/go/commit/ba8ff87dbeb87813a4604e36adb609b1e8fcb7be">testing: add argument to list tests, benchmarks, and examples</a></li>
+<li><a href="https://github.com/golang/go/commit/959025c0ac97ec3533ef9f3f70d64453352a7b56">sync: import Map from x/sync/syncmap</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/33b92cd6ce46c61a4d00a86b88971534773dd4a8">reflect: use sync.Map instead of RWMutex for type caches</a></li>
+<li><a href="https://github.com/golang/go/commit/c120e449fbc618f9510387d718de0cef5f73af3a">encoding/gob: replace RWMutex usage with sync.Map</a></li>
+<li><a href="https://github.com/golang/go/commit/eb6adc27d56687970dd8a49794ca85acc4cf9097">encoding/xml: replace tinfoMap RWMutex with sync.Map</a></li>
+<li><a href="https://github.com/golang/go/commit/d6ce7e4feca75d2833f0790260ea46e194c55170">encoding/json: replace encoderCache RWMutex with a sync.Map</a></li>
+<li><a href="https://github.com/golang/go/commit/e8d7e5d1fa7d8477b91cb4dffeac57c7c20cb5c5">mime: use sync.Map instead of RWMutex for type lookups</a></li>
+</ul></li>
+<li><a href="https://github.com/golang/go/commit/756b9ce3a5a518555114b0e023eb1674084b38e1">cmd/compile: add initial backend concurrency support</a></li>
+</ul></li>
+
+<li><p>Еженедельный отчёт от Лёши</p>
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/20135">runtime: maps do not shrink after elements removal (delete)</a></li>
+<li><a href="https://github.com/golang/go/issues/20138">cmd/compile: recognize map-clearing range idiom</a></li>
+<li><a href="https://github.com/golang/go/issues/20139">runtime/race: MemoryRangeSet is slow</a></li>
+<li><a href="https://github.com/golang/go/issues/20165">Proposal: Remove struct tags from Go</a></li>
+<li><a href="https://github.com/golang/go/issues/20188">proposal: removal of interface{} type in Go 2.0</a></li>
+<li><a href="https://github.com/golang/go/issues/20176">proposal: len keyword inside slice/index brackets for string/array/slice</a></li>
+<li><a href="https://github.com/golang/go/issues/18660">cmd/go: go get fails on non-ASCII github packages</a></li>
+<li><a href="https://github.com/golang/go/issues/20209">proposal: spec: disallow LTR/RTL characters in string literals</a></li>
+<li><a href="https://github.com/golang/go/issues/20115">proposal: cmd/vet: detect homograph attacks</a></li>
+<li><a href="https://github.com/golang/go/issues/20210">proposal: spec: disallow unicode import paths to avoid punycode attacks</a></li>
+</ul></li>
+
+<li><p><a href="https://dave.cheney.net/2017/04/29/there-is-no-pass-by-reference-in-go">There is no pass by reference in Go</a></p></li>
+
+<li><p><a href="https://dave.cheney.net/2017/04/30/if-a-map-isnt-a-reference-variable-what-is-it">If a map isn&rsquo;t a reference variable, what is it?</a></p></li>
+
+<li><p><a href="http://blog.tamizhvendan.in/blog/2017/05/01/using-golang-in-production-my-experiences/">Using Go in production, my experiences</a></p></li>
+
+<li><p><a href="https://orangetux.nl/post/writing-spi-driver-for-mcp3008-in-go/">Writing a SPI driver for the MCP3008 in Go</a></p></li>
+
+<li><p><a href="https://medium.com/travis-on-docker/multi-stage-docker-builds-for-creating-tiny-go-images-e0e1867efe5a">Multi-Stage Docker Builds for Creating Tiny Go Images</a></p></li>
+
+<li><p><a href="https://appliedgo.net/big-o/">Big Oh!</a></p></li>
+
+<li><p><a href="https://lanreadelowo.com/blog/2017/05/02/type-safety-or-convenience/">Type safety or convenience</a></p></li>
+
+<li><p><a href="http://blog.sgmansfield.com/2017/04/nanolog-super-fast-logging-for-go/">Nanolog: Super Fast Logging for Go</a></p></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/go-aah/aah">A scalable, performant, rapid development Web framework for Go</a></li>
+<li><a href="https://github.com/gaocegege/maintainer">Generate AUTHORS, CONTRIBUTING, and CHANGELOG for your GitHub repository.</a></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><p>Badoo (от @mkevac):</p>
+
+<p>Привет.</p>
+
+<p>Мы в Badoo ищем к себе в команду нового человека. Нам нужен
+универсальный специалист, который будет писать и на Си и на Go и на PHP. Этот
+человек будет связующим звеном между отделом сишников (Си + Go)
+и отделом платформы (инфраструктура, PHP). Ищется проактивный
+специалист широкого уровня, который сможет создавать и поддерживать
+инфраструктуру Badoo. Человек, который будет обозревать проблему
+с высоты птичьего полета, предложит и внедрит своими и не только
+руками архитектуры, затрагивающие наши два backend отдела.</p>
+
+<p>Данной вакансии на обычном сайте пока нет, но все преимущества
+и плюшки у нас в Badoo одинаковы.</p>
+
+<p>Их можно посмотреть тут <a href="https://team.badoo.com/jobs/">https://team.badoo.com/jobs/</a>.</p>
+
+<p>ЗП по верхней планке рынка.</p>
+
+<p>Москва.</p></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="http://techno.2gis.ru/event/kubernetes">Воркшоп по kubernetes</a>, 20 мая 2ГИС, Сан Сити, Новосибирск</li>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a>, Новосибирск, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов: Aleksey Akulovich, Maxim Tishchenko, Jaleel Akbashev, Leonid Bugaev,
+Eugene Medentsii, Sergey Serebryakov, Sergey Shushpanov, Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin,
+Ilya Vassilevsky, Andrew Vorobyov</p>
+
+<p>Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
+
+      
+       <a href="http://golangshow.com/episode/2017/05-03-099/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
     
     <div class="post">
       <h1 class="post-title">
@@ -1466,86 +1588,6 @@ a#mailinglink {
 
       
        <a href="http://golangshow.com/episode/2016/10-21-079/#disqus_thread">комментарии</a>
-      <br/><br/>
-    </div>
-
-
-    
-    <div class="post">
-      <h1 class="post-title">
-        <a href="http://golangshow.com/episode/2016/10-14-077/">Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</a>
-      </h1>
-      <span class="post-date">Oct 14, 2016 
-      
-        <br/>
-        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a><a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
-      </span>
-      
-        
-
-<p>В гостях <a href="https://twitter.com/dadabird">Андрей Погребной</a>.</p>
-
-<h2 id="темы">Темы</h2>
-
-<ul>
-<li>[00:01:52] <a href="https://github.com/LK4D4/report/blob/master/reports/golang-10-06.md">Отчет от Саши за прошлую неделю</a>
-
-<ul>
-<li>[00:04:20] <a href="https://github.com/golang/go/commit/22a2bdfedb95612984cec3141924953b88a607b7">sort: add Slice, SliceStable, and SliceIsSorted</a></li>
-<li>[00:04:50] <a href="https://github.com/golang/go/commit/ad26bb5e3098cbfd7c0ad9a1dc9d38c92e50f06e">all: use sort.Slice where applicable</a></li>
-<li>[00:05:10] <a href="https://github.com/golang/go/commit/c1e267cc734135a66af8a1a5015e572cbb598d44">runtime: make append only clear uncopied memory</a></li>
-<li>[00:05:23] <a href="https://github.com/golang/go/commit/bd06d4827ae637cd08f85962f996760e76e28efc">encoding/csv: avoid allocations when reading records</a></li>
-<li>[00:05:45] <a href="https://github.com/golang/go/commit/92b3e3651dc44f54b458f171f641779f10fbaec0">encoding/json: use standard ES6 formatting for numbers during marshal</a></li>
-<li>[00:07:36] <a href="https://github.com/golang/go/commit/d7507e9d1109da424dd375365dc923257ebd0c23">runtime: improve memmove for amd64</a></li>
-</ul></li>
-<li>[00:10:26] <a href="https://github.com/LK4D4/report/blob/master/reports/golang-10-13.md">Отчет от Саши за текущую неделю</a>
-
-<ul>
-<li>[00:10:28]<a href="https://github.com/golang/go/commit/433be563b6246eb132aed6e9e58f46a0d46f7010">cmd/compile: fix choice of phi building algorithm</a></li>
-<li>[00:12:50]<a href="https://github.com/golang/go/commit/442de98c14d49bf306ab880e9f9c898ca0ae7c19">cmd/compile,runtime: redo how map assignments work</a></li>
-</ul></li>
-<li>[00:13:58] Гость Андрей Погребной. Рассказ гостя о себе, ответы на вопросы ведущих и слушателей.</li>
-<li>[00:24:00] Рассказ Андрея о поездке на dotGo.</li>
-<li>[00:25:42] Рассказ ведущих о поездке на dotGo.
-
-<ul>
-<li>[00:27:33] <a href="http://dave.cheney.net/training">High Performance Go Workshop with Dave Cheney</a></li>
-<li>[00:31:34] <a href="http://www.meetup.com/Golang-Paris/events/234263218/">The GIG : Gathering of International Gophers</a></li>
-<li>[00:45:35] <a href="https://twitter.com/dotgoeu">Про день конференции и доклады</a></li>
-<li>[01:00:41] Про день после конференции. Ждём видео с вечернего митапа!</li>
-</ul></li>
-<li>[01:01:45] Новая рубрика от Славы! Тема выпуска - библиотеки для логирования.
-
-<ul>
-<li><a href="https://golang.org/pkg/log/">log</a></li>
-<li><a href="https://github.com/Sirupsen/logrus">logrus</a></li>
-<li><a href="https://github.com/uber-go/zap">zap</a></li>
-<li><a href="https://github.com/golang/glog">glog</a></li>
-<li><a href="https://github.com/inconshreveable/log15">log15</a></li>
-<li><a href="https://github.com/apex/log">apex/log</a></li>
-<li><a href="https://github.com/go-kit/kit/tree/master/log">go-kit/log</a></li>
-<li><a href="https://github.com/opentracing/opentracing-go">opentracing-go</a></li>
-</ul></li>
-</ul>
-
-<h2 id="конференции-и-митапы">Конференции и митапы</h2>
-
-<ul>
-<li><a href="https://devfest.gdg.org.ru">DevFest Сибирь</a> — Новосибирск, 19-20 ноября</li>
-</ul>
-
-<h2 id="спонсоры-и-патроны">Спонсоры и &ldquo;патроны&rdquo;</h2>
-
-<ul>
-<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
-<li><a href="http://gravitational.com">Gravitational</a>, облачные сервисы на любой инфраструктуре. Kubernetes в каждый датацентр! <a href="https://github.com/gravitational/careers">Мы ищем таланты</a>.</li>
-<li>Благодарим за поддержку наших &ldquo;патронов&rdquo;: Maxim Tishchenko, Jaleel Akbashev, Leonid Bugaev, Danila Pisarev, Andrew Pogrebnoy, Sergey  Shushpanov, Sergey Serebryakov, Ivan Prisyazhnyy. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</li>
-</ul>
-
-<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
-
-      
-       <a href="http://golangshow.com/episode/2016/10-14-077/#disqus_thread">комментарии</a>
       <br/><br/>
     </div>
 
