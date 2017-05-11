@@ -1190,6 +1190,113 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
       </item>
     
       <item>
+        <title>Выпуск 089. Holidays Coming</title>
+        <itunes:subtitle>Выпуск 089. Holidays Coming</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="http://howistart.org/posts/go/1">Go: How I start</a></li>
+<li><a href="https://peter.bourgon.org/go-best-practices-2016">Go best practices, six years in</a></li>
+<li><a href="https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1">Standard Package Layout</a></li>
+<li>Чем запомнился 2016-й год в мире Go</li>
+<li><a href="https://github.com/docker/go-events">Composable event distribution for Go</a></li>
+<li><a href="https://dave.cheney.net/2016/12/20/thinking-about-gopath">Thinking about $GOPATH</a></li>
+<li><a href="https://medium.com/learning-the-go-programming-language/comparing-values-in-go-8f7b002e767a">Comparing Values in Go</a>
+
+<ul>
+<li><a href="https://golang.org/ref/spec#Comparison_operators">Документация</a></li>
+</ul></li>
+<li><a href="https://habrahabr.ru/company/badoo/blog/317864/">Перевод от Марко</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2016/enigma-emulator-in-go/">Enigma emulator in Go</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2016/gobridge-beginners/">Teaching Go to complete beginners</a></li>
+</ul>
+
+<h2 id="либы-открытые-исходники-примеры-кода">Либы, открытые исходники, примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/octago/sflags">https://github.com/octago/sflags</a> и <a href="https://github.com/uber-go/flagoverride/">https://github.com/uber-go/flagoverride/</a></li>
+<li><a href="https://github.com/minio/minio">https://github.com/minio/minio</a></li>
+<li><a href="https://github.com/uber-go/timer">https://github.com/uber-go/timer</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://vk.com/sunday_go_school">Экспериментальный курс по Go в Новосибирске по воскресеньям</a></li>
+<li>Go-митап в Казани 20 января</li>
+</ul>
+
+<h2 id="спонсоры-и-патроны">Спонсоры и &ldquo;патроны&rdquo;</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+<li><a href="http://gravitational.com">Gravitational</a>, облачные сервисы на любой инфраструктуре. Kubernetes в каждый датацентр! <a href="https://github.com/gravitational/careers">Мы ищем таланты</a>.</li>
+<li>Благодарим за поддержку Максима Тищенко и всех остальных наших &ldquo;патронов&rdquo;. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/089.mp3" length="94583106" type="audio/mpeg" />
+        <itunes:duration>01:38:45</itunes:duration>
+
+        <link>http://golangshow.com/episode/2016/12-28-089/</link>
+        <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2016/12-28-089/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="http://howistart.org/posts/go/1">Go: How I start</a></li>
+<li><a href="https://peter.bourgon.org/go-best-practices-2016">Go best practices, six years in</a></li>
+<li><a href="https://medium.com/@benbjohnson/standard-package-layout-7cdbc8391fc1">Standard Package Layout</a></li>
+<li>Чем запомнился 2016-й год в мире Go</li>
+<li><a href="https://github.com/docker/go-events">Composable event distribution for Go</a></li>
+<li><a href="https://dave.cheney.net/2016/12/20/thinking-about-gopath">Thinking about $GOPATH</a></li>
+<li><a href="https://medium.com/learning-the-go-programming-language/comparing-values-in-go-8f7b002e767a">Comparing Values in Go</a>
+
+<ul>
+<li><a href="https://golang.org/ref/spec#Comparison_operators">Документация</a></li>
+</ul></li>
+<li><a href="https://habrahabr.ru/company/badoo/blog/317864/">Перевод от Марко</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2016/enigma-emulator-in-go/">Enigma emulator in Go</a></li>
+<li><a href="https://blog.gopheracademy.com/advent-2016/gobridge-beginners/">Teaching Go to complete beginners</a></li>
+</ul>
+
+<h2 id="либы-открытые-исходники-примеры-кода">Либы, открытые исходники, примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/octago/sflags">https://github.com/octago/sflags</a> и <a href="https://github.com/uber-go/flagoverride/">https://github.com/uber-go/flagoverride/</a></li>
+<li><a href="https://github.com/minio/minio">https://github.com/minio/minio</a></li>
+<li><a href="https://github.com/uber-go/timer">https://github.com/uber-go/timer</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://vk.com/sunday_go_school">Экспериментальный курс по Go в Новосибирске по воскресеньям</a></li>
+<li>Go-митап в Казани 20 января</li>
+</ul>
+
+<h2 id="спонсоры-и-патроны">Спонсоры и &ldquo;патроны&rdquo;</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+<li><a href="http://gravitational.com">Gravitational</a>, облачные сервисы на любой инфраструктуре. Kubernetes в каждый датацентр! <a href="https://github.com/gravitational/careers">Мы ищем таланты</a>.</li>
+<li>Благодарим за поддержку Максима Тищенко и всех остальных наших &ldquo;патронов&rdquo;. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
+]]></description>
+      </item>
+    
+      <item>
         <title>Выпуск 088. Beta 2, Gogland, Go User Survey</title>
         <itunes:subtitle>Выпуск 088. Beta 2, Gogland, Go User Survey</itunes:subtitle>
         <itunes:summary><![CDATA[
