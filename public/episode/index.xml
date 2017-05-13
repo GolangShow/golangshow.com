@@ -18,6 +18,163 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 100. Три А и Л</title>
+        <itunes:subtitle>Выпуск 100. Три А и Л</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-09.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/c08ac36761d3dc03d0a0b0ffb240c4a7c524536b&#34;&gt;bytes: optimize Buffer&amp;rsquo;s Write, WriteString, WriteByte, and WriteRune&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/f5352a7763c8f96f7f092990d64339eae0623263&#34;&gt;container/heap: optimization when selecting smaller child&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/f4e5bd483b1c6f731c9925d3d1b66d2aba88980e&#34;&gt;cmd/go: add support for concurrent backend compilation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/5e0bcb3893c2e54fdb96affcafd2953f20dd64eb&#34;&gt;cmd/go: enable concurrent backend compilation by default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/1213776650486aff30b607a6c6b6ece3e9c0155f&#34;&gt;cmd/compile: use a buffered channel for the function queue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Еженедельный отчёт от Лёши&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19082&#34;&gt;build: distribute linux/arm64 binaries for Go releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/18977&#34;&gt;cmd/compile: Fannkuch11 on AMD64 slow down 6% after removing assembler backend instruction reordering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20302&#34;&gt;x/net/http2: investigate Server speed regressions from more select case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20097&#34;&gt;cmd/compile: crash internal compiler error: schedule does not include all values (simple program)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://gopherdata.io/post/deeplearning_in_go_part_1/&#34;&gt;Deep learning in Go: Part 1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/69u782/help_with_thinking_the_go_way/&#34;&gt;Help with thinking Go Way&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://johanbrandhorst.github.io/blog/post/go-protobuf-tips/&#34;&gt;Go Protobuf tips&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.goinggo.net/2017/05/design-philosophy-on-logging.html&#34;&gt;Design Philosophy On Logging&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mijailovic.net/2017/05/09/error-handling-patterns-in-go/&#34;&gt;Error handling patterns in Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.cockroachlabs.com/blog/cockroachdb-1-0-release/&#34;&gt;CockroachDB 1.0 release&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-nuts/kE-ZDrJEGR4&#34;&gt;Delve RC 1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.maddevs.io/how-we-made-restreaming-from-youtube-using-go-dbe6eb1f1e0a&#34;&gt;How we made restreaming from youtube using Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/golangnews/status/861213608411353089&#34;&gt;What would you most like to see in Go 2.0?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://kubernetesbyexample.com&#34;&gt;Kubernetes by example&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://groups.google.com/d/msg/golang-nuts/ti8M-fuu6RE/8w3LA1dXAwAJ&#34;&gt;Sameer Ajmani about context.TODO()&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2017/05/12/gogland-eap-8-is-available/&#34;&gt;Gogland IDE EAP 8&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/x/build/maintner&#34;&gt;Package maintner mirrors, searches, syncs, and serves Git, Github, and Gerrit metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru&#34;&gt;Конференция РИТ++&lt;/a&gt;, 4-6 июня, Москва&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://techno.2gis.ru/event/kubernetes&#34;&gt;Митап сообщества Kubernetes Novosibirsk&lt;/a&gt;, 20 мая&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt;, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Golang-Moscow/events/237805619/&#34;&gt;Митап московского Go-сообщества&lt;/a&gt;, 25 мая&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших патронов.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/100.mp3" length="61503330" type="audio/mpeg" />
+        <itunes:duration>01:04:13</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/05-12-100/</link>
+        <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/05-12-100/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-09.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/c08ac36761d3dc03d0a0b0ffb240c4a7c524536b&#34;&gt;bytes: optimize Buffer&amp;rsquo;s Write, WriteString, WriteByte, and WriteRune&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/f5352a7763c8f96f7f092990d64339eae0623263&#34;&gt;container/heap: optimization when selecting smaller child&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/f4e5bd483b1c6f731c9925d3d1b66d2aba88980e&#34;&gt;cmd/go: add support for concurrent backend compilation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/5e0bcb3893c2e54fdb96affcafd2953f20dd64eb&#34;&gt;cmd/go: enable concurrent backend compilation by default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/1213776650486aff30b607a6c6b6ece3e9c0155f&#34;&gt;cmd/compile: use a buffered channel for the function queue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Еженедельный отчёт от Лёши&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19082&#34;&gt;build: distribute linux/arm64 binaries for Go releases&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/18977&#34;&gt;cmd/compile: Fannkuch11 on AMD64 slow down 6% after removing assembler backend instruction reordering&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20302&#34;&gt;x/net/http2: investigate Server speed regressions from more select case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20097&#34;&gt;cmd/compile: crash internal compiler error: schedule does not include all values (simple program)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://gopherdata.io/post/deeplearning_in_go_part_1/&#34;&gt;Deep learning in Go: Part 1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/69u782/help_with_thinking_the_go_way/&#34;&gt;Help with thinking Go Way&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://johanbrandhorst.github.io/blog/post/go-protobuf-tips/&#34;&gt;Go Protobuf tips&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.goinggo.net/2017/05/design-philosophy-on-logging.html&#34;&gt;Design Philosophy On Logging&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://mijailovic.net/2017/05/09/error-handling-patterns-in-go/&#34;&gt;Error handling patterns in Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.cockroachlabs.com/blog/cockroachdb-1-0-release/&#34;&gt;CockroachDB 1.0 release&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!topic/golang-nuts/kE-ZDrJEGR4&#34;&gt;Delve RC 1&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.maddevs.io/how-we-made-restreaming-from-youtube-using-go-dbe6eb1f1e0a&#34;&gt;How we made restreaming from youtube using Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://twitter.com/golangnews/status/861213608411353089&#34;&gt;What would you most like to see in Go 2.0?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://kubernetesbyexample.com&#34;&gt;Kubernetes by example&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://groups.google.com/d/msg/golang-nuts/ti8M-fuu6RE/8w3LA1dXAwAJ&#34;&gt;Sameer Ajmani about context.TODO()&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2017/05/12/gogland-eap-8-is-available/&#34;&gt;Gogland IDE EAP 8&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://golang.org/x/build/maintner&#34;&gt;Package maintner mirrors, searches, syncs, and serves Git, Github, and Gerrit metadata&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru&#34;&gt;Конференция РИТ++&lt;/a&gt;, 4-6 июня, Москва&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://techno.2gis.ru/event/kubernetes&#34;&gt;Митап сообщества Kubernetes Novosibirsk&lt;/a&gt;, 20 мая&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt;, Новосибирск, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Golang-Moscow/events/237805619/&#34;&gt;Митап московского Go-сообщества&lt;/a&gt;, 25 мая&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших патронов.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 099. По ссылке или нет?</title>
         <itunes:subtitle>Выпуск 099. По ссылке или нет?</itunes:subtitle>
         <itunes:summary>
