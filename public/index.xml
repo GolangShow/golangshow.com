@@ -2693,6 +2693,55 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
       </item>
     
       <item>
+        <title>Выпуск 078. Спецвыпуск с dotGo</title>
+        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Интервью с докладчиками:</p>
+
+<ul>
+<li>Dave Cheney</li>
+<li>Brad Rydzewsky</li>
+<li>Robert Griesemer</li>
+</ul>
+
+<p>Интервью с участниками конференции:</p>
+
+<ul>
+<li>Леонид</li>
+<li>Олег</li>
+<li>Алексей</li>
+<li>Владимир</li>
+</ul>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/078.mp3" length="49410574" type="audio/mpeg" />
+        <itunes:duration>00:51:41</itunes:duration>
+
+        <link>http://golangshow.com/episode/2016/10-16-078/</link>
+        <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2016/10-16-078/</guid>
+        <description><![CDATA[<p>Интервью с докладчиками:</p>
+
+<ul>
+<li>Dave Cheney</li>
+<li>Brad Rydzewsky</li>
+<li>Robert Griesemer</li>
+</ul>
+
+<p>Интервью с участниками конференции:</p>
+
+<ul>
+<li>Леонид</li>
+<li>Олег</li>
+<li>Алексей</li>
+<li>Владимир</li>
+</ul>
+]]></description>
+      </item>
+    
+      <item>
         <title>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</title>
         <itunes:subtitle>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</itunes:subtitle>
         <itunes:summary><![CDATA[
