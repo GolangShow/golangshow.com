@@ -18,6 +18,179 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 101. Хороший Go</title>
+        <itunes:subtitle>Выпуск 101. Хороший Go</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-16.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/69972aea74de6a0397a05281475d1ca006da7bb0&#34;&gt;internal/cpu: new package to detect cpu features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/380aa884b8b2935137eee266d0a44e9083fae71f&#34;&gt;net: allow Resolver to use a custom dialer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/ee57e36dfa6879c05ac6717c29f2df5b546e1256&#34;&gt;container/heap: avoid up() invoke if down() success at heap.Remove()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/5548f7d5cfadf1319a99b2a17e72ff91fcdd09fc&#34;&gt;cmd/compile: eliminate some bounds checks from generated rewrite rules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Еженедельный отчёт от Лёши&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20100&#34;&gt;math: add Round&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20322&#34;&gt;proposal: cmd/go: add *_unix.go recognition (and presumably unix build tag)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20337&#34;&gt;cmd/compile: Unclear guidelines on what files/directories are ignored&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20343&#34;&gt;cmd/compile: confusing error message for a bad rune value, eg. &amp;lsquo;\xe4\xb8\x96&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20355&#34;&gt;cmd/compile: looprotate picking wrong jump target&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20356&#34;&gt;cmd/compile: lay out loop-free, likeliness-free control flow more compactly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20307&#34;&gt;runtime: GC turning on/off disruptive to scheduler and locality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20351&#34;&gt;runtime: select on a shared channel is slow with many Ps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://hackernoon.com/i-wrote-some-golang-and-it-felt-great-3c3367a67db5&#34;&gt;I wrote some Golang, and it felt great&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!msg/golang-nuts/KJiyv2mV2pU/wdBUH1mHCAAJ&#34;&gt;Why golang garbage-collector not implement Generational and Compact gc?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pocketgophers.com/idiomatic-go/&#34;&gt;Idiomatic Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.oreilly.com/ideas/how-to-ship-production-grade-go&#34;&gt;How to ship production-grade Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Упомянули &lt;a href=&#34;https://peter.bourgon.org/ok-log/&#34;&gt;OK Log&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.quora.com/Where-does-Gos-concurrency-CSP-fall-short/answer/Sameer-Ajmani&#34;&gt;Where does Go&amp;rsquo;s concurrency (CSP) fall short?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://habrahabr.ru/company/badoo/blog/328062/&#34;&gt;Сервисы на Go в Badoo: как мы их пишем и поддерживаем&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/golangsf/events/238748981/&#34;&gt;Gopherfest 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tidwall/gjson&#34;&gt;https://github.com/tidwall/gjson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jingweno/godzilla&#34;&gt;https://github.com/jingweno/godzilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ebrian/dispenserd&#34;&gt;https://github.com/ebrian/dispenserd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/itsmontoya/linkedlist&#34;&gt;https://github.com/itsmontoya/linkedlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/davidjpeacock/kurly&#34;&gt;https://github.com/davidjpeacock/kurly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joshbetz/config&#34;&gt;https://github.com/joshbetz/config&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hsluoyz/casbin&#34;&gt;https://github.com/hsluoyz/casbin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmcfarlane/notable&#34;&gt;https://github.com/jmcfarlane/notable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aerth/markdownd&#34;&gt;https://github.com/aerth/markdownd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/unrolled/secure&#34;&gt;https://github.com/unrolled/secure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/anaskhan96/soup&#34;&gt;https://github.com/anaskhan96/soup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Golang-Moscow/events/237805619/&#34;&gt;Митап в Москве&lt;/a&gt; 25 мая&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/uagolang/events/239752726/&#34;&gt;Митап в Киеве&lt;/a&gt; 1 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru&#34;&gt;Конференция РИТ++&lt;/a&gt; в Москве, 4-6 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших патронов.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/101.mp3" length="24028502" type="audio/mpeg" />
+        <itunes:duration>01:02:11</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/05-17-101/</link>
+        <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/05-17-101/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-16.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/69972aea74de6a0397a05281475d1ca006da7bb0&#34;&gt;internal/cpu: new package to detect cpu features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/380aa884b8b2935137eee266d0a44e9083fae71f&#34;&gt;net: allow Resolver to use a custom dialer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/ee57e36dfa6879c05ac6717c29f2df5b546e1256&#34;&gt;container/heap: avoid up() invoke if down() success at heap.Remove()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/5548f7d5cfadf1319a99b2a17e72ff91fcdd09fc&#34;&gt;cmd/compile: eliminate some bounds checks from generated rewrite rules&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Еженедельный отчёт от Лёши&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20100&#34;&gt;math: add Round&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20322&#34;&gt;proposal: cmd/go: add *_unix.go recognition (and presumably unix build tag)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20337&#34;&gt;cmd/compile: Unclear guidelines on what files/directories are ignored&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20343&#34;&gt;cmd/compile: confusing error message for a bad rune value, eg. &amp;lsquo;\xe4\xb8\x96&amp;rsquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20355&#34;&gt;cmd/compile: looprotate picking wrong jump target&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20356&#34;&gt;cmd/compile: lay out loop-free, likeliness-free control flow more compactly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20307&#34;&gt;runtime: GC turning on/off disruptive to scheduler and locality&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20351&#34;&gt;runtime: select on a shared channel is slow with many Ps&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://hackernoon.com/i-wrote-some-golang-and-it-felt-great-3c3367a67db5&#34;&gt;I wrote some Golang, and it felt great&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!msg/golang-nuts/KJiyv2mV2pU/wdBUH1mHCAAJ&#34;&gt;Why golang garbage-collector not implement Generational and Compact gc?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pocketgophers.com/idiomatic-go/&#34;&gt;Idiomatic Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.oreilly.com/ideas/how-to-ship-production-grade-go&#34;&gt;How to ship production-grade Go&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Упомянули &lt;a href=&#34;https://peter.bourgon.org/ok-log/&#34;&gt;OK Log&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.quora.com/Where-does-Gos-concurrency-CSP-fall-short/answer/Sameer-Ajmani&#34;&gt;Where does Go&amp;rsquo;s concurrency (CSP) fall short?&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://habrahabr.ru/company/badoo/blog/328062/&#34;&gt;Сервисы на Go в Badoo: как мы их пишем и поддерживаем&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.meetup.com/golangsf/events/238748981/&#34;&gt;Gopherfest 2017&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tidwall/gjson&#34;&gt;https://github.com/tidwall/gjson&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jingweno/godzilla&#34;&gt;https://github.com/jingweno/godzilla&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ebrian/dispenserd&#34;&gt;https://github.com/ebrian/dispenserd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/itsmontoya/linkedlist&#34;&gt;https://github.com/itsmontoya/linkedlist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/davidjpeacock/kurly&#34;&gt;https://github.com/davidjpeacock/kurly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/joshbetz/config&#34;&gt;https://github.com/joshbetz/config&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hsluoyz/casbin&#34;&gt;https://github.com/hsluoyz/casbin&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jmcfarlane/notable&#34;&gt;https://github.com/jmcfarlane/notable&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/aerth/markdownd&#34;&gt;https://github.com/aerth/markdownd&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/unrolled/secure&#34;&gt;https://github.com/unrolled/secure&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/anaskhan96/soup&#34;&gt;https://github.com/anaskhan96/soup&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/Golang-Moscow/events/237805619/&#34;&gt;Митап в Москве&lt;/a&gt; 25 мая&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/uagolang/events/239752726/&#34;&gt;Митап в Киеве&lt;/a&gt; 1 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru&#34;&gt;Конференция РИТ++&lt;/a&gt; в Москве, 4-6 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших патронов.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 100. Три А и Л</title>
         <itunes:subtitle>Выпуск 100. Три А и Л</itunes:subtitle>
         <itunes:summary>
