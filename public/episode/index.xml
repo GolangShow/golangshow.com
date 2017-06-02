@@ -18,6 +18,173 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 102. Много новых covfefe</title>
+        <itunes:subtitle>Выпуск 102. Много новых covfefe</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-31.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19710&#34;&gt;cmd/compile: defer+delete argument bug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20395&#34;&gt;runtime: terminate locked OS thread if its goroutine exits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20409&#34;&gt;x/mobile: gomobile apps crash inside runtime.usleep() on Android O beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20448&#34;&gt;x/net/http2: high RAM usage after closing response bodies early with HTTP2 connections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20461&#34;&gt;plugin: Add support for closing plugins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/devel/release.html#go1.8.minor&#34;&gt;Релизы Go 1.8.2 и Go 1.8.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://istio.io&#34;&gt;Istio&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudplatform.googleblog.com/2017/05/istio-modern-approach-to-developing-and.html&#34;&gt;Istio: a modern approach to developing and managing microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://undebugable.wordpress.com/2017/04/23/golang-undertanding-concurrence-programming-basic-in-the-easiest-way/&#34;&gt;Undertanding Basic of Concurrence Programming in the easiest way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2017/05/concurrent-golang-applications-goroutines-channels/&#34;&gt;Concurrent Golang Applications With Goroutines And Channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrahabr.ru/company/badoo/blog/328722/&#34;&gt;Перевод от Badoo: Логирование, интерфейсы и аллокации в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rakyll.org/coredumps/&#34;&gt;Debugging Go core dumps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goinggo.net/2017/05/language-mechanics-on-stacks-and-pointers.html&#34;&gt;Language Mechanics On Stacks And Pointers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go.googlesource.com/gollvm/&#34;&gt;gollvm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coreos.com/blog/prometheus-2.0-storage-layer-optimization&#34;&gt;Prometheus 2.0: New storage layer dramatically increases monitoring scalability for Kubernetes and other distributed systems&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fabxc.org/blog/2017-04-10-writing-a-tsdb/&#34;&gt;Writing a Time Series Database from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.tamizhvendan.in/blog/2017/05/01/using-golang-in-production-my-experiences/&#34;&gt;Using Golang in Production - My Experiences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLsWUapro5DC3DPPqZNA8UQnpoNas2Khn6&#34;&gt;Видео выступлений недавнего московского митапа&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dariubs/GoBooks&#34;&gt;Список книг по Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Books#russian&#34;&gt;Список русскоязычных книг по Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrahabr.ru/company/mailru/blog/327966/&#34;&gt;Лекции Техносферы: Программирование на Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/go-github/issues/646#issuecomment-304499367&#34;&gt;GitHub GraphQL API v4&lt;/a&gt; и &lt;a href=&#34;https://github.com/shurcooL/githubql&#34;&gt;пример библиотеки на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/m3db/m3db&#34;&gt;M3DB: A time series database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/minio/c2goasm&#34;&gt;c2goasm: C to Go Assembly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dzhou121/gonvim&#34;&gt;Neovim GUI written in Golang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/uagolang/events/239752726/&#34;&gt;Митап в Киеве&lt;/a&gt;, 1 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru&#34;&gt;Конференция РИТ++&lt;/a&gt; в Москве, 4-6 июня. Что будет:
+
+&lt;ul&gt;
+&lt;li&gt;митап по Go в первый день конференции&lt;/li&gt;
+&lt;li&gt;запись специального выпуска подкаста GolangShow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru/2017/abstracts/2564&#34;&gt;мастер-класс по написанию сервисов на Go и их релизу в Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ещё много всего интересного&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Митап по Go в рамках конференции &lt;a href=&#34;https://www.devconf.ru/&#34;&gt;DevConf&lt;/a&gt; в Москве, 17 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокод GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших патронов.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+ &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/102.mp3" length="36757393" type="audio/mpeg" />
+        <itunes:duration>01:23:10</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/05-31-102/</link>
+        <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/05-31-102/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-05-31.md&#34;&gt;Еженедельный отчёт от Саши&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19710&#34;&gt;cmd/compile: defer+delete argument bug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20395&#34;&gt;runtime: terminate locked OS thread if its goroutine exits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20409&#34;&gt;x/mobile: gomobile apps crash inside runtime.usleep() on Android O beta&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20448&#34;&gt;x/net/http2: high RAM usage after closing response bodies early with HTTP2 connections&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20461&#34;&gt;plugin: Add support for closing plugins&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golang.org/doc/devel/release.html#go1.8.minor&#34;&gt;Релизы Go 1.8.2 и Go 1.8.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://istio.io&#34;&gt;Istio&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://cloudplatform.googleblog.com/2017/05/istio-modern-approach-to-developing-and.html&#34;&gt;Istio: a modern approach to developing and managing microservices&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://undebugable.wordpress.com/2017/04/23/golang-undertanding-concurrence-programming-basic-in-the-easiest-way/&#34;&gt;Undertanding Basic of Concurrence Programming in the easiest way&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.thepolyglotdeveloper.com/2017/05/concurrent-golang-applications-goroutines-channels/&#34;&gt;Concurrent Golang Applications With Goroutines And Channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrahabr.ru/company/badoo/blog/328722/&#34;&gt;Перевод от Badoo: Логирование, интерфейсы и аллокации в Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rakyll.org/coredumps/&#34;&gt;Debugging Go core dumps&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.goinggo.net/2017/05/language-mechanics-on-stacks-and-pointers.html&#34;&gt;Language Mechanics On Stacks And Pointers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go.googlesource.com/gollvm/&#34;&gt;gollvm&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://coreos.com/blog/prometheus-2.0-storage-layer-optimization&#34;&gt;Prometheus 2.0: New storage layer dramatically increases monitoring scalability for Kubernetes and other distributed systems&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fabxc.org/blog/2017-04-10-writing-a-tsdb/&#34;&gt;Writing a Time Series Database from Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://blog.tamizhvendan.in/blog/2017/05/01/using-golang-in-production-my-experiences/&#34;&gt;Using Golang in Production - My Experiences&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLsWUapro5DC3DPPqZNA8UQnpoNas2Khn6&#34;&gt;Видео выступлений недавнего московского митапа&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dariubs/GoBooks&#34;&gt;Список книг по Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Books#russian&#34;&gt;Список русскоязычных книг по Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrahabr.ru/company/mailru/blog/327966/&#34;&gt;Лекции Техносферы: Программирование на Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/go-github/issues/646#issuecomment-304499367&#34;&gt;GitHub GraphQL API v4&lt;/a&gt; и &lt;a href=&#34;https://github.com/shurcooL/githubql&#34;&gt;пример библиотеки на Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/m3db/m3db&#34;&gt;M3DB: A time series database&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/minio/c2goasm&#34;&gt;c2goasm: C to Go Assembly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dzhou121/gonvim&#34;&gt;Neovim GUI written in Golang&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/uagolang/events/239752726/&#34;&gt;Митап в Киеве&lt;/a&gt;, 1 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru&#34;&gt;Конференция РИТ++&lt;/a&gt; в Москве, 4-6 июня. Что будет:
+
+&lt;ul&gt;
+&lt;li&gt;митап по Go в первый день конференции&lt;/li&gt;
+&lt;li&gt;запись специального выпуска подкаста GolangShow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ritfest.ru/2017/abstracts/2564&#34;&gt;мастер-класс по написанию сервисов на Go и их релизу в Kubernetes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ещё много всего интересного&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Митап по Go в рамках конференции &lt;a href=&#34;https://www.devconf.ru/&#34;&gt;DevConf&lt;/a&gt; в Москве, 17 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокод GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко и всех остальных наших патронов.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+ &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 101. Хороший Go</title>
         <itunes:subtitle>Выпуск 101. Хороший Go</itunes:subtitle>
         <itunes:summary>
