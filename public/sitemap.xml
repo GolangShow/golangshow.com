@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://golangshow.com/episode/2017/06-05-103/</loc>
+    <lastmod>2017-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://golangshow.com/episode/2017/05-31-102/</loc>
     <lastmod>2017-05-31T00:00:00+00:00</lastmod>
   </url>
@@ -547,7 +552,7 @@
   
   <url>
     <loc>http://golangshow.com/episode/</loc>
-    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -559,7 +564,7 @@
   
   <url>
     <loc>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</loc>
-    <lastmod>2017-02-01T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -589,7 +594,7 @@
   
   <url>
     <loc>http://golangshow.com/</loc>
-    <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+    <lastmod>2017-06-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

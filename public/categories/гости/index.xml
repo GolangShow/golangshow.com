@@ -18,6 +18,37 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 103. Go-митап @ РИТ++ 2017</title>
+        <itunes:subtitle>Выпуск 103. Go-митап @ РИТ++ 2017</itunes:subtitle>
+        <itunes:summary><![CDATA[<p>Спецвыпуск с конференеции <a href="http://ritfest.ru">РИТ++ 2017</a>.
+Митап &ldquo;Go в продакшн&rdquo;.</p>
+
+<p>Запись производилась в полевых условиях.</p>
+
+<p>Участники митапа делятся своим опытом и видинием различных вопросов,
+связанных с Go.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/103.mp3" length="95837963" type="audio/mpeg" />
+        <itunes:duration>01:40:01</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/06-05-103/</link>
+        <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/06-05-103/</guid>
+        <description><![CDATA[<p>Спецвыпуск с конференеции <a href="http://ritfest.ru">РИТ++ 2017</a>.
+Митап &ldquo;Go в продакшн&rdquo;.</p>
+
+<p>Запись производилась в полевых условиях.</p>
+
+<p>Участники митапа делятся своим опытом и видинием различных вопросов,
+связанных с Go.</p>
+]]></description>
+      </item>
+    
+      <item>
         <title>Выпуск 092. Гости из JetBrains. Gogland</title>
         <itunes:subtitle>Выпуск 092. Гости из JetBrains. Gogland</itunes:subtitle>
         <itunes:summary><![CDATA[
