@@ -18,6 +18,121 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 104. Рекордно короткий</title>
+        <itunes:subtitle>Выпуск 104. Рекордно короткий</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!msg/golang-announce/4NhDbvlC4pM/nowY_nAlAAAJ&#34;&gt;Go 1.9 Beta 1 is released&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tip.golang.org/doc/go1.9&#34;&gt;Go 1.9 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/&#34;&gt;The RedMonk Programming Language Rankings: June 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation&#34;&gt;Deploying a Go application with systemd socket activation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/6h71wt/good_open_source_web_golang_project_to_read&#34;&gt;Good open source web Golang project to read through the code?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gopher.golangmarket.com&#34;&gt;Soft Plush Gophers looking for new friends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2017/06/12/webinar-recording-migrating-to-gogland-from-a-code-editor-tips-tricks&#34;&gt;Вебинар по Gogland&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2017/06/09/gogland-eap-9-is-available/&#34;&gt;Gogland EAP 9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CUG1vfnO3zI&#34;&gt;Fun with Channels in Golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=spKM5CyBwJA&#34;&gt;Package Oriented Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Azure/draft&#34;&gt;https://github.com/Azure/draft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dutchcoders/transfer.sh/&#34;&gt;https://github.com/dutchcoders/transfer.sh/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/achilleasa/gopher-os&#34;&gt;https://github.com/achilleasa/gopher-os&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://reconfigure.io/&#34;&gt;https://reconfigure.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Митап по Go в рамках конференции &lt;a href=&#34;https://www.devconf.ru/&#34;&gt;DevConf&lt;/a&gt; в Москве, 17 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://goway.io&#34;&gt;GoWayFest&lt;/a&gt; в Минске, 21 июля, &lt;a href=&#34;https://goo.gl/v8S5qm&#34;&gt;call for papers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;call for papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Aleksey Akulovich, Ivan Prisyazhnyy,
+Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/104.mp3" length="12711294" type="audio/mpeg" />
+        <itunes:duration>00:32:46</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/06-15-104/</link>
+        <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/06-15-104/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/forum/#!msg/golang-announce/4NhDbvlC4pM/nowY_nAlAAAJ&#34;&gt;Go 1.9 Beta 1 is released&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tip.golang.org/doc/go1.9&#34;&gt;Go 1.9 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://redmonk.com/sogrady/2017/06/08/language-rankings-6-17/&#34;&gt;The RedMonk Programming Language Rankings: June 2017&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tailordev.fr/blog/2017/06/09/deploying-a-go-app-with-systemd-socket-activation&#34;&gt;Deploying a Go application with systemd socket activation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/6h71wt/good_open_source_web_golang_project_to_read&#34;&gt;Good open source web Golang project to read through the code?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gopher.golangmarket.com&#34;&gt;Soft Plush Gophers looking for new friends&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2017/06/12/webinar-recording-migrating-to-gogland-from-a-code-editor-tips-tricks&#34;&gt;Вебинар по Gogland&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2017/06/09/gogland-eap-9-is-available/&#34;&gt;Gogland EAP 9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=CUG1vfnO3zI&#34;&gt;Fun with Channels in Golang&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=spKM5CyBwJA&#34;&gt;Package Oriented Design&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Azure/draft&#34;&gt;https://github.com/Azure/draft&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dutchcoders/transfer.sh/&#34;&gt;https://github.com/dutchcoders/transfer.sh/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/achilleasa/gopher-os&#34;&gt;https://github.com/achilleasa/gopher-os&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://reconfigure.io/&#34;&gt;https://reconfigure.io/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Митап по Go в рамках конференции &lt;a href=&#34;https://www.devconf.ru/&#34;&gt;DevConf&lt;/a&gt; в Москве, 17 июня&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://goway.io&#34;&gt;GoWayFest&lt;/a&gt; в Минске, 21 июля, &lt;a href=&#34;https://goo.gl/v8S5qm&#34;&gt;call for papers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;call for papers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Aleksey Akulovich, Ivan Prisyazhnyy,
+Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 103. Go-митап @ РИТ++ 2017</title>
         <itunes:subtitle>Выпуск 103. Go-митап @ РИТ++ 2017</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Спецвыпуск с конференеции &lt;a href=&#34;http://ritfest.ru&#34;&gt;РИТ++ 2017&lt;/a&gt;.
@@ -25,7 +140,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/ep-103-rit.jpg&#34; alt=&#34;РИТ++ 2017&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Фото взято из материалов конференции&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Фото из материалов конференции&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Запись производилась в полевых условиях.&lt;/p&gt;
 
@@ -49,7 +164,7 @@
 
 &lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/ep-103-rit.jpg&#34; alt=&#34;РИТ++ 2017&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;Фото взято из материалов конференции&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Фото из материалов конференции&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;Запись производилась в полевых условиях.&lt;/p&gt;
 
