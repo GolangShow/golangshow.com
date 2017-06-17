@@ -10,7 +10,7 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.20.7</generator>
+    <generator>Hugo 0.23</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
@@ -85,7 +85,7 @@
 </ul></li>
 <li>Митап по Go в рамках конференции <a href="https://www.devconf.ru/">DevConf</a> в Москве, 17 июня</li>
 <li><a href="https://gdg-siberia.com">GDG DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
-<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокод GOLANGMOSCOW для скидки в 20%</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
 </ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
@@ -171,7 +171,7 @@
 </ul></li>
 <li>Митап по Go в рамках конференции <a href="https://www.devconf.ru/">DevConf</a> в Москве, 17 июня</li>
 <li><a href="https://gdg-siberia.com">GDG DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября, прием докладов <a href="https://bit.ly/dfSiberia17-c4p">открыт</a></li>
-<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокод GOLANGMOSCOW для скидки в 20%</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
 </ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>

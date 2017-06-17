@@ -10,7 +10,7 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.20.7</generator>
+    <generator>Hugo 0.23</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />

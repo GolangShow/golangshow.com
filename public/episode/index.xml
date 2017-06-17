@@ -10,7 +10,7 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.20.7</generator>
+    <generator>Hugo 0.23</generator>
     <itunes:image href="http://golangshow.com/images/cover.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
@@ -23,10 +23,16 @@
         <itunes:summary>&lt;p&gt;Спецвыпуск с конференеции &lt;a href=&#34;http://ritfest.ru&#34;&gt;РИТ++ 2017&lt;/a&gt;.
 Митап &amp;ldquo;Go в продакшн&amp;rdquo;.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/ep-103-rit.jpg&#34; alt=&#34;РИТ++ 2017&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Фото взято из материалов конференции&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Запись производилась в полевых условиях.&lt;/p&gt;
 
 &lt;p&gt;Участники митапа делятся своим опытом и видением различных вопросов,
 связанных с Go.&lt;/p&gt;
+
+&lt;p&gt;В гостях Даниил Подольский, Андрей Минкин, Игорь Должиков, Иван Круглов и многие другие.&lt;/p&gt;
 </itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -41,10 +47,16 @@
         <description>&lt;p&gt;Спецвыпуск с конференеции &lt;a href=&#34;http://ritfest.ru&#34;&gt;РИТ++ 2017&lt;/a&gt;.
 Митап &amp;ldquo;Go в продакшн&amp;rdquo;.&lt;/p&gt;
 
+&lt;p&gt;&lt;img src=&#34;http://golangshow.com/images/ep-103-rit.jpg&#34; alt=&#34;РИТ++ 2017&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Фото взято из материалов конференции&lt;/em&gt;&lt;/p&gt;
+
 &lt;p&gt;Запись производилась в полевых условиях.&lt;/p&gt;
 
 &lt;p&gt;Участники митапа делятся своим опытом и видением различных вопросов,
 связанных с Go.&lt;/p&gt;
+
+&lt;p&gt;В гостях Даниил Подольский, Андрей Минкин, Игорь Должиков, Иван Круглов и многие другие.&lt;/p&gt;
 </description>
       </item>
     
@@ -116,7 +128,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Митап по Go в рамках конференции &lt;a href=&#34;https://www.devconf.ru/&#34;&gt;DevConf&lt;/a&gt; в Москве, 17 июня&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокод GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
@@ -202,7 +214,7 @@
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Митап по Go в рамках конференции &lt;a href=&#34;https://www.devconf.ru/&#34;&gt;DevConf&lt;/a&gt; в Москве, 17 июня&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября, прием докладов &lt;a href=&#34;https://bit.ly/dfSiberia17-c4p&#34;&gt;открыт&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокод GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
