@@ -18,6 +18,197 @@
     <itunes:explicit>no</itunes:explicit>
     
       <item>
+        <title>Выпуск 105. GoWay и Modern Go</title>
+        <itunes:subtitle>Выпуск 105. GoWay и Modern Go</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;гости&#34;&gt;Гости&lt;/h2&gt;
+
+&lt;p&gt;Яна Лашкевич и Миша Кабищев рассказывают о &lt;a href=&#34;http://goway.io&#34;&gt;GoWayFest 2017&lt;/a&gt;,
+первой Go-конференции в Восточной Европе, которая пройдет в Минске 21 июля.&lt;/p&gt;
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Отчет от Александра:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/3bdc2f3abf0f9cffc8f4e294ef22a23b82e88415&#34;&gt;cmd/compile/internal/gc: speed-up small array comparison&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/a4ee95c805fb77e594603bcd62d7858dc9e853ab&#34;&gt;runtime: avoid division in gc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/51711d1429cb592c9ddc772e6362e74ac8545dc8&#34;&gt;cmd/link: fix accidentally-quadratic library loading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/dc8b4e65a7a68e102484020efbf80cecd2d515bd&#34;&gt;doc: add qualified mention of dep to FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/67e537541c043c701001f002bed0cda70ce72767&#34;&gt;syscall: use CLONE_VFORK safely&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/91139b87f776a553524b022753981e7909386777&#34;&gt;runtime, syscall: workaround for bug in Linux&amp;rsquo;s execve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/8ec7a39fec2acab98ce5e41363dd1c65c03d7479&#34;&gt;os/signal: avoid race between Stop and receiving on channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/dc86c9a6afa8b5b998dfa6621d1566d1296f2bf4&#34;&gt;doc, api: add syscall.SysProcAttr.AmbientCaps change to 1.9 notes, API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Отчет от Алексея:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20352&#34;&gt;proposal: spec: add support for unlimited capacity channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ferd.ca/queues-don-t-fix-overload.html&#34;&gt;Queues Don&amp;rsquo;t Fix Overload&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/16520&#34;&gt;cmd/vet: warn about capturing loop iterator variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20725&#34;&gt;proposal: spec: disallow taking the addresses of loop variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20733&#34;&gt;proposal: spec: redefine range loop variables in each iteration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20148&#34;&gt;proposal: cmd/vet: add check for common error mishandling pattern&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20803&#34;&gt;proposal: spec: require return-values to be explicitly used or ignored (Go 2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19128&#34;&gt;testing: add -benchsplit to get more data points&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20820&#34;&gt;net/url: empty query value is dropped on Encode()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20850&#34;&gt;runtime/cgo: Can&amp;rsquo;t install Go from source on FreeBSD 9.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20841&#34;&gt;os: RemoveAll does not work for large file sets on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/emluque/golang-internals-resources&#34;&gt;Golang Internals Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://katcipis.github.io/2017/04/21/hack-go-types.html&#34;&gt;Hacking Go&amp;rsquo;s type system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html&#34;&gt;A theory of modern Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/11/go-without-package-scoped-variables&#34;&gt;Go, without package scoped variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&#34;&gt;Why Most Unit Testing is Waste&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/15/simplicity-debt&#34;&gt;Simplicity Debt&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/18/simplicity-debt-redux&#34;&gt;Simplicity Debt Redux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/20/how-to-find-out-which-go-version-built-your-binary&#34;&gt;How to find out which Go version built your binary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1GFHAksL5HQy1YacCFXMUdOTC4e21uoX-TbMzRXAtx_I/preview&#34;&gt;Go Tracing Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rakyll.org/profiler-labels&#34;&gt;Profiler labels in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Go Community Linklog&#34;&gt;http://golangflow.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Микросервисы в продакшн. Мастер-классы по Go и Kubernetes. &lt;a href=&#34;https://youtu.be/0ndWw1udpsA?t=7m16s&#34;&gt;Видео с РИТ++&lt;/a&gt; и &lt;a href=&#34;https://k8s.community&#34;&gt;сообщество&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@mdlayher/network-protocol-breakdown-ethernet-and-go-de985d726cc1&#34;&gt;Network Protocol Breakdown: Ethernet and Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://goplay.space&#34;&gt;https://goplay.space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ycoroneos/G.E.R.T&#34;&gt;https://github.com/ycoroneos/G.E.R.T&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nickng/dingo-hunter&#34;&gt;https://github.com/nickng/dingo-hunter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://goway.io&#34;&gt;GoWayFest&lt;/a&gt; в Минске, 21 июля, &lt;a href=&#34;https://goo.gl/v8S5qm&#34;&gt;call for papers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов:
+pioh, Afanasev Stanislav, Aleksey Akulovich, Maxim Tishchenko,
+Yegor Andreenko, Jaleel Akbashev, Sergey Shushpanov, Sergey Serebryakov,
+Ivan Prisyazhnyy, Danila Pisarev
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/105.mp3" length="43461038" type="audio/mpeg" />
+        <itunes:duration>01:41:24</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/07-05-105/</link>
+        <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/07-05-105/</guid>
+        <description>
+
+&lt;h2 id=&#34;гости&#34;&gt;Гости&lt;/h2&gt;
+
+&lt;p&gt;Яна Лашкевич и Миша Кабищев рассказывают о &lt;a href=&#34;http://goway.io&#34;&gt;GoWayFest 2017&lt;/a&gt;,
+первой Go-конференции в Восточной Европе, которая пройдет в Минске 21 июля.&lt;/p&gt;
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Отчет от Александра:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/3bdc2f3abf0f9cffc8f4e294ef22a23b82e88415&#34;&gt;cmd/compile/internal/gc: speed-up small array comparison&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/a4ee95c805fb77e594603bcd62d7858dc9e853ab&#34;&gt;runtime: avoid division in gc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/51711d1429cb592c9ddc772e6362e74ac8545dc8&#34;&gt;cmd/link: fix accidentally-quadratic library loading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/dc8b4e65a7a68e102484020efbf80cecd2d515bd&#34;&gt;doc: add qualified mention of dep to FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/67e537541c043c701001f002bed0cda70ce72767&#34;&gt;syscall: use CLONE_VFORK safely&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/91139b87f776a553524b022753981e7909386777&#34;&gt;runtime, syscall: workaround for bug in Linux&amp;rsquo;s execve&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/8ec7a39fec2acab98ce5e41363dd1c65c03d7479&#34;&gt;os/signal: avoid race between Stop and receiving on channel&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/dc86c9a6afa8b5b998dfa6621d1566d1296f2bf4&#34;&gt;doc, api: add syscall.SysProcAttr.AmbientCaps change to 1.9 notes, API&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Отчет от Алексея:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20352&#34;&gt;proposal: spec: add support for unlimited capacity channels&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ferd.ca/queues-don-t-fix-overload.html&#34;&gt;Queues Don&amp;rsquo;t Fix Overload&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/16520&#34;&gt;cmd/vet: warn about capturing loop iterator variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20725&#34;&gt;proposal: spec: disallow taking the addresses of loop variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20733&#34;&gt;proposal: spec: redefine range loop variables in each iteration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20148&#34;&gt;proposal: cmd/vet: add check for common error mishandling pattern&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20803&#34;&gt;proposal: spec: require return-values to be explicitly used or ignored (Go 2)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19128&#34;&gt;testing: add -benchsplit to get more data points&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20820&#34;&gt;net/url: empty query value is dropped on Encode()&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20850&#34;&gt;runtime/cgo: Can&amp;rsquo;t install Go from source on FreeBSD 9.1&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20841&#34;&gt;os: RemoveAll does not work for large file sets on Windows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/emluque/golang-internals-resources&#34;&gt;Golang Internals Resources&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://katcipis.github.io/2017/04/21/hack-go-types.html&#34;&gt;Hacking Go&amp;rsquo;s type system&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://peter.bourgon.org/blog/2017/06/09/theory-of-modern-go.html&#34;&gt;A theory of modern Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/11/go-without-package-scoped-variables&#34;&gt;Go, without package scoped variables&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://rbcs-us.com/documents/Why-Most-Unit-Testing-is-Waste.pdf&#34;&gt;Why Most Unit Testing is Waste&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/15/simplicity-debt&#34;&gt;Simplicity Debt&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/18/simplicity-debt-redux&#34;&gt;Simplicity Debt Redux&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/20/how-to-find-out-which-go-version-built-your-binary&#34;&gt;How to find out which Go version built your binary&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1GFHAksL5HQy1YacCFXMUdOTC4e21uoX-TbMzRXAtx_I/preview&#34;&gt;Go Tracing Roadmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rakyll.org/profiler-labels&#34;&gt;Profiler labels in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;Go Community Linklog&#34;&gt;http://golangflow.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Микросервисы в продакшн. Мастер-классы по Go и Kubernetes. &lt;a href=&#34;https://youtu.be/0ndWw1udpsA?t=7m16s&#34;&gt;Видео с РИТ++&lt;/a&gt; и &lt;a href=&#34;https://k8s.community&#34;&gt;сообщество&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@mdlayher/network-protocol-breakdown-ethernet-and-go-de985d726cc1&#34;&gt;Network Protocol Breakdown: Ethernet and Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://goplay.space&#34;&gt;https://goplay.space&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ycoroneos/G.E.R.T&#34;&gt;https://github.com/ycoroneos/G.E.R.T&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/nickng/dingo-hunter&#34;&gt;https://github.com/nickng/dingo-hunter&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://goway.io&#34;&gt;GoWayFest&lt;/a&gt; в Минске, 21 июля, &lt;a href=&#34;https://goo.gl/v8S5qm&#34;&gt;call for papers&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;GDG DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов:
+pioh, Afanasev Stanislav, Aleksey Akulovich, Maxim Tishchenko,
+Yegor Andreenko, Jaleel Akbashev, Sergey Shushpanov, Sergey Serebryakov,
+Ivan Prisyazhnyy, Danila Pisarev
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/m0sth8&#34;&gt;Слава&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+    
+      <item>
         <title>Выпуск 104. Рекордно короткий</title>
         <itunes:subtitle>Выпуск 104. Рекордно короткий</itunes:subtitle>
         <itunes:summary>
