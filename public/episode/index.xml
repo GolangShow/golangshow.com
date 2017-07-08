@@ -73,7 +73,7 @@
 &lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/20/how-to-find-out-which-go-version-built-your-binary&#34;&gt;How to find out which Go version built your binary&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1GFHAksL5HQy1YacCFXMUdOTC4e21uoX-TbMzRXAtx_I/preview&#34;&gt;Go Tracing Roadmap&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://rakyll.org/profiler-labels&#34;&gt;Profiler labels in Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;Go Community Linklog&#34;&gt;http://golangflow.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangflow.io&#34;&gt;Go Community Linklog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Микросервисы в продакшн. Мастер-классы по Go и Kubernetes. &lt;a href=&#34;https://youtu.be/0ndWw1udpsA?t=7m16s&#34;&gt;Видео с РИТ++&lt;/a&gt; и &lt;a href=&#34;https://k8s.community&#34;&gt;сообщество&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@mdlayher/network-protocol-breakdown-ethernet-and-go-de985d726cc1&#34;&gt;Network Protocol Breakdown: Ethernet and Go&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -171,7 +171,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 &lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/06/20/how-to-find-out-which-go-version-built-your-binary&#34;&gt;How to find out which Go version built your binary&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://docs.google.com/document/d/1GFHAksL5HQy1YacCFXMUdOTC4e21uoX-TbMzRXAtx_I/preview&#34;&gt;Go Tracing Roadmap&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://rakyll.org/profiler-labels&#34;&gt;Profiler labels in Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;Go Community Linklog&#34;&gt;http://golangflow.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://golangflow.io&#34;&gt;Go Community Linklog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Микросервисы в продакшн. Мастер-классы по Go и Kubernetes. &lt;a href=&#34;https://youtu.be/0ndWw1udpsA?t=7m16s&#34;&gt;Видео с РИТ++&lt;/a&gt; и &lt;a href=&#34;https://k8s.community&#34;&gt;сообщество&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://medium.com/@mdlayher/network-protocol-breakdown-ethernet-and-go-de985d726cc1&#34;&gt;Network Protocol Breakdown: Ethernet and Go&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
