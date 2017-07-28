@@ -36,7 +36,7 @@
 <li><a href="https://github.com/golang/go/issues/20480">proposal: math/rand: add Shuffle</a></li>
 <li><a href="https://github.com/golang/go/issues/19624">proposal: spec: change all int types to panic on wraparound, overflow</a></li>
 <li><a href="https://github.com/golang/go/issues/20984">proposal: composite errors</a></li>
-<li>[proposal: spec: define _ on rhs as zero value(<a href="https://github.com/golang/go/issues/19642">https://github.com/golang/go/issues/19642</a>)</li>
+<li><a href="https://github.com/golang/go/issues/19642">proposal: spec: define _ on rhs as zero value</a></li>
 <li><a href="https://github.com/golang/go/issues/21015">testing: add <code>assert</code> function</a></li>
 </ul></li>
 <li>Рассказ про <a href="https://www.gophercon.com">GopherCon 2017</a>
@@ -108,7 +108,7 @@
 <li><a href="https://github.com/golang/go/issues/20480">proposal: math/rand: add Shuffle</a></li>
 <li><a href="https://github.com/golang/go/issues/19624">proposal: spec: change all int types to panic on wraparound, overflow</a></li>
 <li><a href="https://github.com/golang/go/issues/20984">proposal: composite errors</a></li>
-<li>[proposal: spec: define _ on rhs as zero value(<a href="https://github.com/golang/go/issues/19642">https://github.com/golang/go/issues/19642</a>)</li>
+<li><a href="https://github.com/golang/go/issues/19642">proposal: spec: define _ on rhs as zero value</a></li>
 <li><a href="https://github.com/golang/go/issues/21015">testing: add <code>assert</code> function</a></li>
 </ul></li>
 <li>Рассказ про <a href="https://www.gophercon.com">GopherCon 2017</a>

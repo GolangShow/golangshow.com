@@ -36,7 +36,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20480&#34;&gt;proposal: math/rand: add Shuffle&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19624&#34;&gt;proposal: spec: change all int types to panic on wraparound, overflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20984&#34;&gt;proposal: composite errors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[proposal: spec: define _ on rhs as zero value(&lt;a href=&#34;https://github.com/golang/go/issues/19642&#34;&gt;https://github.com/golang/go/issues/19642&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19642&#34;&gt;proposal: spec: define _ on rhs as zero value&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21015&#34;&gt;testing: add &lt;code&gt;assert&lt;/code&gt; function&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Рассказ про &lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2017&lt;/a&gt;
@@ -108,7 +108,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20480&#34;&gt;proposal: math/rand: add Shuffle&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19624&#34;&gt;proposal: spec: change all int types to panic on wraparound, overflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20984&#34;&gt;proposal: composite errors&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;[proposal: spec: define _ on rhs as zero value(&lt;a href=&#34;https://github.com/golang/go/issues/19642&#34;&gt;https://github.com/golang/go/issues/19642&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19642&#34;&gt;proposal: spec: define _ on rhs as zero value&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21015&#34;&gt;testing: add &lt;code&gt;assert&lt;/code&gt; function&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Рассказ про &lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2017&lt;/a&gt;
