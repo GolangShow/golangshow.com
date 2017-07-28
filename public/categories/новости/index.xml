@@ -10,12 +10,151 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.23</generator>
+    <generator>Hugo 0.25.1</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>Выпуск 106. Go2WayCon</title>
+        <itunes:subtitle>Выпуск 106. Go2WayCon</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Лёши:
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/21149">bytes: appending to a single slice from Split output can affect other slices of the output</a></li>
+<li><a href="https://github.com/golang/go/issues/18997">net/http/httptrace: add ServerTrace hooks</a></li>
+<li><a href="https://github.com/golang/go/issues/21095">fmt: maps should format in sorted order</a></li>
+<li><a href="https://github.com/golang/go/issues/21061">x/tools/godoc: memory grows exponentially if symlink loop exists in $GOPATH</a></li>
+<li><a href="https://github.com/golang/go/issues/20268">proposal: database/sql: support creating a *sql.DB directly from a driver.Driver and dsn</a></li>
+<li><a href="https://github.com/golang/go/issues/20480">proposal: math/rand: add Shuffle</a></li>
+<li><a href="https://github.com/golang/go/issues/19624">proposal: spec: change all int types to panic on wraparound, overflow</a></li>
+<li><a href="https://github.com/golang/go/issues/20984">proposal: composite errors</a></li>
+<li>[proposal: spec: define _ on rhs as zero value(<a href="https://github.com/golang/go/issues/19642">https://github.com/golang/go/issues/19642</a>)</li>
+<li><a href="https://github.com/golang/go/issues/21015">testing: add <code>assert</code> function</a></li>
+</ul></li>
+<li>Рассказ про <a href="https://www.gophercon.com">GopherCon 2017</a>
+
+<ul>
+<li><a href="https://about.sourcegraph.com/go/">The Official GopherCon 2017 Liveblog</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">Видеозаписи докладов уже доступны!</a><br /></li>
+</ul></li>
+<li><a href="https://blog.golang.org/toward-go2">Toward Go 2</a>
+
+<ul>
+<li><a href="https://dave.cheney.net/2017/07/22/should-go-2-0-support-generics">Should Go 2.0 support generics?</a></li>
+</ul></li>
+<li>Рассказ про <a href="http://goway.io">GoWayFest</a></li>
+<li>Книжные новинки (и старинки 🤓):
+
+<ul>
+<li><a href="https://www.packtpub.com/application-development/go-design-patterns">Go Design Patterns</a></li>
+<li><a href="https://www.packtpub.com/application-development/go-cookbook">Go Cookbook</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920046189.do">Concurrency in Go: Tools and Techniques for Developers</a></li>
+</ul></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://moikrug.ru/vacancies/1000035022">От okmeter.io</a></li>
+<li><a href="https://containo.us/#jobs">От træfik </a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">GDG DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов Станислава Афанасьева, Алексея Акуловича, Максима Тищенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/106.mp3" length="33244075" type="audio/mpeg" />
+        <itunes:duration>01:18:13</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/07-26-106/</link>
+        <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/07-26-106/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Лёши:
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/21149">bytes: appending to a single slice from Split output can affect other slices of the output</a></li>
+<li><a href="https://github.com/golang/go/issues/18997">net/http/httptrace: add ServerTrace hooks</a></li>
+<li><a href="https://github.com/golang/go/issues/21095">fmt: maps should format in sorted order</a></li>
+<li><a href="https://github.com/golang/go/issues/21061">x/tools/godoc: memory grows exponentially if symlink loop exists in $GOPATH</a></li>
+<li><a href="https://github.com/golang/go/issues/20268">proposal: database/sql: support creating a *sql.DB directly from a driver.Driver and dsn</a></li>
+<li><a href="https://github.com/golang/go/issues/20480">proposal: math/rand: add Shuffle</a></li>
+<li><a href="https://github.com/golang/go/issues/19624">proposal: spec: change all int types to panic on wraparound, overflow</a></li>
+<li><a href="https://github.com/golang/go/issues/20984">proposal: composite errors</a></li>
+<li>[proposal: spec: define _ on rhs as zero value(<a href="https://github.com/golang/go/issues/19642">https://github.com/golang/go/issues/19642</a>)</li>
+<li><a href="https://github.com/golang/go/issues/21015">testing: add <code>assert</code> function</a></li>
+</ul></li>
+<li>Рассказ про <a href="https://www.gophercon.com">GopherCon 2017</a>
+
+<ul>
+<li><a href="https://about.sourcegraph.com/go/">The Official GopherCon 2017 Liveblog</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">Видеозаписи докладов уже доступны!</a><br /></li>
+</ul></li>
+<li><a href="https://blog.golang.org/toward-go2">Toward Go 2</a>
+
+<ul>
+<li><a href="https://dave.cheney.net/2017/07/22/should-go-2-0-support-generics">Should Go 2.0 support generics?</a></li>
+</ul></li>
+<li>Рассказ про <a href="http://goway.io">GoWayFest</a></li>
+<li>Книжные новинки (и старинки 🤓):
+
+<ul>
+<li><a href="https://www.packtpub.com/application-development/go-design-patterns">Go Design Patterns</a></li>
+<li><a href="https://www.packtpub.com/application-development/go-cookbook">Go Cookbook</a></li>
+<li><a href="http://shop.oreilly.com/product/0636920046189.do">Concurrency in Go: Tools and Techniques for Developers</a></li>
+</ul></li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://moikrug.ru/vacancies/1000035022">От okmeter.io</a></li>
+<li><a href="https://containo.us/#jobs">От træfik </a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">GDG DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов Станислава Афанасьева, Алексея Акуловича, Максима Тищенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
     
       <item>
         <title>Выпуск 105. GoWay и Modern Go</title>
@@ -6389,7 +6528,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <ul>
 <li><a href="https://github.com/golang/go/commit/ab52ad894f453a02153fb2bc106d08c47ba643b6">encoding/json: add Encoder.DisableHTMLEscaping</a></li>
 <li><a href="https://github.com/golang/go/commit/f7d19672f273ecb600d0b0db32990d1a6462a898">api: update next.txt</a></li>
-<li><a href="https://github.com/golang/go/commit/6b02a1924725688b4d264065454ac5287fbed535">strings: use SSE4.2 in strings.Index on AMD64</a><br /></li>
+<li><a href="https://github.com/golang/go/commit/6b02a1924725688b4d264065454ac5287fbed535">strings: use SSE4.2 in strings.Index on AMD64</a></li>
 <li><a href="https://github.com/golang/go/commit/e607abbfd6e0550c13f4fa7b666d033eb9b14759">unicode: improve SimpleFold performance for ascii</a></li>
 <li><a href="https://github.com/golang/go/commit/7538b1db8ec0d82a623847fe5987f1988fe16448">cmd/compile: switch to compact export format by default</a></li>
 </ul></li>
@@ -6397,7 +6536,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <li><a href="https://blog.cloudflare.com/building-the-simplest-go-static-analysis-tool/">Building the simplest Go static analysis tool</a></li>
 <li><a href="https://sourcegraph.com/github.com/golang/go@a1ef950a15517bca223d079a6cf65948c3db9694/-/blob/src/internal/syscall/unix/getrandom_linux.go#L52">Поддержка syscall на разных ядрах</a></li>
 <li>Доклад &ldquo;How to optimize Go for really high performance&rdquo;:  <a href="https://youtu.be/ZuQcbqYK0BY">видео</a> и <a href="https://docs.google.com/presentation/d/1Zu0BdbhMRar7ycEwDi8jepGokTXTDXlKFf7C13tusuI/edit?pref=2&amp;pli=1#slide=id.p">слайды</a></li>
-<li><a href="http://www.infoq.com/articles/build-a-container-golang">Build Your Own Container Using Less than 100 Lines of Go</a> + <a href="http://lk4d4.darth.io/categories/containers/">про контейнеры от Александра</a><br /></li>
+<li><a href="http://www.infoq.com/articles/build-a-container-golang">Build Your Own Container Using Less than 100 Lines of Go</a> + <a href="http://lk4d4.darth.io/categories/containers/">про контейнеры от Александра</a></li>
 <li><a href="https://github.com/golang/proposal/blob/master/design/2775-binary-only-packages.md">Proposal: Binary-Only Packages</a></li>
 </ul>
 
@@ -6461,7 +6600,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <ul>
 <li><a href="https://github.com/golang/go/commit/ab52ad894f453a02153fb2bc106d08c47ba643b6">encoding/json: add Encoder.DisableHTMLEscaping</a></li>
 <li><a href="https://github.com/golang/go/commit/f7d19672f273ecb600d0b0db32990d1a6462a898">api: update next.txt</a></li>
-<li><a href="https://github.com/golang/go/commit/6b02a1924725688b4d264065454ac5287fbed535">strings: use SSE4.2 in strings.Index on AMD64</a><br /></li>
+<li><a href="https://github.com/golang/go/commit/6b02a1924725688b4d264065454ac5287fbed535">strings: use SSE4.2 in strings.Index on AMD64</a></li>
 <li><a href="https://github.com/golang/go/commit/e607abbfd6e0550c13f4fa7b666d033eb9b14759">unicode: improve SimpleFold performance for ascii</a></li>
 <li><a href="https://github.com/golang/go/commit/7538b1db8ec0d82a623847fe5987f1988fe16448">cmd/compile: switch to compact export format by default</a></li>
 </ul></li>
@@ -6469,7 +6608,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <li><a href="https://blog.cloudflare.com/building-the-simplest-go-static-analysis-tool/">Building the simplest Go static analysis tool</a></li>
 <li><a href="https://sourcegraph.com/github.com/golang/go@a1ef950a15517bca223d079a6cf65948c3db9694/-/blob/src/internal/syscall/unix/getrandom_linux.go#L52">Поддержка syscall на разных ядрах</a></li>
 <li>Доклад &ldquo;How to optimize Go for really high performance&rdquo;:  <a href="https://youtu.be/ZuQcbqYK0BY">видео</a> и <a href="https://docs.google.com/presentation/d/1Zu0BdbhMRar7ycEwDi8jepGokTXTDXlKFf7C13tusuI/edit?pref=2&amp;pli=1#slide=id.p">слайды</a></li>
-<li><a href="http://www.infoq.com/articles/build-a-container-golang">Build Your Own Container Using Less than 100 Lines of Go</a> + <a href="http://lk4d4.darth.io/categories/containers/">про контейнеры от Александра</a><br /></li>
+<li><a href="http://www.infoq.com/articles/build-a-container-golang">Build Your Own Container Using Less than 100 Lines of Go</a> + <a href="http://lk4d4.darth.io/categories/containers/">про контейнеры от Александра</a></li>
 <li><a href="https://github.com/golang/proposal/blob/master/design/2775-binary-only-packages.md">Proposal: Binary-Only Packages</a></li>
 </ul>
 
@@ -7932,7 +8071,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
 <ul>
 <li><a href="http://golang-nsk.party">Третий новосибирский митап</a> состоялся 6-го февраля, и даже уже есть <a href="https://www.youtube.com/channel/UCadCL6kVFNt-A_CpisIpijg">видео докладов</a></li>
-<li>Go 1.6 Release Party — 17 февраля. В <a href="https://github.com/golang/go/wiki/Go-1.6-release-party">списке</a> 37 городов, среди которых <a href="https://events.dev.by/belarus-golang-user-group-meetup-2">Минск</a>, <a href="http://www.meetup.com/uagolang/events/228343484/">Киев</a> и <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львов</a> </li>
+<li>Go 1.6 Release Party — 17 февраля. В <a href="https://github.com/golang/go/wiki/Go-1.6-release-party">списке</a> 37 городов, среди которых <a href="https://events.dev.by/belarus-golang-user-group-meetup-2">Минск</a>, <a href="http://www.meetup.com/uagolang/events/228343484/">Киев</a> и <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львов</a></li>
 <li><a href="http://2016.codefest.ru">CodeFest</a> - 26-27 марта. Будет проходить в Новосибирске (платный).</li>
 </ul>
 
@@ -7980,7 +8119,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
 <ul>
 <li><a href="http://golang-nsk.party">Третий новосибирский митап</a> состоялся 6-го февраля, и даже уже есть <a href="https://www.youtube.com/channel/UCadCL6kVFNt-A_CpisIpijg">видео докладов</a></li>
-<li>Go 1.6 Release Party — 17 февраля. В <a href="https://github.com/golang/go/wiki/Go-1.6-release-party">списке</a> 37 городов, среди которых <a href="https://events.dev.by/belarus-golang-user-group-meetup-2">Минск</a>, <a href="http://www.meetup.com/uagolang/events/228343484/">Киев</a> и <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львов</a> </li>
+<li>Go 1.6 Release Party — 17 февраля. В <a href="https://github.com/golang/go/wiki/Go-1.6-release-party">списке</a> 37 городов, среди которых <a href="https://events.dev.by/belarus-golang-user-group-meetup-2">Минск</a>, <a href="http://www.meetup.com/uagolang/events/228343484/">Киев</a> и <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львов</a></li>
 <li><a href="http://2016.codefest.ru">CodeFest</a> - 26-27 марта. Будет проходить в Новосибирске (платный).</li>
 </ul>
 
@@ -9129,7 +9268,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
 <ul>
 <li> <a href="https://golang-ru.slack.com/team/ctrlok">Vsevolod Polyakov</a> - Ищем в Киеве Platform Engineer писать всякие тулзы на го и развивать платформу <a href="https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355">https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355</a></li>
-<li> Zaur Abasmirzoev - Набираем разработчиков в Новые облачные технологии (МойОфис – на хабре можно почитать) <a href="http://hh.ru/vacancy/15067695">http://hh.ru/vacancy/15067695</a> </li>
+<li> Zaur Abasmirzoev - Набираем разработчиков в Новые облачные технологии (МойОфис – на хабре можно почитать) <a href="http://hh.ru/vacancy/15067695">http://hh.ru/vacancy/15067695</a></li>
 </ul>
 
 <p>Возможно следующий выпуск будет вне расписания прямиком с конференции <a href="http://dotgo.eu">dotGo</a> =)</p>
@@ -9174,7 +9313,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
 <ul>
 <li> <a href="https://golang-ru.slack.com/team/ctrlok">Vsevolod Polyakov</a> - Ищем в Киеве Platform Engineer писать всякие тулзы на го и развивать платформу <a href="https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355">https://www.grammarly.com/jobs/engineering/platform-engineer?gh_jid=87355</a></li>
-<li> Zaur Abasmirzoev - Набираем разработчиков в Новые облачные технологии (МойОфис – на хабре можно почитать) <a href="http://hh.ru/vacancy/15067695">http://hh.ru/vacancy/15067695</a> </li>
+<li> Zaur Abasmirzoev - Набираем разработчиков в Новые облачные технологии (МойОфис – на хабре можно почитать) <a href="http://hh.ru/vacancy/15067695">http://hh.ru/vacancy/15067695</a></li>
 </ul>
 
 <p>Возможно следующий выпуск будет вне расписания прямиком с конференции <a href="http://dotgo.eu">dotGo</a> =)</p>
