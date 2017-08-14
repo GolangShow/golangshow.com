@@ -10,13 +10,13 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.25.1</generator>
+    <generator>Hugo 0.26</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-    
+
       <item>
         <title>Выпуск 107. В гостях Кирилл Даншин</title>
         <itunes:subtitle>Выпуск 107. В гостях Кирилл Даншин</itunes:subtitle>
@@ -37,7 +37,7 @@
 <li>фреймворк <a href="https://github.com/gramework/gramework">gramework</a>
 
 <ul>
-<li><a href="github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
+<li><a href="https://github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
 </ul></li>
 <li><a href="https://github.com/t0pep0/efaceconv">efaceconv</a>
 
@@ -124,7 +124,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 
         <link>http://golangshow.com/episode/2017/08-09-107/</link>
         <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2017/08-09-107/</guid>
         <description><![CDATA[
 
@@ -143,7 +143,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 <li>фреймворк <a href="https://github.com/gramework/gramework">gramework</a>
 
 <ul>
-<li><a href="github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
+<li><a href="https://github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
 </ul></li>
 <li><a href="https://github.com/t0pep0/efaceconv">efaceconv</a>
 
@@ -223,7 +223,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 105. GoWay и Modern Go</title>
         <itunes:subtitle>Выпуск 105. GoWay и Modern Go</itunes:subtitle>
@@ -323,7 +323,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2017/07-05-105/</link>
         <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2017/07-05-105/</guid>
         <description><![CDATA[
 
@@ -414,7 +414,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 103. Go-митап @ РИТ++ 2017</title>
         <itunes:subtitle>Выпуск 103. Go-митап @ РИТ++ 2017</itunes:subtitle>
@@ -440,7 +440,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2017/06-05-103/</link>
         <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2017/06-05-103/</guid>
         <description><![CDATA[<p>Спецвыпуск с конференеции <a href="http://ritfest.ru">РИТ++ 2017</a>.
 Митап &ldquo;Go в продакшн&rdquo;.</p>
@@ -457,7 +457,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>В гостях Даниил Подольский, Андрей Минкин, Игорь Должиков, Иван Круглов и многие другие.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 092. Гости из JetBrains. Gogland</title>
         <itunes:subtitle>Выпуск 092. Гости из JetBrains. Gogland</itunes:subtitle>
@@ -513,7 +513,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2017/02-01-092/</link>
         <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2017/02-01-092/</guid>
         <description><![CDATA[
 
@@ -560,7 +560,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 090. В гостях Яна и Миша из Juno</title>
         <itunes:subtitle>Выпуск 090. В гостях Яна и Миша из Juno</itunes:subtitle>
@@ -604,7 +604,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2017/01-18-090/</link>
         <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2017/01-18-090/</guid>
         <description><![CDATA[
 
@@ -639,7 +639,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 085. Как прошел DevFest в Новосибирске. Go в Кыргызстане</title>
         <itunes:subtitle>Выпуск 085. Как прошел DevFest в Новосибирске. Go в Кыргызстане</itunes:subtitle>
@@ -753,7 +753,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/11-25-085/</link>
         <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/11-25-085/</guid>
         <description><![CDATA[
 
@@ -858,7 +858,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 084. В гостях Максим Филатов. Спецвыпуск про Kubernetes.</title>
         <itunes:subtitle>Выпуск 084. В гостях Максим Филатов. Спецвыпуск про Kubernetes.</itunes:subtitle>
@@ -934,7 +934,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/11-23-084/</link>
         <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/11-23-084/</guid>
         <description><![CDATA[
 
@@ -1001,7 +1001,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/dadabird">Андрей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 082. В гостях Андрей Минкин. 7 лет Go, 10 HighLoad&#39;у</title>
         <itunes:subtitle>Выпуск 082. В гостях Андрей Минкин. 7 лет Go, 10 HighLoad&#39;у</itunes:subtitle>
@@ -1066,7 +1066,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/11-09-082/</link>
         <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/11-09-082/</guid>
         <description><![CDATA[
 
@@ -1122,7 +1122,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/paaleksey">Алексей</a> и гость <a href="https://twitter.com/gen1us2k">Андрей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 078. Спецвыпуск с dotGo</title>
         <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
@@ -1151,7 +1151,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/10-16-078/</link>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/10-16-078/</guid>
         <description><![CDATA[<p>Интервью с докладчиками:</p>
 
@@ -1171,7 +1171,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</title>
         <itunes:subtitle>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</itunes:subtitle>
@@ -1246,7 +1246,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/10-14-077/</link>
         <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/10-14-077/</guid>
         <description><![CDATA[
 
@@ -1312,7 +1312,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 074. Community, community, community.</title>
         <itunes:subtitle>Выпуск 074. Community, community, community.</itunes:subtitle>
@@ -1372,7 +1372,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/09-14-074/</link>
         <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/09-14-074/</guid>
         <description><![CDATA[
 
@@ -1423,7 +1423,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 068. В гостях Максим Тищенко. Омск, GopherCon, RC 4-5</title>
         <itunes:subtitle>Выпуск 068. В гостях Максим Тищенко. Омск, GopherCon, RC 4-5</itunes:subtitle>
@@ -1496,7 +1496,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/08-04-068/</link>
         <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/08-04-068/</guid>
         <description><![CDATA[
 
@@ -1560,7 +1560,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 063. В гостях Леонид Бугаев. Управление зависимостями, TOC, плохое поведение</title>
         <itunes:subtitle>Выпуск 063. В гостях Леонид Бугаев. Управление зависимостями, TOC, плохое поведение</itunes:subtitle>
@@ -1624,7 +1624,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/06-30-063/</link>
         <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/06-30-063/</guid>
         <description><![CDATA[
 
@@ -1679,7 +1679,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 061. Гость Николай Сивко из OkMeter</title>
         <itunes:subtitle>Выпуск 061. Гость Николай Сивко из OkMeter</itunes:subtitle>
@@ -1748,7 +1748,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/06-16-061/</link>
         <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/06-16-061/</guid>
         <description><![CDATA[
 
@@ -1808,7 +1808,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 060. Гости из Meduza Project</title>
         <itunes:subtitle>Выпуск 060. Гости из Meduza Project</itunes:subtitle>
@@ -1865,7 +1865,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/06-09-060/</link>
         <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/06-09-060/</guid>
         <description><![CDATA[
 
@@ -1913,7 +1913,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 059. Гость Александр Клижентас из Gravitational. Go 1.7 beta 1</title>
         <itunes:subtitle>Выпуск 059. Гость Александр Клижентас из Gravitational. Go 1.7 beta 1</itunes:subtitle>
@@ -1978,7 +1978,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/06-02-059/</link>
         <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/06-02-059/</guid>
         <description><![CDATA[
 
@@ -2034,7 +2034,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 058. В гостях Марко Кевац из Badoo. Ожидание Go 1.7. Профилирование. Базы данных.</title>
         <itunes:subtitle>Выпуск 058. В гостях Марко Кевац из Badoo. Ожидание Go 1.7. Профилирование. Базы данных.</itunes:subtitle>
@@ -2125,7 +2125,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/05-26-058/</link>
         <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/05-26-058/</guid>
         <description><![CDATA[
 
@@ -2207,7 +2207,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 055. Haskell Show. В гостях Денис Шевченко из подкаста «Бананы и линзы». Про Haskell и математику в голове.</title>
         <itunes:subtitle>Выпуск 055. Haskell Show. В гостях Денис Шевченко из подкаста «Бананы и линзы». Про Haskell и математику в голове.</itunes:subtitle>
@@ -2297,7 +2297,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/05-05-055/</link>
         <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/05-05-055/</guid>
         <description><![CDATA[
 
@@ -2378,7 +2378,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</title>
         <itunes:subtitle>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</itunes:subtitle>
@@ -2452,7 +2452,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/04-28-054/</link>
         <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/04-28-054/</guid>
         <description><![CDATA[
 
@@ -2517,7 +2517,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</title>
         <itunes:subtitle>Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</itunes:subtitle>
@@ -2608,7 +2608,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/04-21-053/</link>
         <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/04-21-053/</guid>
         <description><![CDATA[
 
@@ -2690,7 +2690,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</title>
         <itunes:subtitle>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</itunes:subtitle>
@@ -2798,7 +2798,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/04-07-051/</link>
         <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/04-07-051/</guid>
         <description><![CDATA[
 
@@ -2897,7 +2897,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</title>
         <itunes:subtitle>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</itunes:subtitle>
@@ -2961,7 +2961,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/03-24-049/</link>
         <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/03-24-049/</guid>
         <description><![CDATA[
 
@@ -3016,7 +3016,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</title>
         <itunes:subtitle>Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</itunes:subtitle>
@@ -3068,7 +3068,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/02-18-044/</link>
         <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/02-18-044/</guid>
         <description><![CDATA[
 
@@ -3111,7 +3111,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 041. В гостях Андрей Смирнов из EMC</title>
         <itunes:subtitle>Выпуск 041. В гостях Андрей Смирнов из EMC</itunes:subtitle>
@@ -3161,7 +3161,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/02-04-041/</link>
         <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/02-04-041/</guid>
         <description><![CDATA[
 
@@ -3202,7 +3202,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</title>
         <itunes:subtitle>Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</itunes:subtitle>
@@ -3285,7 +3285,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/01-28-040/</link>
         <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/01-28-040/</guid>
         <description><![CDATA[
 
@@ -3359,7 +3359,7 @@ Ivan Prisyazhnyy, Danila Pisarev
  <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</title>
         <itunes:subtitle>Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</itunes:subtitle>
@@ -3409,7 +3409,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2016/01-14-038/</link>
         <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/01-14-038/</guid>
         <description><![CDATA[
 
@@ -3450,7 +3450,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://github.com/zolotov">Александр Золотов</a> и <a href="https://github.com/ignatov">Сергей Игнатов</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</title>
         <itunes:subtitle>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</itunes:subtitle>
@@ -3495,7 +3495,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/12-17-034/</link>
         <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/12-17-034/</guid>
         <description><![CDATA[
 
@@ -3531,7 +3531,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</title>
         <itunes:subtitle>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</itunes:subtitle>
@@ -3584,7 +3584,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/12-03-032/</link>
         <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/12-03-032/</guid>
         <description><![CDATA[
 
@@ -3628,7 +3628,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</title>
         <itunes:subtitle>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</itunes:subtitle>
@@ -3681,7 +3681,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/11-26-031/</link>
         <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/11-26-031/</guid>
         <description><![CDATA[
 
@@ -3725,7 +3725,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 и гость <a href="https://www.linkedin.com/in/yegor-lukash-3a7a3645">Егор</a>.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 027. DotGo. В гостях Елена Граховац</title>
         <itunes:subtitle>Выпуск 027. DotGo. В гостях Елена Граховац</itunes:subtitle>
@@ -3766,7 +3766,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/11-13-027/</link>
         <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/11-13-027/</guid>
         <description><![CDATA[
 
@@ -3798,7 +3798,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Ведущие этого выпуска: Артём, Иван, Слава.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 026. В гостях Нодир Туракулов из Google</title>
         <itunes:subtitle>Выпуск 026. В гостях Нодир Туракулов из Google</itunes:subtitle>
@@ -3845,7 +3845,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/11-05-026/</link>
         <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/11-05-026/</guid>
         <description><![CDATA[
 
@@ -3883,7 +3883,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <p>Возможно следующий выпуск будет вне расписания прямиком с конференции <a href="http://dotgo.eu">dotGo</a> =)</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 023. Влад &#39;Компилятор&#39; Краснов из CloudFlare</title>
         <itunes:subtitle>Выпуск 023. Влад &#39;Компилятор&#39; Краснов из CloudFlare</itunes:subtitle>
@@ -3923,7 +3923,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/10-15-023/</link>
         <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/10-15-023/</guid>
         <description><![CDATA[<p>У нас в гостях <a href="https://github.com/vkrasnov">Влад Краснов</a> из компании <a href="https://www.cloudflare.com">CloudFlare</a>, автор значительных оптимизаций и ускорений в криптографических пакетах Go.</p>
 
@@ -3954,7 +3954,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 018. В гостях Светлана Божко и Антон Архипов. Java vs Go - гости из мира JVM</title>
         <itunes:subtitle>Выпуск 018. В гостях Светлана Божко и Антон Архипов. Java vs Go - гости из мира JVM</itunes:subtitle>
@@ -3978,7 +3978,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/09-16-018/</link>
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/09-16-018/</guid>
         <description><![CDATA[<p>В гостах <a href="https://twitter.com/sbozhko">Светлана Божко</a> из <a href="http://devzen.ru">подкаста DevZen</a> и <a href="https://twitter.com/antonarhipov">Антон Архипов</a> из <a href="http://razbor-poletov.com">подкаста Разбор Полетов</a>.</p>
 
@@ -3993,7 +3993,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 017. В гостях Алексей Акулович из ВКонтакте</title>
         <itunes:subtitle>Выпуск 017. В гостях Алексей Акулович из ВКонтакте</itunes:subtitle>
@@ -4038,7 +4038,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/09-10-017/</link>
         <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/09-10-017/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -4074,7 +4074,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 016. В гостях Дмитрий Вьюков</title>
         <itunes:subtitle>Выпуск 016. В гостях Дмитрий Вьюков</itunes:subtitle>
@@ -4109,7 +4109,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/09-03-016/</link>
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/09-03-016/</guid>
         <description><![CDATA[<p>Это был один из самых гиковских выпусков нашего шоу, и в этом нам помог <a href="https://twitter.com/dvyukov">Дмитрий Вьюков</a>, один из разработчиков языка Go.</p>
 
@@ -4135,7 +4135,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 014. Александр Морозов из Docker</title>
         <itunes:subtitle>Выпуск 014. Александр Морозов из Docker</itunes:subtitle>
@@ -4174,7 +4174,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/08-27-014/</link>
         <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/08-27-014/</guid>
         <description><![CDATA[<p>В 14 выпуске к нам пришёл <a href="https://twitter.com/LK4D4math">Александр Морозов</a> из компании Docker. Он занимается разработкой ядра докера и в частности <a href="https://github.com/opencontainers/runc">runC</a></p>
 
@@ -4204,7 +4204,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 010. Интервью с Евгением Якубовичем из CoreOS</title>
         <itunes:subtitle>Выпуск 010. Интервью с Евгением Якубовичем из CoreOS</itunes:subtitle>
@@ -4235,7 +4235,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/08-04-010/</link>
         <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/08-04-010/</guid>
         <description><![CDATA[<p>В гостях Евгений Якубович из CoreOS.</p>
 
@@ -4257,7 +4257,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 009. Марафон. В гостях Андрей Листочкин</title>
         <itunes:subtitle>Выпуск 009. Марафон. В гостях Андрей Листочкин</itunes:subtitle>
@@ -4286,7 +4286,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/07-30-009/</link>
         <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/07-30-009/</guid>
         <description><![CDATA[<p>В гостях Андрей Листочкин.</p>
 
@@ -4306,7 +4306,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 008. Бонусный. В гостях Дмитрий Честных из StableLib</title>
         <itunes:subtitle>Выпуск 008. Бонусный. В гостях Дмитрий Честных из StableLib</itunes:subtitle>
@@ -4331,7 +4331,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2015/07-29-008/</link>
         <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/07-29-008/</guid>
         <description><![CDATA[<p>В гостях Дмитрий Честных из StableLib.</p>
 
@@ -4347,6 +4347,6 @@ Ivan Prisyazhnyy, Danila Pisarev
 </ul>
 ]]></description>
       </item>
-    
+
   </channel>
 </rss>

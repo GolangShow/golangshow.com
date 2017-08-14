@@ -10,7 +10,7 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.25.1</generator>
+    <generator>Hugo 0.26</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
@@ -37,7 +37,7 @@
 <li>фреймворк <a href="https://github.com/gramework/gramework">gramework</a>
 
 <ul>
-<li><a href="github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
+<li><a href="https://github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
 </ul></li>
 <li><a href="https://github.com/t0pep0/efaceconv">efaceconv</a>
 
@@ -143,7 +143,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 <li>фреймворк <a href="https://github.com/gramework/gramework">gramework</a>
 
 <ul>
-<li><a href="github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
+<li><a href="https://github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
 </ul></li>
 <li><a href="https://github.com/t0pep0/efaceconv">efaceconv</a>
 
@@ -250,7 +250,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 
 <ul>
 <li><a href="https://about.sourcegraph.com/go/">The Official GopherCon 2017 Liveblog</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">Видеозаписи докладов уже доступны!</a><br /></li>
+<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">Видеозаписи докладов уже доступны!</a></li>
 </ul></li>
 <li><a href="https://blog.golang.org/toward-go2">Toward Go 2</a>
 
@@ -322,7 +322,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 
 <ul>
 <li><a href="https://about.sourcegraph.com/go/">The Official GopherCon 2017 Liveblog</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">Видеозаписи докладов уже доступны!</a><br /></li>
+<li><a href="https://www.youtube.com/playlist?list=PL2ntRZ1ySWBdD9bru6IR-_WXUgJqvrtx9">Видеозаписи докладов уже доступны!</a></li>
 </ul></li>
 <li><a href="https://blog.golang.org/toward-go2">Toward Go 2</a>
 
