@@ -18,6 +18,213 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 107. В гостях Кирилл Даншин</title>
+        <itunes:subtitle>Выпуск 107. В гостях Кирилл Даншин</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;гость&#34;&gt;Гость&lt;/h2&gt;
+
+&lt;p&gt;В гостях &lt;a href=&#34;https://github.com/kirillDanshin&#34;&gt;Кирилл Даншин&lt;/a&gt;. Темы:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;рассказ гостя о себе&lt;/li&gt;
+&lt;li&gt;проект &lt;a href=&#34;https://awesome-go.com&#34;&gt;Awesome Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;упоминали &lt;a href=&#34;https://goreportcard.com&#34;&gt;Go Report Card&lt;/a&gt; &lt;a href=&#34;https://github.com/AlekSi/pointer&#34;&gt;Pointer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;другие &lt;a href=&#34;https://opensourcecontributo.rs/user/kirillDanshin&#34;&gt;open-source проекты гостя&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;фреймворк &lt;a href=&#34;https://github.com/gramework/gramework&#34;&gt;gramework&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;github.com/gramework/threadsafe&#34;&gt;потокобезопасные мапы&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/t0pep0/efaceconv&#34;&gt;efaceconv&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/t0pep0/efaceconv/pull/9&#34;&gt;пулл-реквест&lt;/a&gt; про версии Go для Travis CI&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;секретный язык goodlang&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21190&#34;&gt;runtime: label runtime functions based on their roles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21207&#34;&gt;cmd/go: version information is not structured enough for use by developer tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21209&#34;&gt;proposal: cmd/go: Use &lt;code&gt;git describe&lt;/code&gt; output as canonical version string&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21195&#34;&gt;proposal: hash: export a built-in hash function for comparable values&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21284&#34;&gt;proposal: Vanity URLs via DNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21303&#34;&gt;proposal: Go 2: revisit explicit annotations in :=&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21161&#34;&gt;proposal: Go 2: simplify error handling with || err suffix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21360&#34;&gt;proposal: add a build tag &amp;ldquo;test&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21296&#34;&gt;proposal: faster release cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/golang/status/892518192077320196&#34;&gt;Опрос для Go-сообществ, больших и маленьких&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2&#34;&gt;Introducing vice: Go channels across many machines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/gophercount&#34;&gt;Гоферов посчитали&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://evilmartians.com/chronicles/introducing-overmind-and-hivemind&#34;&gt;Introducing Overmind and Hivemind&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_Z_k5G73ttk&#34;&gt;Про Go говорят в рекламе на российском Первом канале&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/IbyJrHWED1M&#34;&gt;Запись новосибирского Go-митапа&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;поговорили про новости и перспективы Go (00:12:27)&lt;/li&gt;
+&lt;li&gt;Ярослав Лукьянов рассказал об опыте использования Vault (00:59:50)&lt;/li&gt;
+&lt;li&gt;Сергей Ярмонов поделился советами со всеми, кто хочет начать писать проекты в OpenSource (02:11:50)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://faiface.github.io/post/context-should-go-away-go2/&#34;&gt;Context should go away for Go 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tip.golang.org/doc/editors.html&#34;&gt;Editor plugins and IDEs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godecl.org&#34;&gt;godecl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leetcode.com&#34;&gt;LeetCode, a platform for preparing technical coding interviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-database-sql.org/surprises.html&#34;&gt;Go database/sql gotchas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/maruel/panicparse&#34;&gt;https://github.com/maruel/panicparse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asciimoo/wuzz&#34;&gt;https://github.com/asciimoo/wuzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adams-sarah/test2doc&#34;&gt;https://github.com/adams-sarah/test2doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rumyantseva/mif&#34;&gt;https://github.com/rumyantseva/mif&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ashleymcnamara/gophers&#34;&gt;https://github.com/ashleymcnamara/gophers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://staticcheck.io&#34;&gt;https://staticcheck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alexkappa/mustache&#34;&gt;https://github.com/alexkappa/mustache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/dep&#34;&gt;dep 0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://goplay.space/#draw&#34;&gt;https://goplay.space/#draw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов:
+Stanislav Afanasev, Aleksey Akulovich, Maxim Tishchenko, Roman Nekhoroshev,
+Yegor Andreenko, Roman Budnikov, Aleksei Melnik, Jaleel Akbashev, Alexander Nekrasov, Sergey Serebryakov, Sergey Shushpanov,
+Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorobyov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/107.mp3" length="40725616" type="audio/mpeg" />
+        <itunes:duration>01:43:26</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/08-09-107/</link>
+        <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/08-09-107/</guid>
+        <description>
+
+&lt;h2 id=&#34;гость&#34;&gt;Гость&lt;/h2&gt;
+
+&lt;p&gt;В гостях &lt;a href=&#34;https://github.com/kirillDanshin&#34;&gt;Кирилл Даншин&lt;/a&gt;. Темы:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;рассказ гостя о себе&lt;/li&gt;
+&lt;li&gt;проект &lt;a href=&#34;https://awesome-go.com&#34;&gt;Awesome Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;упоминали &lt;a href=&#34;https://goreportcard.com&#34;&gt;Go Report Card&lt;/a&gt; &lt;a href=&#34;https://github.com/AlekSi/pointer&#34;&gt;Pointer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;другие &lt;a href=&#34;https://opensourcecontributo.rs/user/kirillDanshin&#34;&gt;open-source проекты гостя&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;фреймворк &lt;a href=&#34;https://github.com/gramework/gramework&#34;&gt;gramework&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;github.com/gramework/threadsafe&#34;&gt;потокобезопасные мапы&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/t0pep0/efaceconv&#34;&gt;efaceconv&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/t0pep0/efaceconv/pull/9&#34;&gt;пулл-реквест&lt;/a&gt; про версии Go для Travis CI&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;секретный язык goodlang&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21190&#34;&gt;runtime: label runtime functions based on their roles&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21207&#34;&gt;cmd/go: version information is not structured enough for use by developer tools&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21209&#34;&gt;proposal: cmd/go: Use &lt;code&gt;git describe&lt;/code&gt; output as canonical version string&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21195&#34;&gt;proposal: hash: export a built-in hash function for comparable values&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21284&#34;&gt;proposal: Vanity URLs via DNS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21303&#34;&gt;proposal: Go 2: revisit explicit annotations in :=&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21161&#34;&gt;proposal: Go 2: simplify error handling with || err suffix&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21360&#34;&gt;proposal: add a build tag &amp;ldquo;test&amp;rdquo;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21296&#34;&gt;proposal: faster release cycle&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/golang/status/892518192077320196&#34;&gt;Опрос для Go-сообществ, больших и маленьких&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2&#34;&gt;Introducing vice: Go channels across many machines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/gophercount&#34;&gt;Гоферов посчитали&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://evilmartians.com/chronicles/introducing-overmind-and-hivemind&#34;&gt;Introducing Overmind and Hivemind&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=_Z_k5G73ttk&#34;&gt;Про Go говорят в рекламе на российском Первом канале&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/IbyJrHWED1M&#34;&gt;Запись новосибирского Go-митапа&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;поговорили про новости и перспективы Go (00:12:27)&lt;/li&gt;
+&lt;li&gt;Ярослав Лукьянов рассказал об опыте использования Vault (00:59:50)&lt;/li&gt;
+&lt;li&gt;Сергей Ярмонов поделился советами со всеми, кто хочет начать писать проекты в OpenSource (02:11:50)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://faiface.github.io/post/context-should-go-away-go2/&#34;&gt;Context should go away for Go 2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://tip.golang.org/doc/editors.html&#34;&gt;Editor plugins and IDEs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://godecl.org&#34;&gt;godecl&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://leetcode.com&#34;&gt;LeetCode, a platform for preparing technical coding interviews&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://go-database-sql.org/surprises.html&#34;&gt;Go database/sql gotchas&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/maruel/panicparse&#34;&gt;https://github.com/maruel/panicparse&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asciimoo/wuzz&#34;&gt;https://github.com/asciimoo/wuzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/adams-sarah/test2doc&#34;&gt;https://github.com/adams-sarah/test2doc&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/rumyantseva/mif&#34;&gt;https://github.com/rumyantseva/mif&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ashleymcnamara/gophers&#34;&gt;https://github.com/ashleymcnamara/gophers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://staticcheck.io&#34;&gt;https://staticcheck.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/alexkappa/mustache&#34;&gt;https://github.com/alexkappa/mustache&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/dep&#34;&gt;dep 0.3&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://goplay.space/#draw&#34;&gt;https://goplay.space/#draw&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов:
+Stanislav Afanasev, Aleksey Akulovich, Maxim Tishchenko, Roman Nekhoroshev,
+Yegor Andreenko, Roman Budnikov, Aleksei Melnik, Jaleel Akbashev, Alexander Nekrasov, Sergey Serebryakov, Sergey Shushpanov,
+Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorobyov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;,
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 106. Go2WayCon</title>
         <itunes:subtitle>Выпуск 106. Go2WayCon</itunes:subtitle>
         <itunes:summary>

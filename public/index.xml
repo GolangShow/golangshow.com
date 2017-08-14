@@ -18,6 +18,213 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 107. В гостях Кирилл Даншин</title>
+        <itunes:subtitle>Выпуск 107. В гостях Кирилл Даншин</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://github.com/kirillDanshin">Кирилл Даншин</a>. Темы:</p>
+
+<ul>
+<li>рассказ гостя о себе</li>
+<li>проект <a href="https://awesome-go.com">Awesome Go</a>
+
+<ul>
+<li>упоминали <a href="https://goreportcard.com">Go Report Card</a> <a href="https://github.com/AlekSi/pointer">Pointer</a></li>
+</ul></li>
+<li>другие <a href="https://opensourcecontributo.rs/user/kirillDanshin">open-source проекты гостя</a></li>
+<li>фреймворк <a href="https://github.com/gramework/gramework">gramework</a>
+
+<ul>
+<li><a href="github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
+</ul></li>
+<li><a href="https://github.com/t0pep0/efaceconv">efaceconv</a>
+
+<ul>
+<li><a href="https://github.com/t0pep0/efaceconv/pull/9">пулл-реквест</a> про версии Go для Travis CI</li>
+</ul></li>
+<li>секретный язык goodlang</li>
+</ul>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/21190">runtime: label runtime functions based on their roles</a></li>
+<li><a href="https://github.com/golang/go/issues/21207">cmd/go: version information is not structured enough for use by developer tools</a></li>
+<li><a href="https://github.com/golang/go/issues/21209">proposal: cmd/go: Use <code>git describe</code> output as canonical version string</a></li>
+<li><a href="https://github.com/golang/go/issues/21195">proposal: hash: export a built-in hash function for comparable values</a></li>
+<li><a href="https://github.com/golang/go/issues/21284">proposal: Vanity URLs via DNS</a></li>
+<li><a href="https://github.com/golang/go/issues/21303">proposal: Go 2: revisit explicit annotations in :=</a></li>
+<li><a href="https://github.com/golang/go/issues/21161">proposal: Go 2: simplify error handling with || err suffix</a></li>
+<li><a href="https://github.com/golang/go/issues/21360">proposal: add a build tag &ldquo;test&rdquo;</a></li>
+<li><a href="https://github.com/golang/go/issues/21296">proposal: faster release cycle</a></li>
+</ul></li>
+<li><a href="https://twitter.com/golang/status/892518192077320196">Опрос для Go-сообществ, больших и маленьких</a></li>
+<li><a href="https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2">Introducing vice: Go channels across many machines</a></li>
+<li><a href="https://research.swtch.com/gophercount">Гоферов посчитали</a></li>
+<li><a href="https://evilmartians.com/chronicles/introducing-overmind-and-hivemind">Introducing Overmind and Hivemind</a></li>
+<li><a href="https://www.youtube.com/watch?v=_Z_k5G73ttk">Про Go говорят в рекламе на российском Первом канале</a></li>
+<li><a href="https://youtu.be/IbyJrHWED1M">Запись новосибирского Go-митапа</a>
+
+<ul>
+<li>поговорили про новости и перспективы Go (00:12:27)</li>
+<li>Ярослав Лукьянов рассказал об опыте использования Vault (00:59:50)</li>
+<li>Сергей Ярмонов поделился советами со всеми, кто хочет начать писать проекты в OpenSource (02:11:50)</li>
+</ul></li>
+<li><a href="https://faiface.github.io/post/context-should-go-away-go2/">Context should go away for Go 2</a></li>
+<li><a href="https://tip.golang.org/doc/editors.html">Editor plugins and IDEs</a></li>
+<li><a href="https://godecl.org">godecl</a></li>
+<li><a href="https://leetcode.com">LeetCode, a platform for preparing technical coding interviews</a></li>
+<li><a href="http://go-database-sql.org/surprises.html">Go database/sql gotchas</a></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/maruel/panicparse">https://github.com/maruel/panicparse</a></li>
+<li><a href="https://github.com/asciimoo/wuzz">https://github.com/asciimoo/wuzz</a></li>
+<li><a href="https://github.com/adams-sarah/test2doc">https://github.com/adams-sarah/test2doc</a></li>
+<li><a href="https://github.com/rumyantseva/mif">https://github.com/rumyantseva/mif</a></li>
+<li><a href="https://github.com/ashleymcnamara/gophers">https://github.com/ashleymcnamara/gophers</a></li>
+<li><a href="https://staticcheck.io">https://staticcheck.io</a></li>
+<li><a href="https://github.com/alexkappa/mustache">https://github.com/alexkappa/mustache</a></li>
+<li><a href="https://github.com/golang/dep">dep 0.3</a></li>
+<li><a href="https://goplay.space/#draw">https://goplay.space/#draw</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов:
+Stanislav Afanasev, Aleksey Akulovich, Maxim Tishchenko, Roman Nekhoroshev,
+Yegor Andreenko, Roman Budnikov, Aleksei Melnik, Jaleel Akbashev, Alexander Nekrasov, Sergey Serebryakov, Sergey Shushpanov,
+Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorobyov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/107.mp3" length="40725616" type="audio/mpeg" />
+        <itunes:duration>01:43:26</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/08-09-107/</link>
+        <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/08-09-107/</guid>
+        <description><![CDATA[
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://github.com/kirillDanshin">Кирилл Даншин</a>. Темы:</p>
+
+<ul>
+<li>рассказ гостя о себе</li>
+<li>проект <a href="https://awesome-go.com">Awesome Go</a>
+
+<ul>
+<li>упоминали <a href="https://goreportcard.com">Go Report Card</a> <a href="https://github.com/AlekSi/pointer">Pointer</a></li>
+</ul></li>
+<li>другие <a href="https://opensourcecontributo.rs/user/kirillDanshin">open-source проекты гостя</a></li>
+<li>фреймворк <a href="https://github.com/gramework/gramework">gramework</a>
+
+<ul>
+<li><a href="github.com/gramework/threadsafe">потокобезопасные мапы</a></li>
+</ul></li>
+<li><a href="https://github.com/t0pep0/efaceconv">efaceconv</a>
+
+<ul>
+<li><a href="https://github.com/t0pep0/efaceconv/pull/9">пулл-реквест</a> про версии Go для Travis CI</li>
+</ul></li>
+<li>секретный язык goodlang</li>
+</ul>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/21190">runtime: label runtime functions based on their roles</a></li>
+<li><a href="https://github.com/golang/go/issues/21207">cmd/go: version information is not structured enough for use by developer tools</a></li>
+<li><a href="https://github.com/golang/go/issues/21209">proposal: cmd/go: Use <code>git describe</code> output as canonical version string</a></li>
+<li><a href="https://github.com/golang/go/issues/21195">proposal: hash: export a built-in hash function for comparable values</a></li>
+<li><a href="https://github.com/golang/go/issues/21284">proposal: Vanity URLs via DNS</a></li>
+<li><a href="https://github.com/golang/go/issues/21303">proposal: Go 2: revisit explicit annotations in :=</a></li>
+<li><a href="https://github.com/golang/go/issues/21161">proposal: Go 2: simplify error handling with || err suffix</a></li>
+<li><a href="https://github.com/golang/go/issues/21360">proposal: add a build tag &ldquo;test&rdquo;</a></li>
+<li><a href="https://github.com/golang/go/issues/21296">proposal: faster release cycle</a></li>
+</ul></li>
+<li><a href="https://twitter.com/golang/status/892518192077320196">Опрос для Go-сообществ, больших и маленьких</a></li>
+<li><a href="https://medium.com/@matryer/introducing-vice-go-channels-across-many-machines-bcac1147d7e2">Introducing vice: Go channels across many machines</a></li>
+<li><a href="https://research.swtch.com/gophercount">Гоферов посчитали</a></li>
+<li><a href="https://evilmartians.com/chronicles/introducing-overmind-and-hivemind">Introducing Overmind and Hivemind</a></li>
+<li><a href="https://www.youtube.com/watch?v=_Z_k5G73ttk">Про Go говорят в рекламе на российском Первом канале</a></li>
+<li><a href="https://youtu.be/IbyJrHWED1M">Запись новосибирского Go-митапа</a>
+
+<ul>
+<li>поговорили про новости и перспективы Go (00:12:27)</li>
+<li>Ярослав Лукьянов рассказал об опыте использования Vault (00:59:50)</li>
+<li>Сергей Ярмонов поделился советами со всеми, кто хочет начать писать проекты в OpenSource (02:11:50)</li>
+</ul></li>
+<li><a href="https://faiface.github.io/post/context-should-go-away-go2/">Context should go away for Go 2</a></li>
+<li><a href="https://tip.golang.org/doc/editors.html">Editor plugins and IDEs</a></li>
+<li><a href="https://godecl.org">godecl</a></li>
+<li><a href="https://leetcode.com">LeetCode, a platform for preparing technical coding interviews</a></li>
+<li><a href="http://go-database-sql.org/surprises.html">Go database/sql gotchas</a></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/maruel/panicparse">https://github.com/maruel/panicparse</a></li>
+<li><a href="https://github.com/asciimoo/wuzz">https://github.com/asciimoo/wuzz</a></li>
+<li><a href="https://github.com/adams-sarah/test2doc">https://github.com/adams-sarah/test2doc</a></li>
+<li><a href="https://github.com/rumyantseva/mif">https://github.com/rumyantseva/mif</a></li>
+<li><a href="https://github.com/ashleymcnamara/gophers">https://github.com/ashleymcnamara/gophers</a></li>
+<li><a href="https://staticcheck.io">https://staticcheck.io</a></li>
+<li><a href="https://github.com/alexkappa/mustache">https://github.com/alexkappa/mustache</a></li>
+<li><a href="https://github.com/golang/dep">dep 0.3</a></li>
+<li><a href="https://goplay.space/#draw">https://goplay.space/#draw</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов:
+Stanislav Afanasev, Aleksey Akulovich, Maxim Tishchenko, Roman Nekhoroshev,
+Yegor Andreenko, Roman Budnikov, Aleksei Melnik, Jaleel Akbashev, Alexander Nekrasov, Sergey Serebryakov, Sergey Shushpanov,
+Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorobyov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 106. Go2WayCon</title>
         <itunes:subtitle>Выпуск 106. Go2WayCon</itunes:subtitle>
         <itunes:summary><![CDATA[
