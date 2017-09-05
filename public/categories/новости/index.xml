@@ -18,6 +18,115 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 108. Кратко про Go 1.9</title>
+        <itunes:subtitle>Выпуск 108. Кратко про Go 1.9</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Саши
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-08-30_go19.md">https://github.com/LK4D4/report/blob/master/reports/golang-08-30_go19.md</a></li>
+<li><a href="https://golang.org/doc/go1.9">Go 1.9 Release Notes</a></li>
+</ul></li>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/21601">x/tools/godoc: godoc failing on aliases when viewing pkg/builtin</a></li>
+<li><a href="https://github.com/golang/go/issues/21326">net/http: remove support for status code 418 I&rsquo;m a Teapot</a></li>
+<li><a href="https://github.com/golang/go/issues/21472">net: LookupTXT regards a TXT record with multiple strings as multiple records on Windows</a></li>
+<li><a href="https://github.com/golang/go/issues/21428">syscall: ForkExec with Ptrace flag causes runtime to be traced</a></li>
+<li><a href="https://github.com/golang/go/issues/21485">time: Round(0), Truncate(0) strip monotonic clock readings but documentation still says it returns t unchanged</a></li>
+<li><a href="https://github.com/golang/go/issues/21409">fmt: improve documentation about how verbs work when printing pointers</a></li>
+<li><a href="https://github.com/golang/go/issues/21424">spec: specify dead code elimination behavior</a></li>
+<li><a href="https://github.com/golang/go/issues/21401">proposal: ability to create and import methods for non-local types</a></li>
+<li><a href="https://github.com/golang/go/issues/21463">Proposal: regexp: Optimize fixed-length patterns</a></li>
+<li><a href="https://github.com/golang/go/issues/21182">proposal: Go 2: reduce noise in return statements that contain mostly zero values</a></li>
+<li><a href="https://github.com/golang/go/issues/21521">proposal: context.WithSignal</a></li>
+<li><a href="https://github.com/golang/go/issues/21540">proposal: flag: add Fatalf</a></li>
+<li><a href="https://github.com/golang/go/issues/21365">proposal: time: add a Date type</a></li>
+<li><a href="https://github.com/golang/go/issues/21670">proposal: Go 2: Have functions auto-implement interfaces with only a single method of that same signature</a></li>
+<li><a href="https://github.com/golang/go/issues/21482">proposal: cmd/vet: append with a single argument should be a go vet warning</a></li>
+</ul></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Акуловича, Максима Тищенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/108.mp3" length="18787875" type="audio/mpeg" />
+        <itunes:duration>00:45:35</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/08-30-108/</link>
+        <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/08-30-108/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Саши
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-08-30_go19.md">https://github.com/LK4D4/report/blob/master/reports/golang-08-30_go19.md</a></li>
+<li><a href="https://golang.org/doc/go1.9">Go 1.9 Release Notes</a></li>
+</ul></li>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/21601">x/tools/godoc: godoc failing on aliases when viewing pkg/builtin</a></li>
+<li><a href="https://github.com/golang/go/issues/21326">net/http: remove support for status code 418 I&rsquo;m a Teapot</a></li>
+<li><a href="https://github.com/golang/go/issues/21472">net: LookupTXT regards a TXT record with multiple strings as multiple records on Windows</a></li>
+<li><a href="https://github.com/golang/go/issues/21428">syscall: ForkExec with Ptrace flag causes runtime to be traced</a></li>
+<li><a href="https://github.com/golang/go/issues/21485">time: Round(0), Truncate(0) strip monotonic clock readings but documentation still says it returns t unchanged</a></li>
+<li><a href="https://github.com/golang/go/issues/21409">fmt: improve documentation about how verbs work when printing pointers</a></li>
+<li><a href="https://github.com/golang/go/issues/21424">spec: specify dead code elimination behavior</a></li>
+<li><a href="https://github.com/golang/go/issues/21401">proposal: ability to create and import methods for non-local types</a></li>
+<li><a href="https://github.com/golang/go/issues/21463">Proposal: regexp: Optimize fixed-length patterns</a></li>
+<li><a href="https://github.com/golang/go/issues/21182">proposal: Go 2: reduce noise in return statements that contain mostly zero values</a></li>
+<li><a href="https://github.com/golang/go/issues/21521">proposal: context.WithSignal</a></li>
+<li><a href="https://github.com/golang/go/issues/21540">proposal: flag: add Fatalf</a></li>
+<li><a href="https://github.com/golang/go/issues/21365">proposal: time: add a Date type</a></li>
+<li><a href="https://github.com/golang/go/issues/21670">proposal: Go 2: Have functions auto-implement interfaces with only a single method of that same signature</a></li>
+<li><a href="https://github.com/golang/go/issues/21482">proposal: cmd/vet: append with a single argument should be a go vet warning</a></li>
+</ul></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Акуловича, Максима Тищенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 107. В гостях Кирилл Даншин</title>
         <itunes:subtitle>Выпуск 107. В гостях Кирилл Даншин</itunes:subtitle>
         <itunes:summary><![CDATA[
