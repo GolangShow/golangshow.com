@@ -1,5 +1,6 @@
 build:
 	rm -fr public
+	hugo version
 	hugo --theme=golangshow
 
 watch:
@@ -8,7 +9,8 @@ watch:
 
 init:
 	brew update
-	brew install hugo
+	brew install hugo pre-commit
+	pre-commit install
 
 upload: build
 	git push
