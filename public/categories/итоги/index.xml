@@ -16,7 +16,7 @@
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-    
+
       <item>
         <title>Выпуск 036. Новогодние посиделки у камина</title>
         <itunes:subtitle>Выпуск 036. Новогодние посиделки у камина</itunes:subtitle>
@@ -61,7 +61,7 @@
 
         <link>http://golangshow.com/episode/2015/12-29-036/</link>
         <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
         <description><![CDATA[
 
@@ -97,6 +97,6 @@
 <p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a></p>
 ]]></description>
       </item>
-    
+
   </channel>
 </rss>

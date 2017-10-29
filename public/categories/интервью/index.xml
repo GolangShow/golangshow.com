@@ -16,7 +16,7 @@
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-    
+
       <item>
         <title>Выпуск 078. Спецвыпуск с dotGo</title>
         <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
@@ -45,7 +45,7 @@
 
         <link>http://golangshow.com/episode/2016/10-16-078/</link>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2016/10-16-078/</guid>
         <description><![CDATA[<p>Интервью с докладчиками:</p>
 
@@ -65,7 +65,7 @@
 </ul>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
@@ -79,12 +79,12 @@
 
         <link>http://golangshow.com/episode/2015/11-21-030/</link>
         <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
         <description><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
 ]]></description>
       </item>
-    
+
       <item>
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
@@ -98,11 +98,11 @@
 
         <link>http://golangshow.com/episode/2015/11-20-029/</link>
         <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
-        
+
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
         <description><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
 ]]></description>
       </item>
-    
+
   </channel>
 </rss>
