@@ -1,5 +1,8 @@
 package main
 
+// That code is put into the public domain by the author. No rights reserved.
+// `go run tools/strip-whitespace/main.go` from the root of the repo to strip whitespaces.
+
 import (
 	"bufio"
 	"flag"
