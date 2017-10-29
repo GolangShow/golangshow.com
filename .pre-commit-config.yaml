@@ -1,4 +1,6 @@
--   repo: git://github.com/pre-commit/pre-commit-hooks
-    sha: v0.9.1
-    hooks:
-    -   id: trailing-whitespace
+repos:
+- repo: git://github.com/pre-commit/pre-commit-hooks
+  sha: v1.1.1
+  hooks:
+    - id: trailing-whitespace
+      args: ['--no-markdown-linebreak-ext']

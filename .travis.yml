@@ -1,0 +1,10 @@
+os: osx
+osx_image: xcode8.3
+
+script:
+  - make init
+  - make build
+
+  # check that up-to-date public/ is committed
+  - git status
+  - git diff --exit-code
