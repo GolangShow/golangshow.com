@@ -8,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go &middot; </title>
+  <title>Выпуск 109. Обзор новостей и проектов &middot; </title>
 
   
   <link rel="stylesheet" href="/css/compiled.css">
@@ -26,9 +26,9 @@
   <meta name="description" content="">
   <meta name="keywords" content="Go,golang,подкаст">
   
-  <meta property="og:title" content="Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go" />
+  <meta property="og:title" content="Выпуск 109. Обзор новостей и проектов" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://golangshow.com/episode/2015/12-10-033/ " />
+  <meta property="og:url" content="http://golangshow.com/episode/2017/09-13-109/ " />
   <meta property="og:image" content="/images/cover.png" />
   <meta property="og:locale" content="ru_RU" />
   <meta property="og:site_name" content="Подкаст GolangShow" />
@@ -118,8 +118,8 @@ a#mailinglink {
 <div class="content container">
   <br/>
   <div class="post">
-    <h1>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</h1>
-    <span class="post-date">Dec 10, 2015 
+    <h1>Выпуск 109. Обзор новостей и проектов</h1>
+    <span class="post-date">Sep 13, 2017 
     
     <br/>
     <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
@@ -128,39 +128,62 @@ a#mailinglink {
 
     
 
-<h2 id="новости">Новости</h2>
+<h2 id="темы">Темы</h2>
 
 <ul>
-<li><a href="https://github.com/golang/go/issues?q=milestone%3AGo1.5.2">Go 1.5.2 Released</a></li>
-<li><a href="http://www.gregosuri.com/2015/12/04/go-proverbs-illustrated/">Go Proverbs Illustrated</a></li>
-<li><a href="https://blog.gopheracademy.com/advent-2015/afero-a-universal-filesystem-library/">Go Advent 2015 - Dec 4 - afero: A Universal Filesystem Library</a></li>
-<li><a href="https://www.devever.net/~hl/nexuses">On Nexuses</a></li>
-<li><a href="https://blog.gopheracademy.com/advent-2015/go-in-a-monorepo/">Go Advent 2015 - Dec 8 - Go in a Monorepo</a></li>
-<li>&ldquo;Монорепозиторий&rdquo; vs &ldquo;Много репозиториев&rdquo;</li>
-<li><a href="http://www.cockroachlabs.com/blog/the-cost-and-complexity-of-cgo/">The Cost and Complexity of Cgo</a></li>
-<li><a href="https://github.com/motemen/gompatible">gompatible</a></li>
-<li><a href="http://dave.cheney.net/2015/12/07/are-go-maps-sensitive-to-data-races">Are Go maps sensitive to data races?</a></li>
-<li><a href="http://yager.io/programming/go.html">Why Go Is Not Good</a></li>
-<li><a href="https://github.com/ksimka/go-is-not-good">Список статей с минусами Go</a></li>
-<li><a href="https://blog.gopheracademy.com/advent-2015/goaUntanglingMicroservices/">Go Advent 2015 - Dec 7 - Goa: Untangling Microservices</a></li>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-09-13.md">Традиционный отчет от Саши</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/f04d5836181dec3ec1b7e427607f02fa7a204a2d">testing: parallelize tests over count</a></li>
+<li><a href="https://github.com/golang/go/commit/46aa9f5437b000fad3696b0cd9fd97995da16411">strconv: optimize Atoi for common case</a></li>
+<li><a href="https://github.com/golang/go/commit/a4140b745ce22c56821750001f30fca4020b4650">fmt: document verbs %b %d %o %x %X for printing pointers</a></li>
+<li><a href="https://github.com/golang/go/commit/bf90da97c1aaec78d2f8ad8b74a506d3b6f0ee75">cmd/fix: rewrite x/net/context by default</a></li>
+<li><a href="https://github.com/golang/go/commit/a2dfe5d278eae0864397a046a8206342a426d2bd">math/rand: add Shuffle</a></li>
+<li><a href="https://github.com/golang/go/commit/76f4fd8a5251b4f63ea14a3c1e2fe2e78eb74f81">runtime: improve timers scalability on multi-CPU systems</a></li>
+<li><a href="https://github.com/golang/go/commit/6a7c63a08ab353c7e41cb24ae66e73fb3cb7cb56">runtime: optimize siftupTimer and siftdownTimer a bit</a></li>
+</ul></li>
+<li><a href="https://lemire.me/blog/2017/09/05/go-does-not-inline-functions-when-it-should/">Go does not inline functions when it should</a></li>
+<li><a href="https://blog.golang.org/community-outreach-working-group">Community Outreach Working Group</a></li>
+<li><a href="https://www.nginx.com/products/nginx-unit/">NGINX Unit: A New Open Source App Server That Supports Go</a></li>
+<li><a href="https://blog.filippo.io/rustgo/">rustgo: calling rust from go with near-zero overhead</a></li>
 </ul>
 
-<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>,
-<a href="https://twitter.com/miolini">Артём</a>,  <a href="https://twitter.com/webdeva">Елена</a>,
-<a href="https://twitter.com/m0sth8">Слава</a>.</p>
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/goby-lang/goby">https://github.com/goby-lang/goby</a></li>
+<li><a href="https://github.com/posener/complete">https://github.com/posener/complete</a></li>
+<li><a href="https://transform.now.sh/json-to-go/">https://transform.now.sh/json-to-go/</a></li>
+<li><a href="https://gnorm.org">https://gnorm.org</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 
     
       <hr/>
 
 <p>
-	Длительность: 01:40:18 <br/>
-	Размер: 42 МБ
+	Длительность: 00:40:46 <br/>
+	Размер: 16 МБ
 </p>
 <p>HTML5 аудио плеер:
 
 <blockquote>
 	<audio controls width="400px" height="150px">
-		<source src="https://golangshow.com/cdn/episodes/033.mp3" type="audio/mpeg">
+		<source src="https://golangshow.com/cdn/episodes/109.mp3" type="audio/mpeg">
 		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
 	</audio>
 </blockquote>
@@ -169,7 +192,7 @@ a#mailinglink {
 
 <p>Прямая ссылка на MP3 аудио поток:
 <blockquote>
-	<a href="https://golangshow.com/cdn/episodes/033.mp3" target="_blank">https://golangshow.com/cdn/episodes/033.mp3</a>
+	<a href="https://golangshow.com/cdn/episodes/109.mp3" target="_blank">https://golangshow.com/cdn/episodes/109.mp3</a>
 </blockquote>
 </p>
 
@@ -180,12 +203,12 @@ a#mailinglink {
     <section class="share">
 
       <span>Рассказать друзьям:</span>
-      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20033.%20Go%201.5.2%2c%20Proverbs%20Illustrated%2c%20%d0%bc%d0%b8%d0%bd%d1%83%d1%81%d1%8b%20Go&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2015%2f12-10-033%2f"
+      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20109.%20%d0%9e%d0%b1%d0%b7%d0%be%d1%80%20%d0%bd%d0%be%d0%b2%d0%be%d1%81%d1%82%d0%b5%d0%b9%20%d0%b8%20%d0%bf%d1%80%d0%be%d0%b5%d0%ba%d1%82%d0%be%d0%b2&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f09-13-109%2f"
           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2015%2f12-10-033%2f"
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f09-13-109%2f"
           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
-      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2015%2f12-10-033%2f"
+      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2017%2f09-13-109%2f"
          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
     </section>
     

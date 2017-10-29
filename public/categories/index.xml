@@ -10,13 +10,13 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.26</generator>
+    <generator>Hugo 0.30.2</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-
+    
       <item>
         <title>Гости</title>
         <itunes:subtitle>Гости</itunes:subtitle>
@@ -29,11 +29,11 @@
 
         <link>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</link>
         <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Интервью</title>
         <itunes:subtitle>Интервью</itunes:subtitle>
@@ -46,11 +46,11 @@
 
         <link>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</link>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Итоги</title>
         <itunes:subtitle>Итоги</itunes:subtitle>
@@ -63,11 +63,11 @@
 
         <link>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</link>
         <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Камин</title>
         <itunes:subtitle>Камин</itunes:subtitle>
@@ -80,11 +80,11 @@
 
         <link>http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD/</link>
         <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Новости</title>
         <itunes:subtitle>Новости</itunes:subtitle>
@@ -96,11 +96,11 @@
         <itunes:duration></itunes:duration>
 
         <link>http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</link>
-        <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
-
+        <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+        
         <guid>http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
   </channel>
 </rss>

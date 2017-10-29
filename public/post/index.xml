@@ -10,13 +10,13 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.26</generator>
+    <generator>Hugo 0.30.2</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-
+    
       <item>
         <title>Хакатон GopherGala</title>
         <itunes:subtitle>Хакатон GopherGala</itunes:subtitle>
@@ -38,7 +38,7 @@
 
         <link>http://golangshow.com/post/2016/01-22-gophergala/</link>
         <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/post/2016/01-22-gophergala/</guid>
         <description><![CDATA[<p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
 
@@ -51,7 +51,7 @@
 <p><img src="/images/tceh.jpg" alt="Tceh" /> Место встречи <a href="http://tceh.com">коворкинг Tceh</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</title>
         <itunes:subtitle>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</itunes:subtitle>
@@ -67,14 +67,14 @@
 
         <link>http://golangshow.com/post/2015/09-03-before-015/</link>
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/post/2015/09-03-before-015/</guid>
         <description><![CDATA[<p>Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.</p>
 
 <p>Как всегда, все ваши вопросы пишите в комментариях! =)</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Вопросы к выпуску 014. Гость из Docker.</title>
         <itunes:subtitle>Вопросы к выпуску 014. Гость из Docker.</itunes:subtitle>
@@ -89,12 +89,12 @@
 
         <link>http://golangshow.com/post/2015/08-26-before-014/</link>
         <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/post/2015/08-26-before-014/</guid>
         <description><![CDATA[<p>В четырнадцатом выпуске у нас будет гость из компании Docker.
 Если у вас есть вопросы к <a href="https://twitter.com/lk4d4math">Александру</a>, пишите в комментариях! =)</p>
 ]]></description>
       </item>
-
+    
   </channel>
 </rss>

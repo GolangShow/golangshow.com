@@ -10,13 +10,120 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.26</generator>
+    <generator>Hugo 0.30.2</generator>
     <itunes:image href="http://golangshow.com/images/cover_big.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
+    
+      <item>
+        <title>Выпуск 109. Обзор новостей и проектов</title>
+        <itunes:subtitle>Выпуск 109. Обзор новостей и проектов</itunes:subtitle>
+        <itunes:summary><![CDATA[
 
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-09-13.md">Традиционный отчет от Саши</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/f04d5836181dec3ec1b7e427607f02fa7a204a2d">testing: parallelize tests over count</a></li>
+<li><a href="https://github.com/golang/go/commit/46aa9f5437b000fad3696b0cd9fd97995da16411">strconv: optimize Atoi for common case</a></li>
+<li><a href="https://github.com/golang/go/commit/a4140b745ce22c56821750001f30fca4020b4650">fmt: document verbs %b %d %o %x %X for printing pointers</a></li>
+<li><a href="https://github.com/golang/go/commit/bf90da97c1aaec78d2f8ad8b74a506d3b6f0ee75">cmd/fix: rewrite x/net/context by default</a></li>
+<li><a href="https://github.com/golang/go/commit/a2dfe5d278eae0864397a046a8206342a426d2bd">math/rand: add Shuffle</a></li>
+<li><a href="https://github.com/golang/go/commit/76f4fd8a5251b4f63ea14a3c1e2fe2e78eb74f81">runtime: improve timers scalability on multi-CPU systems</a></li>
+<li><a href="https://github.com/golang/go/commit/6a7c63a08ab353c7e41cb24ae66e73fb3cb7cb56">runtime: optimize siftupTimer and siftdownTimer a bit</a></li>
+</ul></li>
+<li><a href="https://lemire.me/blog/2017/09/05/go-does-not-inline-functions-when-it-should/">Go does not inline functions when it should</a></li>
+<li><a href="https://blog.golang.org/community-outreach-working-group">Community Outreach Working Group</a></li>
+<li><a href="https://www.nginx.com/products/nginx-unit/">NGINX Unit: A New Open Source App Server That Supports Go</a></li>
+<li><a href="https://blog.filippo.io/rustgo/">rustgo: calling rust from go with near-zero overhead</a></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/goby-lang/goby">https://github.com/goby-lang/goby</a></li>
+<li><a href="https://github.com/posener/complete">https://github.com/posener/complete</a></li>
+<li><a href="https://transform.now.sh/json-to-go/">https://transform.now.sh/json-to-go/</a></li>
+<li><a href="https://gnorm.org">https://gnorm.org</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/109.mp3" length="17058725" type="audio/mpeg" />
+        <itunes:duration>00:40:46</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/09-13-109/</link>
+        <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+        
+        <guid>http://golangshow.com/episode/2017/09-13-109/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-09-13.md">Традиционный отчет от Саши</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/f04d5836181dec3ec1b7e427607f02fa7a204a2d">testing: parallelize tests over count</a></li>
+<li><a href="https://github.com/golang/go/commit/46aa9f5437b000fad3696b0cd9fd97995da16411">strconv: optimize Atoi for common case</a></li>
+<li><a href="https://github.com/golang/go/commit/a4140b745ce22c56821750001f30fca4020b4650">fmt: document verbs %b %d %o %x %X for printing pointers</a></li>
+<li><a href="https://github.com/golang/go/commit/bf90da97c1aaec78d2f8ad8b74a506d3b6f0ee75">cmd/fix: rewrite x/net/context by default</a></li>
+<li><a href="https://github.com/golang/go/commit/a2dfe5d278eae0864397a046a8206342a426d2bd">math/rand: add Shuffle</a></li>
+<li><a href="https://github.com/golang/go/commit/76f4fd8a5251b4f63ea14a3c1e2fe2e78eb74f81">runtime: improve timers scalability on multi-CPU systems</a></li>
+<li><a href="https://github.com/golang/go/commit/6a7c63a08ab353c7e41cb24ae66e73fb3cb7cb56">runtime: optimize siftupTimer and siftdownTimer a bit</a></li>
+</ul></li>
+<li><a href="https://lemire.me/blog/2017/09/05/go-does-not-inline-functions-when-it-should/">Go does not inline functions when it should</a></li>
+<li><a href="https://blog.golang.org/community-outreach-working-group">Community Outreach Working Group</a></li>
+<li><a href="https://www.nginx.com/products/nginx-unit/">NGINX Unit: A New Open Source App Server That Supports Go</a></li>
+<li><a href="https://blog.filippo.io/rustgo/">rustgo: calling rust from go with near-zero overhead</a></li>
+</ul>
+
+<h2 id="проекты-библиотеки-и-примеры-кода">Проекты, библиотеки и примеры кода</h2>
+
+<ul>
+<li><a href="https://github.com/goby-lang/goby">https://github.com/goby-lang/goby</a></li>
+<li><a href="https://github.com/posener/complete">https://github.com/posener/complete</a></li>
+<li><a href="https://transform.now.sh/json-to-go/">https://transform.now.sh/json-to-go/</a></li>
+<li><a href="https://gnorm.org">https://gnorm.org</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://gdg-siberia.com">DevFest Siberia 2017</a> в Новосибирске, 23-24 сентября</li>
+<li><a href="http://www.dotgo.eu">dotGo 2017</a> в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
+]]></description>
+      </item>
+    
       <item>
         <title>Выпуск 108. Кратко про Go 1.9</title>
         <itunes:subtitle>Выпуск 108. Кратко про Go 1.9</itunes:subtitle>
@@ -75,7 +182,7 @@
 
         <link>http://golangshow.com/episode/2017/08-30-108/</link>
         <pubDate>Wed, 30 Aug 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/08-30-108/</guid>
         <description><![CDATA[
 
@@ -125,7 +232,7 @@
 <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 107. В гостях Кирилл Даншин</title>
         <itunes:subtitle>Выпуск 107. В гостях Кирилл Даншин</itunes:subtitle>
@@ -233,7 +340,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 
         <link>http://golangshow.com/episode/2017/08-09-107/</link>
         <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/08-09-107/</guid>
         <description><![CDATA[
 
@@ -332,7 +439,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 106. Go2WayCon</title>
         <itunes:subtitle>Выпуск 106. Go2WayCon</itunes:subtitle>
@@ -406,7 +513,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 
         <link>http://golangshow.com/episode/2017/07-26-106/</link>
         <pubDate>Wed, 26 Jul 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/07-26-106/</guid>
         <description><![CDATA[
 
@@ -471,7 +578,7 @@ Ivan Prisyazhnyy, Danila Pisarev, Artem Kovardin, Eugene Medentsii, Andrew Vorob
 <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 105. GoWay и Modern Go</title>
         <itunes:subtitle>Выпуск 105. GoWay и Modern Go</itunes:subtitle>
@@ -571,7 +678,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 
         <link>http://golangshow.com/episode/2017/07-05-105/</link>
         <pubDate>Wed, 05 Jul 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/07-05-105/</guid>
         <description><![CDATA[
 
@@ -662,7 +769,7 @@ Ivan Prisyazhnyy, Danila Pisarev
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 104. Рекордно короткий</title>
         <itunes:subtitle>Выпуск 104. Рекордно короткий</itunes:subtitle>
@@ -724,7 +831,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 
         <link>http://golangshow.com/episode/2017/06-15-104/</link>
         <pubDate>Thu, 15 Jun 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/06-15-104/</guid>
         <description><![CDATA[
 
@@ -777,7 +884,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 103. Go-митап @ РИТ++ 2017</title>
         <itunes:subtitle>Выпуск 103. Go-митап @ РИТ++ 2017</itunes:subtitle>
@@ -803,7 +910,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 
         <link>http://golangshow.com/episode/2017/06-05-103/</link>
         <pubDate>Mon, 05 Jun 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/06-05-103/</guid>
         <description><![CDATA[<p>Спецвыпуск с конференеции <a href="http://ritfest.ru">РИТ++ 2017</a>.
 Митап &ldquo;Go в продакшн&rdquo;.</p>
@@ -820,7 +927,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 <p>В гостях Даниил Подольский, Андрей Минкин, Игорь Должиков, Иван Круглов и многие другие.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 102. Много новых covfefe</title>
         <itunes:subtitle>Выпуск 102. Много новых covfefe</itunes:subtitle>
@@ -908,7 +1015,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 
         <link>http://golangshow.com/episode/2017/05-31-102/</link>
         <pubDate>Wed, 31 May 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/05-31-102/</guid>
         <description><![CDATA[
 
@@ -987,7 +1094,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
  <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 101. Хороший Go</title>
         <itunes:subtitle>Выпуск 101. Хороший Go</itunes:subtitle>
@@ -1078,7 +1185,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 
         <link>http://golangshow.com/episode/2017/05-17-101/</link>
         <pubDate>Wed, 17 May 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/05-17-101/</guid>
         <description><![CDATA[
 
@@ -1160,7 +1267,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 100. Три А и Л</title>
         <itunes:subtitle>Выпуск 100. Три А и Л</itunes:subtitle>
@@ -1243,7 +1350,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 
         <link>http://golangshow.com/episode/2017/05-12-100/</link>
         <pubDate>Fri, 12 May 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/05-12-100/</guid>
         <description><![CDATA[
 
@@ -1317,7 +1424,7 @@ Jaleel Akbashev, Maxim Tishchenko, Sergey Serebryakov, Sergey Shushpanov
 <p>Ведущие этого выпуска: <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 099. По ссылке или нет?</title>
         <itunes:subtitle>Выпуск 099. По ссылке или нет?</itunes:subtitle>
@@ -1435,7 +1542,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/05-03-099/</link>
         <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/05-03-099/</guid>
         <description><![CDATA[
 
@@ -1544,7 +1651,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 098. Контекст эксперимента</title>
         <itunes:subtitle>Выпуск 098. Контекст эксперимента</itunes:subtitle>
@@ -1633,7 +1740,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/04-26-098/</link>
         <pubDate>Wed, 26 Apr 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/04-26-098/</guid>
         <description><![CDATA[
 
@@ -1713,7 +1820,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 097. Драконы и киты</title>
         <itunes:subtitle>Выпуск 097. Драконы и киты</itunes:subtitle>
@@ -1764,7 +1871,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/04-21-097/</link>
         <pubDate>Fri, 21 Apr 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/04-21-097/</guid>
         <description><![CDATA[
 
@@ -1806,7 +1913,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска:  <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/miolini">Артём</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 096. И их осталось двое</title>
         <itunes:subtitle>Выпуск 096. И их осталось двое</itunes:subtitle>
@@ -1859,7 +1966,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/04-14-096/</link>
         <pubDate>Fri, 14 Apr 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/04-14-096/</guid>
         <description><![CDATA[
 
@@ -1903,7 +2010,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска:  <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 095. С чистого листа</title>
         <itunes:subtitle>Выпуск 095. С чистого листа</itunes:subtitle>
@@ -1965,7 +2072,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/04-05-095/</link>
         <pubDate>Wed, 05 Apr 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/04-05-095/</guid>
         <description><![CDATA[
 
@@ -2018,7 +2125,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска:  <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 094. Релиз Go 1.8</title>
         <itunes:subtitle>Выпуск 094. Релиз Go 1.8</itunes:subtitle>
@@ -2055,7 +2162,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/02-17-094/</link>
         <pubDate>Fri, 17 Feb 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/02-17-094/</guid>
         <description><![CDATA[
 
@@ -2083,7 +2190,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска:  <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 093. Контекст времени</title>
         <itunes:subtitle>Выпуск 093. Контекст времени</itunes:subtitle>
@@ -2142,7 +2249,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/02-08-093/</link>
         <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/02-08-093/</guid>
         <description><![CDATA[
 
@@ -2192,7 +2299,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска:  <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 092. Гости из JetBrains. Gogland</title>
         <itunes:subtitle>Выпуск 092. Гости из JetBrains. Gogland</itunes:subtitle>
@@ -2248,7 +2355,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/02-01-092/</link>
         <pubDate>Wed, 01 Feb 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/02-01-092/</guid>
         <description><![CDATA[
 
@@ -2295,7 +2402,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 091. Go 2017</title>
         <itunes:subtitle>Выпуск 091. Go 2017</itunes:subtitle>
@@ -2357,7 +2464,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/01-25-091/</link>
         <pubDate>Wed, 25 Jan 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/01-25-091/</guid>
         <description><![CDATA[
 
@@ -2410,7 +2517,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 090. В гостях Яна и Миша из Juno</title>
         <itunes:subtitle>Выпуск 090. В гостях Яна и Миша из Juno</itunes:subtitle>
@@ -2454,7 +2561,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2017/01-18-090/</link>
         <pubDate>Wed, 18 Jan 2017 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2017/01-18-090/</guid>
         <description><![CDATA[
 
@@ -2489,7 +2596,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 089. Holidays Coming</title>
         <itunes:subtitle>Выпуск 089. Holidays Coming</itunes:subtitle>
@@ -2547,7 +2654,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/12-28-089/</link>
         <pubDate>Wed, 28 Dec 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/12-28-089/</guid>
         <description><![CDATA[
 
@@ -2596,7 +2703,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 088. Beta 2, Gogland, Go User Survey</title>
         <itunes:subtitle>Выпуск 088. Beta 2, Gogland, Go User Survey</itunes:subtitle>
@@ -2652,7 +2759,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/12-17-088/</link>
         <pubDate>Sat, 17 Dec 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/12-17-088/</guid>
         <description><![CDATA[
 
@@ -2699,7 +2806,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 087. Плагины, алиасы, базы данных</title>
         <itunes:subtitle>Выпуск 087. Плагины, алиасы, базы данных</itunes:subtitle>
@@ -2780,7 +2887,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/12-11-087/</link>
         <pubDate>Sun, 11 Dec 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/12-11-087/</guid>
         <description><![CDATA[
 
@@ -2852,7 +2959,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 086. 1.6.4, 1.7.4, 1.8beta1</title>
         <itunes:subtitle>Выпуск 086. 1.6.4, 1.7.4, 1.8beta1</itunes:subtitle>
@@ -2912,7 +3019,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/12-03-086/</link>
         <pubDate>Sat, 03 Dec 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/12-03-086/</guid>
         <description><![CDATA[
 
@@ -2963,7 +3070,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/dadabird">Андрей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 085. Как прошел DevFest в Новосибирске. Go в Кыргызстане</title>
         <itunes:subtitle>Выпуск 085. Как прошел DevFest в Новосибирске. Go в Кыргызстане</itunes:subtitle>
@@ -3077,7 +3184,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/11-25-085/</link>
         <pubDate>Fri, 25 Nov 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/11-25-085/</guid>
         <description><![CDATA[
 
@@ -3182,7 +3289,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 084. В гостях Максим Филатов. Спецвыпуск про Kubernetes.</title>
         <itunes:subtitle>Выпуск 084. В гостях Максим Филатов. Спецвыпуск про Kubernetes.</itunes:subtitle>
@@ -3258,7 +3365,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/11-23-084/</link>
         <pubDate>Wed, 23 Nov 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/11-23-084/</guid>
         <description><![CDATA[
 
@@ -3325,7 +3432,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/dadabird">Андрей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 083. Запоздалый.</title>
         <itunes:subtitle>Выпуск 083. Запоздалый.</itunes:subtitle>
@@ -3387,7 +3494,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/11-16-083/</link>
         <pubDate>Wed, 16 Nov 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/11-16-083/</guid>
         <description><![CDATA[
 
@@ -3440,7 +3547,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 082. В гостях Андрей Минкин. 7 лет Go, 10 HighLoad&#39;у</title>
         <itunes:subtitle>Выпуск 082. В гостях Андрей Минкин. 7 лет Go, 10 HighLoad&#39;у</itunes:subtitle>
@@ -3505,7 +3612,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/11-09-082/</link>
         <pubDate>Wed, 09 Nov 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/11-09-082/</guid>
         <description><![CDATA[
 
@@ -3561,7 +3668,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/paaleksey">Алексей</a> и гость <a href="https://twitter.com/gen1us2k">Андрей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 081. Интриги и расследования</title>
         <itunes:subtitle>Выпуск 081. Интриги и расследования</itunes:subtitle>
@@ -3645,7 +3752,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/11-02-081/</link>
         <pubDate>Wed, 02 Nov 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/11-02-081/</guid>
         <description><![CDATA[
 
@@ -3720,7 +3827,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/dadabird">Андрей</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 080. Go 2.0, performance, data science</title>
         <itunes:subtitle>Выпуск 080. Go 2.0, performance, data science</itunes:subtitle>
@@ -3790,7 +3897,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/10-26-080/</link>
         <pubDate>Wed, 26 Oct 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/10-26-080/</guid>
         <description><![CDATA[
 
@@ -3851,7 +3958,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/dadabird">Андрей</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 079. Go 1.7.3 и некоторые любимые темы</title>
         <itunes:subtitle>Выпуск 079. Go 1.7.3 и некоторые любимые темы</itunes:subtitle>
@@ -3926,7 +4033,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/10-21-079/</link>
         <pubDate>Fri, 21 Oct 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/10-21-079/</guid>
         <description><![CDATA[
 
@@ -3992,7 +4099,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/dadabird">Андрей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 078. Спецвыпуск с dotGo</title>
         <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
@@ -4021,7 +4128,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/10-16-078/</link>
         <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/10-16-078/</guid>
         <description><![CDATA[<p>Интервью с докладчиками:</p>
 
@@ -4041,7 +4148,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</title>
         <itunes:subtitle>Выпуск 077. В гостях Андрей Погребной. Как мы ездили на dotGo</itunes:subtitle>
@@ -4116,7 +4223,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/10-14-077/</link>
         <pubDate>Fri, 14 Oct 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/10-14-077/</guid>
         <description><![CDATA[
 
@@ -4182,7 +4289,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 076. Tooling, profiling, machine learning.</title>
         <itunes:subtitle>Выпуск 076. Tooling, profiling, machine learning.</itunes:subtitle>
@@ -4252,7 +4359,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/09-30-076/</link>
         <pubDate>Fri, 30 Sep 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/09-30-076/</guid>
         <description><![CDATA[
 
@@ -4313,7 +4420,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 075. Мины и плагины.</title>
         <itunes:subtitle>Выпуск 075. Мины и плагины.</itunes:subtitle>
@@ -4386,7 +4493,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/09-22-075/</link>
         <pubDate>Thu, 22 Sep 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/09-22-075/</guid>
         <description><![CDATA[
 
@@ -4450,7 +4557,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a> и <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 074. Community, community, community.</title>
         <itunes:subtitle>Выпуск 074. Community, community, community.</itunes:subtitle>
@@ -4510,7 +4617,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/09-14-074/</link>
         <pubDate>Wed, 14 Sep 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/09-14-074/</guid>
         <description><![CDATA[
 
@@ -4561,7 +4668,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 073. Retina icon и вендоринг.</title>
         <itunes:subtitle>Выпуск 073. Retina icon и вендоринг.</itunes:subtitle>
@@ -4631,7 +4738,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/09-08-073/</link>
         <pubDate>Thu, 08 Sep 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/09-08-073/</guid>
         <description><![CDATA[
 
@@ -4692,7 +4799,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 072. Коммиты и комитеты</title>
         <itunes:subtitle>Выпуск 072. Коммиты и комитеты</itunes:subtitle>
@@ -4792,7 +4899,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/09-01-072/</link>
         <pubDate>Thu, 01 Sep 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/09-01-072/</guid>
         <description><![CDATA[
 
@@ -4883,7 +4990,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 071. It&#39;s a SOLID one.</title>
         <itunes:subtitle>Выпуск 071. It&#39;s a SOLID one.</itunes:subtitle>
@@ -4955,7 +5062,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/08-26-071/</link>
         <pubDate>Fri, 26 Aug 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/08-26-071/</guid>
         <description><![CDATA[
 
@@ -5018,7 +5125,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 070. Go 1.7 is released!</title>
         <itunes:subtitle>Выпуск 070. Go 1.7 is released!</itunes:subtitle>
@@ -5091,7 +5198,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/08-23-070/</link>
         <pubDate>Tue, 23 Aug 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/08-23-070/</guid>
         <description><![CDATA[
 
@@ -5155,7 +5262,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 069. Go 1.7 RC 6, bytes + strings, как прошел митап в Москве</title>
         <itunes:subtitle>Выпуск 069. Go 1.7 RC 6, bytes + strings, как прошел митап в Москве</itunes:subtitle>
@@ -5214,7 +5321,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/08-12-069/</link>
         <pubDate>Fri, 12 Aug 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/08-12-069/</guid>
         <description><![CDATA[
 
@@ -5264,7 +5371,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 068. В гостях Максим Тищенко. Омск, GopherCon, RC 4-5</title>
         <itunes:subtitle>Выпуск 068. В гостях Максим Тищенко. Омск, GopherCon, RC 4-5</itunes:subtitle>
@@ -5337,7 +5444,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/08-04-068/</link>
         <pubDate>Thu, 04 Aug 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/08-04-068/</guid>
         <description><![CDATA[
 
@@ -5401,7 +5508,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 067. Рефлексия и кодогенерация. Docker 1.12. Московский митап</title>
         <itunes:subtitle>Выпуск 067. Рефлексия и кодогенерация. Docker 1.12. Московский митап</itunes:subtitle>
@@ -5465,7 +5572,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/07-29-067/</link>
         <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/07-29-067/</guid>
         <description><![CDATA[
 
@@ -5520,7 +5627,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 066. Go для всех, микросервисы и другие любимые темы</title>
         <itunes:subtitle>Выпуск 066. Go для всех, микросервисы и другие любимые темы</itunes:subtitle>
@@ -5587,7 +5694,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/07-21-066/</link>
         <pubDate>Thu, 21 Jul 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/07-21-066/</guid>
         <description><![CDATA[
 
@@ -5645,7 +5752,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 065. Go 1.6.3, context, практические советы</title>
         <itunes:subtitle>Выпуск 065. Go 1.6.3, context, практические советы</itunes:subtitle>
@@ -5731,7 +5838,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/07-16-065/</link>
         <pubDate>Sat, 16 Jul 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/07-16-065/</guid>
         <description><![CDATA[
 
@@ -5808,7 +5915,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 064. 2⁶</title>
         <itunes:subtitle>Выпуск 064. 2⁶</itunes:subtitle>
@@ -5861,7 +5968,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/07-07-064/</link>
         <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/07-07-064/</guid>
         <description><![CDATA[
 
@@ -5905,7 +6012,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 063. В гостях Леонид Бугаев. Управление зависимостями, TOC, плохое поведение</title>
         <itunes:subtitle>Выпуск 063. В гостях Леонид Бугаев. Управление зависимостями, TOC, плохое поведение</itunes:subtitle>
@@ -5969,7 +6076,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/06-30-063/</link>
         <pubDate>Thu, 30 Jun 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/06-30-063/</guid>
         <description><![CDATA[
 
@@ -6024,7 +6131,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 062. Dockercon, парадигма Rust, веб-фреймворк Iris</title>
         <itunes:subtitle>Выпуск 062. Dockercon, парадигма Rust, веб-фреймворк Iris</itunes:subtitle>
@@ -6082,7 +6189,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/06-23-062/</link>
         <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/06-23-062/</guid>
         <description><![CDATA[
 
@@ -6131,7 +6238,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 061. Гость Николай Сивко из OkMeter</title>
         <itunes:subtitle>Выпуск 061. Гость Николай Сивко из OkMeter</itunes:subtitle>
@@ -6200,7 +6307,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/06-16-061/</link>
         <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/06-16-061/</guid>
         <description><![CDATA[
 
@@ -6260,7 +6367,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 060. Гости из Meduza Project</title>
         <itunes:subtitle>Выпуск 060. Гости из Meduza Project</itunes:subtitle>
@@ -6317,7 +6424,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/06-09-060/</link>
         <pubDate>Thu, 09 Jun 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/06-09-060/</guid>
         <description><![CDATA[
 
@@ -6365,7 +6472,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 059. Гость Александр Клижентас из Gravitational. Go 1.7 beta 1</title>
         <itunes:subtitle>Выпуск 059. Гость Александр Клижентас из Gravitational. Go 1.7 beta 1</itunes:subtitle>
@@ -6430,7 +6537,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/06-02-059/</link>
         <pubDate>Thu, 02 Jun 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/06-02-059/</guid>
         <description><![CDATA[
 
@@ -6486,7 +6593,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 058. В гостях Марко Кевац из Badoo. Ожидание Go 1.7. Профилирование. Базы данных.</title>
         <itunes:subtitle>Выпуск 058. В гостях Марко Кевац из Badoo. Ожидание Go 1.7. Профилирование. Базы данных.</itunes:subtitle>
@@ -6577,7 +6684,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/05-26-058/</link>
         <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/05-26-058/</guid>
         <description><![CDATA[
 
@@ -6659,7 +6766,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 057. SSA, моки, сети, ORM</title>
         <itunes:subtitle>Выпуск 057. SSA, моки, сети, ORM</itunes:subtitle>
@@ -6734,7 +6841,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/05-19-057/</link>
         <pubDate>Thu, 19 May 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/05-19-057/</guid>
         <description><![CDATA[
 
@@ -6800,7 +6907,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 056. Лучшие практики, лучшие инструменты и лучшие митапы</title>
         <itunes:subtitle>Выпуск 056. Лучшие практики, лучшие инструменты и лучшие митапы</itunes:subtitle>
@@ -6869,7 +6976,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/05-12-056/</link>
         <pubDate>Thu, 12 May 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/05-12-056/</guid>
         <description><![CDATA[
 
@@ -6929,7 +7036,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 055. Haskell Show. В гостях Денис Шевченко из подкаста «Бананы и линзы». Про Haskell и математику в голове.</title>
         <itunes:subtitle>Выпуск 055. Haskell Show. В гостях Денис Шевченко из подкаста «Бананы и линзы». Про Haskell и математику в голове.</itunes:subtitle>
@@ -7019,7 +7126,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/05-05-055/</link>
         <pubDate>Thu, 05 May 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/05-05-055/</guid>
         <description><![CDATA[
 
@@ -7100,7 +7207,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</title>
         <itunes:subtitle>Выпуск 054. В гостях Антон Тюрин из Яндекса. Перевод книги Донована и Кернигана. Оптимизация кода и производительность</itunes:subtitle>
@@ -7174,7 +7281,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/04-28-054/</link>
         <pubDate>Thu, 28 Apr 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/04-28-054/</guid>
         <description><![CDATA[
 
@@ -7239,7 +7346,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</title>
         <itunes:subtitle>Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</itunes:subtitle>
@@ -7330,7 +7437,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/04-21-053/</link>
         <pubDate>Thu, 21 Apr 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/04-21-053/</guid>
         <description><![CDATA[
 
@@ -7412,7 +7519,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 052. Релиз Go 1.6.1 и 1.5.4. Еще одна заявка на дженерики. Полезные инструменты для написания Go-кода.</title>
         <itunes:subtitle>Выпуск 052. Релиз Go 1.6.1 и 1.5.4. Еще одна заявка на дженерики. Полезные инструменты для написания Go-кода.</itunes:subtitle>
@@ -7534,7 +7641,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/04-14-052/</link>
         <pubDate>Thu, 14 Apr 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/04-14-052/</guid>
         <description><![CDATA[
 
@@ -7647,7 +7754,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</title>
         <itunes:subtitle>Выпуск 051. Гость Алексей Хлюпин из The New York Times.</itunes:subtitle>
@@ -7755,7 +7862,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/04-07-051/</link>
         <pubDate>Thu, 07 Apr 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/04-07-051/</guid>
         <description><![CDATA[
 
@@ -7854,7 +7961,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 050. ½-юбилей</title>
         <itunes:subtitle>Выпуск 050. ½-юбилей</itunes:subtitle>
@@ -7925,7 +8032,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/03-31-050/</link>
         <pubDate>Thu, 31 Mar 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/03-31-050/</guid>
         <description><![CDATA[
 
@@ -7987,7 +8094,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</title>
         <itunes:subtitle>Выпуск 049. Гость Денис Гладких из Splunk. Три года Docker, NATS, вендоринг и прочее.</itunes:subtitle>
@@ -8051,7 +8158,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/03-24-049/</link>
         <pubDate>Thu, 24 Mar 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/03-24-049/</guid>
         <description><![CDATA[
 
@@ -8106,7 +8213,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 048. Молодость Java и Go, митап в SF, как писать тесты</title>
         <itunes:subtitle>Выпуск 048. Молодость Java и Go, митап в SF, как писать тесты</itunes:subtitle>
@@ -8171,7 +8278,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/03-18-048/</link>
         <pubDate>Fri, 18 Mar 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/03-18-048/</guid>
         <description><![CDATA[
 
@@ -8227,7 +8334,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 047. Каналы, логгеры, ORM</title>
         <itunes:subtitle>Выпуск 047. Каналы, логгеры, ORM</itunes:subtitle>
@@ -8290,7 +8397,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/03-10-047/</link>
         <pubDate>Thu, 10 Mar 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/03-10-047/</guid>
         <description><![CDATA[
 
@@ -8344,7 +8451,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 046. Менеджеры пакетов, анонс конференций, тысячный участник в golang-ru</title>
         <itunes:subtitle>Выпуск 046. Менеджеры пакетов, анонс конференций, тысячный участник в golang-ru</itunes:subtitle>
@@ -8395,7 +8502,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/03-05-046/</link>
         <pubDate>Fri, 04 Mar 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/03-05-046/</guid>
         <description><![CDATA[
 
@@ -8437,7 +8544,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 045. Производительность Go со всех сторон</title>
         <itunes:subtitle>Выпуск 045. Производительность Go со всех сторон</itunes:subtitle>
@@ -8491,7 +8598,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/02-25-045/</link>
         <pubDate>Thu, 25 Feb 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/02-25-045/</guid>
         <description><![CDATA[
 
@@ -8536,7 +8643,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</title>
         <itunes:subtitle>Выпуск 044. В гостях Даниил Подольский. Go 1.6 released!</itunes:subtitle>
@@ -8588,7 +8695,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/02-18-044/</link>
         <pubDate>Thu, 18 Feb 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/02-18-044/</guid>
         <description><![CDATA[
 
@@ -8631,7 +8738,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 043. Meshbird, паттерны и интерфейсы</title>
         <itunes:subtitle>Выпуск 043. Meshbird, паттерны и интерфейсы</itunes:subtitle>
@@ -8681,7 +8788,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/02-12-043/</link>
         <pubDate>Fri, 12 Feb 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/02-12-043/</guid>
         <description><![CDATA[
 
@@ -8722,7 +8829,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 042. Go 1.6RC2, планы на Go 1.7 и ассемблер</title>
         <itunes:subtitle>Выпуск 042. Go 1.6RC2, планы на Go 1.7 и ассемблер</itunes:subtitle>
@@ -8775,7 +8882,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/02-05-042/</link>
         <pubDate>Fri, 05 Feb 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/02-05-042/</guid>
         <description><![CDATA[
 
@@ -8819,7 +8926,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 041. В гостях Андрей Смирнов из EMC</title>
         <itunes:subtitle>Выпуск 041. В гостях Андрей Смирнов из EMC</itunes:subtitle>
@@ -8869,7 +8976,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/02-04-041/</link>
         <pubDate>Thu, 04 Feb 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/02-04-041/</guid>
         <description><![CDATA[
 
@@ -8910,7 +9017,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</title>
         <itunes:subtitle>Выпуск 040. Гость Андрей Минкин. Отчет о GopherGala и визуализация concurrency</itunes:subtitle>
@@ -8993,7 +9100,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/01-28-040/</link>
         <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/01-28-040/</guid>
         <description><![CDATA[
 
@@ -9067,7 +9174,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
  <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Хакатон GopherGala</title>
         <itunes:subtitle>Хакатон GopherGala</itunes:subtitle>
@@ -9089,7 +9196,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/post/2016/01-22-gophergala/</link>
         <pubDate>Fri, 22 Jan 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/post/2016/01-22-gophergala/</guid>
         <description><![CDATA[<p>Для участия обязательна регистрация на <a href="http://gophergala.com">GopherGala</a>. Обычного митапа с докладами в этот раз не будет, только хакатон. Место определено.</p>
 
@@ -9102,7 +9209,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p><img src="/images/tceh.jpg" alt="Tceh" /> Место встречи <a href="http://tceh.com">коворкинг Tceh</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 039. Gopher Gala и другие митапы</title>
         <itunes:subtitle>Выпуск 039. Gopher Gala и другие митапы</itunes:subtitle>
@@ -9146,7 +9253,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/01-21-039/</link>
         <pubDate>Thu, 21 Jan 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/01-21-039/</guid>
         <description><![CDATA[
 
@@ -9181,7 +9288,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
  <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</title>
         <itunes:subtitle>Выпуск 038. В гостях Александр Золотов и Сергей Игнатов. IDEA в оттенках серого</itunes:subtitle>
@@ -9231,7 +9338,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/01-14-038/</link>
         <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/01-14-038/</guid>
         <description><![CDATA[
 
@@ -9272,7 +9379,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://github.com/zolotov">Александр Золотов</a> и <a href="https://github.com/ignatov">Сергей Игнатов</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 037. Больше Go, Rust&#39;а и LLVM</title>
         <itunes:subtitle>Выпуск 037. Больше Go, Rust&#39;а и LLVM</itunes:subtitle>
@@ -9326,7 +9433,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2016/01-07-037/</link>
         <pubDate>Thu, 07 Jan 2016 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2016/01-07-037/</guid>
         <description><![CDATA[
 
@@ -9371,7 +9478,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/m0sth8">Слава</a> и <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 036. Новогодние посиделки у камина</title>
         <itunes:subtitle>Выпуск 036. Новогодние посиделки у камина</itunes:subtitle>
@@ -9416,7 +9523,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/12-29-036/</link>
         <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
         <description><![CDATA[
 
@@ -9452,7 +9559,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a></p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 035. Go Generate, вендоринг и внутренности net/http</title>
         <itunes:subtitle>Выпуск 035. Go Generate, вендоринг и внутренности net/http</itunes:subtitle>
@@ -9504,7 +9611,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/12-24-035/</link>
         <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/12-24-035/</guid>
         <description><![CDATA[
 
@@ -9547,7 +9654,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a></p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</title>
         <itunes:subtitle>Выпуск 034. В гостях Максим Чечель. Go в автобусе, в претензиях и в git notes</itunes:subtitle>
@@ -9592,7 +9699,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/12-17-034/</link>
         <pubDate>Thu, 17 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/12-17-034/</guid>
         <description><![CDATA[
 
@@ -9628,7 +9735,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</title>
         <itunes:subtitle>Выпуск 033. Go 1.5.2, Proverbs Illustrated, минусы Go</itunes:subtitle>
@@ -9663,7 +9770,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/12-10-033/</link>
         <pubDate>Thu, 10 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/12-10-033/</guid>
         <description><![CDATA[
 
@@ -9689,7 +9796,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/m0sth8">Слава</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</title>
         <itunes:subtitle>Выпуск 032. В гостях Александр Валялкин. FastHTTP, Go Advent и видео с dotGo.</itunes:subtitle>
@@ -9742,7 +9849,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/12-03-032/</link>
         <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/12-03-032/</guid>
         <description><![CDATA[
 
@@ -9786,7 +9893,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</title>
         <itunes:subtitle>Выпуск 031. В гостях Егор Лукаш. Веб-фреймворки, танцы, поговорки</itunes:subtitle>
@@ -9839,7 +9946,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/11-26-031/</link>
         <pubDate>Thu, 26 Nov 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/11-26-031/</guid>
         <description><![CDATA[
 
@@ -9883,7 +9990,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 и гость <a href="https://www.linkedin.com/in/yegor-lukash-3a7a3645">Егор</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
@@ -9897,12 +10004,12 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/11-21-030/</link>
         <pubDate>Sat, 21 Nov 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
         <description><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
@@ -9916,12 +10023,12 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/11-20-029/</link>
         <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
         <description><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 028. Интервью с Пайком и интеграционные тесты</title>
         <itunes:subtitle>Выпуск 028. Интервью с Пайком и интеграционные тесты</itunes:subtitle>
@@ -9963,7 +10070,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/11-19-028/</link>
         <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/11-19-028/</guid>
         <description><![CDATA[
 
@@ -9996,7 +10103,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/LK4D4math">Александр</a>.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 027. DotGo. В гостях Елена Граховац</title>
         <itunes:subtitle>Выпуск 027. DotGo. В гостях Елена Граховац</itunes:subtitle>
@@ -10037,7 +10144,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/11-13-027/</link>
         <pubDate>Fri, 13 Nov 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/11-13-027/</guid>
         <description><![CDATA[
 
@@ -10069,7 +10176,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Ведущие этого выпуска: Артём, Иван, Слава.</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 026. В гостях Нодир Туракулов из Google</title>
         <itunes:subtitle>Выпуск 026. В гостях Нодир Туракулов из Google</itunes:subtitle>
@@ -10116,7 +10223,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/11-05-026/</link>
         <pubDate>Thu, 05 Nov 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/11-05-026/</guid>
         <description><![CDATA[
 
@@ -10154,7 +10261,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 <p>Возможно следующий выпуск будет вне расписания прямиком с конференции <a href="http://dotgo.eu">dotGo</a> =)</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 025. Medium и RTB</title>
         <itunes:subtitle>Выпуск 025. Medium и RTB</itunes:subtitle>
@@ -10190,7 +10297,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/10-29-025/</link>
         <pubDate>Thu, 29 Oct 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/10-29-025/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10217,7 +10324,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 024. SpaceX и net/context</title>
         <itunes:subtitle>Выпуск 024. SpaceX и net/context</itunes:subtitle>
@@ -10254,7 +10361,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/10-22-024/</link>
         <pubDate>Thu, 22 Oct 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/10-22-024/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10282,7 +10389,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 023. Влад &#39;Компилятор&#39; Краснов из CloudFlare</title>
         <itunes:subtitle>Выпуск 023. Влад &#39;Компилятор&#39; Краснов из CloudFlare</itunes:subtitle>
@@ -10322,7 +10429,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/10-15-023/</link>
         <pubDate>Thu, 15 Oct 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/10-15-023/</guid>
         <description><![CDATA[<p>У нас в гостях <a href="https://github.com/vkrasnov">Влад Краснов</a> из компании <a href="https://www.cloudflare.com">CloudFlare</a>, автор значительных оптимизаций и ускорений в криптографических пакетах Go.</p>
 
@@ -10353,7 +10460,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 022. Бэтмен, ласточка, кит и робот</title>
         <itunes:subtitle>Выпуск 022. Бэтмен, ласточка, кит и робот</itunes:subtitle>
@@ -10387,7 +10494,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/10-08-022/</link>
         <pubDate>Thu, 08 Oct 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/10-08-022/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10412,7 +10519,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 021. Танзания и новинки от Hashicorp</title>
         <itunes:subtitle>Выпуск 021. Танзания и новинки от Hashicorp</itunes:subtitle>
@@ -10455,7 +10562,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/10-01-021/</link>
         <pubDate>Thu, 01 Oct 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/10-01-021/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10489,7 +10596,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 020. Go 1.4.3 и HTTP/2</title>
         <itunes:subtitle>Выпуск 020. Go 1.4.3 и HTTP/2</itunes:subtitle>
@@ -10530,7 +10637,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/09-24-020/</link>
         <pubDate>Thu, 24 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/09-24-020/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10562,7 +10669,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 019. Банк на Go и очередные success stories</title>
         <itunes:subtitle>Выпуск 019. Банк на Go и очередные success stories</itunes:subtitle>
@@ -10600,7 +10707,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/09-17-019/</link>
         <pubDate>Thu, 17 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/09-17-019/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10629,7 +10736,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 018. В гостях Светлана Божко и Антон Архипов. Java vs Go - гости из мира JVM</title>
         <itunes:subtitle>Выпуск 018. В гостях Светлана Божко и Антон Архипов. Java vs Go - гости из мира JVM</itunes:subtitle>
@@ -10653,7 +10760,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/09-16-018/</link>
         <pubDate>Wed, 16 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/09-16-018/</guid>
         <description><![CDATA[<p>В гостах <a href="https://twitter.com/sbozhko">Светлана Божко</a> из <a href="http://devzen.ru">подкаста DevZen</a> и <a href="https://twitter.com/antonarhipov">Антон Архипов</a> из <a href="http://razbor-poletov.com">подкаста Разбор Полетов</a>.</p>
 
@@ -10668,7 +10775,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 017. В гостях Алексей Акулович из ВКонтакте</title>
         <itunes:subtitle>Выпуск 017. В гостях Алексей Акулович из ВКонтакте</itunes:subtitle>
@@ -10713,7 +10820,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/09-10-017/</link>
         <pubDate>Thu, 10 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/09-10-017/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -10749,7 +10856,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</title>
         <itunes:subtitle>Вопросы к выпуску 016. Гость Дмитрий Вьюков, разработчик языка Go</itunes:subtitle>
@@ -10765,14 +10872,14 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/post/2015/09-03-before-015/</link>
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/post/2015/09-03-before-015/</guid>
         <description><![CDATA[<p>Вот уже второй выпуск подряд у нас будет гость. На этот раз, это один из разработчиков языка Go - Дмитрий Вьюков. Дима знает всё про внутреннее устройство языка и различные оптимизации.</p>
 
 <p>Как всегда, все ваши вопросы пишите в комментариях! =)</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 016. В гостях Дмитрий Вьюков</title>
         <itunes:subtitle>Выпуск 016. В гостях Дмитрий Вьюков</itunes:subtitle>
@@ -10807,7 +10914,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/09-03-016/</link>
         <pubDate>Thu, 03 Sep 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/09-03-016/</guid>
         <description><![CDATA[<p>Это был один из самых гиковских выпусков нашего шоу, и в этом нам помог <a href="https://twitter.com/dvyukov">Дмитрий Вьюков</a>, один из разработчиков языка Go.</p>
 
@@ -10833,7 +10940,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 015. Basecamp, Apple и ускорение AES-GCM в 30 раз</title>
         <itunes:subtitle>Выпуск 015. Basecamp, Apple и ускорение AES-GCM в 30 раз</itunes:subtitle>
@@ -10875,7 +10982,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/08-31-015/</link>
         <pubDate>Mon, 31 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/08-31-015/</guid>
         <description><![CDATA[<p>В этом выпуске обсуждаем свежую порцию новостей и статей из мира Go.</p>
 
@@ -10908,7 +11015,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 014. Александр Морозов из Docker</title>
         <itunes:subtitle>Выпуск 014. Александр Морозов из Docker</itunes:subtitle>
@@ -10947,7 +11054,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/08-27-014/</link>
         <pubDate>Thu, 27 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/08-27-014/</guid>
         <description><![CDATA[<p>В 14 выпуске к нам пришёл <a href="https://twitter.com/LK4D4math">Александр Морозов</a> из компании Docker. Он занимается разработкой ядра докера и в частности <a href="https://github.com/opencontainers/runc">runC</a></p>
 
@@ -10977,7 +11084,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Вопросы к выпуску 014. Гость из Docker.</title>
         <itunes:subtitle>Вопросы к выпуску 014. Гость из Docker.</itunes:subtitle>
@@ -10992,13 +11099,13 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/post/2015/08-26-before-014/</link>
         <pubDate>Wed, 26 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/post/2015/08-26-before-014/</guid>
         <description><![CDATA[<p>В четырнадцатом выпуске у нас будет гость из компании Docker.
 Если у вас есть вопросы к <a href="https://twitter.com/lk4d4math">Александру</a>, пишите в комментариях! =)</p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 013. Релиз Go 1.5</title>
         <itunes:subtitle>Выпуск 013. Релиз Go 1.5</itunes:subtitle>
@@ -11037,7 +11144,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/08-20-013/</link>
         <pubDate>Thu, 20 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/08-20-013/</guid>
         <description><![CDATA[<p>Обсуждаем релиз Go 1.5.</p>
 
@@ -11067,7 +11174,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 012. DevZen и Бенуа Мандельброт</title>
         <itunes:subtitle>Выпуск 012. DevZen и Бенуа Мандельброт</itunes:subtitle>
@@ -11092,7 +11199,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/08-13-012/</link>
         <pubDate>Thu, 13 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/08-13-012/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -11108,7 +11215,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 011. BlackHat, шахматы и Pike</title>
         <itunes:subtitle>Выпуск 011. BlackHat, шахматы и Pike</itunes:subtitle>
@@ -11136,7 +11243,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/08-06-011/</link>
         <pubDate>Thu, 06 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/08-06-011/</guid>
         <description><![CDATA[<p>Новости по ходу обсуждения:</p>
 
@@ -11155,7 +11262,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 010. Интервью с Евгением Якубовичем из CoreOS</title>
         <itunes:subtitle>Выпуск 010. Интервью с Евгением Якубовичем из CoreOS</itunes:subtitle>
@@ -11186,7 +11293,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/08-04-010/</link>
         <pubDate>Tue, 04 Aug 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/08-04-010/</guid>
         <description><![CDATA[<p>В гостях Евгений Якубович из CoreOS.</p>
 
@@ -11208,7 +11315,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 009. Марафон. В гостях Андрей Листочкин</title>
         <itunes:subtitle>Выпуск 009. Марафон. В гостях Андрей Листочкин</itunes:subtitle>
@@ -11237,7 +11344,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/07-30-009/</link>
         <pubDate>Thu, 30 Jul 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/07-30-009/</guid>
         <description><![CDATA[<p>В гостях Андрей Листочкин.</p>
 
@@ -11257,7 +11364,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 008. Бонусный. В гостях Дмитрий Честных из StableLib</title>
         <itunes:subtitle>Выпуск 008. Бонусный. В гостях Дмитрий Честных из StableLib</itunes:subtitle>
@@ -11282,7 +11389,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/07-29-008/</link>
         <pubDate>Wed, 29 Jul 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/07-29-008/</guid>
         <description><![CDATA[<p>В гостях Дмитрий Честных из StableLib.</p>
 
@@ -11298,7 +11405,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 007. New York, New York</title>
         <itunes:subtitle>Выпуск 007. New York, New York</itunes:subtitle>
@@ -11324,7 +11431,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/07-23-007/</link>
         <pubDate>Thu, 23 Jul 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/07-23-007/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -11341,7 +11448,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 006. GopherCon 2015, часть 2</title>
         <itunes:subtitle>Выпуск 006. GopherCon 2015, часть 2</itunes:subtitle>
@@ -11368,7 +11475,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/07-16-006/</link>
         <pubDate>Thu, 16 Jul 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/07-16-006/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -11386,7 +11493,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 005. GopherCon 2015, часть 1</title>
         <itunes:subtitle>Выпуск 005. GopherCon 2015, часть 1</itunes:subtitle>
@@ -11412,7 +11519,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/07-09-005/</link>
         <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/07-09-005/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -11429,7 +11536,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 004.</title>
         <itunes:subtitle>Выпуск 004.</itunes:subtitle>
@@ -11451,7 +11558,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/07-02-004/</link>
         <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/07-02-004/</guid>
         <description><![CDATA[<p>Новости:</p>
 
@@ -11464,7 +11571,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </ul>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 003.</title>
         <itunes:subtitle>Выпуск 003.</itunes:subtitle>
@@ -11477,11 +11584,11 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/06-25-003/</link>
         <pubDate>Thu, 25 Jun 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/06-25-003/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 002.</title>
         <itunes:subtitle>Выпуск 002.</itunes:subtitle>
@@ -11494,11 +11601,11 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/06-18-002/</link>
         <pubDate>Thu, 18 Jun 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/06-18-002/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Выпуск 001. Пилотный</title>
         <itunes:subtitle>Выпуск 001. Пилотный</itunes:subtitle>
@@ -11511,11 +11618,11 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/episode/2015/06-11-001/</link>
         <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/episode/2015/06-11-001/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title>Онлайн вещание</title>
         <itunes:subtitle>Онлайн вещание</itunes:subtitle>
@@ -11547,7 +11654,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/online/</link>
         <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/online/</guid>
         <description><![CDATA[<p>Онлайн вещание доступно во время записи новых эпизодов. Записи происходят каждый четверг в 20:00 МСК.</p>
 
@@ -11570,7 +11677,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 </p>
 ]]></description>
       </item>
-
+    
       <item>
         <title>Подкаст о языке программирования Go и смежных темах</title>
         <itunes:subtitle>Подкаст о языке программирования Go и смежных темах</itunes:subtitle>
@@ -11583,11 +11690,11 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/about/</link>
         <pubDate>Thu, 11 Jun 2015 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/about/</guid>
         <description><![CDATA[]]></description>
       </item>
-
+    
       <item>
         <title></title>
         <itunes:subtitle></itunes:subtitle>
@@ -11637,7 +11744,7 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <link>http://golangshow.com/subscribe/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-
+        
         <guid>http://golangshow.com/subscribe/</guid>
         <description><![CDATA[<!--{{ partial "head.html" . }}-->
 
@@ -11678,6 +11785,6 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
 ]]></description>
       </item>
-
+    
   </channel>
 </rss>
