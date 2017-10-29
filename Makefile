@@ -11,6 +11,8 @@ init:
 	brew install hugo
 
 upload: build whitespace
+	git add .
+	git commit -a -m "[autocommit] Prepare a new episode"
 	git push
 	rsync -avz -e ssh public/ root@golangshow.com:golangshow-data/www
 
