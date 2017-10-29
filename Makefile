@@ -10,7 +10,7 @@ watch:
 
 init:
 	brew update
-	brew install hugo pre-commit
+	brew install go hugo pre-commit
 	pre-commit install
 
 upload:
