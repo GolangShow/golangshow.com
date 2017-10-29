@@ -10,12 +10,119 @@
     <itunes:author>Подкаст GolangShow</itunes:author>
     <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
     <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.26</generator>
+    <generator>Hugo 0.30.2</generator>
     <itunes:image href="http://golangshow.com/images/cover.png" />
     <itunes:category text="Technology">
         <itunes:category text="Software How-To" />
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
+
+      <item>
+        <title>Выпуск 109. Обзор новостей и проектов</title>
+        <itunes:subtitle>Выпуск 109. Обзор новостей и проектов</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-09-13.md&#34;&gt;Традиционный отчет от Саши&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/f04d5836181dec3ec1b7e427607f02fa7a204a2d&#34;&gt;testing: parallelize tests over count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/46aa9f5437b000fad3696b0cd9fd97995da16411&#34;&gt;strconv: optimize Atoi for common case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/a4140b745ce22c56821750001f30fca4020b4650&#34;&gt;fmt: document verbs %b %d %o %x %X for printing pointers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/bf90da97c1aaec78d2f8ad8b74a506d3b6f0ee75&#34;&gt;cmd/fix: rewrite x/net/context by default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/a2dfe5d278eae0864397a046a8206342a426d2bd&#34;&gt;math/rand: add Shuffle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/76f4fd8a5251b4f63ea14a3c1e2fe2e78eb74f81&#34;&gt;runtime: improve timers scalability on multi-CPU systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/6a7c63a08ab353c7e41cb24ae66e73fb3cb7cb56&#34;&gt;runtime: optimize siftupTimer and siftdownTimer a bit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lemire.me/blog/2017/09/05/go-does-not-inline-functions-when-it-should/&#34;&gt;Go does not inline functions when it should&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/community-outreach-working-group&#34;&gt;Community Outreach Working Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nginx.com/products/nginx-unit/&#34;&gt;NGINX Unit: A New Open Source App Server That Supports Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.filippo.io/rustgo/&#34;&gt;rustgo: calling rust from go with near-zero overhead&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/goby-lang/goby&#34;&gt;https://github.com/goby-lang/goby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/posener/complete&#34;&gt;https://github.com/posener/complete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://transform.now.sh/json-to-go/&#34;&gt;https://transform.now.sh/json-to-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gnorm.org&#34;&gt;https://gnorm.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/109.mp3" length="17058725" type="audio/mpeg" />
+        <itunes:duration>00:40:46</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/09-13-109/</link>
+        <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/09-13-109/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/LK4D4/report/blob/master/reports/golang-09-13.md&#34;&gt;Традиционный отчет от Саши&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/f04d5836181dec3ec1b7e427607f02fa7a204a2d&#34;&gt;testing: parallelize tests over count&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/46aa9f5437b000fad3696b0cd9fd97995da16411&#34;&gt;strconv: optimize Atoi for common case&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/a4140b745ce22c56821750001f30fca4020b4650&#34;&gt;fmt: document verbs %b %d %o %x %X for printing pointers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/bf90da97c1aaec78d2f8ad8b74a506d3b6f0ee75&#34;&gt;cmd/fix: rewrite x/net/context by default&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/a2dfe5d278eae0864397a046a8206342a426d2bd&#34;&gt;math/rand: add Shuffle&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/76f4fd8a5251b4f63ea14a3c1e2fe2e78eb74f81&#34;&gt;runtime: improve timers scalability on multi-CPU systems&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/6a7c63a08ab353c7e41cb24ae66e73fb3cb7cb56&#34;&gt;runtime: optimize siftupTimer and siftdownTimer a bit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lemire.me/blog/2017/09/05/go-does-not-inline-functions-when-it-should/&#34;&gt;Go does not inline functions when it should&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/community-outreach-working-group&#34;&gt;Community Outreach Working Group&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.nginx.com/products/nginx-unit/&#34;&gt;NGINX Unit: A New Open Source App Server That Supports Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.filippo.io/rustgo/&#34;&gt;rustgo: calling rust from go with near-zero overhead&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/goby-lang/goby&#34;&gt;https://github.com/goby-lang/goby&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/posener/complete&#34;&gt;https://github.com/posener/complete&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://transform.now.sh/json-to-go/&#34;&gt;https://transform.now.sh/json-to-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gnorm.org&#34;&gt;https://gnorm.org&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gdg-siberia.com&#34;&gt;DevFest Siberia 2017&lt;/a&gt; в Новосибирске, 23-24 сентября&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Andy One, Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/dadabird&#34;&gt;Андрей&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
 
       <item>
         <title>Выпуск 108. Кратко про Go 1.9</title>
