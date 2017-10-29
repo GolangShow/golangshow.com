@@ -4,7 +4,7 @@ osx_image: xcode8.3
 script:
   - make init
   - make build
-  - pre-commit run --all-files
+  - make whitespace
 
   # check that up-to-date public/ is committed
   - git status
