@@ -12,4 +12,6 @@ init:
 	brew install hugo
 
 upload:
+	git diff --exit-code
+	git push
 	rsync -avz -e ssh public/ root@golangshow.com:golangshow-data/www
