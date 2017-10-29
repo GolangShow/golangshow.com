@@ -1,11 +1,7 @@
-html:
+build:
 	rm -fr public
 	hugo --theme=golangshow
-
-whitespace:
 	go run tools/strip-whitespace/main.go
-
-build: html whitespace go
 	$(info -------------------------------------------------------------------------------------)
 	$(info Yeah! The code is ready for upload, please don't forget to check, commit and push it.)
 	$(info After that, you can run `make upload` to publish the site.)
