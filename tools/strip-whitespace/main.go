@@ -11,30 +11,19 @@ import (
 )
 
 var Extensions = map[string]bool{
+	".md":  true,
 	".txt": true,
 
-	".java":  true,
-	".py":    true,
-	".rb":    true,
-	".js":    true,
-	".m":     true,
-	".proto": true,
-
-	".j2":         true,
-	".ini":        true,
-	".conf":       true,
-	".properties": true,
+	".go": true,
 
 	".css":  true,
 	".html": true,
+	".js":   true,
 
-	".md": true,
-
-	".json": true,
+	".toml": true,
 	".xml":  true,
+	".yaml": true,
 	".yml":  true,
-
-	".sql": true,
 }
 
 var (
@@ -54,9 +43,7 @@ func processFile(path string, info os.FileInfo) {
 		Lines = append(Lines, strings.TrimRightFunc(scanner.Text(), unicode.IsSpace))
 	}
 	if err = scanner.Err(); err != nil {
-		log.Print(err)
-		// log.Fatal(err)
-		return
+		log.Fatal(err)
 	}
 
 	f.Close()
@@ -96,7 +83,7 @@ func main() {
 
 		if Extensions[filepath.Ext(path)] {
 			processFile(path, info)
-			log.Print(path)
+			// log.Print(path)
 		}
 
 		return nil
