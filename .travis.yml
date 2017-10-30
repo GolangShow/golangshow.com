@@ -1,0 +1,10 @@
+os: osx
+osx_image: xcode9
+
+script:
+  - make init
+  - make build
+
+  # check that up-to-date public/ is committed
+  - git status
+  - git diff --exit-code
