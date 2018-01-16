@@ -18,6 +18,125 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 110. Go или Golang от Лёши и Артёма</title>
+        <itunes:subtitle>Выпуск 110. Go или Golang от Лёши и Артёма</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22083&#34;&gt;cmd/compile: reports wrong line number when calling a method in multiple lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21948&#34;&gt;crypto/sha256: provide a way to efficiently hash multiple byte slices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22051&#34;&gt;proposal: Go 2: method signature overloading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22013&#34;&gt;proposal: Go 2: remove embedded struct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21985&#34;&gt;proposal: Go 2: sends on closed channels do not panic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21956&#34;&gt;Proposal: Just Use Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22120&#34;&gt;Proposal: use tooling that encourages reviewers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22024&#34;&gt;Reading data piped through os.Stdin hangs on Windows version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21717&#34;&gt;runtime: &amp;ldquo;sweep increased allocation count&amp;rdquo; when using reflect.Call&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22037&#34;&gt;runtime: nanosecond precision lost since mac os x high sierra update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22023&#34;&gt;runtime: runtime.GC() does not trigger GC if GOGC=off&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21806&#34;&gt;runtime: select is not fair&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://commandcenter.blogspot.com.cy/2017/09/go-ten-years-and-climbing.html&#34;&gt;Go: Ten years and climbing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segment.com/blog/allocation-efficiency-in-high-performance-go-services&#34;&gt;Allocation Efficiency in High-Performance Go Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrahabr.ru/post/338718/&#34;&gt;Разбираемся с новым sync.Map в Go 1.9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ericfreese/rat&#34;&gt;https://github.com/ericfreese/rat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/EtixLabs/cameradar&#34;&gt;https://github.com/EtixLabs/cameradar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asciimoo/colly&#34;&gt;https://github.com/asciimoo/colly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hybridgroup/gocv&#34;&gt;https://github.com/hybridgroup/gocv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gernest/wow&#34;&gt;https://github.com/gernest/wow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку всех наших патронов!
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Благодарим &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константина&lt;/a&gt; за помощь в подготовке звука для выпуска.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/110.mp3" length="16319084" type="audio/mpeg" />
+        <itunes:duration>00:52:48</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/10-11-110/</link>
+        <pubDate>Wed, 11 Oct 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/10-11-110/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22083&#34;&gt;cmd/compile: reports wrong line number when calling a method in multiple lines&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21948&#34;&gt;crypto/sha256: provide a way to efficiently hash multiple byte slices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22051&#34;&gt;proposal: Go 2: method signature overloading&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22013&#34;&gt;proposal: Go 2: remove embedded struct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21985&#34;&gt;proposal: Go 2: sends on closed channels do not panic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21956&#34;&gt;Proposal: Just Use Github&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22120&#34;&gt;Proposal: use tooling that encourages reviewers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22024&#34;&gt;Reading data piped through os.Stdin hangs on Windows version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21717&#34;&gt;runtime: &amp;ldquo;sweep increased allocation count&amp;rdquo; when using reflect.Call&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22037&#34;&gt;runtime: nanosecond precision lost since mac os x high sierra update&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22023&#34;&gt;runtime: runtime.GC() does not trigger GC if GOGC=off&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21806&#34;&gt;runtime: select is not fair&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://commandcenter.blogspot.com.cy/2017/09/go-ten-years-and-climbing.html&#34;&gt;Go: Ten years and climbing&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://segment.com/blog/allocation-efficiency-in-high-performance-go-services&#34;&gt;Allocation Efficiency in High-Performance Go Services&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://habrahabr.ru/post/338718/&#34;&gt;Разбираемся с новым sync.Map в Go 1.9&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;проекты-библиотеки-и-примеры-кода&#34;&gt;Проекты, библиотеки и примеры кода&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ericfreese/rat&#34;&gt;https://github.com/ericfreese/rat&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/EtixLabs/cameradar&#34;&gt;https://github.com/EtixLabs/cameradar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/asciimoo/colly&#34;&gt;https://github.com/asciimoo/colly&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hybridgroup/gocv&#34;&gt;https://github.com/hybridgroup/gocv&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gernest/wow&#34;&gt;https://github.com/gernest/wow&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку всех наших патронов!
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/miolini&#34;&gt;Артём&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Благодарим &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константина&lt;/a&gt; за помощь в подготовке звука для выпуска.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 109. Обзор новостей и проектов</title>
         <itunes:subtitle>Выпуск 109. Обзор новостей и проектов</itunes:subtitle>
         <itunes:summary>
