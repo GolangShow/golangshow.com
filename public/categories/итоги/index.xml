@@ -1,102 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Подкаст GolangShow</title>
-    <link>http://golangshow.com/</link>
+    <title>Итоги on Подкаст GolangShow</title>
+    <link>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</link>
+    <description>Recent content in Итоги on Подкаст GolangShow</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <copyright>&#x2117; &amp; &#xA9; 2015-2017, Команда GolangShow</copyright>
-    <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
-    <itunes:author>Подкаст GolangShow</itunes:author>
-    <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
-    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.31.1</generator>
-    <itunes:image href="http://golangshow.com/images/cover_big.png" />
-    <itunes:category text="Technology">
-        <itunes:category text="Software How-To" />
-    </itunes:category>
-    <itunes:explicit>no</itunes:explicit>
+    <copyright>All rights reserved - 2015-2017</copyright>
+    <lastBuildDate>Tue, 29 Dec 2015 00:00:00 +0000</lastBuildDate>
 
-      <item>
-        <title>Выпуск 036. Новогодние посиделки у камина</title>
-        <itunes:subtitle>Выпуск 036. Новогодние посиделки у камина</itunes:subtitle>
-        <itunes:summary><![CDATA[
+	<atom:link href="http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/index.xml" rel="self" type="application/rss+xml" />
 
-<p><img src="/images/go_fireplace.png" alt="logo" /></p>
 
-<h2 id="новости">Новости</h2>
+    <item>
+      <title>Выпуск 036. Новогодние посиделки у камина</title>
+      <link>http://golangshow.com/episode/2015/12-29-036/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
 
-<ul>
-<li>Подводим итоги года</li>
-<li><a href="https://golangshow.com/categories/гости/">Вспоминаем гостей подкаста</a></li>
-<li><a href="http://habrahabr.ru/post/274057/">Go в 2015 году</a></li>
-<li><a href="https://habrastorage.org/files/d46/a17/ee7/d46a17ee745640cc804aa1a01f5a66d4.png">Области применения Go</a></li>
-<li><a href="http://habrahabr.ru/post/269355/">С чего начать новичку в Go</a></li>
-<li>Каким мы видим будущее Go в следующем году</li>
-<li>Конкурс для слушателей</li>
-</ul>
-
-<h2 id="пакеты">Пакеты</h2>
-
-<ul>
-<li><a href="https://github.com/divan/psh">https://github.com/divan/psh</a></li>
-<li><a href="https://github.com/progrium/go-basher">https://github.com/progrium/go-basher</a></li>
-</ul>
-
-<h2 id="митапы-и-конференции">Митапы и конференции</h2>
-
-<ul>
-<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Митап во Львове, 23 января</a></li>
-</ul>
-
-<h3 id="ведущие-этого-выпуска">Ведущие этого выпуска:</h3>
-
-<p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a></p>
-]]></itunes:summary>
-
-        <itunes:author>Подкаст GolangShow</itunes:author>
-        <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://golangshow.com/cdn/episodes/036.mp3" length="43382536" type="audio/mpeg" />
-        <itunes:duration>00:57:56</itunes:duration>
-
-        <link>http://golangshow.com/episode/2015/12-29-036/</link>
-        <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-
-        <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
-        <description><![CDATA[
-
-<p><img src="/images/go_fireplace.png" alt="logo" /></p>
-
-<h2 id="новости">Новости</h2>
-
-<ul>
-<li>Подводим итоги года</li>
-<li><a href="https://golangshow.com/categories/гости/">Вспоминаем гостей подкаста</a></li>
-<li><a href="http://habrahabr.ru/post/274057/">Go в 2015 году</a></li>
-<li><a href="https://habrastorage.org/files/d46/a17/ee7/d46a17ee745640cc804aa1a01f5a66d4.png">Области применения Go</a></li>
-<li><a href="http://habrahabr.ru/post/269355/">С чего начать новичку в Go</a></li>
-<li>Каким мы видим будущее Go в следующем году</li>
-<li>Конкурс для слушателей</li>
-</ul>
-
-<h2 id="пакеты">Пакеты</h2>
-
-<ul>
-<li><a href="https://github.com/divan/psh">https://github.com/divan/psh</a></li>
-<li><a href="https://github.com/progrium/go-basher">https://github.com/progrium/go-basher</a></li>
-</ul>
-
-<h2 id="митапы-и-конференции">Митапы и конференции</h2>
-
-<ul>
-<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/227453083/">Митап во Львове, 23 января</a></li>
-</ul>
-
-<h3 id="ведущие-этого-выпуска">Ведущие этого выпуска:</h3>
-
-<p><a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>, <a href="https://twitter.com/webdeva">Елена</a>, <a href="https://twitter.com/m0sth8">Слава</a></p>
-]]></description>
-      </item>
+      <guid>http://golangshow.com/episode/2015/12-29-036/</guid>
+      <description>Новости  Подводим итоги года Вспоминаем гостей подкаста Go в 2015 году Области применения Go С чего начать новичку в Go Каким мы видим будущее Go в следующем году Конкурс для слушателей  Пакеты  https://github.com/divan/psh https://github.com/progrium/go-basher  Митапы и конференции  Митап во Львове, 23 января  Ведущие этого выпуска: Артём, Алексей, Иван, Елена, Слава</description>
+    </item>
 
   </channel>
 </rss>

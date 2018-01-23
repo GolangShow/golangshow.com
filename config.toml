@@ -21,7 +21,7 @@ copyright = "All rights reserved - 2015-2017"
   defaultKeywords = "Go,golang,подкаст"
   # cover = "/images/cover.png"
   logo = "/images/logo2.png"
-  theme = "theme-base-0d"
+  themeClass = "theme-base-0d"
 
   home = "Главная"
 

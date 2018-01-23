@@ -1,106 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
-  <!-- This feed is _not_ for iTunes, see episode.rss.xml for that. -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Подкаст GolangShow</title>
-    <link>http://golangshow.com/</link>
+    <title>Categories on Подкаст GolangShow</title>
+    <link>http://golangshow.com/categories/</link>
+    <description>Recent content in Categories on Подкаст GolangShow</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <copyright>&#x2117; &amp; &#xA9; 2015-2017, Команда GolangShow</copyright>
-    <itunes:subtitle>Русскоязычный подкаст о языке Go</itunes:subtitle>
-    <itunes:author>Подкаст GolangShow</itunes:author>
-    <itunes:summary>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру</itunes:summary>
-    <description>В русскоязычном подкасте о языке программирования Go мы обсуждаем свежие новости, приглашаем интересных гостей, рассказываем о проходящих конференциях по всему миру. Ключевые слова: go, golang, golangshow.</description>
-    <generator>Hugo 0.31.1</generator>
-    <itunes:image href="http://golangshow.com/images/cover_big.png" />
-    <itunes:category text="Technology">
-        <itunes:category text="Software How-To" />
-    </itunes:category>
-    <itunes:explicit>no</itunes:explicit>
+    <copyright>All rights reserved - 2015-2017</copyright>
 
-      <item>
-        <title>Гости</title>
-        <itunes:subtitle>Гости</itunes:subtitle>
-        <itunes:summary><![CDATA[]]></itunes:summary>
+	<atom:link href="http://golangshow.com/categories/index.xml" rel="self" type="application/rss+xml" />
 
-        <itunes:author>Подкаст GolangShow</itunes:author>
-        <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://" length="" type="audio/mpeg" />
-        <itunes:duration></itunes:duration>
 
-        <link>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</link>
-        <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
+    <item>
+      <title>Гости</title>
+      <link>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</link>
+      <pubDate>Wed, 09 Aug 2017 00:00:00 +0000</pubDate>
 
-        <guid>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</guid>
-        <description><![CDATA[]]></description>
-      </item>
+      <guid>http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8/</guid>
+      <description></description>
+    </item>
 
-      <item>
-        <title>Интервью</title>
-        <itunes:subtitle>Интервью</itunes:subtitle>
-        <itunes:summary><![CDATA[]]></itunes:summary>
+    <item>
+      <title>Интервью</title>
+      <link>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
 
-        <itunes:author>Подкаст GolangShow</itunes:author>
-        <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://" length="" type="audio/mpeg" />
-        <itunes:duration></itunes:duration>
+      <guid>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</guid>
+      <description></description>
+    </item>
 
-        <link>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</link>
-        <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+    <item>
+      <title>Итоги</title>
+      <link>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
 
-        <guid>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</guid>
-        <description><![CDATA[]]></description>
-      </item>
+      <guid>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</guid>
+      <description></description>
+    </item>
 
-      <item>
-        <title>Итоги</title>
-        <itunes:subtitle>Итоги</itunes:subtitle>
-        <itunes:summary><![CDATA[]]></itunes:summary>
+    <item>
+      <title>Камин</title>
+      <link>http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD/</link>
+      <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
 
-        <itunes:author>Подкаст GolangShow</itunes:author>
-        <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://" length="" type="audio/mpeg" />
-        <itunes:duration></itunes:duration>
+      <guid>http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD/</guid>
+      <description></description>
+    </item>
 
-        <link>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</link>
-        <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
+    <item>
+      <title>Новости</title>
+      <link>http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</link>
+      <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
 
-        <guid>http://golangshow.com/categories/%D0%B8%D1%82%D0%BE%D0%B3%D0%B8/</guid>
-        <description><![CDATA[]]></description>
-      </item>
-
-      <item>
-        <title>Камин</title>
-        <itunes:subtitle>Камин</itunes:subtitle>
-        <itunes:summary><![CDATA[]]></itunes:summary>
-
-        <itunes:author>Подкаст GolangShow</itunes:author>
-        <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://" length="" type="audio/mpeg" />
-        <itunes:duration></itunes:duration>
-
-        <link>http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD/</link>
-        <pubDate>Tue, 29 Dec 2015 00:00:00 +0000</pubDate>
-
-        <guid>http://golangshow.com/categories/%D0%BA%D0%B0%D0%BC%D0%B8%D0%BD/</guid>
-        <description><![CDATA[]]></description>
-      </item>
-
-      <item>
-        <title>Новости</title>
-        <itunes:subtitle>Новости</itunes:subtitle>
-        <itunes:summary><![CDATA[]]></itunes:summary>
-
-        <itunes:author>Подкаст GolangShow</itunes:author>
-        <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://" length="" type="audio/mpeg" />
-        <itunes:duration></itunes:duration>
-
-        <link>http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</link>
-        <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
-
-        <guid>http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</guid>
-        <description><![CDATA[]]></description>
-      </item>
+      <guid>http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</guid>
+      <description></description>
+    </item>
 
   </channel>
 </rss>

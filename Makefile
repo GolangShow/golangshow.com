@@ -6,7 +6,7 @@ build:
 
 watch:
 	open http://127.0.0.1:1313
-	hugo server --buildDrafts --watch --theme=golangshow
+	hugo server --buildDrafts --disableFastRender --watch --theme=golangshow
 
 init:
 	brew update
