@@ -18,6 +18,103 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 111. Лучше поздно, чем никогда</title>
+        <itunes:subtitle>Выпуск 111. Лучше поздно, чем никогда</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Традиционный отчет от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22350&#34;&gt;cmd/compile: compiler can unexpectedly preserve memory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22266&#34;&gt;cmd/go: fix TestImportMain not to write to current directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22220&#34;&gt;cmd/go: &amp;ldquo;fork/exec foo.test: text file busy&amp;rdquo; flakes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22394&#34;&gt;runtime: Windows 2008: all goroutines are asleep - deadlock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/10741&#34;&gt;archive/zip: need new api to support local file name encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/13739&#34;&gt;crypto/x509: add Name Constraints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/11862&#34;&gt;crypto/x509: CreateCertificateRequest cannot write extensions with critical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22282&#34;&gt;doc: delete mention of compiled binaries from spec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22180&#34;&gt;proposal: Go 2: remove &lt;code&gt;byte&lt;/code&gt; alias and always use &lt;code&gt;uint8&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22013&#34;&gt;proposal: Go 2: remove embedded struct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/18517&#34;&gt;codereview: accept Github PRs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vluxe.io/flexible-server-structure.html&#34;&gt;Superior Server Structs in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation&#34;&gt;Context isn’t for cancellation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cryptolosophy.io/memory-security-go/&#34;&gt;Memory Security in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/dep/releases/tag/v0.3.2&#34;&gt;dep 0.3.2 is released&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Благодарим Романа Суворова за помощь в подготовке звука для выпуска.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/111.mp3" length="52562918" type="audio/mpeg" />
+        <itunes:duration>00:43:50</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/10-25-111/</link>
+        <pubDate>Wed, 25 Oct 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/10-25-111/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Традиционный отчет от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22350&#34;&gt;cmd/compile: compiler can unexpectedly preserve memory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22266&#34;&gt;cmd/go: fix TestImportMain not to write to current directory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22220&#34;&gt;cmd/go: &amp;ldquo;fork/exec foo.test: text file busy&amp;rdquo; flakes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22394&#34;&gt;runtime: Windows 2008: all goroutines are asleep - deadlock&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/10741&#34;&gt;archive/zip: need new api to support local file name encoding&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/13739&#34;&gt;crypto/x509: add Name Constraints&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/11862&#34;&gt;crypto/x509: CreateCertificateRequest cannot write extensions with critical&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22282&#34;&gt;doc: delete mention of compiled binaries from spec&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22180&#34;&gt;proposal: Go 2: remove &lt;code&gt;byte&lt;/code&gt; alias and always use &lt;code&gt;uint8&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/22013&#34;&gt;proposal: Go 2: remove embedded struct&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/18517&#34;&gt;codereview: accept Github PRs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://vluxe.io/flexible-server-structure.html&#34;&gt;Superior Server Structs in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2017/08/20/context-isnt-for-cancellation&#34;&gt;Context isn’t for cancellation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cryptolosophy.io/memory-security-go/&#34;&gt;Memory Security in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/dep/releases/tag/v0.3.2&#34;&gt;dep 0.3.2 is released&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.dotgo.eu&#34;&gt;dotGo 2017&lt;/a&gt; в Париже, 6 ноября, промокоды GOLANGSHOW или GOLANGMOSCOW для скидки в 20%&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов: Станислава Афанасьева, Алексея Мельника, Александра Некрасова, Алексея Акуловича, Максима Тищенко, Данилу Писарева, Джалиля Акбашева, Романа Будникова, Романа Нехорошева, Сергея Шушпанова, Егора Андреенко и всех-все-всех!
+Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска: &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Благодарим Романа Суворова за помощь в подготовке звука для выпуска.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 110. Go или Golang от Лёши и Артёма</title>
         <itunes:subtitle>Выпуск 110. Go или Golang от Лёши и Артёма</itunes:subtitle>
         <itunes:summary>
