@@ -18,6 +18,173 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 112. Лучше поздно, чем никогда - 2</title>
+        <itunes:subtitle>Выпуск 112. Лучше поздно, чем никогда - 2</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-11-15.md">Традиционный отчет от Александра</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/c85b12b5796c7efd4d8311253208b47449161361">runtime: make LockOSThread/UnlockOSThread nested</a></li>
+<li><a href="https://github.com/golang/go/commit/0011cfbe2b57b385bac25a3daf9de581ee263661">cmd/compile: optimize signed non-negative div/mod by a power of 2</a></li>
+<li><a href="https://github.com/golang/go/commit/2595fe7fb6f272f9204ca3ef0b0c55e66fb8d90f">runtime: don&rsquo;t start new threads from locked threads</a></li>
+<li><a href="https://github.com/golang/go/commit/eff2b2620db005cb58c266c0f25309d6f466cb25">runtime: make it possible to exit Go-created threads</a></li>
+<li><a href="https://github.com/golang/go/commit/1643d4f33a0ed45cef0f6d33aff207ad530f9c94">math/big: implement Lehmer&rsquo;s GCD algorithm</a></li>
+<li><a href="https://github.com/golang/go/commit/7e343134d334f7317b342db19c3e90d1f3f200cc">cmd/compile: compiler support for buffered write barrier</a></li>
+<li><a href="https://github.com/golang/go/commit/fc768da8b8030e6f344be6bbc86ae08c30f02849">cmd/vet: tighten printf format error messages</a></li>
+<li><a href="https://github.com/golang/go/commit/2596a0c075aeddec571cd658f748ac7a712a2b69">encoding/json: disallow unknown fields in Decoder</a></li>
+<li><a href="https://github.com/golang/go/commit/fbfc2031a673c95700e46ddf56404a0f648fc8a9">cmd/compile: specialize map creation for small hint sizes</a></li>
+<li><a href="https://github.com/golang/go/commit/de4b6ebf5d0a12f57ace43948b8b1b90f200fae9">cmd/go: cache built packages</a></li>
+<li><a href="https://github.com/golang/go/commit/bd95f889cdd241202fac01b29a3f3d7c03131a20">cmd/go: cache successful test results</a></li>
+<li><a href="https://github.com/golang/go/commit/0d188752524282496ebd0ab4b382bb4ff8750c90">cmd/go: run vet automatically during go test</a></li>
+<li><a href="https://github.com/golang/go/commit/283558e42b88a6afa39da6ad4ae87558dc053776">cmd/go: allow -coverprofile with multiple packages being tested</a></li>
+</ul></li>
+<li>Традиционный отчет от Алексея:
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/22729">proposal: Go 2: add kind-specific nil predeclared identifier constants</a></li>
+<li><a href="https://github.com/golang/go/issues/22122">proposal: Go 2: provide symbol (e.g. #) to abort/panic on non-zero return value</a></li>
+<li><a href="https://github.com/golang/go/issues/18892">meta: WebAssembly (&ldquo;wasm&rdquo;) support</a></li>
+<li><a href="https://github.com/golang/go/issues/22781">runtime: fatal error: sweep increased allocation count, go1.9.x</a></li>
+<li><a href="https://github.com/golang/go/issues/22880">net/http: &ldquo;missing status pseudo header&rdquo; when reusing HTTP/2 connection</a></li>
+<li><a href="https://github.com/golang/go/issues/22828">x/crypto/ssh/terminal: ReadPassword does not support umlauts on Windows</a></li>
+<li><a href="https://github.com/golang/go/issues/22278">os/exec: Pipe of command&rsquo;s stdout to network connection not working on windows</a></li>
+</ul></li>
+<li><a href="https://blog.golang.org/survey2017">User Survey 2017</a></li>
+<li><a href="https://blog.golang.org/8years">8 лет!</a></li>
+<li><a href="https://www.dotconferences.com/conference/dotgo-2017">Первые видео с dotGo 2017</a></li>
+<li><a href="https://devhints.io/go">Шпаркалки</a></li>
+<li><a href="https://rakyll.org/pprof-ui/">The new pprof user interface</a></li>
+<li><a href="https://blog.cloudflare.com/go-dont-collect-my-garbage/">Go, don&rsquo;t collect my garbage</a></li>
+<li><a href="https://gophercises.com">Gophercises</a></li>
+<li><a href="https://prometheus.io/blog/2017/11/08/announcing-prometheus-2-0/">Announcing Prometheus 2.0</a>
+
+<ul>
+<li><a href="http://devzen.ru/episode-0168/">Больше подробностей в DevZen 168</a></li>
+</ul></li>
+<li>Цикл статей по микросервисам на Go:
+
+<ul>
+<li><a href="https://ewanvalentine.io/microservices-in-golang-part-1/">Часть 1</a></li>
+<li><a href="https://ewanvalentine.io/microservices-in-golang-part-2/">Часть 2</a></li>
+</ul></li>
+<li><a href="https://blog.discordapp.com/how-discord-resizes-150-million-images-every-day-with-go-and-c-c9e98731c65d">How Discord Resizes 150 Million Images Every Day with Go and C++</a></li>
+<li><a href="https://blog.jetbrains.com/go/2017/11/02/announcing-goland-former-gogland-eap-18-final-product-name-templates-support-and-more/">Gogland переименовали в GoLand</a></li>
+</ul>
+
+<h2 id="пакеты-библиотеки-и-всякое-такое">Пакеты, библиотеки и всякое такое</h2>
+
+<ul>
+<li><a href="https://github.com/jung-kurt/gofpdf">https://github.com/jung-kurt/gofpdf</a></li>
+<li><a href="https://mengzhuo.github.io/yaml-to-go/">https://mengzhuo.github.io/yaml-to-go/</a></li>
+<li><a href="https://github.com/google/netstack">https://github.com/google/netstack</a></li>
+<li><a href="https://github.com/google/puffs">https://github.com/google/puffs</a></li>
+<li><a href="https://github.com/alexkohler/prealloc">https://github.com/alexkohler/prealloc</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку всех наших патронов: Aleksey Akulovich, Andy One, Roman Nekhoroshev, Yegor Andreenko, Aleksei Melnik, Jaleel Akbashev, Nevkontakte, Alexander Nekrasov, Sergey Serebryakov, Stanislav Afanasev, Ivan Prisyazhnyy, Bogdan Lobor, Pavel Kostetskiy, Andrey Luzin, Artem Kovardin, Andrew Vorobyov и других.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+<p>Благодарим Романа Суворова за помощь в подготовке звука для выпуска.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/112.mp3" length="86308130" type="audio/mpeg" />
+        <itunes:duration>01:11:59</itunes:duration>
+
+        <link>http://golangshow.com/episode/2017/11-29-112/</link>
+        <pubDate>Wed, 29 Nov 2017 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2017/11-29-112/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/LK4D4/report/blob/master/reports/golang-11-15.md">Традиционный отчет от Александра</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/c85b12b5796c7efd4d8311253208b47449161361">runtime: make LockOSThread/UnlockOSThread nested</a></li>
+<li><a href="https://github.com/golang/go/commit/0011cfbe2b57b385bac25a3daf9de581ee263661">cmd/compile: optimize signed non-negative div/mod by a power of 2</a></li>
+<li><a href="https://github.com/golang/go/commit/2595fe7fb6f272f9204ca3ef0b0c55e66fb8d90f">runtime: don&rsquo;t start new threads from locked threads</a></li>
+<li><a href="https://github.com/golang/go/commit/eff2b2620db005cb58c266c0f25309d6f466cb25">runtime: make it possible to exit Go-created threads</a></li>
+<li><a href="https://github.com/golang/go/commit/1643d4f33a0ed45cef0f6d33aff207ad530f9c94">math/big: implement Lehmer&rsquo;s GCD algorithm</a></li>
+<li><a href="https://github.com/golang/go/commit/7e343134d334f7317b342db19c3e90d1f3f200cc">cmd/compile: compiler support for buffered write barrier</a></li>
+<li><a href="https://github.com/golang/go/commit/fc768da8b8030e6f344be6bbc86ae08c30f02849">cmd/vet: tighten printf format error messages</a></li>
+<li><a href="https://github.com/golang/go/commit/2596a0c075aeddec571cd658f748ac7a712a2b69">encoding/json: disallow unknown fields in Decoder</a></li>
+<li><a href="https://github.com/golang/go/commit/fbfc2031a673c95700e46ddf56404a0f648fc8a9">cmd/compile: specialize map creation for small hint sizes</a></li>
+<li><a href="https://github.com/golang/go/commit/de4b6ebf5d0a12f57ace43948b8b1b90f200fae9">cmd/go: cache built packages</a></li>
+<li><a href="https://github.com/golang/go/commit/bd95f889cdd241202fac01b29a3f3d7c03131a20">cmd/go: cache successful test results</a></li>
+<li><a href="https://github.com/golang/go/commit/0d188752524282496ebd0ab4b382bb4ff8750c90">cmd/go: run vet automatically during go test</a></li>
+<li><a href="https://github.com/golang/go/commit/283558e42b88a6afa39da6ad4ae87558dc053776">cmd/go: allow -coverprofile with multiple packages being tested</a></li>
+</ul></li>
+<li>Традиционный отчет от Алексея:
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/22729">proposal: Go 2: add kind-specific nil predeclared identifier constants</a></li>
+<li><a href="https://github.com/golang/go/issues/22122">proposal: Go 2: provide symbol (e.g. #) to abort/panic on non-zero return value</a></li>
+<li><a href="https://github.com/golang/go/issues/18892">meta: WebAssembly (&ldquo;wasm&rdquo;) support</a></li>
+<li><a href="https://github.com/golang/go/issues/22781">runtime: fatal error: sweep increased allocation count, go1.9.x</a></li>
+<li><a href="https://github.com/golang/go/issues/22880">net/http: &ldquo;missing status pseudo header&rdquo; when reusing HTTP/2 connection</a></li>
+<li><a href="https://github.com/golang/go/issues/22828">x/crypto/ssh/terminal: ReadPassword does not support umlauts on Windows</a></li>
+<li><a href="https://github.com/golang/go/issues/22278">os/exec: Pipe of command&rsquo;s stdout to network connection not working on windows</a></li>
+</ul></li>
+<li><a href="https://blog.golang.org/survey2017">User Survey 2017</a></li>
+<li><a href="https://blog.golang.org/8years">8 лет!</a></li>
+<li><a href="https://www.dotconferences.com/conference/dotgo-2017">Первые видео с dotGo 2017</a></li>
+<li><a href="https://devhints.io/go">Шпаркалки</a></li>
+<li><a href="https://rakyll.org/pprof-ui/">The new pprof user interface</a></li>
+<li><a href="https://blog.cloudflare.com/go-dont-collect-my-garbage/">Go, don&rsquo;t collect my garbage</a></li>
+<li><a href="https://gophercises.com">Gophercises</a></li>
+<li><a href="https://prometheus.io/blog/2017/11/08/announcing-prometheus-2-0/">Announcing Prometheus 2.0</a>
+
+<ul>
+<li><a href="http://devzen.ru/episode-0168/">Больше подробностей в DevZen 168</a></li>
+</ul></li>
+<li>Цикл статей по микросервисам на Go:
+
+<ul>
+<li><a href="https://ewanvalentine.io/microservices-in-golang-part-1/">Часть 1</a></li>
+<li><a href="https://ewanvalentine.io/microservices-in-golang-part-2/">Часть 2</a></li>
+</ul></li>
+<li><a href="https://blog.discordapp.com/how-discord-resizes-150-million-images-every-day-with-go-and-c-c9e98731c65d">How Discord Resizes 150 Million Images Every Day with Go and C++</a></li>
+<li><a href="https://blog.jetbrains.com/go/2017/11/02/announcing-goland-former-gogland-eap-18-final-product-name-templates-support-and-more/">Gogland переименовали в GoLand</a></li>
+</ul>
+
+<h2 id="пакеты-библиотеки-и-всякое-такое">Пакеты, библиотеки и всякое такое</h2>
+
+<ul>
+<li><a href="https://github.com/jung-kurt/gofpdf">https://github.com/jung-kurt/gofpdf</a></li>
+<li><a href="https://mengzhuo.github.io/yaml-to-go/">https://mengzhuo.github.io/yaml-to-go/</a></li>
+<li><a href="https://github.com/google/netstack">https://github.com/google/netstack</a></li>
+<li><a href="https://github.com/google/puffs">https://github.com/google/puffs</a></li>
+<li><a href="https://github.com/alexkohler/prealloc">https://github.com/alexkohler/prealloc</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку всех наших патронов: Aleksey Akulovich, Andy One, Roman Nekhoroshev, Yegor Andreenko, Aleksei Melnik, Jaleel Akbashev, Nevkontakte, Alexander Nekrasov, Sergey Serebryakov, Stanislav Afanasev, Ivan Prisyazhnyy, Bogdan Lobor, Pavel Kostetskiy, Andrey Luzin, Artem Kovardin, Andrew Vorobyov и других.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+
+<p>Благодарим Романа Суворова за помощь в подготовке звука для выпуска.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 111. Лучше поздно, чем никогда</title>
         <itunes:subtitle>Выпуск 111. Лучше поздно, чем никогда</itunes:subtitle>
         <itunes:summary><![CDATA[
