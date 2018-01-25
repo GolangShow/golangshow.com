@@ -122,6 +122,102 @@ a#mailinglink {
 
     <div class="post">
       <h1 class="post-title">
+        <a href="http://golangshow.com/episode/2016/04-21-053/">Выпуск 053. В гостях Дмитрий Шуралёв из Sourcegraph. Релиз Go 1.6.2. Опыт использования VS Code.</a>
+      </h1>
+      <span class="post-date">Apr 21, 2016
+
+        <br/>
+        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a><a class="label" href="http://golangshow.com/categories/%D0%B3%D0%BE%D1%81%D1%82%D0%B8">гости</a>
+      </span>
+
+
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://twitter.com/shurcooL">Дмитрий Шуралёв</a> из <a href="https://sourcegraph.com">Sourcegraph</a>.</p>
+
+<h3 id="ссылки-от-гостя">Ссылки от гостя:</h3>
+
+<ul>
+<li><a href="https://github.com/shurcooL/play">https://github.com/shurcooL/play</a></li>
+<li><a href="https://github.com/shurcooL/Conception">https://github.com/shurcooL/Conception</a></li>
+<li><a href="https://github.com/shurcooL/Conception-go">https://github.com/shurcooL/Conception-go</a></li>
+<li><a href="https://github.com/gopherjs/gopherjs/blob/master/doc/packages.md">https://github.com/gopherjs/gopherjs/blob/master/doc/packages.md</a></li>
+<li><a href="http://www.gopherjs.org/blog/2015/09/28/surprises-in-gopherjs-performance/">http://www.gopherjs.org/blog/2015/09/28/surprises-in-gopherjs-performance/</a></li>
+<li><a href="https://github.com/gopherjs/gopherjs/issues/432">https://github.com/gopherjs/gopherjs/issues/432</a></li>
+<li>GXUI: <a href="https://github.com/google/gxui/issues/49">https://github.com/google/gxui/issues/49</a></li>
+<li><a href="https://github.com/golang/exp/tree/master/shiny">https://github.com/golang/exp/tree/master/shiny</a></li>
+<li>Игра: <a href="https://github.com/shurcooL/eX0/tree/master/eX0-go">https://github.com/shurcooL/eX0/tree/master/eX0-go</a>, <a href="https://dmitri.shuralyov.com/projects/eX0/eX0-go-client/">https://dmitri.shuralyov.com/projects/eX0/eX0-go-client/</a></li>
+<li>Ещё игра: <a href="https://github.com/shurcooL/Hover">https://github.com/shurcooL/Hover</a>, <a href="https://dmitri.shuralyov.com/projects/Hover-Demo/">https://dmitri.shuralyov.com/projects/Hover-Demo/</a></li>
+<li><a href="https://www.kickstarter.com/projects/2066438441/haunts-the-manse-macabre/posts/373466">https://www.kickstarter.com/projects/2066438441/haunts-the-manse-macabre/posts/373466</a></li>
+<li><a href="https://github.com/shurcooL/gostatus">https://github.com/shurcooL/gostatus</a></li>
+<li><a href="https://github.com/shurcooL/git-branches">https://github.com/shurcooL/git-branches</a></li>
+</ul>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/issues?q=milestone%3AGo1.6.2">Go 1.6.2 released</a></li>
+<li>Традиционный <a href="https://github.com/LK4D4/report/blob/master/reports/golang-04-21.txt">обзор от Александра</a> и свежие коммиты в репозитории Go:
+
+<ul>
+<li><a href="https://github.com/golang/go/commit/89a1f02834f1472cf307b222e14884ebd41086d3">hash/adler32: Unroll loop for extra performance</a></li>
+<li><a href="https://github.com/golang/go/commit/f60fcca5f1e7b7a33e219ec45d4bd9dc58dd2552">net: fix plan9 after context change, propagate contexts more</a></li>
+<li><a href="https://github.com/golang/go/commit/b6b4004d5a5bf7099ac9ab76777797236da7fe63">net: context plumbing, add Dialer.DialContext</a></li>
+<li><a href="https://github.com/golang/go/commit/585590549a3c6e26e7963081e11478a1913744a6">net/http: add Transport.Dialer, plumb RoundTrip contexts to net package</a></li>
+<li><a href="https://github.com/golang/go/commit/6ec481b06c1ceba5792e355ca45f7476bb78f21f">compress/flate: use uncompressed if dynamic encoding is larger</a></li>
+<li><a href="https://github.com/golang/go/commit/55ab07c224a358cabe795fb1e52a627194d7daee">cmd/compile: static composite literals are side-effect free</a></li>
+<li><a href="https://github.com/golang/go/commit/a4dd6ea1524901fab5deac60772345babd058ae7">runtime: add maxSliceCap</a></li>
+<li><a href="https://github.com/golang/go/commit/0150f15a924a7b4ac0c794012f6b12c8aa406b54">runtime: call mallocgc directly from makeslice and growslice</a></li>
+</ul></li>
+<li><a href="https://habrahabr.ru/post/281709/">Окончание эпопеи про криптовалюту и Катю</a></li>
+<li>Алексей делится опытом использования <a href="https://code.visualstudio.com/blogs/2016/04/14/vscode-1.0">Visual Studio Code 1.0</a> для написания кода на Go</li>
+<li><a href="https://blog.filippo.io/shrink-your-go-binaries-with-this-one-weird-trick/">Как сжимать бинарники</a></li>
+<li><a href="https://atom.io/packages/go-debug">Как подключить дебагер Delve в редактор Atom</a></li>
+<li><a href="https://github.com/raydac/mvn-golang">Плагин для Maven для сборки Go-приложений</a></li>
+<li><a href="https://habrahabr.ru/post/281320/">Статья &ldquo;Перспективы языка Go для программиста&rdquo;</a></li>
+</ul>
+
+<h2 id="библиотеки-примеры-кода-и-другие-открытые-исходники">Библиотеки, примеры кода и другие открытые исходники</h2>
+
+<ul>
+<li><a href="https://github.com/mc2soft/spgq-go">A client for small and simple queue for PostgreSQL</a></li>
+<li><a href="https://github.com/yberreby/rgo">A Go compiler toolchain, written in Rust</a></li>
+<li><a href="https://github.com/otoolep/rqlite">Replicating SQLite using the Raft consensus protocol</a></li>
+<li><a href="https://github.com/lgtmco">Simple approval workflow for Pull Requests</a></li>
+<li><a href="https://github.com/LK4D4/trylock">TryLock implementation for Go</a></li>
+<li><a href="https://github.com/osrg/gobgp">BGP implementation in Go</a></li>
+<li><a href="https://github.com/maciekmm/messenger-platform-go-sdk">Messenger Platform Go SDK</a></li>
+<li><a href="https://github.com/sorintlab/stolon">Прокси для PostgreSQL</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="http://www.dotgo.eu">dotGo 2016</a> — Париж, 10 октября, промокод GOLANGSHOW для скидки в 20%</li>
+<li><a href="http://golanguk.com">The Golang UK</a> — Лондон, 17–19 августа, промокод GOLANGSHOW2016 для скидки в £25</li>
+<li><a href="http://www.meetup.com/Kharkiv-Go-DevOps-Meetup/events/230286553/">Митап в Харькове</a> — 14 мая</li>
+<li><a href="http://www.meetup.com/Lviv-Golang-Group/events/230225272/">Митап во Львове</a> — 21 мая</li>
+<li>Митап в Москве планируется в середине мая, <a href="https://groups.google.com/forum/#!topic/golang-ru/0LsVwsjvPUo">нужны докладчики</a></li>
+</ul>
+
+<h2 id="спонсоры">Спонсоры</h2>
+
+<ul>
+<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a>.</li>
+</ul>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/m0sth8">Слава</a>, <a href="https://twitter.com/paaleksey">Алексей</a>.</p>
+
+
+       <a href="http://golangshow.com/episode/2016/04-21-053/#disqus_thread">комментарии</a>
+      <br/><br/>
+    </div>
+
+
+
+    <div class="post">
+      <h1 class="post-title">
         <a href="http://golangshow.com/episode/2016/04-14-052/">Выпуск 052. Релиз Go 1.6.1 и 1.5.4. Еще одна заявка на дженерики. Полезные инструменты для написания Go-кода.</a>
       </h1>
       <span class="post-date">Apr 14, 2016
@@ -810,61 +906,6 @@ a#mailinglink {
 
 
        <a href="http://golangshow.com/episode/2016/02-18-044/#disqus_thread">комментарии</a>
-      <br/><br/>
-    </div>
-
-
-
-    <div class="post">
-      <h1 class="post-title">
-        <a href="http://golangshow.com/episode/2016/02-12-043/">Выпуск 043. Meshbird, паттерны и интерфейсы</a>
-      </h1>
-      <span class="post-date">Feb 12, 2016
-
-        <br/>
-        <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
-      </span>
-
-
-
-<h2 id="темы">Темы</h2>
-
-<ul>
-<li><a href="http://gophergala.com/blog/gopher/gala/2016/02/05/winners-2016/">GopherGala 2016 Winners</a> - Артем взял один из призов с проектом <a href="http://meshbird.com">Meshbird</a>.</li>
-<li>Принятие <a href="https://golang.org/conduct">Code of Conduct</a> для русскоязычного сообщества</li>
-<li><a href="https://habrahabr.ru/post/276981/">Краш-курс по интерфейсам в Go</a></li>
-<li><a href="http://www.mustafaak.in/2016/02/08/writing-my-own-init-with-go.html">Writing my own init with Go - Part 1</a> и <a href="http://www.mustafaak.in/2016/02/09/forking-process-in-myinit-go.html">Part 2</a></li>
-<li><a href="http://www.infoq.com/presentations/go-iron-production">Beyond the Hype: 4 years in production - IronIO</a></li>
-<li><a href="http://blog.golang.org/matchlang">Go Blog - Language and Locale matching in Go</a></li>
-<li>Репозиторий <a href="https://godoc.org/golang.org/x/text">golang.org/x/text</a></li>
-<li><a href="http://dave.cheney.net/2016/02/06/unhelpful-abstractions">Unhelpful abstractions</a></li>
-<li><a href="http://blog.ralch.com/tutorial/design-patterns/golang-design-patterns/">Design Patterns in Golang: The Good, the Bad and the Ugly</a></li>
-<li><a href="https://github.com/monochromegane/go_design_pattern">Репо с паттернами и комментариями на интуитивно понятном китайском языке</a></li>
-<li><a href="http://ecs.victoria.ac.nz/foswiki/pub/Main/TechnicalReportSeries/ECSTR11-01.pdf">Evaluating the GO Programming Language with Design Patterns (pdf)</a></li>
-<li><a href="https://habrahabr.ru/post/277137/">Вольный пересказ документации sync.Pool на Хабре</a></li>
-<li><a href="https://docs.google.com/document/d/1UErU12vR7jTedYvKHVNRzGPmXqdMASZ6PfE7B-p6sIg/edit#">Oracle renamed to Guru</a></li>
-<li><a href="https://rootpd.com/2016/02/04/setting-up-intellij-idea-for-your-first-golang-project/">Setting up Intellij IDEA for your Golang project</a></li>
-<li><a href="https://www.behance.net/gallery/33348733/For-Golang-Community">Gophers + Star Wars artwork</a></li>
-</ul>
-
-<h2 id="митапы">Митапы</h2>
-
-<ul>
-<li><a href="http://golang-nsk.party">Третий новосибирский митап</a> состоялся 6-го февраля, и даже уже есть <a href="https://www.youtube.com/channel/UCadCL6kVFNt-A_CpisIpijg">видео докладов</a></li>
-<li>Go 1.6 Release Party — 17 февраля. В <a href="https://github.com/golang/go/wiki/Go-1.6-release-party">списке</a> 37 городов, среди которых <a href="https://events.dev.by/belarus-golang-user-group-meetup-2">Минск</a>, <a href="http://www.meetup.com/uagolang/events/228343484/">Киев</a> и <a href="http://www.meetup.com/Lviv-Golang-Group/events/228344940/">Львов</a></li>
-<li><a href="http://2016.codefest.ru">CodeFest</a> - 26-27 марта. Будет проходить в Новосибирске (платный).</li>
-</ul>
-
-<h2 id="спонсоры">Спонсоры</h2>
-
-<ul>
-<li>Промо-код GOLANGSHOW для <a href="https://www.digitalocean.com/?utm_campaign=golangshow&amp;utm_medium=podcast&amp;refcode=63eedb038a3e">облачного хостинга DigitalOcean</a></li>
-</ul>
-
-<p>Ведущие этого выпуска: <a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/paaleksey">Алексей</a>, <a href="https://twitter.com/idanyliuk">Иван</a>.</p>
-
-
-       <a href="http://golangshow.com/episode/2016/02-12-043/#disqus_thread">комментарии</a>
       <br/><br/>
     </div>
 

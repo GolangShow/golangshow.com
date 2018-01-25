@@ -18,6 +18,161 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 113. gRPCLambdaCon1.10</title>
+        <itunes:subtitle>Выпуск 113. gRPCLambdaCon1.10</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://groups.google.com/forum/#!msg/golang-nuts/7VWC5pzjg7A/E5McanH0AgAJ">Go 1.9.3</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/milestone/63?closed=1">https://github.com/golang/go/milestone/63?closed=1</a></li>
+</ul></li>
+<li><a href="https://tip.golang.org/doc/go1.10">Go 1.10</a>
+
+<ul>
+<li><a href="https://blog.gopheracademy.com/advent-2017/go-1.10/">Обзор в блоге Гоферакадемии</a></li>
+</ul></li>
+<li><a href="https://golang.github.io/dep/blog/2018/01/23/announce-v0.4.0.html">dep 0.4.0</a>
+
+<ul>
+<li><a href="http://docusaurus.io">dinosaurus</a>, инструмент для генерации документации</li>
+</ul></li>
+<li><a href="https://aws.amazon.com/blogs/compute/announcing-go-support-for-aws-lambda">Announcing Go Support for AWS Lambda</a></li>
+<li><a href="https://brandur.org/go-lambda">Speed and Stability: Why Go is a Great Fit for Lambda</a></li>
+<li><a href="http://dayssincelastgohttprouter.com">Days Since Last Go HTTP Router</a></li>
+<li><a href="https://blog.twitch.tv/twirp-a-sweet-new-rpc-framework-for-go-5f2febbf35f">Twirp: a sweet new RPC framework for Go</a>
+
+<ul>
+<li><a href="https://speakerdeck.com/aleksi/cooking-grpc">Cooking gRPC</a> от Алексея</li>
+</ul></li>
+<li><a href="https://blog.gopheracademy.com/advent-2017/kubernetes-ready-service/">Write a Kubernetes-ready service from zero step-by-step</a> и <a href="https://habrahabr.ru/post/345332/">перевод</a> от Елены</li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://www.welovegolang.com/jobs/senior-software-engineer-m-f-5734439678115840">Вакансия от компании DCMN</a> в Берлине или удаленно</li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li>DevZen-митап 27-го января в Берлине, встречаемся в 16:00 в <a href="https://www.bier-genuss.berlin/en/lindenbraeu-am-potsdamer-platz">Lindenbräu на Potsdamer Platz</a></li>
+<li><a href="https://fosdem.org/2018/">FOSDEM 2018</a> 3-4 февраля в Брюсселе</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве
+
+<ul>
+<li>Возможно, будет митап или пре-пати</li>
+</ul></li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов:
+Aleksey Akulovich, Andy One, Roman Nekhoroshev, Yegor Andreenko,
+Aleksei Melnik, Jaleel Akbashev, Nevkontakte, Alexander Nekrasov,
+Sergey Serebryakov, Afanasev Stanislav, Ivan Prisyazhnyy, Kostetskiy Pavel,
+Andrey Luzin, Artem Kovardin, Andrew Vorobyov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть подходящие вакансии, анонсы митапов и конференций
+или просто интересные темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/113.mp3" length="55162908" type="audio/mpeg" />
+        <itunes:duration>01:05:40</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/01-25-113/</link>
+        <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/01-25-113/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://groups.google.com/forum/#!msg/golang-nuts/7VWC5pzjg7A/E5McanH0AgAJ">Go 1.9.3</a>
+
+<ul>
+<li><a href="https://github.com/golang/go/milestone/63?closed=1">https://github.com/golang/go/milestone/63?closed=1</a></li>
+</ul></li>
+<li><a href="https://tip.golang.org/doc/go1.10">Go 1.10</a>
+
+<ul>
+<li><a href="https://blog.gopheracademy.com/advent-2017/go-1.10/">Обзор в блоге Гоферакадемии</a></li>
+</ul></li>
+<li><a href="https://golang.github.io/dep/blog/2018/01/23/announce-v0.4.0.html">dep 0.4.0</a>
+
+<ul>
+<li><a href="http://docusaurus.io">dinosaurus</a>, инструмент для генерации документации</li>
+</ul></li>
+<li><a href="https://aws.amazon.com/blogs/compute/announcing-go-support-for-aws-lambda">Announcing Go Support for AWS Lambda</a></li>
+<li><a href="https://brandur.org/go-lambda">Speed and Stability: Why Go is a Great Fit for Lambda</a></li>
+<li><a href="http://dayssincelastgohttprouter.com">Days Since Last Go HTTP Router</a></li>
+<li><a href="https://blog.twitch.tv/twirp-a-sweet-new-rpc-framework-for-go-5f2febbf35f">Twirp: a sweet new RPC framework for Go</a>
+
+<ul>
+<li><a href="https://speakerdeck.com/aleksi/cooking-grpc">Cooking gRPC</a> от Алексея</li>
+</ul></li>
+<li><a href="https://blog.gopheracademy.com/advent-2017/kubernetes-ready-service/">Write a Kubernetes-ready service from zero step-by-step</a> и <a href="https://habrahabr.ru/post/345332/">перевод</a> от Елены</li>
+</ul>
+
+<h2 id="вакансии">Вакансии</h2>
+
+<ul>
+<li><a href="https://www.welovegolang.com/jobs/senior-software-engineer-m-f-5734439678115840">Вакансия от компании DCMN</a> в Берлине или удаленно</li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li>DevZen-митап 27-го января в Берлине, встречаемся в 16:00 в <a href="https://www.bier-genuss.berlin/en/lindenbraeu-am-potsdamer-platz">Lindenbräu на Potsdamer Platz</a></li>
+<li><a href="https://fosdem.org/2018/">FOSDEM 2018</a> 3-4 февраля в Брюсселе</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве
+
+<ul>
+<li>Возможно, будет митап или пре-пати</li>
+</ul></li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов:
+Aleksey Akulovich, Andy One, Roman Nekhoroshev, Yegor Andreenko,
+Aleksei Melnik, Jaleel Akbashev, Nevkontakte, Alexander Nekrasov,
+Sergey Serebryakov, Afanasev Stanislav, Ivan Prisyazhnyy, Kostetskiy Pavel,
+Andrey Luzin, Artem Kovardin, Andrew Vorobyov
+и всех остальных, пожелавших остаться анонимными.
+Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть подходящие вакансии, анонсы митапов и конференций
+или просто интересные темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a>,
+<a href="https://twitter.com/miolini">Артём</a>, <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 112. …Поздно, чем никогда - 2</title>
         <itunes:subtitle>Выпуск 112. …Поздно, чем никогда - 2</itunes:subtitle>
         <itunes:summary><![CDATA[
