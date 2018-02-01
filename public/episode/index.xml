@@ -18,6 +18,133 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 114. OpenCon</title>
+        <itunes:subtitle>Выпуск 114. OpenCon</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23267&#34;&gt;proposal: Go 2: capability based security via stateless packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23471&#34;&gt;x/perf/cmd/benchstat: tips or quickstart for newcomers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/golang/status/956640171050586113&#34;&gt;Go 1.10 RC1 is released!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/topic/golang-nuts/F5xFHTfwRnY/discussion&#34;&gt;Upcoming Go protobuf release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.hackerrank.com/developer-skills/2018/#insight4&#34;&gt;Which languages are developers planning to learn next?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.benfrederickson.com/ranking-programming-languages-by-github-users/&#34;&gt;Ranking Programming Languages by GitHub Users&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenCensus:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://opencensus.io&#34;&gt;http://opencensus.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opensource.googleblog.com/2018/01/opencensus.html&#34;&gt;https://opensource.googleblog.com/2018/01/opencensus.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/census-instrumentation/opencensus-go&#34;&gt;https://github.com/census-instrumentation/opencensus-go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@cep21/using-go-1-10-new-trace-features-to-debug-an-integration-test-1dc39e4e812d&#34;&gt;Using Go 1.10 new trace features to debug an integration test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hH39797J/golang-videos-ru&#34;&gt;Собрание видеозаписей докладов про Go. В основном на русском языке&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;проекты-библиотеки-и-всякое-такое&#34;&gt;Проекты, библиотеки и всякое такое&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wagoodman/bashful&#34;&gt;https://github.com/wagoodman/bashful&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bradleyjkemp/memmap&#34;&gt;https://github.com/bradleyjkemp/memmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mholt.github.io/json-to-go/&#34;&gt;https://mholt.github.io/json-to-go/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fosdem.org/2018/&#34;&gt;FOSDEM 2018&lt;/a&gt; 3-4 февраля в Брюсселе&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru&#34;&gt;GopherCon Russia 2018&lt;/a&gt; 17-го марта в Москве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018&lt;/a&gt; с 2-го мая в Копенгагене&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018&lt;/a&gt; c 31-го мая в Рейкьявике&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io&#34;&gt;Container Days 2018&lt;/a&gt; с 18-го июня в Гамбурге&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2018&lt;/a&gt; с 27-го августа в Денвере&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io&#34;&gt;GoLab 2018&lt;/a&gt; 22-23 октября во Флоренции&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/114.mp3" length="55749148" type="audio/mpeg" />
+        <itunes:duration>01:06:23</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/01-30-114/</link>
+        <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/01-30-114/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Еженедельный отчёт от Лёши
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23267&#34;&gt;proposal: Go 2: capability based security via stateless packages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23471&#34;&gt;x/perf/cmd/benchstat: tips or quickstart for newcomers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/golang/status/956640171050586113&#34;&gt;Go 1.10 RC1 is released!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://groups.google.com/d/topic/golang-nuts/F5xFHTfwRnY/discussion&#34;&gt;Upcoming Go protobuf release&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.hackerrank.com/developer-skills/2018/#insight4&#34;&gt;Which languages are developers planning to learn next?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://www.benfrederickson.com/ranking-programming-languages-by-github-users/&#34;&gt;Ranking Programming Languages by GitHub Users&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;OpenCensus:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://opencensus.io&#34;&gt;http://opencensus.io&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://opensource.googleblog.com/2018/01/opencensus.html&#34;&gt;https://opensource.googleblog.com/2018/01/opencensus.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/census-instrumentation/opencensus-go&#34;&gt;https://github.com/census-instrumentation/opencensus-go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@cep21/using-go-1-10-new-trace-features-to-debug-an-integration-test-1dc39e4e812d&#34;&gt;Using Go 1.10 new trace features to debug an integration test&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hH39797J/golang-videos-ru&#34;&gt;Собрание видеозаписей докладов про Go. В основном на русском языке&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;проекты-библиотеки-и-всякое-такое&#34;&gt;Проекты, библиотеки и всякое такое&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/wagoodman/bashful&#34;&gt;https://github.com/wagoodman/bashful&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bradleyjkemp/memmap&#34;&gt;https://github.com/bradleyjkemp/memmap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://mholt.github.io/json-to-go/&#34;&gt;https://mholt.github.io/json-to-go/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://fosdem.org/2018/&#34;&gt;FOSDEM 2018&lt;/a&gt; 3-4 февраля в Брюсселе&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru&#34;&gt;GopherCon Russia 2018&lt;/a&gt; 17-го марта в Москве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018&lt;/a&gt; с 2-го мая в Копенгагене&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018&lt;/a&gt; c 31-го мая в Рейкьявике&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io&#34;&gt;Container Days 2018&lt;/a&gt; с 18-го июня в Гамбурге&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2018&lt;/a&gt; с 27-го августа в Денвере&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io&#34;&gt;GoLab 2018&lt;/a&gt; 22-23 октября во Флоренции&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 113. gRPCLambdaCon1.10</title>
         <itunes:subtitle>Выпуск 113. gRPCLambdaCon1.10</itunes:subtitle>
         <itunes:summary>

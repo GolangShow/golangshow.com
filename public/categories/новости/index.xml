@@ -18,6 +18,133 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 114. OpenCon</title>
+        <itunes:subtitle>Выпуск 114. OpenCon</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/23267">proposal: Go 2: capability based security via stateless packages</a></li>
+<li><a href="https://github.com/golang/go/issues/23471">x/perf/cmd/benchstat: tips or quickstart for newcomers</a></li>
+</ul></li>
+<li><a href="https://twitter.com/golang/status/956640171050586113">Go 1.10 RC1 is released!</a></li>
+<li><a href="https://groups.google.com/d/topic/golang-nuts/F5xFHTfwRnY/discussion">Upcoming Go protobuf release</a></li>
+<li><a href="https://research.hackerrank.com/developer-skills/2018/#insight4">Which languages are developers planning to learn next?</a></li>
+<li><a href="http://www.benfrederickson.com/ranking-programming-languages-by-github-users/">Ranking Programming Languages by GitHub Users</a></li>
+<li>OpenCensus:
+
+<ul>
+<li><a href="http://opencensus.io">http://opencensus.io</a></li>
+<li><a href="https://opensource.googleblog.com/2018/01/opencensus.html">https://opensource.googleblog.com/2018/01/opencensus.html</a></li>
+<li><a href="https://github.com/census-instrumentation/opencensus-go">https://github.com/census-instrumentation/opencensus-go</a></li>
+</ul></li>
+<li><a href="https://medium.com/@cep21/using-go-1-10-new-trace-features-to-debug-an-integration-test-1dc39e4e812d">Using Go 1.10 new trace features to debug an integration test</a></li>
+<li><a href="https://github.com/hH39797J/golang-videos-ru">Собрание видеозаписей докладов про Go. В основном на русском языке</a></li>
+</ul>
+
+<h1 id="проекты-библиотеки-и-всякое-такое">Проекты, библиотеки и всякое такое</h1>
+
+<ul>
+<li><a href="https://github.com/wagoodman/bashful">https://github.com/wagoodman/bashful</a></li>
+<li><a href="https://github.com/bradleyjkemp/memmap">https://github.com/bradleyjkemp/memmap</a></li>
+<li><a href="https://mholt.github.io/json-to-go/">https://mholt.github.io/json-to-go/</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://fosdem.org/2018/">FOSDEM 2018</a> 3-4 февраля в Брюсселе</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/114.mp3" length="55749148" type="audio/mpeg" />
+        <itunes:duration>01:06:23</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/01-30-114/</link>
+        <pubDate>Tue, 30 Jan 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/01-30-114/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Еженедельный отчёт от Лёши
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/23267">proposal: Go 2: capability based security via stateless packages</a></li>
+<li><a href="https://github.com/golang/go/issues/23471">x/perf/cmd/benchstat: tips or quickstart for newcomers</a></li>
+</ul></li>
+<li><a href="https://twitter.com/golang/status/956640171050586113">Go 1.10 RC1 is released!</a></li>
+<li><a href="https://groups.google.com/d/topic/golang-nuts/F5xFHTfwRnY/discussion">Upcoming Go protobuf release</a></li>
+<li><a href="https://research.hackerrank.com/developer-skills/2018/#insight4">Which languages are developers planning to learn next?</a></li>
+<li><a href="http://www.benfrederickson.com/ranking-programming-languages-by-github-users/">Ranking Programming Languages by GitHub Users</a></li>
+<li>OpenCensus:
+
+<ul>
+<li><a href="http://opencensus.io">http://opencensus.io</a></li>
+<li><a href="https://opensource.googleblog.com/2018/01/opencensus.html">https://opensource.googleblog.com/2018/01/opencensus.html</a></li>
+<li><a href="https://github.com/census-instrumentation/opencensus-go">https://github.com/census-instrumentation/opencensus-go</a></li>
+</ul></li>
+<li><a href="https://medium.com/@cep21/using-go-1-10-new-trace-features-to-debug-an-integration-test-1dc39e4e812d">Using Go 1.10 new trace features to debug an integration test</a></li>
+<li><a href="https://github.com/hH39797J/golang-videos-ru">Собрание видеозаписей докладов про Go. В основном на русском языке</a></li>
+</ul>
+
+<h1 id="проекты-библиотеки-и-всякое-такое">Проекты, библиотеки и всякое такое</h1>
+
+<ul>
+<li><a href="https://github.com/wagoodman/bashful">https://github.com/wagoodman/bashful</a></li>
+<li><a href="https://github.com/bradleyjkemp/memmap">https://github.com/bradleyjkemp/memmap</a></li>
+<li><a href="https://mholt.github.io/json-to-go/">https://mholt.github.io/json-to-go/</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://fosdem.org/2018/">FOSDEM 2018</a> 3-4 февраля в Брюсселе</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 113. gRPCLambdaCon1.10</title>
         <itunes:subtitle>Выпуск 113. gRPCLambdaCon1.10</itunes:subtitle>
         <itunes:summary><![CDATA[
