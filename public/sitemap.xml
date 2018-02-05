@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://golangshow.com/episode/2018/02-05-115/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
+    <loc>http://golangshow.com/episode/2018/02-05-116/</loc>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
+  </url>
+
+  <url>
     <loc>http://golangshow.com/episode/2018/01-30-114/</loc>
     <lastmod>2018-01-30T00:00:00+00:00</lastmod>
   </url>
@@ -608,7 +618,7 @@
 
   <url>
     <loc>http://golangshow.com/episode/</loc>
-    <lastmod>2018-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
 
@@ -626,7 +636,7 @@
 
   <url>
     <loc>http://golangshow.com/categories/%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D0%B2%D1%8C%D1%8E/</loc>
-    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
 
@@ -650,7 +660,7 @@
 
   <url>
     <loc>http://golangshow.com/</loc>
-    <lastmod>2018-01-30T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
 
