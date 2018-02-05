@@ -18,6 +18,31 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</title>
+        <itunes:subtitle>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</itunes:subtitle>
+        <itunes:summary>&lt;p&gt;Интервью с sam&amp;rsquo;ом boyer&amp;rsquo;ом на dotGo 2017.&lt;/p&gt;
+
+&lt;p&gt;Звук от Алексея очень плох, но sam&amp;rsquo;а слышно хорошо. Благодарим &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константина Веселкова&lt;/a&gt;
+за помощь в восстановлении звука этого интервью.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/116.mp3" length="5725472" type="audio/mpeg" />
+        <itunes:duration>00:16:14</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-05-116/</link>
+        <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-05-116/</guid>
+        <description>&lt;p&gt;Интервью с sam&amp;rsquo;ом boyer&amp;rsquo;ом на dotGo 2017.&lt;/p&gt;
+
+&lt;p&gt;Звук от Алексея очень плох, но sam&amp;rsquo;а слышно хорошо. Благодарим &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константина Веселкова&lt;/a&gt;
+за помощь в восстановлении звука этого интервью.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 115. dotGo 2017: интервью с JBD</title>
         <itunes:subtitle>Выпуск 115. dotGo 2017: интервью с JBD</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.&lt;/p&gt;
@@ -33,10 +58,10 @@
         <enclosure url="http://golangshow.com/cdn/episodes/115.mp3" length="5118967" type="audio/mpeg" />
         <itunes:duration>00:14:56</itunes:duration>
 
-        <link>http://golangshow.com/episode/2018/02-05-115/</link>
-        <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+        <link>http://golangshow.com/episode/2018/02-04-115/</link>
+        <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
 
-        <guid>http://golangshow.com/episode/2018/02-05-115/</guid>
+        <guid>http://golangshow.com/episode/2018/02-04-115/</guid>
         <description>&lt;p&gt;Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.&lt;/p&gt;
 
 &lt;p&gt;В нём по какой-то причине Алексей называет Derek&amp;rsquo;а Parker&amp;rsquo;а Трэвисом. Приношу свои извинения.&lt;/p&gt;
