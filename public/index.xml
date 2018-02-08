@@ -18,6 +18,113 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 117. Непростые проблемы бегства зависимостей</title>
+        <itunes:subtitle>Выпуск 117. Непростые проблемы бегства зависимостей</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://twitter.com/francesc/status/961249107020001280">Еще раз про vendoring или go-bindata</a></li>
+<li><a href="https://www.influxdata.com/blog/decomposable-monolith-long-live-monolith-long-live-services/">The Decomposable Monolith: Long Live the Monolith, Long Live Services!</a></li>
+<li><a href="https://medium.freecodecamp.org/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a">Here are some amazing advantages of Go that you don’t hear much about</a></li>
+<li><a href="https://medium.com/@bob.clark_34506/go-is-not-very-simple-folks-3e84220e73c7">Go is not (very) simple, folks</a></li>
+<li><a href="https://www.ardanlabs.com/blog/2018/01/escape-analysis-flaws.html">Escape-Analysis Flaws</a></li>
+<li><a href="http://musse.cc/blog/stringer-golang">All about Go&rsquo;s Stringer interface</a></li>
+<li><a href="https://dave.cheney.net/2018/01/06/if-aligned-memory-writes-are-atomic-why-do-we-need-the-sync-atomic-package">If aligned memory writes are atomic, why do we need the sync/atomic package?</a></li>
+<li><a href="https://dave.cheney.net/2018/01/08/gos-hidden-pragmas">Go’s hidden #pragmas</a></li>
+<li><a href="https://www.reddit.com/r/golang/comments/7ut4vx/who_is_hiring_februrary_2018/">Who is Hiring? (Februrary 2018)</a></li>
+<li><a href="https://blog.envoyproxy.io/evolving-a-protocol-buffer-canonical-api-e1b2c2ca0dec">Evolving a Protocol Buffer canonical API</a></li>
+<li><a href="https://aws.amazon.com/ru/blogs/developer/aws-sdk-for-go-2-0-developer-preview/">AWS SDK for Go 2.0 Developer Preview</a></li>
+<li><a href="https://blog.jetbrains.com/go/2018/01/22/welcome-goland-2018-1-eap-better-inspections-completion-performance-and-more/">Welcome GoLand 2018.1 EAP: Better Inspections, Completion, Performance, and More</a></li>
+<li>Переписали историю <a href="https://github.com/dvyukov/go-fuzz">go-fuzz</a></li>
+<li><a href="https://github.com/kelseyhightower/nocode">The best way to write secure and reliable applications</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/Conferences">Список конференций в Go Wiki</a></li>
+<li>Видео <a href="http://ftp.belnet.be/mirror/FOSDEM/2018/H.1308%20(Rolin)/stateofgo.mp4">The State of Go</a> с недавно прошедшей конференции FOSDEM-2018</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку Алексея Акуловича, Максима Тищенко, gc,
+Романа Нехорошева, Станислава Афанасьева, Ивана Присяжного и всех-всех-всех
+наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/117.mp3" length="100772599" type="audio/mpeg" />
+        <itunes:duration>01:59:58</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-07-117/</link>
+        <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-07-117/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://twitter.com/francesc/status/961249107020001280">Еще раз про vendoring или go-bindata</a></li>
+<li><a href="https://www.influxdata.com/blog/decomposable-monolith-long-live-monolith-long-live-services/">The Decomposable Monolith: Long Live the Monolith, Long Live Services!</a></li>
+<li><a href="https://medium.freecodecamp.org/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a">Here are some amazing advantages of Go that you don’t hear much about</a></li>
+<li><a href="https://medium.com/@bob.clark_34506/go-is-not-very-simple-folks-3e84220e73c7">Go is not (very) simple, folks</a></li>
+<li><a href="https://www.ardanlabs.com/blog/2018/01/escape-analysis-flaws.html">Escape-Analysis Flaws</a></li>
+<li><a href="http://musse.cc/blog/stringer-golang">All about Go&rsquo;s Stringer interface</a></li>
+<li><a href="https://dave.cheney.net/2018/01/06/if-aligned-memory-writes-are-atomic-why-do-we-need-the-sync-atomic-package">If aligned memory writes are atomic, why do we need the sync/atomic package?</a></li>
+<li><a href="https://dave.cheney.net/2018/01/08/gos-hidden-pragmas">Go’s hidden #pragmas</a></li>
+<li><a href="https://www.reddit.com/r/golang/comments/7ut4vx/who_is_hiring_februrary_2018/">Who is Hiring? (Februrary 2018)</a></li>
+<li><a href="https://blog.envoyproxy.io/evolving-a-protocol-buffer-canonical-api-e1b2c2ca0dec">Evolving a Protocol Buffer canonical API</a></li>
+<li><a href="https://aws.amazon.com/ru/blogs/developer/aws-sdk-for-go-2-0-developer-preview/">AWS SDK for Go 2.0 Developer Preview</a></li>
+<li><a href="https://blog.jetbrains.com/go/2018/01/22/welcome-goland-2018-1-eap-better-inspections-completion-performance-and-more/">Welcome GoLand 2018.1 EAP: Better Inspections, Completion, Performance, and More</a></li>
+<li>Переписали историю <a href="https://github.com/dvyukov/go-fuzz">go-fuzz</a></li>
+<li><a href="https://github.com/kelseyhightower/nocode">The best way to write secure and reliable applications</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/Conferences">Список конференций в Go Wiki</a></li>
+<li>Видео <a href="http://ftp.belnet.be/mirror/FOSDEM/2018/H.1308%20(Rolin)/stateofgo.mp4">The State of Go</a> с недавно прошедшей конференции FOSDEM-2018</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку Алексея Акуловича, Максима Тищенко, gc,
+Романа Нехорошева, Станислава Афанасьева, Ивана Присяжного и всех-всех-всех
+наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</title>
         <itunes:subtitle>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с sam&rsquo;ом boyer&rsquo;ом на dotGo 2017.</p>

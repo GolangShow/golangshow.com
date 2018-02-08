@@ -18,6 +18,113 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 117. Непростые проблемы бегства зависимостей</title>
+        <itunes:subtitle>Выпуск 117. Непростые проблемы бегства зависимостей</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/francesc/status/961249107020001280&#34;&gt;Еще раз про vendoring или go-bindata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.influxdata.com/blog/decomposable-monolith-long-live-monolith-long-live-services/&#34;&gt;The Decomposable Monolith: Long Live the Monolith, Long Live Services!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a&#34;&gt;Here are some amazing advantages of Go that you don’t hear much about&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@bob.clark_34506/go-is-not-very-simple-folks-3e84220e73c7&#34;&gt;Go is not (very) simple, folks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ardanlabs.com/blog/2018/01/escape-analysis-flaws.html&#34;&gt;Escape-Analysis Flaws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://musse.cc/blog/stringer-golang&#34;&gt;All about Go&amp;rsquo;s Stringer interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2018/01/06/if-aligned-memory-writes-are-atomic-why-do-we-need-the-sync-atomic-package&#34;&gt;If aligned memory writes are atomic, why do we need the sync/atomic package?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2018/01/08/gos-hidden-pragmas&#34;&gt;Go’s hidden #pragmas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/7ut4vx/who_is_hiring_februrary_2018/&#34;&gt;Who is Hiring? (Februrary 2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.envoyproxy.io/evolving-a-protocol-buffer-canonical-api-e1b2c2ca0dec&#34;&gt;Evolving a Protocol Buffer canonical API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/ru/blogs/developer/aws-sdk-for-go-2-0-developer-preview/&#34;&gt;AWS SDK for Go 2.0 Developer Preview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2018/01/22/welcome-goland-2018-1-eap-better-inspections-completion-performance-and-more/&#34;&gt;Welcome GoLand 2018.1 EAP: Better Inspections, Completion, Performance, and More&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Переписали историю &lt;a href=&#34;https://github.com/dvyukov/go-fuzz&#34;&gt;go-fuzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kelseyhightower/nocode&#34;&gt;The best way to write secure and reliable applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Conferences&#34;&gt;Список конференций в Go Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Видео &lt;a href=&#34;http://ftp.belnet.be/mirror/FOSDEM/2018/H.1308%20(Rolin)/stateofgo.mp4&#34;&gt;The State of Go&lt;/a&gt; с недавно прошедшей конференции FOSDEM-2018&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru&#34;&gt;GopherCon Russia 2018&lt;/a&gt; 17-го марта в Москве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018&lt;/a&gt; с 2-го мая в Копенгагене&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018&lt;/a&gt; c 31-го мая в Рейкьявике&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io&#34;&gt;Container Days 2018&lt;/a&gt; с 18-го июня в Гамбурге&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2018&lt;/a&gt; с 27-го августа в Денвере&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io&#34;&gt;GoLab 2018&lt;/a&gt; 22-23 октября во Флоренции&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко, gc,
+Романа Нехорошева, Станислава Афанасьева, Ивана Присяжного и всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/117.mp3" length="100772599" type="audio/mpeg" />
+        <itunes:duration>01:59:58</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-07-117/</link>
+        <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-07-117/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/francesc/status/961249107020001280&#34;&gt;Еще раз про vendoring или go-bindata&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.influxdata.com/blog/decomposable-monolith-long-live-monolith-long-live-services/&#34;&gt;The Decomposable Monolith: Long Live the Monolith, Long Live Services!&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.freecodecamp.org/here-are-some-amazing-advantages-of-go-that-you-dont-hear-much-about-1af99de3b23a&#34;&gt;Here are some amazing advantages of Go that you don’t hear much about&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@bob.clark_34506/go-is-not-very-simple-folks-3e84220e73c7&#34;&gt;Go is not (very) simple, folks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.ardanlabs.com/blog/2018/01/escape-analysis-flaws.html&#34;&gt;Escape-Analysis Flaws&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://musse.cc/blog/stringer-golang&#34;&gt;All about Go&amp;rsquo;s Stringer interface&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2018/01/06/if-aligned-memory-writes-are-atomic-why-do-we-need-the-sync-atomic-package&#34;&gt;If aligned memory writes are atomic, why do we need the sync/atomic package?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dave.cheney.net/2018/01/08/gos-hidden-pragmas&#34;&gt;Go’s hidden #pragmas&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/golang/comments/7ut4vx/who_is_hiring_februrary_2018/&#34;&gt;Who is Hiring? (Februrary 2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.envoyproxy.io/evolving-a-protocol-buffer-canonical-api-e1b2c2ca0dec&#34;&gt;Evolving a Protocol Buffer canonical API&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/ru/blogs/developer/aws-sdk-for-go-2-0-developer-preview/&#34;&gt;AWS SDK for Go 2.0 Developer Preview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2018/01/22/welcome-goland-2018-1-eap-better-inspections-completion-performance-and-more/&#34;&gt;Welcome GoLand 2018.1 EAP: Better Inspections, Completion, Performance, and More&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Переписали историю &lt;a href=&#34;https://github.com/dvyukov/go-fuzz&#34;&gt;go-fuzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/kelseyhightower/nocode&#34;&gt;The best way to write secure and reliable applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Conferences&#34;&gt;Список конференций в Go Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Видео &lt;a href=&#34;http://ftp.belnet.be/mirror/FOSDEM/2018/H.1308%20(Rolin)/stateofgo.mp4&#34;&gt;The State of Go&lt;/a&gt; с недавно прошедшей конференции FOSDEM-2018&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru&#34;&gt;GopherCon Russia 2018&lt;/a&gt; 17-го марта в Москве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018&lt;/a&gt; с 2-го мая в Копенгагене&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018&lt;/a&gt; c 31-го мая в Рейкьявике&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io&#34;&gt;Container Days 2018&lt;/a&gt; с 18-го июня в Гамбурге&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2018&lt;/a&gt; с 27-го августа в Денвере&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io&#34;&gt;GoLab 2018&lt;/a&gt; 22-23 октября во Флоренции&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Алексея Акуловича, Максима Тищенко, gc,
+Романа Нехорошева, Станислава Афанасьева, Ивана Присяжного и всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</title>
         <itunes:subtitle>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с sam&amp;rsquo;ом boyer&amp;rsquo;ом на dotGo 2017.&lt;/p&gt;
