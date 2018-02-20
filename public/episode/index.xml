@@ -18,6 +18,75 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 118. Сломанные Pull Request&#39;ы</title>
+        <itunes:subtitle>Выпуск 118. Сломанные Pull Request&#39;ы</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/GerritBot&#34;&gt;Go теперь принимает Pull Request&amp;rsquo;ы на GitHub&amp;rsquo;е. Почти.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/sombre_hombre/status/961227490759991296&#34;&gt;Вопрос из Twitter&amp;rsquo;а&lt;/a&gt; про &lt;a href=&#34;https://github.com/Talento90/imgart&#34;&gt;этот репозиторий&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yourbasic.org/golang/gotcha/&#34;&gt;Go gotcha: newbie or ninja?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@sjk/maintaining-api-versions-in-go-24bb4409a8a6&#34;&gt;Maintaining API Versions in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/satori/go.uuid/issues/66&#34;&gt;go.uuid: Breaking API Change (#66)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Go-1.10-Release-Party&#34;&gt;Go 1.10 Release Party&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru&#34;&gt;GopherCon Russia 2018&lt;/a&gt; 17-го марта в Москве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018&lt;/a&gt; с 2-го мая в Копенгагене&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018&lt;/a&gt; c 31-го мая в Рейкьявике&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io&#34;&gt;Container Days 2018&lt;/a&gt; с 18-го июня в Гамбурге&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2018&lt;/a&gt; с 27-го августа в Денвере&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io&#34;&gt;GoLab 2018&lt;/a&gt; 22-23 октября во Флоренции&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/118.mp3" length="28953628" type="audio/mpeg" />
+        <itunes:duration>00:34:28</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-15-118/</link>
+        <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-15-118/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/GerritBot&#34;&gt;Go теперь принимает Pull Request&amp;rsquo;ы на GitHub&amp;rsquo;е. Почти.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/sombre_hombre/status/961227490759991296&#34;&gt;Вопрос из Twitter&amp;rsquo;а&lt;/a&gt; про &lt;a href=&#34;https://github.com/Talento90/imgart&#34;&gt;этот репозиторий&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://yourbasic.org/golang/gotcha/&#34;&gt;Go gotcha: newbie or ninja?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@sjk/maintaining-api-versions-in-go-24bb4409a8a6&#34;&gt;Maintaining API Versions in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/satori/go.uuid/issues/66&#34;&gt;go.uuid: Breaking API Change (#66)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/Go-1.10-Release-Party&#34;&gt;Go 1.10 Release Party&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru&#34;&gt;GopherCon Russia 2018&lt;/a&gt; 17-го марта в Москве&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018&lt;/a&gt; с 2-го мая в Копенгагене&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018&lt;/a&gt; c 31-го мая в Рейкьявике&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io&#34;&gt;Container Days 2018&lt;/a&gt; с 18-го июня в Гамбурге&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com&#34;&gt;GopherCon 2018&lt;/a&gt; с 27-го августа в Денвере&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io&#34;&gt;GoLab 2018&lt;/a&gt; 22-23 октября во Флоренции&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 117. Непростые проблемы бегства зависимостей</title>
         <itunes:subtitle>Выпуск 117. Непростые проблемы бегства зависимостей</itunes:subtitle>
         <itunes:summary>
