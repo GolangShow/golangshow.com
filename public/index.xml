@@ -18,6 +18,75 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 118. Сломанные Pull Request&#39;ы</title>
+        <itunes:subtitle>Выпуск 118. Сломанные Pull Request&#39;ы</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/GerritBot">Go теперь принимает Pull Request&rsquo;ы на GitHub&rsquo;е. Почти.</a></li>
+<li><a href="https://twitter.com/sombre_hombre/status/961227490759991296">Вопрос из Twitter&rsquo;а</a> про <a href="https://github.com/Talento90/imgart">этот репозиторий</a>.</li>
+<li><a href="http://yourbasic.org/golang/gotcha/">Go gotcha: newbie or ninja?</a></li>
+<li><a href="https://medium.com/@sjk/maintaining-api-versions-in-go-24bb4409a8a6">Maintaining API Versions in Go</a></li>
+<li><a href="https://github.com/satori/go.uuid/issues/66">go.uuid: Breaking API Change (#66)</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/Go-1.10-Release-Party">Go 1.10 Release Party</a></li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/118.mp3" length="28953628" type="audio/mpeg" />
+        <itunes:duration>00:34:28</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-15-118/</link>
+        <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-15-118/</guid>
+        <description><![CDATA[
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/GerritBot">Go теперь принимает Pull Request&rsquo;ы на GitHub&rsquo;е. Почти.</a></li>
+<li><a href="https://twitter.com/sombre_hombre/status/961227490759991296">Вопрос из Twitter&rsquo;а</a> про <a href="https://github.com/Talento90/imgart">этот репозиторий</a>.</li>
+<li><a href="http://yourbasic.org/golang/gotcha/">Go gotcha: newbie or ninja?</a></li>
+<li><a href="https://medium.com/@sjk/maintaining-api-versions-in-go-24bb4409a8a6">Maintaining API Versions in Go</a></li>
+<li><a href="https://github.com/satori/go.uuid/issues/66">go.uuid: Breaking API Change (#66)</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/Go-1.10-Release-Party">Go 1.10 Release Party</a></li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 117. Непростые проблемы бегства зависимостей</title>
         <itunes:subtitle>Выпуск 117. Непростые проблемы бегства зависимостей</itunes:subtitle>
         <itunes:summary><![CDATA[
