@@ -18,9 +18,116 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 119b. В гостях Искандер Шарипов (с нормальным звуком)</title>
+        <itunes:subtitle>Выпуск 119b. В гостях Искандер Шарипов (с нормальным звуком)</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<p>Исправленная версия выпуска 119. Огромное спасибо <a href="https://github.com/KosToZyB">Константину Веселкову</a>
+за восстановление звука.</p>
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://github.com/Quasilyte">Искандер Шарипов</a>, контрибьютор в проект Go.</p>
+
+<p>В программе:</p>
+
+<ul>
+<li>Рассказ гостя о себе и своем отношении к Go</li>
+<li>Утилиты с AST</li>
+<li><a href="https://habrahabr.ru/post/331134/">Emacs и Go</a></li>
+<li><a href="https://quasilyte.github.io/blog/post/go-asm-complementary-reference/">Дополнительный справочник по <del>странностям</del> особенностям Go ассемблера (под amd64)</a>. Обновляется при значительных изменениях в этот самый ассемблер.</li>
+<li>Патчи к Go</li>
+<li>ASM</li>
+<li>SSA</li>
+<li><a href="https://habrahabr.ru/company/intel/blog/348230/">gc vs gccgo performance comparison</a></li>
+</ul>
+
+<h2 id="тема-года">Тема года</h2>
+
+<ul>
+<li><a href="https://research.swtch.com/vgo">Russ Cox &ldquo;взорвал&rdquo; Go-сообщество (vgo)</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/Go-1.10-Release-Party">Go 1.10 Release Party</a></li>
+<li><a href="https://www.meetup.com/Kubernetes-Novosibirsk/events/248011940/">Митап новосибирского Kubernetes-сообщества</a> 6-го марта</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.
+Гость: <a href="https://github.com/Quasilyte">Искандер Шарипов</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/119b.mp3" length="38838918" type="audio/mpeg" />
+        <itunes:duration>02:06:15</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-27-119b/</link>
+        <pubDate>Tue, 27 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-27-119b/</guid>
+        <description><![CDATA[
+
+<p>Исправленная версия выпуска 119. Огромное спасибо <a href="https://github.com/KosToZyB">Константину Веселкову</a>
+за восстановление звука.</p>
+
+<h2 id="гость">Гость</h2>
+
+<p>В гостях <a href="https://github.com/Quasilyte">Искандер Шарипов</a>, контрибьютор в проект Go.</p>
+
+<p>В программе:</p>
+
+<ul>
+<li>Рассказ гостя о себе и своем отношении к Go</li>
+<li>Утилиты с AST</li>
+<li><a href="https://habrahabr.ru/post/331134/">Emacs и Go</a></li>
+<li><a href="https://quasilyte.github.io/blog/post/go-asm-complementary-reference/">Дополнительный справочник по <del>странностям</del> особенностям Go ассемблера (под amd64)</a>. Обновляется при значительных изменениях в этот самый ассемблер.</li>
+<li>Патчи к Go</li>
+<li>ASM</li>
+<li>SSA</li>
+<li><a href="https://habrahabr.ru/company/intel/blog/348230/">gc vs gccgo performance comparison</a></li>
+</ul>
+
+<h2 id="тема-года">Тема года</h2>
+
+<ul>
+<li><a href="https://research.swtch.com/vgo">Russ Cox &ldquo;взорвал&rdquo; Go-сообщество (vgo)</a></li>
+</ul>
+
+<h2 id="конференции-и-митапы">Конференции и митапы</h2>
+
+<ul>
+<li><a href="https://github.com/golang/go/wiki/Go-1.10-Release-Party">Go 1.10 Release Party</a></li>
+<li><a href="https://www.meetup.com/Kubernetes-Novosibirsk/events/248011940/">Митап новосибирского Kubernetes-сообщества</a> 6-го марта</li>
+<li><a href="https://www.gophercon-russia.ru">GopherCon Russia 2018</a> 17-го марта в Москве</li>
+<li><a href="https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/">Kubecon and Cloud Native Con Europe 2018</a> с 2-го мая в Копенгагене</li>
+<li><a href="https://gophercon.is/">GopherCon Iceland 2018</a> c 31-го мая в Рейкьявике</li>
+<li><a href="https://containerdays.io">Container Days 2018</a> с 18-го июня в Гамбурге</li>
+<li><a href="https://www.gophercon.com">GopherCon 2018</a> с 27-го августа в Денвере</li>
+<li><a href="https://www.golab.io">GoLab 2018</a> 22-23 октября во Флоренции</li>
+</ul>
+
+<p>Ведущие этого выпуска:
+<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.
+Гость: <a href="https://github.com/Quasilyte">Искандер Шарипов</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 119. В гостях Искандер Шарипов</title>
         <itunes:subtitle>Выпуск 119. В гостях Искандер Шарипов</itunes:subtitle>
         <itunes:summary><![CDATA[
+
+<p><strong>Звук этого выпуска был исправлен и загружен как отдельный эпизод.</strong></p>
 
 <h2 id="гость">Гость</h2>
 
@@ -73,6 +180,8 @@
 
         <guid>http://golangshow.com/episode/2018/02-22-119/</guid>
         <description><![CDATA[
+
+<p><strong>Звук этого выпуска был исправлен и загружен как отдельный эпизод.</strong></p>
 
 <h2 id="гость">Гость</h2>
 
