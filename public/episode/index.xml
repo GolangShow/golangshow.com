@@ -18,6 +18,211 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 120</title>
+        <itunes:subtitle>Выпуск 120</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;гости&#34;&gt;Гости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Quasilyte&#34;&gt;Искандер Шарипов&lt;/a&gt;, контрибьютор в проект Go.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/mkevac&#34;&gt;Марко Кевац&lt;/a&gt; из Badoo. Расскажет про сниффинг gRPC-трафика.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Традиционный отчет от Алексея:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/2b415549b813ba36caafa34fc34d72e47ee8335c&#34;&gt;runtime: use sparse mappings for the heap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19348&#34;&gt;cmd/compile: enable mid-stack inlining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23937&#34;&gt;cmd/go: add more options to security whitelist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23749&#34;&gt;cmd/go: options missing from cgo whitelists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20982&#34;&gt;cmd/link: support msvc object files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23459&#34;&gt;net: enable TCP keepalive on new connections from net.Dial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/24119&#34;&gt;x/vgo: consider alternative syntax for major version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23966&#34;&gt;x/vgo: go.mod format should not have a bespoke syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23745&#34;&gt;proposal: add new Question? label to issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23796&#34;&gt;proposal: Go 2: allow interface types to match fields as well as methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23806&#34;&gt;proposal: cmd/go: add transitive Deps for TestImports and XTestImports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23401&#34;&gt;proposal: net/http/pprof: Add seconds, rate and frac arguments to mutex/block profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23188&#34;&gt;cmd/compile: incorrect order of evaluation according to spec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Опять про vgo&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/vgo-repro&#34;&gt;Reproducible, Verifiable, Verified Builds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/vgo-module&#34;&gt;Defining Go Modules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/vgo-cmd&#34;&gt;Versioned Go Commands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug/&#34;&gt;Debugging an evil Go runtime bug&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@pierreprinetti/a-pattern-for-go-tests-3468b51535&#34;&gt;A pattern for Go tests&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.golang.org/survey2017-results&#34;&gt;Go 2017 Survey Results&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://commandcenter.blogspot.ru/2017/12/error-handling-in-upspin.html&#34;&gt;Error handling in Upspin&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.programming-books.io/essential/go/&#34;&gt;Essential Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://yourbasic.org/golang/blueprint/&#34;&gt;Go blueprints: code for common tasks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rosettacode.org/wiki/Category:Go&#34;&gt;Rosetta Code - Category:Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@zombiezen/life-of-a-go-infrastructure-maintainer-cb1419308eb5&#34;&gt;Life of a Go Infrastructure Maintainer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OuT8YYAOOVI&#34;&gt;GopherCon 2017: Joe Tsai - Forward Compatible Go Code&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.merovius.de/2018/02/25/persistent_datastructures_with_go.html&#34;&gt;Persistent datastructures with Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.elliotdwright.com/2018/02/26/there-and-back-again/&#34;&gt;The Gopher, There and Back Again&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://goreleaser.com/&#34;&gt;GoReleaser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/stamm/dep_radar&#34;&gt;https://github.com/stamm/dep_radar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hunterloftis/pbr&#34;&gt;https://github.com/hunterloftis/pbr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/ru-RU/Kubernetes-Novosibirsk/events/248011940/&#34;&gt;Kubernetes - from Zero to Hero 6-ого марта в Новосибирске&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru/&#34;&gt;GopherCon Russia 2018 17-ого марта в Москве&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018 — 2-4 мая, Копенгаген&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018 c 31-ого мая в Рейкьявике&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days 2018 — 18-20 июня, Гамбург&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon 2018 с 27-ого августа в Денвере&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io/&#34;&gt;GoLab 2018 - 22-23 октября во Флоренции&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;.
+Гости: &lt;a href=&#34;https://github.com/Quasilyte&#34;&gt;Искандер Шарипов&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/mkevac&#34;&gt;Марко Кевац&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Огромное спасибо &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константину Веселкову&lt;/a&gt; за помощь в подготовке звука и шоуноты.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/120.mp3" length="40455493" type="audio/mpeg" />
+        <itunes:duration>02:14:30</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-28-120/</link>
+        <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-28-120/</guid>
+        <description>
+
+&lt;h2 id=&#34;гости&#34;&gt;Гости&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/Quasilyte&#34;&gt;Искандер Шарипов&lt;/a&gt;, контрибьютор в проект Go.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://twitter.com/mkevac&#34;&gt;Марко Кевац&lt;/a&gt; из Badoo. Расскажет про сниффинг gRPC-трафика.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Традиционный отчет от Алексея:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/2b415549b813ba36caafa34fc34d72e47ee8335c&#34;&gt;runtime: use sparse mappings for the heap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19348&#34;&gt;cmd/compile: enable mid-stack inlining&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23937&#34;&gt;cmd/go: add more options to security whitelist&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23749&#34;&gt;cmd/go: options missing from cgo whitelists&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/20982&#34;&gt;cmd/link: support msvc object files&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23459&#34;&gt;net: enable TCP keepalive on new connections from net.Dial&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/24119&#34;&gt;x/vgo: consider alternative syntax for major version&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23966&#34;&gt;x/vgo: go.mod format should not have a bespoke syntax&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23745&#34;&gt;proposal: add new Question? label to issue tracker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23796&#34;&gt;proposal: Go 2: allow interface types to match fields as well as methods&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23806&#34;&gt;proposal: cmd/go: add transitive Deps for TestImports and XTestImports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23401&#34;&gt;proposal: net/http/pprof: Add seconds, rate and frac arguments to mutex/block profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23188&#34;&gt;cmd/compile: incorrect order of evaluation according to spec&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Опять про vgo&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/vgo-repro&#34;&gt;Reproducible, Verifiable, Verified Builds&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/vgo-module&#34;&gt;Defining Go Modules&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://research.swtch.com/vgo-cmd&#34;&gt;Versioned Go Commands&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://marcan.st/2017/12/debugging-an-evil-go-runtime-bug/&#34;&gt;Debugging an evil Go runtime bug&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@pierreprinetti/a-pattern-for-go-tests-3468b51535&#34;&gt;A pattern for Go tests&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.golang.org/survey2017-results&#34;&gt;Go 2017 Survey Results&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://commandcenter.blogspot.ru/2017/12/error-handling-in-upspin.html&#34;&gt;Error handling in Upspin&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.programming-books.io/essential/go/&#34;&gt;Essential Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://yourbasic.org/golang/blueprint/&#34;&gt;Go blueprints: code for common tasks&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://rosettacode.org/wiki/Category:Go&#34;&gt;Rosetta Code - Category:Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://medium.com/@zombiezen/life-of-a-go-infrastructure-maintainer-cb1419308eb5&#34;&gt;Life of a Go Infrastructure Maintainer&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=OuT8YYAOOVI&#34;&gt;GopherCon 2017: Joe Tsai - Forward Compatible Go Code&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://blog.merovius.de/2018/02/25/persistent_datastructures_with_go.html&#34;&gt;Persistent datastructures with Go&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://www.elliotdwright.com/2018/02/26/there-and-back-again/&#34;&gt;The Gopher, There and Back Again&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://goreleaser.com/&#34;&gt;GoReleaser&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/stamm/dep_radar&#34;&gt;https://github.com/stamm/dep_radar&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/hunterloftis/pbr&#34;&gt;https://github.com/hunterloftis/pbr&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.meetup.com/ru-RU/Kubernetes-Novosibirsk/events/248011940/&#34;&gt;Kubernetes - from Zero to Hero 6-ого марта в Новосибирске&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon-russia.ru/&#34;&gt;GopherCon Russia 2018 17-ого марта в Москве&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/&#34;&gt;Kubecon and Cloud Native Con Europe 2018 — 2-4 мая, Копенгаген&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018 c 31-ого мая в Рейкьявике&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days 2018 — 18-20 июня, Гамбург&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon 2018 с 27-ого августа в Денвере&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golab.io/&#34;&gt;GoLab 2018 - 22-23 октября во Флоренции&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt;.
+Гости: &lt;a href=&#34;https://github.com/Quasilyte&#34;&gt;Искандер Шарипов&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/mkevac&#34;&gt;Марко Кевац&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Огромное спасибо &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константину Веселкову&lt;/a&gt; за помощь в подготовке звука и шоуноты.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 119b. В гостях Искандер Шарипов (с нормальным звуком)</title>
         <itunes:subtitle>Выпуск 119b. В гостях Искандер Шарипов (с нормальным звуком)</itunes:subtitle>
         <itunes:summary>
