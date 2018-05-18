@@ -18,6 +18,135 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 122. (story [:vgo :http])</title>
+        <itunes:subtitle>Выпуск 122. (story [:vgo :http])</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/go-brand&#34;&gt;Go&amp;rsquo;s New Brand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sdboyer.io/vgo/intro/&#34;&gt;An Analysis of vgo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=F8nrpe0XWRg&#34;&gt;Opening keynote: Go with Versions - GopherConSG 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2018/05/18/vgo-integration-support/&#34;&gt;vgo integration support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@i0exception/some-common-traps-while-using-defer-205ebbdc0a3b&#34;&gt;Some common traps while using defer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://crawshaw.io/blog/tragedy-of-finalizers&#34;&gt;The Tragedy of Finalizers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://crawshaw.io/blog/sharp-edged-finalizers&#34;&gt;Sharp-Edged Finalizers in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kaviraj.me/understanding-condition-variable-in-go/&#34;&gt;Understanding Condition Variable in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/statuscode/how-i-write-go-http-services-after-seven-years-37c208122831&#34;&gt;How I write Go HTTP services after seven years&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/observability/debugging-latency-in-go-1-11-9f97a7910d68&#34;&gt;Debugging Latency in Go 1.11&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://talks.godoc.org/github.com/gettaxi/go-talks/2018/05/go-gett/execution-tracing-in-go1.11/main.slide&#34;&gt;Execution tracing in Go 1.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://distributed-systems-observability-ebook.humio.com&#34;&gt;Бесплатная книга Distributed Systems Observability&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/&#34;&gt;Why you can have millions of Goroutines but only thousands of Java Threads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.visualstudio.com/services/live-share/&#34;&gt;Visual Studio Live Share доступен всем желающим&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLj6h78yzYM2N8GdbjmhVU65KYm_68qBmo&#34;&gt;Опубликованы видео с KubeConEU &amp;amp; CloudNativeConEU&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://landscape.cncf.io&#34;&gt;CNCF Cloud Native Interactive Landscape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/gvisor&#34;&gt;https://github.com/google/gvisor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/umputun/remark&#34;&gt;https://github.com/umputun/remark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vkuznecovas/mouthful&#34;&gt;https://github.com/vkuznecovas/mouthful&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/766b/vscode-go-outliner&#34;&gt;https://github.com/766b/vscode-go-outliner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dutchcoders/slackarchive&#34;&gt;https://github.com/dutchcoders/slackarchive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018 c 31-ого мая в Рейкьявике&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days 2018 — 18-20 июня, Гамбург&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/122.mp3" length="89801902" type="audio/mpeg" />
+        <itunes:duration>1:46:54</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/02-28-122/</link>
+        <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/02-28-122/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.golang.org/go-brand&#34;&gt;Go&amp;rsquo;s New Brand&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sdboyer.io/vgo/intro/&#34;&gt;An Analysis of vgo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/watch?v=F8nrpe0XWRg&#34;&gt;Opening keynote: Go with Versions - GopherConSG 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://blog.jetbrains.com/go/2018/05/18/vgo-integration-support/&#34;&gt;vgo integration support&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@i0exception/some-common-traps-while-using-defer-205ebbdc0a3b&#34;&gt;Some common traps while using defer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://crawshaw.io/blog/tragedy-of-finalizers&#34;&gt;The Tragedy of Finalizers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://crawshaw.io/blog/sharp-edged-finalizers&#34;&gt;Sharp-Edged Finalizers in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://kaviraj.me/understanding-condition-variable-in-go/&#34;&gt;Understanding Condition Variable in Go&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/statuscode/how-i-write-go-http-services-after-seven-years-37c208122831&#34;&gt;How I write Go HTTP services after seven years&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/observability/debugging-latency-in-go-1-11-9f97a7910d68&#34;&gt;Debugging Latency in Go 1.11&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://talks.godoc.org/github.com/gettaxi/go-talks/2018/05/go-gett/execution-tracing-in-go1.11/main.slide&#34;&gt;Execution tracing in Go 1.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://distributed-systems-observability-ebook.humio.com&#34;&gt;Бесплатная книга Distributed Systems Observability&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/&#34;&gt;Why you can have millions of Goroutines but only thousands of Java Threads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.visualstudio.com/services/live-share/&#34;&gt;Visual Studio Live Share доступен всем желающим&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.youtube.com/playlist?list=PLj6h78yzYM2N8GdbjmhVU65KYm_68qBmo&#34;&gt;Опубликованы видео с KubeConEU &amp;amp; CloudNativeConEU&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://landscape.cncf.io&#34;&gt;CNCF Cloud Native Interactive Landscape&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;пакеты&#34;&gt;Пакеты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/google/gvisor&#34;&gt;https://github.com/google/gvisor&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/umputun/remark&#34;&gt;https://github.com/umputun/remark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/vkuznecovas/mouthful&#34;&gt;https://github.com/vkuznecovas/mouthful&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/766b/vscode-go-outliner&#34;&gt;https://github.com/766b/vscode-go-outliner&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/dutchcoders/slackarchive&#34;&gt;https://github.com/dutchcoders/slackarchive&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://gophercon.is/&#34;&gt;GopherCon Iceland 2018 c 31-ого мая в Рейкьявике&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days 2018 — 18-20 июня, Гамбург&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Выпуск 120</title>
         <itunes:subtitle>Выпуск 120</itunes:subtitle>
         <itunes:summary>
