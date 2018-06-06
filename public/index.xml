@@ -83,10 +83,10 @@
         <enclosure url="http://golangshow.com/cdn/episodes/122.mp3" length="89801902" type="audio/mpeg" />
         <itunes:duration>1:46:54</itunes:duration>
 
-        <link>http://golangshow.com/episode/2018/02-28-122/</link>
+        <link>http://golangshow.com/episode/2018/05-18-122/</link>
         <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
 
-        <guid>http://golangshow.com/episode/2018/02-28-122/</guid>
+        <guid>http://golangshow.com/episode/2018/05-18-122/</guid>
         <description><![CDATA[
 
 <h2 id="темы">Темы</h2>
@@ -143,6 +143,151 @@
 
 <p>Ведущие этого выпуска:
 <a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+]]></description>
+      </item>
+
+      <item>
+        <title>Выпуск 121. В гостях Алексей Акулович и Григорий Елеськин</title>
+        <itunes:subtitle>Выпуск 121. В гостях Алексей Акулович и Григорий Елеськин</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<p>Этот выпуск был записан в начале марта перед GopherCon&rsquo;ом. Мы долго не могли его выложить из-за проблемы со звуком.
+Огромное спасибо <a href="https://github.com/KosToZyB">Константину Веселкову</a> за решение этой проблемы.</p>
+
+<h2 id="гости">Гости</h2>
+
+<ul>
+<li><a href="https://github.com/AterCattus">Алексей Акулович</a></li>
+<li><a href="https://github.com/nyarum">Григорий Елеськин</a></li>
+</ul>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Традиционный отчёт от Алексея
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/18802">proposal: sync: support for sharded values</a></li>
+<li><a href="https://github.com/golang/go/issues/24204">proposal: Go 2: allow cap(make([]T, m, n)) &gt; n</a></li>
+<li><a href="https://github.com/golang/go/issues/23828">cmd/compile: use strings.Builder</a></li>
+</ul></li>
+<li><a href="https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc">Code your own blockchain in less than 200 lines of Go!</a>
+
+<ul>
+<li><a href="https://medium.com/@mycoralhealth/part-2-networking-code-your-own-blockchain-in-less-than-200-lines-of-go-17fe1dad46e1">Part 2: Networking — Code your own blockchain in less than 200 lines of Go!</a></li>
+<li><a href="https://habrahabr.ru/post/347930/">Написание blockchain менее чем за 200 строк кода на Go</a></li>
+<li><a href="https://habrahabr.ru/post/348624/">Часть 2: Сетевое взаимодействие — Написание blockchain менее чем за 200 строк кода на Go</a></li>
+</ul></li>
+<li><a href="https://medium.com/@mycoralhealth/learn-to-securely-share-files-on-the-blockchain-with-ipfs-219ee47df54c">Learn to securely share files on the blockchain with IPFS!</a></li>
+<li><a href="https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f">Code your own blockchain mining algorithm in Go!</a></li>
+<li><a href="https://eng.uber.com/schemaless-rewrite/">Code Migration in Production: Rewriting the Sharding Layer of Uber’s Schemaless Datastore</a></li>
+<li><a href="https://dev.to/hajimehoshi/go-packages-we-developed-for-our-games--4cl9">Go Packages we developed for our games</a></li>
+<li><a href="https://www.evilsocket.net/2018/02/27/All-hail-bettercap-2-0-one-tool-to-rule-them-all/">All Hail Bettercap 2.0, One Tool to Rule Them All</a></li>
+<li><a href="https://medium.com/justforfunc/analyzing-the-performance-of-go-functions-with-benchmarks-60b8162e61c6">Analyzing the performance of Go functions with benchmarks</a></li>
+<li><a href="https://pragmacoders.com/multithreading-go-tutorial/">Специально для начинающих (кто-то там опять жаловался, что нет тем для начинающих): Multithreading in Go - A Tutorial</a></li>
+<li><a href="https://docs.google.com/document/d/131vjr4DH6JFnb-blm_uRdaC0_Nv3OUwjEY5qVCxCup4/edit">WebAssembly architecture for Go</a></li>
+<li><a href="http://arnaucode.com/blog /flock-botnet.html">Developing a Twitter botnet based on Markov chains in Go</a>
+
+<ul>
+<li><a href="https://4gophers.ru/articles/markov-twitter-botnet/">Разработка твиттер ботнета на основе цепей Маркова</a></li>
+</ul></li>
+<li><a href="https://blog.cloudflare.com/http-analytics-for-6m-requests-per-second-using-clickhouse/">HTTP Analytics for 6M requests per second using ClickHouse</a></li>
+</ul>
+
+<h2 id="пакеты-и-проекты">Пакеты и проекты</h2>
+
+<ul>
+<li><a href="https://github.com/NebulousLabs/Sia">https://github.com/NebulousLabs/Sia</a></li>
+<li><a href="https://github.com/enocom/gopher-reading-list">https://github.com/enocom/gopher-reading-list</a></li>
+<li><a href="https://github.com/teh-cmc/go-internals">https://github.com/teh-cmc/go-internals</a></li>
+<li><a href="https://github.com/dearplain/goloader">https://github.com/dearplain/goloader</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку Романа Нехорошева, GC, Алексея Акуловича, Романа Будникова, Алексея Махова, Леонида Бугаева и всех-всех-всех
+наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>.
+Гости: <a href="https://github.com/AterCattus">Алексей Акулович</a> и <a href="https://github.com/nyarum">Григорий Елеськин</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/121.mp3" length="33198563" type="audio/mpeg" />
+        <itunes:duration>01:44:22</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/03-08-121/</link>
+        <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/03-08-121/</guid>
+        <description><![CDATA[
+
+<p>Этот выпуск был записан в начале марта перед GopherCon&rsquo;ом. Мы долго не могли его выложить из-за проблемы со звуком.
+Огромное спасибо <a href="https://github.com/KosToZyB">Константину Веселкову</a> за решение этой проблемы.</p>
+
+<h2 id="гости">Гости</h2>
+
+<ul>
+<li><a href="https://github.com/AterCattus">Алексей Акулович</a></li>
+<li><a href="https://github.com/nyarum">Григорий Елеськин</a></li>
+</ul>
+
+<h2 id="темы">Темы</h2>
+
+<ul>
+<li>Традиционный отчёт от Алексея
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/18802">proposal: sync: support for sharded values</a></li>
+<li><a href="https://github.com/golang/go/issues/24204">proposal: Go 2: allow cap(make([]T, m, n)) &gt; n</a></li>
+<li><a href="https://github.com/golang/go/issues/23828">cmd/compile: use strings.Builder</a></li>
+</ul></li>
+<li><a href="https://medium.com/@mycoralhealth/code-your-own-blockchain-in-less-than-200-lines-of-go-e296282bcffc">Code your own blockchain in less than 200 lines of Go!</a>
+
+<ul>
+<li><a href="https://medium.com/@mycoralhealth/part-2-networking-code-your-own-blockchain-in-less-than-200-lines-of-go-17fe1dad46e1">Part 2: Networking — Code your own blockchain in less than 200 lines of Go!</a></li>
+<li><a href="https://habrahabr.ru/post/347930/">Написание blockchain менее чем за 200 строк кода на Go</a></li>
+<li><a href="https://habrahabr.ru/post/348624/">Часть 2: Сетевое взаимодействие — Написание blockchain менее чем за 200 строк кода на Go</a></li>
+</ul></li>
+<li><a href="https://medium.com/@mycoralhealth/learn-to-securely-share-files-on-the-blockchain-with-ipfs-219ee47df54c">Learn to securely share files on the blockchain with IPFS!</a></li>
+<li><a href="https://medium.com/@mycoralhealth/code-your-own-blockchain-mining-algorithm-in-go-82c6a71aba1f">Code your own blockchain mining algorithm in Go!</a></li>
+<li><a href="https://eng.uber.com/schemaless-rewrite/">Code Migration in Production: Rewriting the Sharding Layer of Uber’s Schemaless Datastore</a></li>
+<li><a href="https://dev.to/hajimehoshi/go-packages-we-developed-for-our-games--4cl9">Go Packages we developed for our games</a></li>
+<li><a href="https://www.evilsocket.net/2018/02/27/All-hail-bettercap-2-0-one-tool-to-rule-them-all/">All Hail Bettercap 2.0, One Tool to Rule Them All</a></li>
+<li><a href="https://medium.com/justforfunc/analyzing-the-performance-of-go-functions-with-benchmarks-60b8162e61c6">Analyzing the performance of Go functions with benchmarks</a></li>
+<li><a href="https://pragmacoders.com/multithreading-go-tutorial/">Специально для начинающих (кто-то там опять жаловался, что нет тем для начинающих): Multithreading in Go - A Tutorial</a></li>
+<li><a href="https://docs.google.com/document/d/131vjr4DH6JFnb-blm_uRdaC0_Nv3OUwjEY5qVCxCup4/edit">WebAssembly architecture for Go</a></li>
+<li><a href="http://arnaucode.com/blog /flock-botnet.html">Developing a Twitter botnet based on Markov chains in Go</a>
+
+<ul>
+<li><a href="https://4gophers.ru/articles/markov-twitter-botnet/">Разработка твиттер ботнета на основе цепей Маркова</a></li>
+</ul></li>
+<li><a href="https://blog.cloudflare.com/http-analytics-for-6m-requests-per-second-using-clickhouse/">HTTP Analytics for 6M requests per second using ClickHouse</a></li>
+</ul>
+
+<h2 id="пакеты-и-проекты">Пакеты и проекты</h2>
+
+<ul>
+<li><a href="https://github.com/NebulousLabs/Sia">https://github.com/NebulousLabs/Sia</a></li>
+<li><a href="https://github.com/enocom/gopher-reading-list">https://github.com/enocom/gopher-reading-list</a></li>
+<li><a href="https://github.com/teh-cmc/go-internals">https://github.com/teh-cmc/go-internals</a></li>
+<li><a href="https://github.com/dearplain/goloader">https://github.com/dearplain/goloader</a></li>
+</ul>
+
+<h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
+
+<p>Благодарим за поддержку Романа Нехорошева, GC, Алексея Акуловича, Романа Будникова, Алексея Махова, Леонида Бугаева и всех-всех-всех
+наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
+
+<p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
+
+<p>Ведущие этого выпуска: <a href="https://twitter.com/paaleksey">Алексей</a>.
+Гости: <a href="https://github.com/AterCattus">Алексей Акулович</a> и <a href="https://github.com/nyarum">Григорий Елеськин</a>.</p>
 ]]></description>
       </item>
 
