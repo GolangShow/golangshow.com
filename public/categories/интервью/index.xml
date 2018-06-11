@@ -18,8 +18,8 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
-        <title>Выпуск 123. Юбилейный.</title>
-        <itunes:subtitle>Выпуск 123. Юбилейный.</itunes:subtitle>
+        <title>Выпуск 123. Юбилейный</title>
+        <itunes:subtitle>Выпуск 123. Юбилейный</itunes:subtitle>
         <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
@@ -85,6 +85,11 @@
 <h2 id="интервью-с-натали-пистунович-про-gophercon-iceland">Интервью с Натали Пистунович про GopherCon Iceland</h2>
 
 <p>Начинается с [00:35:53].</p>
+
+<ul>
+<li>Natalie&rsquo;s twitter: <a href="https://twitter.com/NataliePis">@NataliePis</a></li>
+<li><a href="https://golangbridge.org">Проект GoBridge</a></li>
+</ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 
@@ -173,6 +178,11 @@
 
 <p>Начинается с [00:35:53].</p>
 
+<ul>
+<li>Natalie&rsquo;s twitter: <a href="https://twitter.com/NataliePis">@NataliePis</a></li>
+<li><a href="https://golangbridge.org">Проект GoBridge</a></li>
+</ul>
+
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 
 <p>Благодарим за поддержку Романа Нехорошева, Алексея Акуловича, Максима Сёмочкина и всех-всех-всех
@@ -191,6 +201,8 @@
         <itunes:subtitle>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с sam&rsquo;ом boyer&rsquo;ом на dotGo 2017.</p>
 
+<p>Interview with sam boyer at dotGo 2017.</p>
+
 <p>Звук от Алексея очень плох, но sam&rsquo;а слышно хорошо. Благодарим <a href="https://github.com/KosToZyB">Константина Веселкова</a>
 за помощь в восстановлении звука этого интервью.</p>
 ]]></itunes:summary>
@@ -206,6 +218,8 @@
         <guid>http://golangshow.com/episode/2018/02-05-116/</guid>
         <description><![CDATA[<p>Интервью с sam&rsquo;ом boyer&rsquo;ом на dotGo 2017.</p>
 
+<p>Interview with sam boyer at dotGo 2017.</p>
+
 <p>Звук от Алексея очень плох, но sam&rsquo;а слышно хорошо. Благодарим <a href="https://github.com/KosToZyB">Константина Веселкова</a>
 за помощь в восстановлении звука этого интервью.</p>
 ]]></description>
@@ -215,6 +229,8 @@
         <title>Выпуск 115. dotGo 2017: интервью с JBD</title>
         <itunes:subtitle>Выпуск 115. dotGo 2017: интервью с JBD</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.</p>
+
+<p>Interview with Jaana Burcu Dogan a.k.a. rakyll at dotGo 2017.</p>
 
 <p>В нём по какой-то причине Алексей называет Derek&rsquo;а Parker&rsquo;а Трэвисом. Приношу свои извинения.</p>
 
@@ -233,6 +249,8 @@
         <guid>http://golangshow.com/episode/2018/02-04-115/</guid>
         <description><![CDATA[<p>Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.</p>
 
+<p>Interview with Jaana Burcu Dogan a.k.a. rakyll at dotGo 2017.</p>
+
 <p>В нём по какой-то причине Алексей называет Derek&rsquo;а Parker&rsquo;а Трэвисом. Приношу свои извинения.</p>
 
 <p>Звук в самом начале очень плох, но потом становится лучше. Благодарим <a href="https://github.com/KosToZyB">Константина Веселкова</a>
@@ -241,8 +259,8 @@
       </item>
 
       <item>
-        <title>Выпуск 078. Спецвыпуск с dotGo</title>
-        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
+        <title>Выпуск 078. Спецвыпуск с dotGo 2016</title>
+        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo 2016</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с докладчиками:</p>
 
 <ul>
@@ -293,6 +311,8 @@
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+
+<p>Interview with Rob Pike at dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -305,6 +325,8 @@
 
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
         <description><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+
+<p>Interview with Rob Pike at dotGo 2015.</p>
 ]]></description>
       </item>
 
@@ -312,6 +334,8 @@
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+
+<p>Interview with Brad Fitzpatrick at dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -324,6 +348,8 @@
 
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
         <description><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+
+<p>Interview with Brad Fitzpatrick at dotGo 2015.</p>
 ]]></description>
       </item>
 

@@ -18,8 +18,8 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
-        <title>Episode 123. And Now for Something Completely Different.</title>
-        <itunes:subtitle>Episode 123. And Now for Something Completely Different.</itunes:subtitle>
+        <title>Episode 123. And Now for Something Completely Different</title>
+        <itunes:subtitle>Episode 123. And Now for Something Completely Different</itunes:subtitle>
         <itunes:summary>
 
 &lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
@@ -85,6 +85,12 @@
 &lt;h2 id=&#34;interview-with-florin-pățan-about-gophercon-iceland&#34;&gt;Interview with Florin Pățan about GopherCon Iceland&lt;/h2&gt;
 
 &lt;p&gt;Starts at [00:27:43].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Florin&amp;rsquo;s twitter: &lt;a href=&#34;https://twitter.com/dlsniper&#34;&gt;@dlsniper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/NewSpeakers&#34;&gt;New Speakers Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://invite.slack.golangbridge.org&#34;&gt;Join Gophers on Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;patrons&#34;&gt;Patrons&lt;/h2&gt;
 
@@ -168,6 +174,12 @@
 
 &lt;p&gt;Starts at [00:27:43].&lt;/p&gt;
 
+&lt;ul&gt;
+&lt;li&gt;Florin&amp;rsquo;s twitter: &lt;a href=&#34;https://twitter.com/dlsniper&#34;&gt;@dlsniper&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/wiki/NewSpeakers&#34;&gt;New Speakers Wiki&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://invite.slack.golangbridge.org&#34;&gt;Join Gophers on Slack&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
 &lt;h2 id=&#34;patrons&#34;&gt;Patrons&lt;/h2&gt;
 
 &lt;p&gt;We are grateful to Roman Nekhoroshev, Aleksey Akulovich, Maxim Semochkin, Konstantin Veselkov and all our other patrons. You can support our podcast &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;here&lt;/a&gt; (if you can read Russian :)).&lt;/p&gt;
@@ -177,8 +189,8 @@
       </item>
 
       <item>
-        <title>Выпуск 123. Юбилейный.</title>
-        <itunes:subtitle>Выпуск 123. Юбилейный.</itunes:subtitle>
+        <title>Выпуск 123. Юбилейный</title>
+        <itunes:subtitle>Выпуск 123. Юбилейный</itunes:subtitle>
         <itunes:summary>
 
 &lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
@@ -244,6 +256,11 @@
 &lt;h2 id=&#34;интервью-с-натали-пистунович-про-gophercon-iceland&#34;&gt;Интервью с Натали Пистунович про GopherCon Iceland&lt;/h2&gt;
 
 &lt;p&gt;Начинается с [00:35:53].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Natalie&amp;rsquo;s twitter: &lt;a href=&#34;https://twitter.com/NataliePis&#34;&gt;@NataliePis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangbridge.org&#34;&gt;Проект GoBridge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
 
@@ -331,6 +348,11 @@
 &lt;h2 id=&#34;интервью-с-натали-пистунович-про-gophercon-iceland&#34;&gt;Интервью с Натали Пистунович про GopherCon Iceland&lt;/h2&gt;
 
 &lt;p&gt;Начинается с [00:35:53].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Natalie&amp;rsquo;s twitter: &lt;a href=&#34;https://twitter.com/NataliePis&#34;&gt;@NataliePis&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangbridge.org&#34;&gt;Проект GoBridge&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
 
@@ -1213,6 +1235,8 @@
         <itunes:subtitle>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с sam&amp;rsquo;ом boyer&amp;rsquo;ом на dotGo 2017.&lt;/p&gt;
 
+&lt;p&gt;Interview with sam boyer at dotGo 2017.&lt;/p&gt;
+
 &lt;p&gt;Звук от Алексея очень плох, но sam&amp;rsquo;а слышно хорошо. Благодарим &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константина Веселкова&lt;/a&gt;
 за помощь в восстановлении звука этого интервью.&lt;/p&gt;
 </itunes:summary>
@@ -1228,6 +1252,8 @@
         <guid>http://golangshow.com/episode/2018/02-05-116/</guid>
         <description>&lt;p&gt;Интервью с sam&amp;rsquo;ом boyer&amp;rsquo;ом на dotGo 2017.&lt;/p&gt;
 
+&lt;p&gt;Interview with sam boyer at dotGo 2017.&lt;/p&gt;
+
 &lt;p&gt;Звук от Алексея очень плох, но sam&amp;rsquo;а слышно хорошо. Благодарим &lt;a href=&#34;https://github.com/KosToZyB&#34;&gt;Константина Веселкова&lt;/a&gt;
 за помощь в восстановлении звука этого интервью.&lt;/p&gt;
 </description>
@@ -1237,6 +1263,8 @@
         <title>Выпуск 115. dotGo 2017: интервью с JBD</title>
         <itunes:subtitle>Выпуск 115. dotGo 2017: интервью с JBD</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.&lt;/p&gt;
+
+&lt;p&gt;Interview with Jaana Burcu Dogan a.k.a. rakyll at dotGo 2017.&lt;/p&gt;
 
 &lt;p&gt;В нём по какой-то причине Алексей называет Derek&amp;rsquo;а Parker&amp;rsquo;а Трэвисом. Приношу свои извинения.&lt;/p&gt;
 
@@ -1254,6 +1282,8 @@
 
         <guid>http://golangshow.com/episode/2018/02-04-115/</guid>
         <description>&lt;p&gt;Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.&lt;/p&gt;
+
+&lt;p&gt;Interview with Jaana Burcu Dogan a.k.a. rakyll at dotGo 2017.&lt;/p&gt;
 
 &lt;p&gt;В нём по какой-то причине Алексей называет Derek&amp;rsquo;а Parker&amp;rsquo;а Трэвисом. Приношу свои извинения.&lt;/p&gt;
 
@@ -6019,8 +6049,8 @@ Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
       </item>
 
       <item>
-        <title>Выпуск 078. Спецвыпуск с dotGo</title>
-        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
+        <title>Выпуск 078. Спецвыпуск с dotGo 2016</title>
+        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo 2016</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с докладчиками:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -11878,6 +11908,8 @@ Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с Робом Пайком на dotGo 2015.&lt;/p&gt;
+
+&lt;p&gt;Interview with Rob Pike at dotGo 2015.&lt;/p&gt;
 </itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -11890,6 +11922,8 @@ Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
 
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
         <description>&lt;p&gt;Интервью с Робом Пайком на dotGo 2015.&lt;/p&gt;
+
+&lt;p&gt;Interview with Rob Pike at dotGo 2015.&lt;/p&gt;
 </description>
       </item>
 
@@ -11897,6 +11931,8 @@ Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
         <itunes:summary>&lt;p&gt;Интервью с Бредом Фитцпатриком на dotGo 2015.&lt;/p&gt;
+
+&lt;p&gt;Interview with Brad Fitzpatrick at dotGo 2015.&lt;/p&gt;
 </itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -11909,6 +11945,8 @@ Ilya Vassilevsky, Andrew Vorobyov&lt;/p&gt;
 
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
         <description>&lt;p&gt;Интервью с Бредом Фитцпатриком на dotGo 2015.&lt;/p&gt;
+
+&lt;p&gt;Interview with Brad Fitzpatrick at dotGo 2015.&lt;/p&gt;
 </description>
       </item>
 

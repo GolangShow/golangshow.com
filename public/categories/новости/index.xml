@@ -18,8 +18,8 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
-        <title>Выпуск 123. Юбилейный.</title>
-        <itunes:subtitle>Выпуск 123. Юбилейный.</itunes:subtitle>
+        <title>Выпуск 123. Юбилейный</title>
+        <itunes:subtitle>Выпуск 123. Юбилейный</itunes:subtitle>
         <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
@@ -85,6 +85,11 @@
 <h2 id="интервью-с-натали-пистунович-про-gophercon-iceland">Интервью с Натали Пистунович про GopherCon Iceland</h2>
 
 <p>Начинается с [00:35:53].</p>
+
+<ul>
+<li>Natalie&rsquo;s twitter: <a href="https://twitter.com/NataliePis">@NataliePis</a></li>
+<li><a href="https://golangbridge.org">Проект GoBridge</a></li>
+</ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 
@@ -172,6 +177,11 @@
 <h2 id="интервью-с-натали-пистунович-про-gophercon-iceland">Интервью с Натали Пистунович про GopherCon Iceland</h2>
 
 <p>Начинается с [00:35:53].</p>
+
+<ul>
+<li>Natalie&rsquo;s twitter: <a href="https://twitter.com/NataliePis">@NataliePis</a></li>
+<li><a href="https://golangbridge.org">Проект GoBridge</a></li>
+</ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 

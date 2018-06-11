@@ -18,8 +18,8 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
-        <title>Episode 123. And Now for Something Completely Different.</title>
-        <itunes:subtitle>Episode 123. And Now for Something Completely Different.</itunes:subtitle>
+        <title>Episode 123. And Now for Something Completely Different</title>
+        <itunes:subtitle>Episode 123. And Now for Something Completely Different</itunes:subtitle>
         <itunes:summary><![CDATA[
 
 <h2 id="topics">Topics</h2>
@@ -85,6 +85,12 @@
 <h2 id="interview-with-florin-pățan-about-gophercon-iceland">Interview with Florin Pățan about GopherCon Iceland</h2>
 
 <p>Starts at [00:27:43].</p>
+
+<ul>
+<li>Florin&rsquo;s twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a></li>
+<li><a href="https://github.com/golang/go/wiki/NewSpeakers">New Speakers Wiki</a></li>
+<li><a href="https://invite.slack.golangbridge.org">Join Gophers on Slack</a></li>
+</ul>
 
 <h2 id="patrons">Patrons</h2>
 
@@ -167,6 +173,12 @@
 <h2 id="interview-with-florin-pățan-about-gophercon-iceland">Interview with Florin Pățan about GopherCon Iceland</h2>
 
 <p>Starts at [00:27:43].</p>
+
+<ul>
+<li>Florin&rsquo;s twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a></li>
+<li><a href="https://github.com/golang/go/wiki/NewSpeakers">New Speakers Wiki</a></li>
+<li><a href="https://invite.slack.golangbridge.org">Join Gophers on Slack</a></li>
+</ul>
 
 <h2 id="patrons">Patrons</h2>
 

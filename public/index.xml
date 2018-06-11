@@ -18,8 +18,8 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
-        <title>Episode 123. And Now for Something Completely Different.</title>
-        <itunes:subtitle>Episode 123. And Now for Something Completely Different.</itunes:subtitle>
+        <title>Episode 123. And Now for Something Completely Different</title>
+        <itunes:subtitle>Episode 123. And Now for Something Completely Different</itunes:subtitle>
         <itunes:summary><![CDATA[
 
 <h2 id="topics">Topics</h2>
@@ -85,6 +85,12 @@
 <h2 id="interview-with-florin-pățan-about-gophercon-iceland">Interview with Florin Pățan about GopherCon Iceland</h2>
 
 <p>Starts at [00:27:43].</p>
+
+<ul>
+<li>Florin&rsquo;s twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a></li>
+<li><a href="https://github.com/golang/go/wiki/NewSpeakers">New Speakers Wiki</a></li>
+<li><a href="https://invite.slack.golangbridge.org">Join Gophers on Slack</a></li>
+</ul>
 
 <h2 id="patrons">Patrons</h2>
 
@@ -168,6 +174,12 @@
 
 <p>Starts at [00:27:43].</p>
 
+<ul>
+<li>Florin&rsquo;s twitter: <a href="https://twitter.com/dlsniper">@dlsniper</a></li>
+<li><a href="https://github.com/golang/go/wiki/NewSpeakers">New Speakers Wiki</a></li>
+<li><a href="https://invite.slack.golangbridge.org">Join Gophers on Slack</a></li>
+</ul>
+
 <h2 id="patrons">Patrons</h2>
 
 <p>We are grateful to Roman Nekhoroshev, Aleksey Akulovich, Maxim Semochkin, Konstantin Veselkov and all our other patrons. You can support our podcast <a href="https://www.patreon.com/golangshow">here</a> (if you can read Russian :)).</p>
@@ -177,8 +189,8 @@
       </item>
 
       <item>
-        <title>Выпуск 123. Юбилейный.</title>
-        <itunes:subtitle>Выпуск 123. Юбилейный.</itunes:subtitle>
+        <title>Выпуск 123. Юбилейный</title>
+        <itunes:subtitle>Выпуск 123. Юбилейный</itunes:subtitle>
         <itunes:summary><![CDATA[
 
 <h2 id="темы">Темы</h2>
@@ -244,6 +256,11 @@
 <h2 id="интервью-с-натали-пистунович-про-gophercon-iceland">Интервью с Натали Пистунович про GopherCon Iceland</h2>
 
 <p>Начинается с [00:35:53].</p>
+
+<ul>
+<li>Natalie&rsquo;s twitter: <a href="https://twitter.com/NataliePis">@NataliePis</a></li>
+<li><a href="https://golangbridge.org">Проект GoBridge</a></li>
+</ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 
@@ -331,6 +348,11 @@
 <h2 id="интервью-с-натали-пистунович-про-gophercon-iceland">Интервью с Натали Пистунович про GopherCon Iceland</h2>
 
 <p>Начинается с [00:35:53].</p>
+
+<ul>
+<li>Natalie&rsquo;s twitter: <a href="https://twitter.com/NataliePis">@NataliePis</a></li>
+<li><a href="https://golangbridge.org">Проект GoBridge</a></li>
+</ul>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 
@@ -1213,6 +1235,8 @@
         <itunes:subtitle>Выпуск 116. dotGo 2017: интервью с sam&#39;ом boyer&#39;ом</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с sam&rsquo;ом boyer&rsquo;ом на dotGo 2017.</p>
 
+<p>Interview with sam boyer at dotGo 2017.</p>
+
 <p>Звук от Алексея очень плох, но sam&rsquo;а слышно хорошо. Благодарим <a href="https://github.com/KosToZyB">Константина Веселкова</a>
 за помощь в восстановлении звука этого интервью.</p>
 ]]></itunes:summary>
@@ -1228,6 +1252,8 @@
         <guid>http://golangshow.com/episode/2018/02-05-116/</guid>
         <description><![CDATA[<p>Интервью с sam&rsquo;ом boyer&rsquo;ом на dotGo 2017.</p>
 
+<p>Interview with sam boyer at dotGo 2017.</p>
+
 <p>Звук от Алексея очень плох, но sam&rsquo;а слышно хорошо. Благодарим <a href="https://github.com/KosToZyB">Константина Веселкова</a>
 за помощь в восстановлении звука этого интервью.</p>
 ]]></description>
@@ -1237,6 +1263,8 @@
         <title>Выпуск 115. dotGo 2017: интервью с JBD</title>
         <itunes:subtitle>Выпуск 115. dotGo 2017: интервью с JBD</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.</p>
+
+<p>Interview with Jaana Burcu Dogan a.k.a. rakyll at dotGo 2017.</p>
 
 <p>В нём по какой-то причине Алексей называет Derek&rsquo;а Parker&rsquo;а Трэвисом. Приношу свои извинения.</p>
 
@@ -1254,6 +1282,8 @@
 
         <guid>http://golangshow.com/episode/2018/02-04-115/</guid>
         <description><![CDATA[<p>Интервью с Jaana Burcu Dogan a.k.a. rakyll на dotGo 2017.</p>
+
+<p>Interview with Jaana Burcu Dogan a.k.a. rakyll at dotGo 2017.</p>
 
 <p>В нём по какой-то причине Алексей называет Derek&rsquo;а Parker&rsquo;а Трэвисом. Приношу свои извинения.</p>
 
@@ -6019,8 +6049,8 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
       </item>
 
       <item>
-        <title>Выпуск 078. Спецвыпуск с dotGo</title>
-        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo</itunes:subtitle>
+        <title>Выпуск 078. Спецвыпуск с dotGo 2016</title>
+        <itunes:subtitle>Выпуск 078. Спецвыпуск с dotGo 2016</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с докладчиками:</p>
 
 <ul>
@@ -11913,6 +11943,8 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
         <title>Выпуск 030. Интервью с Робом Пайком.</title>
         <itunes:subtitle>Выпуск 030. Интервью с Робом Пайком.</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+
+<p>Interview with Rob Pike at dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -11925,6 +11957,8 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <guid>http://golangshow.com/episode/2015/11-21-030/</guid>
         <description><![CDATA[<p>Интервью с Робом Пайком на dotGo 2015.</p>
+
+<p>Interview with Rob Pike at dotGo 2015.</p>
 ]]></description>
       </item>
 
@@ -11932,6 +11966,8 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
         <title>Выпуск 029. Интервью с Бредом Фитцпатриком.</title>
         <itunes:subtitle>Выпуск 029. Интервью с Бредом Фитцпатриком.</itunes:subtitle>
         <itunes:summary><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+
+<p>Interview with Brad Fitzpatrick at dotGo 2015.</p>
 ]]></itunes:summary>
 
         <itunes:author>Подкаст GolangShow</itunes:author>
@@ -11944,6 +11980,8 @@ Ilya Vassilevsky, Andrew Vorobyov</p>
 
         <guid>http://golangshow.com/episode/2015/11-20-029/</guid>
         <description><![CDATA[<p>Интервью с Бредом Фитцпатриком на dotGo 2015.</p>
+
+<p>Interview with Brad Fitzpatrick at dotGo 2015.</p>
 ]]></description>
       </item>
 
