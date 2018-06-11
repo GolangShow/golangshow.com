@@ -33,10 +33,10 @@ copyright = "All rights reserved - 2015-2017"
   rss = true
 
 [[menu.main]]
-  name = "Онлайн вещание"
+  name = "English episodes"
   weight = -100
-  identifier = "online"
-  url = "/online"
+  identifier = "english"
+  url = "/categories/english"
 
 [[menu.main]]
   name = "Гости"
