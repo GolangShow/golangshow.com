@@ -23,7 +23,6 @@ a#mailinglink {
 
     <ul class="sidebar-nav">
       <li class="sidebar-nav-item"><a href="{{ "/" | absURL }}">{{ if isset .Site.Params "home"}}{{ .Site.Params.home }}{{ else }}Blog{{ end }}</a></li>
-      <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
       {{ range .Site.Menus.main }}
       	{{ if hasPrefix .URL "javascript"}}
       	  <li class="sidebar-nav-item"><a href="{{ .URL | safeURL }}">{{ .Name }}</a></li>
