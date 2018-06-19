@@ -18,6 +18,240 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Episode 124. XXX</title>
+        <itunes:subtitle>Episode 124. XXX</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tip.golang.org/doc/go1.11&#34;&gt;DRAFT Go 1.11 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/&#34;&gt;Fixing the billion dollar mistake in Go by borrowing from Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/research/devecosystem-2018/go/&#34;&gt;The State of Developer Ecosystem Survey in 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/blob/master/src/cmd/compile/README.md&#34;&gt;Introduction to the Go compiler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7&#34;&gt;Go code refactoring: the 23x performance hunt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/XbKSssBftLM&#34;&gt;justforfunc #35: Implementing the tree command from scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zserge.com/blog/metrics.html&#34;&gt;Implementing Metrics In Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/prometheus/client_golang/blob/v0.8.0/prometheus/summary.go#L142&#34;&gt;Prometheus&amp;rsquo; Summary implementation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;libraries-and-projects&#34;&gt;Libraries and projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tcard/sgo&#34;&gt;SGo: A dialect of Go with optional types and without nil references&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/albrow/fo&#34;&gt;Fo: An experimental language which adds functional programming features to Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;conferences-and-meetups&#34;&gt;Conferences and meetups&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days — 18-20 June, Hamburg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golanguk.com&#34;&gt;GopherConUK — 1-3 August, London&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon — 27-30 August, Denver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;interview-xxx&#34;&gt;Interview XXX&lt;/h2&gt;
+
+&lt;h2 id=&#34;patrons&#34;&gt;Patrons&lt;/h2&gt;
+
+&lt;p&gt;We are grateful to Roman Nekhoroshev, Aleksey Akulovich and all our other patrons.
+You can support our podcast &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;here&lt;/a&gt; (if you can read Russian :)).&lt;/p&gt;
+
+&lt;p&gt;This episode is hosted by &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Elena&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Alexey&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/124-en.mp3" length="0" type="audio/mpeg" />
+        <itunes:duration>00:00:00</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/06-17-124-en/</link>
+        <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/06-17-124-en/</guid>
+        <description>
+
+&lt;h2 id=&#34;topics&#34;&gt;Topics&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://tip.golang.org/doc/go1.11&#34;&gt;DRAFT Go 1.11 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/&#34;&gt;Fixing the billion dollar mistake in Go by borrowing from Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/research/devecosystem-2018/go/&#34;&gt;The State of Developer Ecosystem Survey in 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/blob/master/src/cmd/compile/README.md&#34;&gt;Introduction to the Go compiler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7&#34;&gt;Go code refactoring: the 23x performance hunt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/XbKSssBftLM&#34;&gt;justforfunc #35: Implementing the tree command from scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://zserge.com/blog/metrics.html&#34;&gt;Implementing Metrics In Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/prometheus/client_golang/blob/v0.8.0/prometheus/summary.go#L142&#34;&gt;Prometheus&amp;rsquo; Summary implementation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;libraries-and-projects&#34;&gt;Libraries and projects&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/tcard/sgo&#34;&gt;SGo: A dialect of Go with optional types and without nil references&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/albrow/fo&#34;&gt;Fo: An experimental language which adds functional programming features to Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;conferences-and-meetups&#34;&gt;Conferences and meetups&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days — 18-20 June, Hamburg&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golanguk.com&#34;&gt;GopherConUK — 1-3 August, London&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon — 27-30 August, Denver&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;interview-xxx&#34;&gt;Interview XXX&lt;/h2&gt;
+
+&lt;h2 id=&#34;patrons&#34;&gt;Patrons&lt;/h2&gt;
+
+&lt;p&gt;We are grateful to Roman Nekhoroshev, Aleksey Akulovich and all our other patrons.
+You can support our podcast &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;here&lt;/a&gt; (if you can read Russian :)).&lt;/p&gt;
+
+&lt;p&gt;This episode is hosted by &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Elena&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Alexey&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
+        <title>Выпуск 124. nil и AST</title>
+        <itunes:subtitle>Выпуск 124. nil и AST</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[00:00:44] &lt;a href=&#34;https://tip.golang.org/doc/go1.11&#34;&gt;DRAFT Go 1.11 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:01:24] &lt;a href=&#34;https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/&#34;&gt;Fixing the billion dollar mistake in Go by borrowing from Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:13:42] &lt;a href=&#34;https://www.jetbrains.com/research/devecosystem-2018/go/&#34;&gt;The State of Developer Ecosystem Survey in 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:32:52] &lt;a href=&#34;https://github.com/golang/go/blob/master/src/cmd/compile/README.md&#34;&gt;Introduction to the Go compiler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:38:25] &lt;a href=&#34;https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7&#34;&gt;Go code refactoring: the 23x performance hunt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:43:48] &lt;a href=&#34;https://youtu.be/XbKSssBftLM&#34;&gt;justforfunc #35: Implementing the tree command from scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:44:30] &lt;a href=&#34;https://zserge.com/blog/metrics.html&#34;&gt;Implementing Metrics In Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/prometheus/client_golang/blob/v0.8.0/prometheus/summary.go#L142&#34;&gt;Prometheus&amp;rsquo; Summary implementation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-и-проекты&#34;&gt;Библиотеки и проекты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[00:55:30] &lt;a href=&#34;https://github.com/tcard/sgo&#34;&gt;SGo: A dialect of Go with optional types and without nil references&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:56:54] &lt;a href=&#34;https://github.com/albrow/fo&#34;&gt;Fo: An experimental language which adds functional programming features to Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;p&gt;Начинается с [00:58:18].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days — 18-20 июня, Гамбург&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golanguk.com&#34;&gt;GopherConUK — 1-3 августа, Лондон&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon — 27-30 августа, Денвер&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;интервью-с-денисом-исаевым-и-искандером-шариповым&#34;&gt;Интервью с Денисом Исаевым и Искандером Шариповым&lt;/h2&gt;
+
+&lt;p&gt;Начинается с [00:59:58].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jirfag/go-queryset&#34;&gt;go-queryset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangci.com&#34;&gt;Golang CI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golangci/golangci-lint&#34;&gt;golangci-lint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-toolsmith.github.io&#34;&gt;go-toolsmith&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-critic.github.io&#34;&gt;go-critic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mvdan/lint&#34;&gt;Common interfaces for Go code checkers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thomasheller/golinters&#34;&gt;Go linters report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Романа Нехорошева, Алексея Акуловича и всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/124-ru.mp3" length="94138957" type="audio/mpeg" />
+        <itunes:duration>01:38:03</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/06-15-124-ru/</link>
+        <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/06-15-124-ru/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[00:00:44] &lt;a href=&#34;https://tip.golang.org/doc/go1.11&#34;&gt;DRAFT Go 1.11 Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:01:24] &lt;a href=&#34;https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/&#34;&gt;Fixing the billion dollar mistake in Go by borrowing from Rust&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:13:42] &lt;a href=&#34;https://www.jetbrains.com/research/devecosystem-2018/go/&#34;&gt;The State of Developer Ecosystem Survey in 2018&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:32:52] &lt;a href=&#34;https://github.com/golang/go/blob/master/src/cmd/compile/README.md&#34;&gt;Introduction to the Go compiler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:38:25] &lt;a href=&#34;https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7&#34;&gt;Go code refactoring: the 23x performance hunt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:43:48] &lt;a href=&#34;https://youtu.be/XbKSssBftLM&#34;&gt;justforfunc #35: Implementing the tree command from scratch&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:44:30] &lt;a href=&#34;https://zserge.com/blog/metrics.html&#34;&gt;Implementing Metrics In Go&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/prometheus/client_golang/blob/v0.8.0/prometheus/summary.go#L142&#34;&gt;Prometheus&amp;rsquo; Summary implementation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-и-проекты&#34;&gt;Библиотеки и проекты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;[00:55:30] &lt;a href=&#34;https://github.com/tcard/sgo&#34;&gt;SGo: A dialect of Go with optional types and without nil references&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;[00:56:54] &lt;a href=&#34;https://github.com/albrow/fo&#34;&gt;Fo: An experimental language which adds functional programming features to Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;p&gt;Начинается с [00:58:18].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://containerdays.io/&#34;&gt;Container Days — 18-20 июня, Гамбург&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golanguk.com&#34;&gt;GopherConUK — 1-3 августа, Лондон&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon — 27-30 августа, Денвер&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;интервью-с-денисом-исаевым-и-искандером-шариповым&#34;&gt;Интервью с Денисом Исаевым и Искандером Шариповым&lt;/h2&gt;
+
+&lt;p&gt;Начинается с [00:59:58].&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/jirfag/go-queryset&#34;&gt;go-queryset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://golangci.com&#34;&gt;Golang CI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golangci/golangci-lint&#34;&gt;golangci-lint&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-toolsmith.github.io&#34;&gt;go-toolsmith&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://go-critic.github.io&#34;&gt;go-critic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/mvdan/lint&#34;&gt;Common interfaces for Go code checkers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/thomasheller/golinters&#34;&gt;Go linters report&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку Романа Нехорошева, Алексея Акуловича и всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Episode 123. And Now for Something Completely Different</title>
         <itunes:subtitle>Episode 123. And Now for Something Completely Different</itunes:subtitle>
         <itunes:summary>
