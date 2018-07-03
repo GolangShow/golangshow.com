@@ -83,8 +83,8 @@
 
         <itunes:author>Подкаст GolangShow</itunes:author>
         <itunes:image href="http://golangshow.com/images/cover_big.png" />
-        <enclosure url="http://golangshow.com/cdn/episodes/124-ru.mp3" length="94138957" type="audio/mpeg" />
-        <itunes:duration>01:38:03</itunes:duration>
+        <enclosure url="http://golangshow.com/cdn/episodes/124-ru-fixed.mp3" length="91713958" type="audio/mpeg" />
+        <itunes:duration>01:35:31</itunes:duration>
 
         <link>http://golangshow.com/episode/2018/06-15-124-ru/</link>
         <pubDate>Fri, 15 Jun 2018 00:00:00 +0000</pubDate>
