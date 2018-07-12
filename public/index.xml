@@ -18,6 +18,121 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Episode 124. nil and AST</title>
+        <itunes:subtitle>Episode 124. nil and AST</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="topics">Topics</h2>
+
+<p>Starts at [00:01:26].</p>
+
+<ul>
+<li><a href="https://tip.golang.org/doc/go1.11">DRAFT Go 1.11 Release Notes</a></li>
+<li><a href="https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/">Fixing the billion dollar mistake in Go by borrowing from Rust</a></li>
+<li><a href="https://www.jetbrains.com/research/devecosystem-2018/go/">The State of Developer Ecosystem Survey in 2018</a></li>
+<li><a href="https://github.com/golang/go/blob/master/src/cmd/compile/README.md">Introduction to the Go compiler</a></li>
+<li><a href="https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7">Go code refactoring: the 23x performance hunt</a></li>
+<li><a href="https://youtu.be/XbKSssBftLM">justforfunc #35: Implementing the tree command from scratch</a></li>
+<li><a href="https://zserge.com/blog/metrics.html">Implementing Metrics In Go</a>
+
+<ul>
+<li><a href="https://github.com/prometheus/client_golang/blob/v0.8.0/prometheus/summary.go#L142">Prometheus&rsquo; Summary implementation</a></li>
+</ul></li>
+</ul>
+
+<h2 id="libraries-and-projects">Libraries and projects</h2>
+
+<p>Starts at [00:22:17].</p>
+
+<ul>
+<li><a href="https://github.com/tcard/sgo">SGo: A dialect of Go with optional types and without nil references</a></li>
+<li><a href="https://github.com/albrow/fo">Fo: An experimental language which adds functional programming features to Go</a></li>
+</ul>
+
+<h2 id="conferences-and-meetups">Conferences and meetups</h2>
+
+<p>Starts at [00:24:50].</p>
+
+<ul>
+<li><a href="https://containerdays.io/">Container Days — 18-20 June, Hamburg</a></li>
+<li><a href="https://www.golanguk.com">GopherConUK — 1-3 August, London</a></li>
+<li><a href="https://www.gophercon.com/">GopherCon — 27-30 August, Denver</a></li>
+</ul>
+
+<h2 id="interview-with-brad-fitzpatrick-and-brian-ketelsen-gophercon-russia">Interview with Brad Fitzpatrick and Brian Ketelsen @ GopherCon Russia</h2>
+
+<p>Starts at [00:26:16].</p>
+
+<h2 id="patrons">Patrons</h2>
+
+<p>We are grateful to Roman Nekhoroshev, Aleksey Akulovich and all our other patrons.
+You can support our podcast <a href="https://www.patreon.com/golangshow">here</a> (if you can read Russian :)).</p>
+
+<p>This episode is hosted by <a href="https://twitter.com/webdeva">Elena</a> and <a href="https://twitter.com/paaleksey">Alexey</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/124-en.mp3" length="38546606" type="audio/mpeg" />
+        <itunes:duration>00:52:57</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/06-17-124-en/</link>
+        <pubDate>Sun, 17 Jun 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/06-17-124-en/</guid>
+        <description><![CDATA[
+
+<h2 id="topics">Topics</h2>
+
+<p>Starts at [00:01:26].</p>
+
+<ul>
+<li><a href="https://tip.golang.org/doc/go1.11">DRAFT Go 1.11 Release Notes</a></li>
+<li><a href="https://getstream.io/blog/fixing-the-billion-dollar-mistake-in-go-by-borrowing-from-rust/">Fixing the billion dollar mistake in Go by borrowing from Rust</a></li>
+<li><a href="https://www.jetbrains.com/research/devecosystem-2018/go/">The State of Developer Ecosystem Survey in 2018</a></li>
+<li><a href="https://github.com/golang/go/blob/master/src/cmd/compile/README.md">Introduction to the Go compiler</a></li>
+<li><a href="https://medium.com/@val_deleplace/go-code-refactoring-the-23x-performance-hunt-156746b522f7">Go code refactoring: the 23x performance hunt</a></li>
+<li><a href="https://youtu.be/XbKSssBftLM">justforfunc #35: Implementing the tree command from scratch</a></li>
+<li><a href="https://zserge.com/blog/metrics.html">Implementing Metrics In Go</a>
+
+<ul>
+<li><a href="https://github.com/prometheus/client_golang/blob/v0.8.0/prometheus/summary.go#L142">Prometheus&rsquo; Summary implementation</a></li>
+</ul></li>
+</ul>
+
+<h2 id="libraries-and-projects">Libraries and projects</h2>
+
+<p>Starts at [00:22:17].</p>
+
+<ul>
+<li><a href="https://github.com/tcard/sgo">SGo: A dialect of Go with optional types and without nil references</a></li>
+<li><a href="https://github.com/albrow/fo">Fo: An experimental language which adds functional programming features to Go</a></li>
+</ul>
+
+<h2 id="conferences-and-meetups">Conferences and meetups</h2>
+
+<p>Starts at [00:24:50].</p>
+
+<ul>
+<li><a href="https://containerdays.io/">Container Days — 18-20 June, Hamburg</a></li>
+<li><a href="https://www.golanguk.com">GopherConUK — 1-3 August, London</a></li>
+<li><a href="https://www.gophercon.com/">GopherCon — 27-30 August, Denver</a></li>
+</ul>
+
+<h2 id="interview-with-brad-fitzpatrick-and-brian-ketelsen-gophercon-russia">Interview with Brad Fitzpatrick and Brian Ketelsen @ GopherCon Russia</h2>
+
+<p>Starts at [00:26:16].</p>
+
+<h2 id="patrons">Patrons</h2>
+
+<p>We are grateful to Roman Nekhoroshev, Aleksey Akulovich and all our other patrons.
+You can support our podcast <a href="https://www.patreon.com/golangshow">here</a> (if you can read Russian :)).</p>
+
+<p>This episode is hosted by <a href="https://twitter.com/webdeva">Elena</a> and <a href="https://twitter.com/paaleksey">Alexey</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 124. nil и AST</title>
         <itunes:subtitle>Выпуск 124. nil и AST</itunes:subtitle>
         <itunes:summary><![CDATA[
