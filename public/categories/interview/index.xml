@@ -18,6 +18,37 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Episode 126. Interview with William Kennedy</title>
+        <itunes:subtitle>Episode 126. Interview with William Kennedy</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="interview-with-william-kennedy">Interview with William Kennedy</h2>
+
+<p><a href="https://twitter.com/goinggodotnet">Willam</a> is a managing partner at <a href="https://www.ardanlabs.com">Ardan Labs</a>, a high-performance development and training firm working with startups and fortune 500 companies.</p>
+
+<p>He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/126-en.mp3" length="66129838" type="audio/mpeg" />
+        <itunes:duration>00:45:55</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/07-17-126-en/</link>
+        <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/07-17-126-en/</guid>
+        <description><![CDATA[
+
+<h2 id="interview-with-william-kennedy">Interview with William Kennedy</h2>
+
+<p><a href="https://twitter.com/goinggodotnet">Willam</a> is a managing partner at <a href="https://www.ardanlabs.com">Ardan Labs</a>, a high-performance development and training firm working with startups and fortune 500 companies.</p>
+
+<p>He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Episode 124. nil and AST</title>
         <itunes:subtitle>Episode 124. nil and AST</itunes:subtitle>
         <itunes:summary><![CDATA[

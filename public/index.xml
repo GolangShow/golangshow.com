@@ -18,6 +18,156 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Episode 126. Interview with William Kennedy</title>
+        <itunes:subtitle>Episode 126. Interview with William Kennedy</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="interview-with-william-kennedy">Interview with William Kennedy</h2>
+
+<p><a href="https://twitter.com/goinggodotnet">Willam</a> is a managing partner at <a href="https://www.ardanlabs.com">Ardan Labs</a>, a high-performance development and training firm working with startups and fortune 500 companies.</p>
+
+<p>He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/126-en.mp3" length="66129838" type="audio/mpeg" />
+        <itunes:duration>00:45:55</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/07-17-126-en/</link>
+        <pubDate>Tue, 17 Jul 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/07-17-126-en/</guid>
+        <description><![CDATA[
+
+<h2 id="interview-with-william-kennedy">Interview with William Kennedy</h2>
+
+<p><a href="https://twitter.com/goinggodotnet">Willam</a> is a managing partner at <a href="https://www.ardanlabs.com">Ardan Labs</a>, a high-performance development and training firm working with startups and fortune 500 companies.</p>
+
+<p>He is also a co-author of the book Go in Action, the author of the blog GoingGo.Net, and a founding member of GoBridge which is working to increase Go adoption through diversity.</p>
+]]></description>
+      </item>
+
+      <item>
+        <title>Episode 125. July</title>
+        <itunes:subtitle>Episode 125. July</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+<li>Weekly issues report from Alexey:
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/19642">proposal: spec: define _ on rhs as zero value</a></li>
+<li><a href="https://github.com/golang/go/issues/23637">proposal: Go 2: spec: introduce structured tags</a></li>
+<li><a href="https://github.com/golang/go/issues/24813">math/bits: add extended precision Add, Sub, Mul, Div</a></li>
+<li><a href="https://github.com/golang/go/issues/21095">fmt: maps should format in sorted order</a></li>
+<li><a href="https://github.com/golang/go/issues/26219">regexp: revert per-Regexp use of sync.Pool</a></li>
+<li><a href="https://github.com/golang/go/issues/21827">runtime: big performance penalty with runtime.LockOSThread</a></li>
+<li><a href="https://github.com/golang/go/issues/26237">cmd/link: darwin_amd64: running dsymutil failed: signal: segmentation fault</a></li>
+</ul></li>
+<li><a href="https://quasilyte.github.io/blog/post/go_ssa_rules/">Go compiler: SSA optimization rules description language</a></li>
+<li><a href="https://quii.gitbook.io/learn-go-with-tests/">Learn Go with tests</a></li>
+<li><a href="https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/">Hugo Turns 5 Years Old</a></li>
+<li><a href="https://youtu.be/8fi7uSYlOdc">Containers From Scratch</a></li>
+<li><a href="https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/">Web Assembly and Go: A look to the future</a>
+
+<ul>
+<li><a href="https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03">Go 1.11: WebAssembly for the gophers</a></li>
+<li><a href="https://dev.to/hajimehoshi/gopherjs-vs-webassembly-for-go-148m">GopherJS vs WebAssembly for Go</a></li>
+</ul></li>
+</ul>
+
+<h2 id="libraries-and-projects">Libraries and projects</h2>
+
+<ul>
+<li><a href="https://github.com/guptarohit/asciigraph">https://github.com/guptarohit/asciigraph</a></li>
+<li><a href="https://github.com/browsh-org/browsh">https://github.com/browsh-org/browsh</a></li>
+<li><a href="https://ericgreer.info/post/a-better-flags-package-for-go/">https://ericgreer.info/post/a-better-flags-package-for-go/</a></li>
+<li><a href="https://github.com/go-interpreter/wagon">https://github.com/go-interpreter/wagon</a></li>
+<li><a href="https://github.com/cosmos72/gomacro">https://github.com/cosmos72/gomacro</a></li>
+</ul>
+
+<h2 id="conferences-and-meetups">Conferences and meetups</h2>
+
+<ul>
+<li><a href="https://www.golanguk.com">GopherConUK — 1-3 August, London</a></li>
+<li><a href="https://www.gophercon.com/">GopherCon — 27-30 August, Denver</a></li>
+</ul>
+
+<h2 id="patrons">Patrons</h2>
+
+<p>We are grateful to Roman Nekhoroshev, Aleksey Akulovich, Сёмочкин Максим, Konstantin Veselkov, Andrew Kazakov and all our other patrons.
+You can support our podcast <a href="https://www.patreon.com/golangshow">here</a> (if you can read Russian :)).</p>
+
+<p>This episode is hosted by <a href="https://twitter.com/webdeva">Elena</a> and <a href="https://twitter.com/paaleksey">Alexey</a>.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/125-en.mp3" length="26005755" type="audio/mpeg" />
+        <itunes:duration>00:18:03</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/07-16-125-en/</link>
+        <pubDate>Mon, 16 Jul 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/07-16-125-en/</guid>
+        <description><![CDATA[
+
+<h2 id="topics">Topics</h2>
+
+<ul>
+<li>Weekly issues report from Alexey:
+
+<ul>
+<li><a href="https://github.com/golang/go/issues/19642">proposal: spec: define _ on rhs as zero value</a></li>
+<li><a href="https://github.com/golang/go/issues/23637">proposal: Go 2: spec: introduce structured tags</a></li>
+<li><a href="https://github.com/golang/go/issues/24813">math/bits: add extended precision Add, Sub, Mul, Div</a></li>
+<li><a href="https://github.com/golang/go/issues/21095">fmt: maps should format in sorted order</a></li>
+<li><a href="https://github.com/golang/go/issues/26219">regexp: revert per-Regexp use of sync.Pool</a></li>
+<li><a href="https://github.com/golang/go/issues/21827">runtime: big performance penalty with runtime.LockOSThread</a></li>
+<li><a href="https://github.com/golang/go/issues/26237">cmd/link: darwin_amd64: running dsymutil failed: signal: segmentation fault</a></li>
+</ul></li>
+<li><a href="https://quasilyte.github.io/blog/post/go_ssa_rules/">Go compiler: SSA optimization rules description language</a></li>
+<li><a href="https://quii.gitbook.io/learn-go-with-tests/">Learn Go with tests</a></li>
+<li><a href="https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/">Hugo Turns 5 Years Old</a></li>
+<li><a href="https://youtu.be/8fi7uSYlOdc">Containers From Scratch</a></li>
+<li><a href="https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/">Web Assembly and Go: A look to the future</a>
+
+<ul>
+<li><a href="https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03">Go 1.11: WebAssembly for the gophers</a></li>
+<li><a href="https://dev.to/hajimehoshi/gopherjs-vs-webassembly-for-go-148m">GopherJS vs WebAssembly for Go</a></li>
+</ul></li>
+</ul>
+
+<h2 id="libraries-and-projects">Libraries and projects</h2>
+
+<ul>
+<li><a href="https://github.com/guptarohit/asciigraph">https://github.com/guptarohit/asciigraph</a></li>
+<li><a href="https://github.com/browsh-org/browsh">https://github.com/browsh-org/browsh</a></li>
+<li><a href="https://ericgreer.info/post/a-better-flags-package-for-go/">https://ericgreer.info/post/a-better-flags-package-for-go/</a></li>
+<li><a href="https://github.com/go-interpreter/wagon">https://github.com/go-interpreter/wagon</a></li>
+<li><a href="https://github.com/cosmos72/gomacro">https://github.com/cosmos72/gomacro</a></li>
+</ul>
+
+<h2 id="conferences-and-meetups">Conferences and meetups</h2>
+
+<ul>
+<li><a href="https://www.golanguk.com">GopherConUK — 1-3 August, London</a></li>
+<li><a href="https://www.gophercon.com/">GopherCon — 27-30 August, Denver</a></li>
+</ul>
+
+<h2 id="patrons">Patrons</h2>
+
+<p>We are grateful to Roman Nekhoroshev, Aleksey Akulovich, Сёмочкин Максим, Konstantin Veselkov, Andrew Kazakov and all our other patrons.
+You can support our podcast <a href="https://www.patreon.com/golangshow">here</a> (if you can read Russian :)).</p>
+
+<p>This episode is hosted by <a href="https://twitter.com/webdeva">Elena</a> and <a href="https://twitter.com/paaleksey">Alexey</a>.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Выпуск 125. Июльский</title>
         <itunes:subtitle>Выпуск 125. Июльский</itunes:subtitle>
         <itunes:summary><![CDATA[
