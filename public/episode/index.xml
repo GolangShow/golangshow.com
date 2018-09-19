@@ -18,6 +18,155 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Выпуск 125. Июльский</title>
+        <itunes:subtitle>Выпуск 125. Июльский</itunes:subtitle>
+        <itunes:summary>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Отчет от Александра:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/594eae5ad0ac232503a55c2c76c699d1d58b1699&#34;&gt;cmd/link: compress DWARF sections in ELF binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/be1dfb0e1acc676b1b2de4c1802e047a56e146ab&#34;&gt;doc: describe modules in Go 1.11 release notes and Go FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Традиционный отчёт от Алексея:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19642&#34;&gt;proposal: spec: define _ on rhs as zero value&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23637&#34;&gt;proposal: Go 2: spec: introduce structured tags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/24813&#34;&gt;math/bits: add extended precision Add, Sub, Mul, Div&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21095&#34;&gt;fmt: maps should format in sorted order&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/26219&#34;&gt;regexp: revert per-Regexp use of sync.Pool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21827&#34;&gt;runtime: big performance penalty with runtime.LockOSThread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/26237&#34;&gt;cmd/link: darwin_amd64: running dsymutil failed: signal: segmentation fault&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quasilyte.github.io/blog/post/go_ssa_rules/&#34;&gt;Go compiler: SSA optimization rules description language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/&#34;&gt;Web Assembly and Go: A look to the future&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03&#34;&gt;Go 1.11: WebAssembly for the gophers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/hajimehoshi/gopherjs-vs-webassembly-for-go-148m&#34;&gt;GopherJS vs WebAssembly for Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quii.gitbook.io/learn-go-with-tests/&#34;&gt;Learn Go with tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/&#34;&gt;Hugo Turns 5 Years Old&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/8fi7uSYlOdc&#34;&gt;Containers From Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-и-проекты&#34;&gt;Библиотеки и проекты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/guptarohit/asciigraph&#34;&gt;https://github.com/guptarohit/asciigraph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/browsh-org/browsh&#34;&gt;https://github.com/browsh-org/browsh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericgreer.info/post/a-better-flags-package-for-go/&#34;&gt;https://ericgreer.info/post/a-better-flags-package-for-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-interpreter/wagon&#34;&gt;https://github.com/go-interpreter/wagon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cosmos72/gomacro&#34;&gt;https://github.com/cosmos72/gomacro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golanguk.com&#34;&gt;GopherConUK — 1-3 августа, Лондон&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon — 27-30 августа, Денвер&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;спецтема&#34;&gt;Спецтема&lt;/h2&gt;
+
+&lt;p&gt;Интервью. Как собеседоваться и как собеседовать.&lt;/p&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку:
+Roman Nekhoroshev, Aleksey Akulovich, Сёмочкин Максим, Konstantin Veselkov, Andrew Kazakov и всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/125-ru.mp3" length="34195505" type="audio/mpeg" />
+        <itunes:duration>01:34:59</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/07-11-125-ru/</link>
+        <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/07-11-125-ru/</guid>
+        <description>
+
+&lt;h2 id=&#34;темы&#34;&gt;Темы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Отчет от Александра:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/594eae5ad0ac232503a55c2c76c699d1d58b1699&#34;&gt;cmd/link: compress DWARF sections in ELF binaries&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/commit/be1dfb0e1acc676b1b2de4c1802e047a56e146ab&#34;&gt;doc: describe modules in Go 1.11 release notes and Go FAQ&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Традиционный отчёт от Алексея:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/19642&#34;&gt;proposal: spec: define _ on rhs as zero value&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/23637&#34;&gt;proposal: Go 2: spec: introduce structured tags&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/24813&#34;&gt;math/bits: add extended precision Add, Sub, Mul, Div&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21095&#34;&gt;fmt: maps should format in sorted order&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/26219&#34;&gt;regexp: revert per-Regexp use of sync.Pool&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/21827&#34;&gt;runtime: big performance penalty with runtime.LockOSThread&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/golang/go/issues/26237&#34;&gt;cmd/link: darwin_amd64: running dsymutil failed: signal: segmentation fault&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quasilyte.github.io/blog/post/go_ssa_rules/&#34;&gt;Go compiler: SSA optimization rules description language&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/&#34;&gt;Web Assembly and Go: A look to the future&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03&#34;&gt;Go 1.11: WebAssembly for the gophers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dev.to/hajimehoshi/gopherjs-vs-webassembly-for-go-148m&#34;&gt;GopherJS vs WebAssembly for Go&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://quii.gitbook.io/learn-go-with-tests/&#34;&gt;Learn Go with tests&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/&#34;&gt;Hugo Turns 5 Years Old&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://youtu.be/8fi7uSYlOdc&#34;&gt;Containers From Scratch&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;библиотеки-и-проекты&#34;&gt;Библиотеки и проекты&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/guptarohit/asciigraph&#34;&gt;https://github.com/guptarohit/asciigraph&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/browsh-org/browsh&#34;&gt;https://github.com/browsh-org/browsh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ericgreer.info/post/a-better-flags-package-for-go/&#34;&gt;https://ericgreer.info/post/a-better-flags-package-for-go/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/go-interpreter/wagon&#34;&gt;https://github.com/go-interpreter/wagon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/cosmos72/gomacro&#34;&gt;https://github.com/cosmos72/gomacro&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;конференции-и-митапы&#34;&gt;Конференции и митапы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.golanguk.com&#34;&gt;GopherConUK — 1-3 августа, Лондон&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.gophercon.com/&#34;&gt;GopherCon — 27-30 августа, Денвер&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;спецтема&#34;&gt;Спецтема&lt;/h2&gt;
+
+&lt;p&gt;Интервью. Как собеседоваться и как собеседовать.&lt;/p&gt;
+
+&lt;h2 id=&#34;патроны&#34;&gt;&amp;ldquo;Патроны&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Благодарим за поддержку:
+Roman Nekhoroshev, Aleksey Akulovich, Сёмочкин Максим, Konstantin Veselkov, Andrew Kazakov и всех-всех-всех
+наших патронов. Поддержать подкаст можно &lt;a href=&#34;https://www.patreon.com/golangshow&#34;&gt;здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
+или просто свежие темы для следующего выпуска, пишите в &lt;a href=&#34;http://slack.golang-ru.com&#34;&gt;слак-чат golang-ru&lt;/a&gt;, канал &lt;a href=&#34;https://golang-ru.slack.com/messages/C065X9AMS&#34;&gt;#podcast&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ведущие этого выпуска:
+&lt;a href=&#34;https://twitter.com/LK4D4math&#34;&gt;Александр&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/paaleksey&#34;&gt;Алексей&lt;/a&gt; и &lt;a href=&#34;https://twitter.com/webdeva&#34;&gt;Елена&lt;/a&gt;.&lt;/p&gt;
+</description>
+      </item>
+
+      <item>
         <title>Episode 124. nil and AST</title>
         <itunes:subtitle>Episode 124. nil and AST</itunes:subtitle>
         <itunes:summary>

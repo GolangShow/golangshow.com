@@ -8,7 +8,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  <title>Выпуск 122. (story [:vgo :http]) &middot; </title>
+  <title>Выпуск 125. Июльский &middot; </title>
 
 
   <link rel="stylesheet" href="/css/compiled.css">
@@ -26,9 +26,9 @@
   <meta name="description" content="">
   <meta name="keywords" content="Go,golang,подкаст">
 
-  <meta property="og:title" content="Выпуск 122. (story [:vgo :http])" />
+  <meta property="og:title" content="Выпуск 125. Июльский" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="http://golangshow.com/episode/2018/02-28-122/ " />
+  <meta property="og:url" content="http://golangshow.com/episode/2018/07-11-125-ru/ " />
   <meta property="og:image" content="/images/cover.png" />
   <meta property="og:locale" content="ru_RU" />
   <meta property="og:site_name" content="Подкаст GolangShow" />
@@ -66,7 +66,7 @@ a#mailinglink {
       <li class="sidebar-nav-item"><a href="#" onclick="showMailingPopUp()" id="mailinglink">Рассылка обновлений</a></li>
 
 
-      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/online">Онлайн вещание</a></li>
+      	  <li class="sidebar-nav-item"><a href="http://golangshow.com/categories/english">English episodes</a></li>
 
 
 
@@ -118,11 +118,11 @@ a#mailinglink {
 <div class="content container">
   <br/>
   <div class="post">
-    <h1>Выпуск 122. (story [:vgo :http])</h1>
-    <span class="post-date">May 18, 2018
+    <h1>Выпуск 125. Июльский</h1>
+    <span class="post-date">Jul 11, 2018
 
     <br/>
-    <a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
+    <a class="label" href="http://golangshow.com/categories/%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9">русский</a><a class="label" href="http://golangshow.com/categories/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">новости</a>
     </span>
 
 
@@ -131,70 +131,80 @@ a#mailinglink {
 <h2 id="темы">Темы</h2>
 
 <ul>
-<li><a href="https://blog.golang.org/go-brand">Go&rsquo;s New Brand</a></li>
-<li><a href="https://sdboyer.io/vgo/intro/">An Analysis of vgo</a></li>
-<li><a href="https://www.youtube.com/watch?v=F8nrpe0XWRg">Opening keynote: Go with Versions - GopherConSG 2018</a></li>
-<li><a href="https://blog.jetbrains.com/go/2018/05/18/vgo-integration-support/">vgo integration support</a></li>
-<li><a href="https://medium.com/@i0exception/some-common-traps-while-using-defer-205ebbdc0a3b">Some common traps while using defer</a></li>
-<li><a href="https://crawshaw.io/blog/tragedy-of-finalizers">The Tragedy of Finalizers</a></li>
-<li><a href="https://crawshaw.io/blog/sharp-edged-finalizers">Sharp-Edged Finalizers in Go</a></li>
-<li><a href="https://kaviraj.me/understanding-condition-variable-in-go/">Understanding Condition Variable in Go</a></li>
-<li><a href="https://medium.com/statuscode/how-i-write-go-http-services-after-seven-years-37c208122831">How I write Go HTTP services after seven years</a></li>
-<li><a href="https://medium.com/observability/debugging-latency-in-go-1-11-9f97a7910d68">Debugging Latency in Go 1.11</a>
+<li>Отчет от Александра:
 
 <ul>
-<li><a href="https://talks.godoc.org/github.com/gettaxi/go-talks/2018/05/go-gett/execution-tracing-in-go1.11/main.slide">Execution tracing in Go 1.11</a></li>
-<li><a href="http://distributed-systems-observability-ebook.humio.com">Бесплатная книга Distributed Systems Observability</a></li>
+<li><a href="https://github.com/golang/go/commit/594eae5ad0ac232503a55c2c76c699d1d58b1699">cmd/link: compress DWARF sections in ELF binaries</a></li>
+<li><a href="https://github.com/golang/go/commit/be1dfb0e1acc676b1b2de4c1802e047a56e146ab">doc: describe modules in Go 1.11 release notes and Go FAQ</a></li>
 </ul></li>
-<li><a href="https://rcoh.me/posts/why-you-can-have-a-million-go-routines-but-only-1000-java-threads/">Why you can have millions of Goroutines but only thousands of Java Threads</a></li>
-<li><a href="https://www.visualstudio.com/services/live-share/">Visual Studio Live Share доступен всем желающим</a></li>
-<li><a href="https://www.youtube.com/playlist?list=PLj6h78yzYM2N8GdbjmhVU65KYm_68qBmo">Опубликованы видео с KubeConEU &amp; CloudNativeConEU</a>
+<li>Традиционный отчёт от Алексея:
 
 <ul>
-<li><a href="https://landscape.cncf.io">CNCF Cloud Native Interactive Landscape</a></li>
+<li><a href="https://github.com/golang/go/issues/19642">proposal: spec: define _ on rhs as zero value</a></li>
+<li><a href="https://github.com/golang/go/issues/23637">proposal: Go 2: spec: introduce structured tags</a></li>
+<li><a href="https://github.com/golang/go/issues/24813">math/bits: add extended precision Add, Sub, Mul, Div</a></li>
+<li><a href="https://github.com/golang/go/issues/21095">fmt: maps should format in sorted order</a></li>
+<li><a href="https://github.com/golang/go/issues/26219">regexp: revert per-Regexp use of sync.Pool</a></li>
+<li><a href="https://github.com/golang/go/issues/21827">runtime: big performance penalty with runtime.LockOSThread</a></li>
+<li><a href="https://github.com/golang/go/issues/26237">cmd/link: darwin_amd64: running dsymutil failed: signal: segmentation fault</a></li>
 </ul></li>
+<li><a href="https://quasilyte.github.io/blog/post/go_ssa_rules/">Go compiler: SSA optimization rules description language</a></li>
+<li><a href="https://brianketelsen.com/web-assembly-and-go-a-look-to-the-future/">Web Assembly and Go: A look to the future</a>
+
+<ul>
+<li><a href="https://medium.zenika.com/go-1-11-webassembly-for-the-gophers-ae4bb8b1ee03">Go 1.11: WebAssembly for the gophers</a></li>
+<li><a href="https://dev.to/hajimehoshi/gopherjs-vs-webassembly-for-go-148m">GopherJS vs WebAssembly for Go</a></li>
+</ul></li>
+<li><a href="https://quii.gitbook.io/learn-go-with-tests/">Learn Go with tests</a></li>
+<li><a href="https://gohugo.io/news/lets-celebrate-hugos-5th-birthday/">Hugo Turns 5 Years Old</a></li>
+<li><a href="https://youtu.be/8fi7uSYlOdc">Containers From Scratch</a></li>
 </ul>
 
-<h2 id="пакеты">Пакеты</h2>
+<h2 id="библиотеки-и-проекты">Библиотеки и проекты</h2>
 
 <ul>
-<li><a href="https://github.com/google/gvisor">https://github.com/google/gvisor</a></li>
-<li><a href="https://github.com/umputun/remark">https://github.com/umputun/remark</a></li>
-<li><a href="https://github.com/vkuznecovas/mouthful">https://github.com/vkuznecovas/mouthful</a></li>
-<li><a href="https://github.com/766b/vscode-go-outliner">https://github.com/766b/vscode-go-outliner</a></li>
-<li><a href="https://github.com/dutchcoders/slackarchive">https://github.com/dutchcoders/slackarchive</a></li>
+<li><a href="https://github.com/guptarohit/asciigraph">https://github.com/guptarohit/asciigraph</a></li>
+<li><a href="https://github.com/browsh-org/browsh">https://github.com/browsh-org/browsh</a></li>
+<li><a href="https://ericgreer.info/post/a-better-flags-package-for-go/">https://ericgreer.info/post/a-better-flags-package-for-go/</a></li>
+<li><a href="https://github.com/go-interpreter/wagon">https://github.com/go-interpreter/wagon</a></li>
+<li><a href="https://github.com/cosmos72/gomacro">https://github.com/cosmos72/gomacro</a></li>
 </ul>
 
 <h2 id="конференции-и-митапы">Конференции и митапы</h2>
 
 <ul>
-<li><a href="https://gophercon.is/">GopherCon Iceland 2018 c 31-ого мая в Рейкьявике</a></li>
-<li><a href="https://containerdays.io/">Container Days 2018 — 18-20 июня, Гамбург</a></li>
+<li><a href="https://www.golanguk.com">GopherConUK — 1-3 августа, Лондон</a></li>
+<li><a href="https://www.gophercon.com/">GopherCon — 27-30 августа, Денвер</a></li>
 </ul>
+
+<h2 id="спецтема">Спецтема</h2>
+
+<p>Интервью. Как собеседоваться и как собеседовать.</p>
 
 <h2 id="патроны">&ldquo;Патроны&rdquo;</h2>
 
-<p>Благодарим за поддержку всех-всех-всех
+<p>Благодарим за поддержку:
+Roman Nekhoroshev, Aleksey Akulovich, Сёмочкин Максим, Konstantin Veselkov, Andrew Kazakov и всех-всех-всех
 наших патронов. Поддержать подкаст можно <a href="https://www.patreon.com/golangshow">здесь</a>.</p>
 
 <p>Если у вас есть на примете интересные гости, подходящие вакансии, анонсы митапов и конференций
 или просто свежие темы для следующего выпуска, пишите в <a href="http://slack.golang-ru.com">слак-чат golang-ru</a>, канал <a href="https://golang-ru.slack.com/messages/C065X9AMS">#podcast</a>.</p>
 
 <p>Ведущие этого выпуска:
-<a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
+<a href="https://twitter.com/LK4D4math">Александр</a>, <a href="https://twitter.com/paaleksey">Алексей</a> и <a href="https://twitter.com/webdeva">Елена</a>.</p>
 
 
       <hr/>
 
 <p>
-	Длительность: 1:46:54 <br/>
-	Размер: 85 МБ
+	Длительность: 01:34:59 <br/>
+	Размер: 32 МБ
 </p>
 <p>HTML5 аудио плеер:
 
 <blockquote>
 	<audio controls width="400px" height="150px">
-		<source src="https://golangshow.com/cdn/episodes/122.mp3" type="audio/mpeg">
+		<source src="https://golangshow.com/cdn/episodes/125-ru.mp3" type="audio/mpeg">
 		<p>Ваш браузер не поддерживает HTML5 аудио плеер для MP3.</p>
 	</audio>
 </blockquote>
@@ -203,7 +213,7 @@ a#mailinglink {
 
 <p>Прямая ссылка на MP3 аудио поток:
 <blockquote>
-	<a href="https://golangshow.com/cdn/episodes/122.mp3" target="_blank">https://golangshow.com/cdn/episodes/122.mp3</a>
+	<a href="https://golangshow.com/cdn/episodes/125-ru.mp3" target="_blank">https://golangshow.com/cdn/episodes/125-ru.mp3</a>
 </blockquote>
 </p>
 
@@ -214,12 +224,12 @@ a#mailinglink {
     <section class="share">
 
       <span>Рассказать друзьям:</span>
-      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20122.%20%28story%20%5b%3avgo%20%3ahttp%5d%29&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2018%2f02-28-122%2f"
+      <a href="https://twitter.com/share?text=%d0%92%d1%8b%d0%bf%d1%83%d1%81%d0%ba%20125.%20%d0%98%d1%8e%d0%bb%d1%8c%d1%81%d0%ba%d0%b8%d0%b9&amp;url=http%3a%2f%2fgolangshow.com%2fepisode%2f2018%2f07-11-125-ru%2f"
           onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;"><i class="fa fa-twitter-square fa-1x"></i></a>
 
-      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2018%2f02-28-122%2f"
+      <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fgolangshow.com%2fepisode%2f2018%2f07-11-125-ru%2f"
           onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;"><i class="fa fa-facebook-square fa-1x"></i></a>
-      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2018%2f02-28-122%2f"
+      <a href="https://plus.google.com/share?url=http%3a%2f%2fgolangshow.com%2fepisode%2f2018%2f07-11-125-ru%2f"
          onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;"><i class="fa fa-google-plus-square fa-1x"></i></a>
     </section>
 
