@@ -18,6 +18,49 @@
     <itunes:explicit>no</itunes:explicit>
 
       <item>
+        <title>Episode 127. Interview with Nathan Youngman</title>
+        <itunes:subtitle>Episode 127. Interview with Nathan Youngman</itunes:subtitle>
+        <itunes:summary><![CDATA[
+
+<h2 id="interview-with-nathan-youngman">Interview with Nathan Youngman</h2>
+
+<p><a href="https://twitter.com/nathany">Nathan Youngman</a> is a self-taught web developer and author of <a href="https://yng.mn/programminggo">Get Programming with Go</a>.
+He serves as organizer for the <a href="https://edmontongo.org">Edmonton Go meetup</a>, mentor with <a href="https://www.canadalearningcode.ca">Canada Learning Code</a>,
+and paparazzi of VIP gopher plushies.</p>
+
+<p>He has <a href="https://www.patreon.com/nathany">Patreon page</a>. He also used <a href="https://nathany.com">to blog</a> before started writing books.</p>
+
+<h2 id="discount-code">Discount code</h2>
+
+<p>The publisher of &ldquo;Get Programming with Go&rdquo;, <a href="https://www.manning.com">Manning Publications</a>, prepared a wonderful gift for our listeners. You can use this permanent 40% discount code: <code>podgolangshow18</code>, it&rsquo;s good for all their products in all formats.</p>
+]]></itunes:summary>
+
+        <itunes:author>Подкаст GolangShow</itunes:author>
+        <itunes:image href="http://golangshow.com/images/cover_big.png" />
+        <enclosure url="http://golangshow.com/cdn/episodes/127-en-draft.mp3" length="103329250" type="audio/mpeg" />
+        <itunes:duration>01:11:44</itunes:duration>
+
+        <link>http://golangshow.com/episode/2018/10-03-127-en/</link>
+        <pubDate>Sun, 14 Oct 2018 00:00:00 +0000</pubDate>
+
+        <guid>http://golangshow.com/episode/2018/10-03-127-en/</guid>
+        <description><![CDATA[
+
+<h2 id="interview-with-nathan-youngman">Interview with Nathan Youngman</h2>
+
+<p><a href="https://twitter.com/nathany">Nathan Youngman</a> is a self-taught web developer and author of <a href="https://yng.mn/programminggo">Get Programming with Go</a>.
+He serves as organizer for the <a href="https://edmontongo.org">Edmonton Go meetup</a>, mentor with <a href="https://www.canadalearningcode.ca">Canada Learning Code</a>,
+and paparazzi of VIP gopher plushies.</p>
+
+<p>He has <a href="https://www.patreon.com/nathany">Patreon page</a>. He also used <a href="https://nathany.com">to blog</a> before started writing books.</p>
+
+<h2 id="discount-code">Discount code</h2>
+
+<p>The publisher of &ldquo;Get Programming with Go&rdquo;, <a href="https://www.manning.com">Manning Publications</a>, prepared a wonderful gift for our listeners. You can use this permanent 40% discount code: <code>podgolangshow18</code>, it&rsquo;s good for all their products in all formats.</p>
+]]></description>
+      </item>
+
+      <item>
         <title>Episode 126. Interview with William Kennedy</title>
         <itunes:subtitle>Episode 126. Interview with William Kennedy</itunes:subtitle>
         <itunes:summary><![CDATA[
